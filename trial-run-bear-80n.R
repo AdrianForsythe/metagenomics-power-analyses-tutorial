@@ -1,0 +1,80 @@
+## ---- install, eval=FALSE----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## install.packages('devtools')
+## devtools::install_github("micropower")
+## install.packages('knitr')
+## install.packages('kableExtra')
+## install.packages('dplyr')
+## install.packages('ggplot2')
+## install.packages('parallel')
+
+
+## ---- setup------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+library(micropower)
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(parallel)
+library(phyloseq)
+cores = detectCores()
+set.seed(515087345)
+
+
+## ---- setup_path-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PATH='data'
+
+
+## ----load-otu----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+otu<-readRDS("~/Lab-Notes/DC/data/RDS/full-0.01-af-bracken-max-highoral-0.01-otu-env-filtered.rds")
+samples<-data.frame(sample_data(otu)) %>% filter(Bear.oral.health=="healthy") %>% pull(SampleID)
+df<-otu %>% 
+  otu_table() %>% as.data.frame() %>%
+  select(samples) %>% 
+  filter(rowSums(.)!=0) #%>% slice_sample(prop = 0.1)
+
+
+## ----within_dist,warnings=FALSE----------------------------------------------------------------------------------------------------------------------------------------------------------------
+jaccard<-calcWJstudy(df)
+m<-mean(jaccard)
+s<-sd(jaccard)
+
+
+## ----hashMean----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# weight_hm<-hashMean(rare_levels=runif(1000,0,1),rep_per_level=10,otu_number=1000,sequence_depth=1000)
+# means<-mclapply(weight_hm, function(x) (mean(lowerTriDM(calcWJstudy(x)))),mc.cores=cores)
+# names(means) <- sapply(strsplit(names(means),"_"),FUN=function(x) {x[[1]]})
+# save(means,file="means.Rdata")
+load("means.Rdata")
+mean_df <- data.frame(subsampling=as.numeric(names(means)),means=as.numeric(means),target=abs(as.numeric(means)-m))
+subsample <- mean_df[which(mean_df$target==min(mean_df$target)),]$subsampling
+qplot(data=mean_df,x=subsampling,y=means)
+
+
+## ---- hashSD, warning=FALSE--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# weight_hsd<-hashSD(rare_depth=subsample,otu_number_range=10^runif(n = 100,min = 1,max = 5),sim_number=80, sequence_depth=1000)
+# sds<-mclapply(weight_hsd, function(x) (sd(lowerTriDM(calcWJstudy(x)))), mc.cores=cores) 
+# names(sds) <- sapply(names(sds), function(x) substring(x,4))
+# save(sds,file="sds.Rdata")
+load("sds.Rdata")
+sds_df <- data.frame(otunum=as.numeric(names(sds)),sd=as.numeric(sds),target=abs(as.numeric(sds)-s))
+otunum <- sds_df[which(sds_df$target==min(sds_df$target)),]$otunum
+qplot(data=sds_df,x=otunum,y=sd) + geom_smooth(method="lm") + scale_x_log10() + scale_y_log10() + xlab("log10(otunum)") + ylab("log10(sd)")
+
+
+## ---- simPower---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sp<-simPower(group_size_vector=c(80,80), otu_number=otunum, rare_depth=subsample,sequence_depth=1000,effect_range=seq(0,0.3,length.out=100))
+wj<-mclapply(sp,function(x) calcWJstudy(x),mc.cores=cores)
+# check if mean & sd is approximately OK
+mean(as.numeric(mclapply(wj, mean, mc.cores=4)))
+mean(as.numeric(mclapply(wj, sd, mc.cores=4)))
+
+
+## ---- bootPower--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+bp80<-bootPower(wj, boot_number=10, subject_group_vector=c(80,80),alpha=0.05)
+bp80_model <- subset(bp80, power < 0.95 & power > 0.2)
+bp80_model <- data.frame(log_omega2=log10(bp80_model$simulated_omega2),log_power=log10(bp80_model$power))
+bp80_model <- subset(bp80_model, log_omega2>-Inf)
+bp80_lm <- lm(log_omega2 ~ log_power, data=bp80_model)
+power80 <- 10^predict(bp80_lm, newdata=data.frame(log_power=log10(0.8)))
+power90 <- 10^predict(bp80_lm, newdata=data.frame(log_power = log10(0.9)))
+ggplot2::qplot(data=bp80_model,x=log_power,y=log_omega2) + geom_smooth(method="lm") + ggtitle("log10(Omega2) to log10(Power) with 30 Subjects/Group") + xlab("log10(Power)") + ylab("log10(Omega2)")
+
