@@ -1,0 +1,250 @@
+{
+  "build": "r41hd029910_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-mass",
+    "r-survival",
+    "libblas >=3.8.0,<4.0a0",
+    "liblapack >=3.8.0,<4.0a0",
+    "libgcc-ng >=9.4.0",
+    "r-base >=4.1,<4.2.0a0",
+    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+    "bioconductor-biobase >=2.54.0,<2.55.0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/bioconductor-multtest-2.50.0-r41hd029910_0",
+  "features": "",
+  "files": [
+    "lib/R/library/multtest/CITATION",
+    "lib/R/library/multtest/DESCRIPTION",
+    "lib/R/library/multtest/INDEX",
+    "lib/R/library/multtest/Meta/Rd.rds",
+    "lib/R/library/multtest/Meta/data.rds",
+    "lib/R/library/multtest/Meta/features.rds",
+    "lib/R/library/multtest/Meta/hsearch.rds",
+    "lib/R/library/multtest/Meta/links.rds",
+    "lib/R/library/multtest/Meta/nsInfo.rds",
+    "lib/R/library/multtest/Meta/package.rds",
+    "lib/R/library/multtest/NAMESPACE",
+    "lib/R/library/multtest/R/multtest",
+    "lib/R/library/multtest/R/multtest.rdb",
+    "lib/R/library/multtest/R/multtest.rdx",
+    "lib/R/library/multtest/data/golub.RData",
+    "lib/R/library/multtest/help/AnIndex",
+    "lib/R/library/multtest/help/aliases.rds",
+    "lib/R/library/multtest/help/multtest.rdb",
+    "lib/R/library/multtest/help/multtest.rdx",
+    "lib/R/library/multtest/help/paths.rds",
+    "lib/R/library/multtest/html/00Index.html",
+    "lib/R/library/multtest/html/R.css",
+    "lib/R/library/multtest/libs/multtest.so",
+    "lib/R/library/multtest/otherDocs/MTP.Rnw",
+    "lib/R/library/multtest/otherDocs/MTPALL.Rnw",
+    "lib/R/library/multtest/otherDocs/multtest.Rnw"
+  ],
+  "fn": "bioconductor-multtest-2.50.0-r41hd029910_0.tar.bz2",
+  "license": "LGPL",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/bioconductor-multtest-2.50.0-r41hd029910_0",
+    "type": 1
+  },
+  "md5": "e7a5e3c1bb7d4f857fb3449b937ec624",
+  "name": "bioconductor-multtest",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/bioconductor-multtest-2.50.0-r41hd029910_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/multtest/CITATION",
+        "path_type": "hardlink",
+        "sha256": "f01780825d45d2a7b13095d5ad9332302d44d750cb8d48070405a8d90bd75bb0",
+        "sha256_in_prefix": "f01780825d45d2a7b13095d5ad9332302d44d750cb8d48070405a8d90bd75bb0",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "lib/R/library/multtest/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "30f63b6197bab64fb22fb795182bd40affc26507957ca56f779e0f3f8eba23b4",
+        "sha256_in_prefix": "30f63b6197bab64fb22fb795182bd40affc26507957ca56f779e0f3f8eba23b4",
+        "size_in_bytes": 2041
+      },
+      {
+        "_path": "lib/R/library/multtest/INDEX",
+        "path_type": "hardlink",
+        "sha256": "92202939170c22f54e66f85824153d0312904f5d958c8cf979f3080e5b112352",
+        "sha256_in_prefix": "92202939170c22f54e66f85824153d0312904f5d958c8cf979f3080e5b112352",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "c790c754a37cdbc528fbba131aec8b3d8ba069b87ff615e84be0f3dc0fdd493e",
+        "sha256_in_prefix": "c790c754a37cdbc528fbba131aec8b3d8ba069b87ff615e84be0f3dc0fdd493e",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "60bdbd36410e882ea70138429a2e281948c51fe6753a28ca6e058b338821ed31",
+        "sha256_in_prefix": "60bdbd36410e882ea70138429a2e281948c51fe6753a28ca6e058b338821ed31",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "6670d2d7c7d8339bb138f0879113529331846b358b27ce46e3f1f3547e2ea3e4",
+        "sha256_in_prefix": "6670d2d7c7d8339bb138f0879113529331846b358b27ce46e3f1f3547e2ea3e4",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "47d1e8752489213d9de057ea0495e96c4199ef59d1951c270bbb88db389a98ad",
+        "sha256_in_prefix": "47d1e8752489213d9de057ea0495e96c4199ef59d1951c270bbb88db389a98ad",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "929bf851be5489e4ce7bc7648b1bdaa46c8501f6997795fc6ba4e5068e1bc320",
+        "sha256_in_prefix": "929bf851be5489e4ce7bc7648b1bdaa46c8501f6997795fc6ba4e5068e1bc320",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "lib/R/library/multtest/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f9122dca67fc1f2dca7907e006d26e541bd45fbfc539af19fcc8369f59af31d6",
+        "sha256_in_prefix": "f9122dca67fc1f2dca7907e006d26e541bd45fbfc539af19fcc8369f59af31d6",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "lib/R/library/multtest/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "79063ee929d98c0a8573999cb8a9b1303e51574f4384bba84208947cee07a00c",
+        "sha256_in_prefix": "79063ee929d98c0a8573999cb8a9b1303e51574f4384bba84208947cee07a00c",
+        "size_in_bytes": 1704
+      },
+      {
+        "_path": "lib/R/library/multtest/R/multtest",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/multtest/R/multtest.rdb",
+        "path_type": "hardlink",
+        "sha256": "4be13ec1ffc2bdacabcad57bf8f98e0ecc22d6525c79e3e32a1a7e051c3ab70b",
+        "sha256_in_prefix": "4be13ec1ffc2bdacabcad57bf8f98e0ecc22d6525c79e3e32a1a7e051c3ab70b",
+        "size_in_bytes": 383493
+      },
+      {
+        "_path": "lib/R/library/multtest/R/multtest.rdx",
+        "path_type": "hardlink",
+        "sha256": "0a5b09b88227f6faf12e3cdf677fc3a65ce3d8cd0afd1dbff6821646018855a5",
+        "sha256_in_prefix": "0a5b09b88227f6faf12e3cdf677fc3a65ce3d8cd0afd1dbff6821646018855a5",
+        "size_in_bytes": 1646
+      },
+      {
+        "_path": "lib/R/library/multtest/data/golub.RData",
+        "path_type": "hardlink",
+        "sha256": "c49407449272725e6e02ef5f609115ee1f6854e8b19d7f477625af012a8e3e47",
+        "sha256_in_prefix": "c49407449272725e6e02ef5f609115ee1f6854e8b19d7f477625af012a8e3e47",
+        "size_in_bytes": 304276
+      },
+      {
+        "_path": "lib/R/library/multtest/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "4aa5800ea1d1596b13c6af07c41a910787c08d8b4233ba03c523a51b2e31084b",
+        "sha256_in_prefix": "4aa5800ea1d1596b13c6af07c41a910787c08d8b4233ba03c523a51b2e31084b",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "lib/R/library/multtest/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fcdbcc5d7a91124dde4255744457fdafc7e8c18824f4697e5e13e917d4b03ce0",
+        "sha256_in_prefix": "fcdbcc5d7a91124dde4255744457fdafc7e8c18824f4697e5e13e917d4b03ce0",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "lib/R/library/multtest/help/multtest.rdb",
+        "path_type": "hardlink",
+        "sha256": "fcb541a69dcb5a49ac6a07cd70a6c921de76f292c79df1622c19cc89ba840e75",
+        "sha256_in_prefix": "fcb541a69dcb5a49ac6a07cd70a6c921de76f292c79df1622c19cc89ba840e75",
+        "size_in_bytes": 164675
+      },
+      {
+        "_path": "lib/R/library/multtest/help/multtest.rdx",
+        "path_type": "hardlink",
+        "sha256": "89f464ede5a1e9aa1e527f9a882c9dffdc51d2a3ad41d14cc06768c7add18b4b",
+        "sha256_in_prefix": "89f464ede5a1e9aa1e527f9a882c9dffdc51d2a3ad41d14cc06768c7add18b4b",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "lib/R/library/multtest/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c9e9898bcefedf16ed3ad4a4e827bc0c3da5af43687799301b0fc75c76c6c637",
+        "sha256_in_prefix": "c9e9898bcefedf16ed3ad4a4e827bc0c3da5af43687799301b0fc75c76c6c637",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/multtest/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "730adc073490078cdbc7f5d13c187c5f68afc3338f5c868c9940ac1a7aa4a246",
+        "sha256_in_prefix": "730adc073490078cdbc7f5d13c187c5f68afc3338f5c868c9940ac1a7aa4a246",
+        "size_in_bytes": 8935
+      },
+      {
+        "_path": "lib/R/library/multtest/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/multtest/libs/multtest.so",
+        "path_type": "hardlink",
+        "sha256": "bac3876c313da32334bd8d469ce6f9a3e3dae537442943cec4da1b6056ad6c15",
+        "sha256_in_prefix": "bac3876c313da32334bd8d469ce6f9a3e3dae537442943cec4da1b6056ad6c15",
+        "size_in_bytes": 66664
+      },
+      {
+        "_path": "lib/R/library/multtest/otherDocs/MTP.Rnw",
+        "path_type": "hardlink",
+        "sha256": "4d706d2c00a62989946f0d866ad913d73f26d4c6f80d9e7d3af6eb2035a5f827",
+        "sha256_in_prefix": "4d706d2c00a62989946f0d866ad913d73f26d4c6f80d9e7d3af6eb2035a5f827",
+        "size_in_bytes": 77980
+      },
+      {
+        "_path": "lib/R/library/multtest/otherDocs/MTPALL.Rnw",
+        "path_type": "hardlink",
+        "sha256": "70be3ba5494af89fc697981c2811939456db1e33f0d03823951f0d882acbebd5",
+        "sha256_in_prefix": "70be3ba5494af89fc697981c2811939456db1e33f0d03823951f0d882acbebd5",
+        "size_in_bytes": 29937
+      },
+      {
+        "_path": "lib/R/library/multtest/otherDocs/multtest.Rnw",
+        "path_type": "hardlink",
+        "sha256": "5ebf781645095094483086e416dd2964f596d5490732763771ab377c09091887",
+        "sha256_in_prefix": "5ebf781645095094483086e416dd2964f596d5490732763771ab377c09091887",
+        "size_in_bytes": 13957
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "33bac6d5b4718bd6417e3e4b0e9d7f2e3cdb552c09b190db313b9e7bb4987604",
+  "size": 910512,
+  "subdir": "linux-64",
+  "timestamp": 1635886522000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-multtest-2.50.0-r41hd029910_0.tar.bz2",
+  "version": "2.50.0"
+}

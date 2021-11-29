@@ -1,0 +1,14 @@
+prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+exec_prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+libdir=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/lib
+includedir=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

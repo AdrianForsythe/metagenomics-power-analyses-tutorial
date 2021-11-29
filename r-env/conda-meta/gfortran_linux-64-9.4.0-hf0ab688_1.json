@@ -1,0 +1,54 @@
+{
+  "build": "hf0ab688_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "binutils_linux-64 2.36 hf3e587d_1",
+    "gcc_linux-64 9.4.0 h391b98a_1",
+    "gfortran_impl_linux-64 9.4.0.*",
+    "sysroot_linux-64"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/gfortran_linux-64-9.4.0-hf0ab688_1",
+  "features": "",
+  "files": [
+    "etc/conda/activate.d/activate-gfortran_linux-64.sh",
+    "etc/conda/deactivate.d/deactivate-gfortran_linux-64.sh"
+  ],
+  "fn": "gfortran_linux-64-9.4.0-hf0ab688_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/gfortran_linux-64-9.4.0-hf0ab688_1",
+    "type": 1
+  },
+  "md5": "a78f3dc7f1318710899565c50734c0f0",
+  "name": "gfortran_linux-64",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/gfortran_linux-64-9.4.0-hf0ab688_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate-gfortran_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "026c2dab62037d6b2778c603b867aa24e18a0b35fa51bc70b2a623ec72460d9c",
+        "sha256_in_prefix": "026c2dab62037d6b2778c603b867aa24e18a0b35fa51bc70b2a623ec72460d9c",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-gfortran_linux-64.sh",
+        "path_type": "hardlink",
+        "sha256": "680b0e0f9ecda8467fd09e1f371f8868aaf7bb9f364b2e0a5f4961386ef146b7",
+        "sha256_in_prefix": "680b0e0f9ecda8467fd09e1f371f8868aaf7bb9f364b2e0a5f4961386ef146b7",
+        "size_in_bytes": 4748
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ae5dfcc669c044520deb5de3f6cec28947b781e390391020bf2127e2f873a7b5",
+  "size": 23938,
+  "subdir": "linux-64",
+  "timestamp": 1630912320000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gfortran_linux-64-9.4.0-hf0ab688_1.tar.bz2",
+  "version": "9.4.0"
+}

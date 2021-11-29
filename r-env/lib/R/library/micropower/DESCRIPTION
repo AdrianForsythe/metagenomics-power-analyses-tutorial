@@ -1,0 +1,32 @@
+Package: micropower
+Title: Power estimation for microbiome studies using pairwise distances
+        and PERMANOVA.
+Version: 0.4
+Author: Brendan Kelly
+Maintainer: Brendan Kelly <br3nd2n@gmail.com>
+Description: Distance matrix simulation to permit modeling of within-group
+    pairwise distances according to pre-specified population parameters; a
+    method to incorporate effects of different sizes within a simulated
+    distance matrix; and a bootstrap method for estimating PERMANOVA power from
+    simulated distance matrices.
+URL: http://github.com/brendankelly/micropower
+Depends: R (>= 3.0), stats, permute
+Imports: plyr, reshape2, ape, vegan
+License: GPL-2
+References: Kelly BJ, Gross R, Bittinger K, Sherrill-Mix S, Lewis JD,
+        Collman RG, Li H, Bushman FD. Power and sample-size estimation
+        for microbiome studies using pairwise distances and PERMANOVA.
+        Manuscript submitted.
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: micropower
+RemoteUsername: brendankelly
+RemoteRef: HEAD
+RemoteSha: 9d672658a4763ed5f72d65db3759a6d6c4631bc4
+GithubRepo: micropower
+GithubUsername: brendankelly
+GithubRef: HEAD
+GithubSHA1: 9d672658a4763ed5f72d65db3759a6d6c4631bc4
+NeedsCompilation: no
+Packaged: 2021-11-25 09:51:50 UTC; adrianf
+Built: R 4.1.1; ; 2021-11-25 09:51:51 UTC; unix

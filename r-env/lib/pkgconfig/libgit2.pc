@@ -1,0 +1,11 @@
+prefix="/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env"
+libdir="/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/lib"
+includedir="/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/include"
+
+Name: libgit2
+Description: The git library, take 2
+Version: 1.3.0
+Libs: -L${libdir} -lgit2
+Libs.private: -lrt -lpthread -L/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/lib -lssh2
+Requires.private: openssl libpcre2-8 zlib
+Cflags: -I${includedir} 

@@ -1,0 +1,277 @@
+{
+  "build": "r41h785f33e_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-permute-0.9_5-r41h785f33e_3",
+  "features": "",
+  "files": [
+    "lib/R/library/permute/COPYRIGHTS",
+    "lib/R/library/permute/ChangeLog",
+    "lib/R/library/permute/DESCRIPTION",
+    "lib/R/library/permute/INDEX",
+    "lib/R/library/permute/Meta/Rd.rds",
+    "lib/R/library/permute/Meta/data.rds",
+    "lib/R/library/permute/Meta/features.rds",
+    "lib/R/library/permute/Meta/hsearch.rds",
+    "lib/R/library/permute/Meta/links.rds",
+    "lib/R/library/permute/Meta/nsInfo.rds",
+    "lib/R/library/permute/Meta/package.rds",
+    "lib/R/library/permute/Meta/vignette.rds",
+    "lib/R/library/permute/NAMESPACE",
+    "lib/R/library/permute/NEWS",
+    "lib/R/library/permute/R/permute",
+    "lib/R/library/permute/R/permute.rdb",
+    "lib/R/library/permute/R/permute.rdx",
+    "lib/R/library/permute/TODO.md",
+    "lib/R/library/permute/data/jackal.rda",
+    "lib/R/library/permute/doc/index.html",
+    "lib/R/library/permute/doc/permutations.R",
+    "lib/R/library/permute/doc/permutations.Rnw",
+    "lib/R/library/permute/doc/permutations.pdf",
+    "lib/R/library/permute/help/AnIndex",
+    "lib/R/library/permute/help/aliases.rds",
+    "lib/R/library/permute/help/paths.rds",
+    "lib/R/library/permute/help/permute.rdb",
+    "lib/R/library/permute/help/permute.rdx",
+    "lib/R/library/permute/html/00Index.html",
+    "lib/R/library/permute/html/R.css"
+  ],
+  "fn": "r-permute-0.9_5-r41h785f33e_3.tar.bz2",
+  "license": "GPL 2",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-permute-0.9_5-r41h785f33e_3",
+    "type": 1
+  },
+  "md5": "b35fae8907499bf911458bd7bb06799f",
+  "name": "r-permute",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-permute-0.9_5-r41h785f33e_3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/permute/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "d21ea40af9844e704871f093165055c3dec2662035d371fa4dbfb1fd1a792317",
+        "sha256_in_prefix": "d21ea40af9844e704871f093165055c3dec2662035d371fa4dbfb1fd1a792317",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "lib/R/library/permute/ChangeLog",
+        "path_type": "hardlink",
+        "sha256": "eea86570a4cc88c3f0977913c7dbd985eaa2d9e81f95b3d021d8198b44b843dc",
+        "sha256_in_prefix": "eea86570a4cc88c3f0977913c7dbd985eaa2d9e81f95b3d021d8198b44b843dc",
+        "size_in_bytes": 17016
+      },
+      {
+        "_path": "lib/R/library/permute/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "02b651e3ad91aa54a781b53bf186f1c929be030fe296fe3aec71a9b9af000fdb",
+        "sha256_in_prefix": "02b651e3ad91aa54a781b53bf186f1c929be030fe296fe3aec71a9b9af000fdb",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "lib/R/library/permute/INDEX",
+        "path_type": "hardlink",
+        "sha256": "5bec720bd8ab33e0e4eb6b61067f37a44cac4f90c70abbee62e97a64e4ac4a1b",
+        "sha256_in_prefix": "5bec720bd8ab33e0e4eb6b61067f37a44cac4f90c70abbee62e97a64e4ac4a1b",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "53c7acdc453fa29c73618da9a171e198b4ec1a5248b7fbe7189582c5b394465c",
+        "sha256_in_prefix": "53c7acdc453fa29c73618da9a171e198b4ec1a5248b7fbe7189582c5b394465c",
+        "size_in_bytes": 1539
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "709d7923fb60160d19f9391c0276013bd930b0487550b44f6b0e0dc07afd051e",
+        "sha256_in_prefix": "709d7923fb60160d19f9391c0276013bd930b0487550b44f6b0e0dc07afd051e",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "078d291045686bd69a6ca8ed1085ec9994f4e3e68e6e6daa9c1356bba1d2a6a2",
+        "sha256_in_prefix": "078d291045686bd69a6ca8ed1085ec9994f4e3e68e6e6daa9c1356bba1d2a6a2",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "7a186c9bb99b1cc572e82cdbb918a7e64872e09d436af0173ee10cd1b728edf5",
+        "sha256_in_prefix": "7a186c9bb99b1cc572e82cdbb918a7e64872e09d436af0173ee10cd1b728edf5",
+        "size_in_bytes": 1202
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "06227fb177d2ec03355ea67881eef4f91ab835f03d9f865f0821a1b3ee0f55d6",
+        "sha256_in_prefix": "06227fb177d2ec03355ea67881eef4f91ab835f03d9f865f0821a1b3ee0f55d6",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d8396be53d563ac8457b559165ac1547ef2c4c8108add67162f950e26e1306b6",
+        "sha256_in_prefix": "d8396be53d563ac8457b559165ac1547ef2c4c8108add67162f950e26e1306b6",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "lib/R/library/permute/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "32dbdb695328fb3e6592934584c266f566df9e371d8d4a9e994a9f98f23af1b6",
+        "sha256_in_prefix": "32dbdb695328fb3e6592934584c266f566df9e371d8d4a9e994a9f98f23af1b6",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/R/library/permute/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "554df5d13d92a2eb5e14f297f265704e35c41777db8f196d748606585aa2c350",
+        "sha256_in_prefix": "554df5d13d92a2eb5e14f297f265704e35c41777db8f196d748606585aa2c350",
+        "size_in_bytes": 5077
+      },
+      {
+        "_path": "lib/R/library/permute/NEWS",
+        "path_type": "hardlink",
+        "sha256": "2b6a4fac582c6f3e8ebef4776d0df0071e863244137b659f6428840cad160a03",
+        "sha256_in_prefix": "2b6a4fac582c6f3e8ebef4776d0df0071e863244137b659f6428840cad160a03",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "lib/R/library/permute/R/permute",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/permute/R/permute.rdb",
+        "path_type": "hardlink",
+        "sha256": "44cbf91882ce2f1d971885410e55b06d28c920fcb3ea851eae1eb77c071c3ab5",
+        "sha256_in_prefix": "44cbf91882ce2f1d971885410e55b06d28c920fcb3ea851eae1eb77c071c3ab5",
+        "size_in_bytes": 107134
+      },
+      {
+        "_path": "lib/R/library/permute/R/permute.rdx",
+        "path_type": "hardlink",
+        "sha256": "3fde762decfc011f13b0455810293c44c16ff4512b5120b0826816669b878f4d",
+        "sha256_in_prefix": "3fde762decfc011f13b0455810293c44c16ff4512b5120b0826816669b878f4d",
+        "size_in_bytes": 2150
+      },
+      {
+        "_path": "lib/R/library/permute/TODO.md",
+        "path_type": "hardlink",
+        "sha256": "3a048242c24923bbaa07c8eb0d9ecf97f92108f095d0a725d4d9bf2f44fa55bb",
+        "sha256_in_prefix": "3a048242c24923bbaa07c8eb0d9ecf97f92108f095d0a725d4d9bf2f44fa55bb",
+        "size_in_bytes": 3408
+      },
+      {
+        "_path": "lib/R/library/permute/data/jackal.rda",
+        "path_type": "hardlink",
+        "sha256": "8327935de1e70bd453fbe502f7c29fcebc5cdded22a68c45c6d04052ff4b48a6",
+        "sha256_in_prefix": "8327935de1e70bd453fbe502f7c29fcebc5cdded22a68c45c6d04052ff4b48a6",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/permute/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "dfd2e971950d63943bc55216a85a5c1d60bf3cbda0530d3af5aa316cba436668",
+        "sha256_in_prefix": "dfd2e971950d63943bc55216a85a5c1d60bf3cbda0530d3af5aa316cba436668",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/R/library/permute/doc/permutations.R",
+        "path_type": "hardlink",
+        "sha256": "c07c7c0c95821984e588875f38908d69c3a23e04ae334687417f655f271c72ab",
+        "sha256_in_prefix": "c07c7c0c95821984e588875f38908d69c3a23e04ae334687417f655f271c72ab",
+        "size_in_bytes": 10786
+      },
+      {
+        "_path": "lib/R/library/permute/doc/permutations.Rnw",
+        "path_type": "hardlink",
+        "sha256": "f5247de2da2c71c37fc2508ddc06552c299176fd75d040804fce7b6afcca4362",
+        "sha256_in_prefix": "f5247de2da2c71c37fc2508ddc06552c299176fd75d040804fce7b6afcca4362",
+        "size_in_bytes": 41110
+      },
+      {
+        "_path": "lib/R/library/permute/doc/permutations.pdf",
+        "path_type": "hardlink",
+        "sha256": "7f0fc9031b3cc610bec4a98b9453f3c6242ba16642ecc81a76ca61a68b54eca8",
+        "sha256_in_prefix": "7f0fc9031b3cc610bec4a98b9453f3c6242ba16642ecc81a76ca61a68b54eca8",
+        "size_in_bytes": 312368
+      },
+      {
+        "_path": "lib/R/library/permute/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "29804f2dfd0be6fd9d327e72dba180baa0c992843bb42f0c4ce5365a995fa9d2",
+        "sha256_in_prefix": "29804f2dfd0be6fd9d327e72dba180baa0c992843bb42f0c4ce5365a995fa9d2",
+        "size_in_bytes": 5008
+      },
+      {
+        "_path": "lib/R/library/permute/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "adc3306720ba0c23f85a797c1ee03ffee6179c3b495039ab6769212f80265e87",
+        "sha256_in_prefix": "adc3306720ba0c23f85a797c1ee03ffee6179c3b495039ab6769212f80265e87",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/R/library/permute/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9422007c0d2a1903fc4b2c67986dfd5477aa82f4a83da5d59294558b0c3f2ba9",
+        "sha256_in_prefix": "9422007c0d2a1903fc4b2c67986dfd5477aa82f4a83da5d59294558b0c3f2ba9",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/R/library/permute/help/permute.rdb",
+        "path_type": "hardlink",
+        "sha256": "42c31bf0b7d42961b1558514c4c96eaf523eb854070809876d4c6e3f9b96ad73",
+        "sha256_in_prefix": "42c31bf0b7d42961b1558514c4c96eaf523eb854070809876d4c6e3f9b96ad73",
+        "size_in_bytes": 57654
+      },
+      {
+        "_path": "lib/R/library/permute/help/permute.rdx",
+        "path_type": "hardlink",
+        "sha256": "6595b6d0a594b36ad7b7f81ee6ff07d3be65bfac841c26932984b81a9881820f",
+        "sha256_in_prefix": "6595b6d0a594b36ad7b7f81ee6ff07d3be65bfac841c26932984b81a9881820f",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/R/library/permute/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "3678ef8c0cf9ea7605a3e551d12818b1a8236c939691f0fbbc2ba93c1f374731",
+        "sha256_in_prefix": "3678ef8c0cf9ea7605a3e551d12818b1a8236c939691f0fbbc2ba93c1f374731",
+        "size_in_bytes": 31447
+      },
+      {
+        "_path": "lib/R/library/permute/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "67cab11675be463ea59f308acfde9668a7a345d5e4210d67803ee7aa8678b2db",
+  "size": 519459,
+  "subdir": "noarch",
+  "timestamp": 1621844764000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-permute-0.9_5-r41h785f33e_3.tar.bz2",
+  "version": "0.9_5"
+}

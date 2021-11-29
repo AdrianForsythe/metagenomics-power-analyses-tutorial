@@ -1,0 +1,621 @@
+{
+  "build": "r41hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0",
+    "bioconductor-biobase >=2.54.0,<2.55.0",
+    "bioconductor-biostrings >=2.62.0,<2.63.0",
+    "bioconductor-biocgenerics >=0.40.0,<0.41.0",
+    "r-ggplot2 >=2.1.0",
+    "r-data.table >=1.10.4",
+    "r-reshape2 >=1.4.1",
+    "r-igraph >=1.0.1",
+    "r-foreach >=1.4.3",
+    "r-plyr >=1.8.3",
+    "r-scales >=0.4.0",
+    "bioconductor-multtest >=2.50.0,<2.51.0",
+    "r-ape >=5.0",
+    "r-ade4 >=1.7.4",
+    "r-cluster >=2.0.4",
+    "r-vegan >=2.5",
+    "bioconductor-biomformat >=1.22.0,<1.23.0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/bioconductor-phyloseq-1.38.0-r41hdfd78af_0",
+  "features": "",
+  "files": [
+    "lib/R/library/phyloseq/CITATION",
+    "lib/R/library/phyloseq/DESCRIPTION",
+    "lib/R/library/phyloseq/INDEX",
+    "lib/R/library/phyloseq/Meta/Rd.rds",
+    "lib/R/library/phyloseq/Meta/data.rds",
+    "lib/R/library/phyloseq/Meta/features.rds",
+    "lib/R/library/phyloseq/Meta/hsearch.rds",
+    "lib/R/library/phyloseq/Meta/links.rds",
+    "lib/R/library/phyloseq/Meta/nsInfo.rds",
+    "lib/R/library/phyloseq/Meta/package.rds",
+    "lib/R/library/phyloseq/Meta/vignette.rds",
+    "lib/R/library/phyloseq/NAMESPACE",
+    "lib/R/library/phyloseq/NEWS",
+    "lib/R/library/phyloseq/R/phyloseq",
+    "lib/R/library/phyloseq/R/phyloseq.rdb",
+    "lib/R/library/phyloseq/R/phyloseq.rdx",
+    "lib/R/library/phyloseq/data/GlobalPatterns.RData",
+    "lib/R/library/phyloseq/data/datalist",
+    "lib/R/library/phyloseq/data/enterotype.RData",
+    "lib/R/library/phyloseq/data/esophagus.RData",
+    "lib/R/library/phyloseq/data/soilrep.RData",
+    "lib/R/library/phyloseq/doc/Unweighted_UniFrac.RData",
+    "lib/R/library/phyloseq/doc/index.html",
+    "lib/R/library/phyloseq/doc/phyloseq-FAQ.R",
+    "lib/R/library/phyloseq/doc/phyloseq-FAQ.Rmd",
+    "lib/R/library/phyloseq/doc/phyloseq-FAQ.html",
+    "lib/R/library/phyloseq/doc/phyloseq-analysis.R",
+    "lib/R/library/phyloseq/doc/phyloseq-analysis.Rmd",
+    "lib/R/library/phyloseq/doc/phyloseq-analysis.html",
+    "lib/R/library/phyloseq/doc/phyloseq-basics.R",
+    "lib/R/library/phyloseq/doc/phyloseq-basics.Rmd",
+    "lib/R/library/phyloseq/doc/phyloseq-basics.html",
+    "lib/R/library/phyloseq/doc/phyloseq-mixture-models.R",
+    "lib/R/library/phyloseq/doc/phyloseq-mixture-models.Rmd",
+    "lib/R/library/phyloseq/doc/phyloseq-mixture-models.html",
+    "lib/R/library/phyloseq/extdata/GP_otu_table_rand_short.txt.gz",
+    "lib/R/library/phyloseq/extdata/GP_tree_rand_short.newick.gz",
+    "lib/R/library/phyloseq/extdata/biom-refseq.fasta",
+    "lib/R/library/phyloseq/extdata/biom-tree.phy",
+    "lib/R/library/phyloseq/extdata/esophagus.fn.list.gz",
+    "lib/R/library/phyloseq/extdata/esophagus.fn.shared.gz",
+    "lib/R/library/phyloseq/extdata/esophagus.good.groups.gz",
+    "lib/R/library/phyloseq/extdata/esophagus.tree.gz",
+    "lib/R/library/phyloseq/extdata/gg13-5-73.tree.gz",
+    "lib/R/library/phyloseq/extdata/gp500-pycogent.py",
+    "lib/R/library/phyloseq/extdata/gp500-uuf.csv",
+    "lib/R/library/phyloseq/extdata/gp500-wuf.csv",
+    "lib/R/library/phyloseq/extdata/gp500-wufu.csv",
+    "lib/R/library/phyloseq/extdata/gp500test.env.txt",
+    "lib/R/library/phyloseq/extdata/gp500test.tree",
+    "lib/R/library/phyloseq/extdata/master_map.txt",
+    "lib/R/library/phyloseq/extdata/min_dense_otu_table.biom",
+    "lib/R/library/phyloseq/extdata/min_sparse_otu_table.biom",
+    "lib/R/library/phyloseq/extdata/mothur_example.cons.taxonomy.gz",
+    "lib/R/library/phyloseq/extdata/qiime500-refseq.fasta",
+    "lib/R/library/phyloseq/extdata/rformat_dist_0.03.txt.gz",
+    "lib/R/library/phyloseq/extdata/rich_dense_otu_table.biom",
+    "lib/R/library/phyloseq/extdata/rich_sparse_otu_table.biom",
+    "lib/R/library/phyloseq/extdata/study_1457_split_library_seqs_and_mapping.zip",
+    "lib/R/library/phyloseq/extdata/study_816_split_library_seqs_and_mapping.tar.gz",
+    "lib/R/library/phyloseq/extdata/study_816_split_library_seqs_and_mapping.zip",
+    "lib/R/library/phyloseq/extdata/study_gp.txt",
+    "lib/R/library/phyloseq/extdata/usearch.uc",
+    "lib/R/library/phyloseq/help/AnIndex",
+    "lib/R/library/phyloseq/help/aliases.rds",
+    "lib/R/library/phyloseq/help/paths.rds",
+    "lib/R/library/phyloseq/help/phyloseq.rdb",
+    "lib/R/library/phyloseq/help/phyloseq.rdx",
+    "lib/R/library/phyloseq/html/00Index.html",
+    "lib/R/library/phyloseq/html/R.css",
+    "lib/R/library/phyloseq/scripts/installer.R"
+  ],
+  "fn": "bioconductor-phyloseq-1.38.0-r41hdfd78af_0.tar.bz2",
+  "license": "AGPL-3",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/bioconductor-phyloseq-1.38.0-r41hdfd78af_0",
+    "type": 1
+  },
+  "md5": "fe6d3d9e46bf2562bce0b910ddc9342d",
+  "name": "bioconductor-phyloseq",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/bioconductor-phyloseq-1.38.0-r41hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/phyloseq/CITATION",
+        "path_type": "hardlink",
+        "sha256": "eef57313dedf57066e935e5027a17a500f3cfa0d86c6a8cd6276df85a08daddd",
+        "sha256_in_prefix": "eef57313dedf57066e935e5027a17a500f3cfa0d86c6a8cd6276df85a08daddd",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "lib/R/library/phyloseq/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "504628627f48f868a008cffc8b6b60f28fe37a47e600f13831fea098796e1bd9",
+        "sha256_in_prefix": "504628627f48f868a008cffc8b6b60f28fe37a47e600f13831fea098796e1bd9",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "lib/R/library/phyloseq/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9faf4e9f8e1efce42a5cae0915cdeb5a8b4f4e1a398b754784d38f765fab7176",
+        "sha256_in_prefix": "9faf4e9f8e1efce42a5cae0915cdeb5a8b4f4e1a398b754784d38f765fab7176",
+        "size_in_bytes": 9956
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "a58732545c046558eacf5423ce1e8ce1d875a00fd7ae6a37c53182f0acfb3831",
+        "sha256_in_prefix": "a58732545c046558eacf5423ce1e8ce1d875a00fd7ae6a37c53182f0acfb3831",
+        "size_in_bytes": 6541
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "c5d046ff9b05f144b21c464338229a15c1f17f5a21c71f8fd2552470f685f15a",
+        "sha256_in_prefix": "c5d046ff9b05f144b21c464338229a15c1f17f5a21c71f8fd2552470f685f15a",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "42a634a6ad4190e6d9845b2d0a43b0c7c3f2a8d63bdf80cfbb70c7a7fe759bb2",
+        "sha256_in_prefix": "42a634a6ad4190e6d9845b2d0a43b0c7c3f2a8d63bdf80cfbb70c7a7fe759bb2",
+        "size_in_bytes": 5995
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "743b48c690de4bbc80cb4e4698a4eadf96e6749fbe94057e9fd474687fcc7bef",
+        "sha256_in_prefix": "743b48c690de4bbc80cb4e4698a4eadf96e6749fbe94057e9fd474687fcc7bef",
+        "size_in_bytes": 3135
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "254bcd75b64a7be0051ffbd2976f3ab052ae210e9e7a6eccb99491a739332d5e",
+        "sha256_in_prefix": "254bcd75b64a7be0051ffbd2976f3ab052ae210e9e7a6eccb99491a739332d5e",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e97cb5c711bc8daa63c2d6c3eedb361f6b769bb62fe17fd76a34d7259fcb88f4",
+        "sha256_in_prefix": "e97cb5c711bc8daa63c2d6c3eedb361f6b769bb62fe17fd76a34d7259fcb88f4",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "lib/R/library/phyloseq/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "1e94c6ac06af8e4626606dc148cf061b28740882ab2d74808f4f26fbb0d6e542",
+        "sha256_in_prefix": "1e94c6ac06af8e4626606dc148cf061b28740882ab2d74808f4f26fbb0d6e542",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "lib/R/library/phyloseq/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "34393dc67fece7e674aad8e67096b103328d0b6786b5fc53ba1446bdded4a9ef",
+        "sha256_in_prefix": "34393dc67fece7e674aad8e67096b103328d0b6786b5fc53ba1446bdded4a9ef",
+        "size_in_bytes": 7196
+      },
+      {
+        "_path": "lib/R/library/phyloseq/NEWS",
+        "path_type": "hardlink",
+        "sha256": "c5a7f32d1c6f0c74b35907cbb6211fe80aa0e7a48dbe6892fc5cf33121e535f6",
+        "sha256_in_prefix": "c5a7f32d1c6f0c74b35907cbb6211fe80aa0e7a48dbe6892fc5cf33121e535f6",
+        "size_in_bytes": 47261
+      },
+      {
+        "_path": "lib/R/library/phyloseq/R/phyloseq",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/phyloseq/R/phyloseq.rdb",
+        "path_type": "hardlink",
+        "sha256": "efb36f51ea2769ae63af60116e276cd9d962a0347fc8aa75aa039fbb19842d38",
+        "sha256_in_prefix": "efb36f51ea2769ae63af60116e276cd9d962a0347fc8aa75aa039fbb19842d38",
+        "size_in_bytes": 1051140
+      },
+      {
+        "_path": "lib/R/library/phyloseq/R/phyloseq.rdx",
+        "path_type": "hardlink",
+        "sha256": "2ff6ef50163c6dfae531e30b8c5d668290c8bca07806794576e1e8ce165b04b7",
+        "sha256_in_prefix": "2ff6ef50163c6dfae531e30b8c5d668290c8bca07806794576e1e8ce165b04b7",
+        "size_in_bytes": 5500
+      },
+      {
+        "_path": "lib/R/library/phyloseq/data/GlobalPatterns.RData",
+        "path_type": "hardlink",
+        "sha256": "bea90c3c48275ea874e0c9400b133da1647e4cddd11b39f89a3d8ffd78512d2d",
+        "sha256_in_prefix": "bea90c3c48275ea874e0c9400b133da1647e4cddd11b39f89a3d8ffd78512d2d",
+        "size_in_bytes": 435652
+      },
+      {
+        "_path": "lib/R/library/phyloseq/data/datalist",
+        "path_type": "hardlink",
+        "sha256": "4108cc6192b00f1f757ebad4ed5c940efb9814b6ab0939274c8ad729b00951c5",
+        "sha256_in_prefix": "4108cc6192b00f1f757ebad4ed5c940efb9814b6ab0939274c8ad729b00951c5",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/phyloseq/data/enterotype.RData",
+        "path_type": "hardlink",
+        "sha256": "0701dd010023344a917bd31680f78580c076bf039befe829830dc43bfc56b8db",
+        "sha256_in_prefix": "0701dd010023344a917bd31680f78580c076bf039befe829830dc43bfc56b8db",
+        "size_in_bytes": 195260
+      },
+      {
+        "_path": "lib/R/library/phyloseq/data/esophagus.RData",
+        "path_type": "hardlink",
+        "sha256": "0b06d9c35f2e694c34461308af149eb54419453fcb98763de20ab61980b87e46",
+        "sha256_in_prefix": "0b06d9c35f2e694c34461308af149eb54419453fcb98763de20ab61980b87e46",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "lib/R/library/phyloseq/data/soilrep.RData",
+        "path_type": "hardlink",
+        "sha256": "47b25a0a033b794fca1db30ae6fdb68c55a44e6c4cd0d1be76788d1d77b51f36",
+        "sha256_in_prefix": "47b25a0a033b794fca1db30ae6fdb68c55a44e6c4cd0d1be76788d1d77b51f36",
+        "size_in_bytes": 107392
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/Unweighted_UniFrac.RData",
+        "path_type": "hardlink",
+        "sha256": "f35046f49976210a1ae3ea3fd0f4b483d5c4177e2e6358cfa902cf8a1c4d62ae",
+        "sha256_in_prefix": "f35046f49976210a1ae3ea3fd0f4b483d5c4177e2e6358cfa902cf8a1c4d62ae",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "f6ef439bb878ddfe45f4ad4c4e6e3ed1ab5ca753e745049045efc189f96d86d8",
+        "sha256_in_prefix": "f6ef439bb878ddfe45f4ad4c4e6e3ed1ab5ca753e745049045efc189f96d86d8",
+        "size_in_bytes": 3420
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-FAQ.R",
+        "path_type": "hardlink",
+        "sha256": "8dd5028c532fd0f0d09a4272812b4d7403964fab834d3f904e04fc4daafa3bfa",
+        "sha256_in_prefix": "8dd5028c532fd0f0d09a4272812b4d7403964fab834d3f904e04fc4daafa3bfa",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-FAQ.Rmd",
+        "path_type": "hardlink",
+        "sha256": "1e62d1c099d0df76f86f094ceb7796d1ac941c06df81fe85f0845b815359216c",
+        "sha256_in_prefix": "1e62d1c099d0df76f86f094ceb7796d1ac941c06df81fe85f0845b815359216c",
+        "size_in_bytes": 22815
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-FAQ.html",
+        "path_type": "hardlink",
+        "sha256": "2dd803a59155a49538d602778df1cefe543dd8194ac27f9dc9f8bc123cdcdadb",
+        "sha256_in_prefix": "2dd803a59155a49538d602778df1cefe543dd8194ac27f9dc9f8bc123cdcdadb",
+        "size_in_bytes": 1064412
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-analysis.R",
+        "path_type": "hardlink",
+        "sha256": "e127091a795fe3f2ffbf5b7c98feea3a0b88d0c2e148f9d47aacc7db5111826a",
+        "sha256_in_prefix": "e127091a795fe3f2ffbf5b7c98feea3a0b88d0c2e148f9d47aacc7db5111826a",
+        "size_in_bytes": 9633
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-analysis.Rmd",
+        "path_type": "hardlink",
+        "sha256": "2ef0e5ef2b1ea20af1116ef35f657d2351a1847d811b2ab6696df3862f73dfcd",
+        "sha256_in_prefix": "2ef0e5ef2b1ea20af1116ef35f657d2351a1847d811b2ab6696df3862f73dfcd",
+        "size_in_bytes": 40368
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-analysis.html",
+        "path_type": "hardlink",
+        "sha256": "03a63c62099fcf0882336c0ee3e2ae90fab0207172b84e084f20a62d97cf4ae6",
+        "sha256_in_prefix": "03a63c62099fcf0882336c0ee3e2ae90fab0207172b84e084f20a62d97cf4ae6",
+        "size_in_bytes": 3630013
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-basics.R",
+        "path_type": "hardlink",
+        "sha256": "ca9d2a08f00afca5e3ba8f0130652a3d32baffa5781de55c1e0aecc64d6a54d4",
+        "sha256_in_prefix": "ca9d2a08f00afca5e3ba8f0130652a3d32baffa5781de55c1e0aecc64d6a54d4",
+        "size_in_bytes": 4531
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-basics.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5ebda3f770846afb3ca4f88ee7f940af9d5cc50c01b3d5bd47405a24ef0fd490",
+        "sha256_in_prefix": "5ebda3f770846afb3ca4f88ee7f940af9d5cc50c01b3d5bd47405a24ef0fd490",
+        "size_in_bytes": 36925
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-basics.html",
+        "path_type": "hardlink",
+        "sha256": "492583206f21e133aaa0c4f60651481586299d67714dddf067ed1bbd16375f81",
+        "sha256_in_prefix": "492583206f21e133aaa0c4f60651481586299d67714dddf067ed1bbd16375f81",
+        "size_in_bytes": 1107603
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-mixture-models.R",
+        "path_type": "hardlink",
+        "sha256": "df5e7e85c0c015ea9a480a71c904f331409cf3675745d42b8e74eedfc2801f1c",
+        "sha256_in_prefix": "df5e7e85c0c015ea9a480a71c904f331409cf3675745d42b8e74eedfc2801f1c",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-mixture-models.Rmd",
+        "path_type": "hardlink",
+        "sha256": "20dc7b7f61349dcf23dc99571fb4f07ca101f46a7ab00bc472de725a8392c734",
+        "sha256_in_prefix": "20dc7b7f61349dcf23dc99571fb4f07ca101f46a7ab00bc472de725a8392c734",
+        "size_in_bytes": 9554
+      },
+      {
+        "_path": "lib/R/library/phyloseq/doc/phyloseq-mixture-models.html",
+        "path_type": "hardlink",
+        "sha256": "23e6ea14c4cc162ae0ecd3b364a8a7288c98d0afa84122447c43fdd81291ac9b",
+        "sha256_in_prefix": "23e6ea14c4cc162ae0ecd3b364a8a7288c98d0afa84122447c43fdd81291ac9b",
+        "size_in_bytes": 705768
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/GP_otu_table_rand_short.txt.gz",
+        "path_type": "hardlink",
+        "sha256": "cba6e0f15bccb5d6d8f15f86334092c23122460d667b4dc53726b1fee359caa3",
+        "sha256_in_prefix": "cba6e0f15bccb5d6d8f15f86334092c23122460d667b4dc53726b1fee359caa3",
+        "size_in_bytes": 13316
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/GP_tree_rand_short.newick.gz",
+        "path_type": "hardlink",
+        "sha256": "87c4fc16f1711254c53c0796bd7d4cc02920bbe6b61c0b97c59868b9f7fabaad",
+        "sha256_in_prefix": "87c4fc16f1711254c53c0796bd7d4cc02920bbe6b61c0b97c59868b9f7fabaad",
+        "size_in_bytes": 7183
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/biom-refseq.fasta",
+        "path_type": "hardlink",
+        "sha256": "43809db70e11de7426450efe7239d24c3c24b88e0cabe334284a4b62bec3c81d",
+        "sha256_in_prefix": "43809db70e11de7426450efe7239d24c3c24b88e0cabe334284a4b62bec3c81d",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/biom-tree.phy",
+        "path_type": "hardlink",
+        "sha256": "470cbaa45acfb65e7fe2a8b9c98dd44006f48ccd78000dd1519d576dd800057c",
+        "sha256_in_prefix": "470cbaa45acfb65e7fe2a8b9c98dd44006f48ccd78000dd1519d576dd800057c",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/esophagus.fn.list.gz",
+        "path_type": "hardlink",
+        "sha256": "7ed75ba0b91fc313316e15f118a2dc83439fa3165df8f185a886ebbad8cf9361",
+        "sha256_in_prefix": "7ed75ba0b91fc313316e15f118a2dc83439fa3165df8f185a886ebbad8cf9361",
+        "size_in_bytes": 4578
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/esophagus.fn.shared.gz",
+        "path_type": "hardlink",
+        "sha256": "62b3d0515d5b4402836cfe75affee9d29e9e67a064384085c6183f155e8076c6",
+        "sha256_in_prefix": "62b3d0515d5b4402836cfe75affee9d29e9e67a064384085c6183f155e8076c6",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/esophagus.good.groups.gz",
+        "path_type": "hardlink",
+        "sha256": "96b0952b557ca8016f514186db3a7c29d563df296577159d114aa685e0b003b1",
+        "sha256_in_prefix": "96b0952b557ca8016f514186db3a7c29d563df296577159d114aa685e0b003b1",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/esophagus.tree.gz",
+        "path_type": "hardlink",
+        "sha256": "79fdedc47fa7c3d5cf492e2adf8c9224c7ef685765c7ba5da30f356e953a416e",
+        "sha256_in_prefix": "79fdedc47fa7c3d5cf492e2adf8c9224c7ef685765c7ba5da30f356e953a416e",
+        "size_in_bytes": 4989
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gg13-5-73.tree.gz",
+        "path_type": "hardlink",
+        "sha256": "88c8ae8b610123d2c1dc5bd12538a5d73c6d0513843eda7f19fea4afbef2fdbf",
+        "sha256_in_prefix": "88c8ae8b610123d2c1dc5bd12538a5d73c6d0513843eda7f19fea4afbef2fdbf",
+        "size_in_bytes": 3512
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gp500-pycogent.py",
+        "path_type": "hardlink",
+        "sha256": "15065947ba8799f484cbf7c5a5bbe6c9c40979089b3e69238c31db19255fa8f8",
+        "sha256_in_prefix": "15065947ba8799f484cbf7c5a5bbe6c9c40979089b3e69238c31db19255fa8f8",
+        "size_in_bytes": 1043
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gp500-uuf.csv",
+        "path_type": "hardlink",
+        "sha256": "f16ad48973e5ff8def1a8479e862364d3a90f9c704eb46091250988ea3ce66b4",
+        "sha256_in_prefix": "f16ad48973e5ff8def1a8479e862364d3a90f9c704eb46091250988ea3ce66b4",
+        "size_in_bytes": 19600
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gp500-wuf.csv",
+        "path_type": "hardlink",
+        "sha256": "c74ce720eb9f6bf80b4c70582767f0e72314d4c31f63833ddd458c7d41a6c65f",
+        "sha256_in_prefix": "c74ce720eb9f6bf80b4c70582767f0e72314d4c31f63833ddd458c7d41a6c65f",
+        "size_in_bytes": 19600
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gp500-wufu.csv",
+        "path_type": "hardlink",
+        "sha256": "b785282b898ff7afe94c5b02b9f661391136f4ed797eeb02a555a77501d27c1b",
+        "sha256_in_prefix": "b785282b898ff7afe94c5b02b9f661391136f4ed797eeb02a555a77501d27c1b",
+        "size_in_bytes": 19600
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gp500test.env.txt",
+        "path_type": "hardlink",
+        "sha256": "e0cacd472223a266dd8f6a51889ac3fe8ea23828bf77d89b21620d484809c775",
+        "sha256_in_prefix": "e0cacd472223a266dd8f6a51889ac3fe8ea23828bf77d89b21620d484809c775",
+        "size_in_bytes": 48888
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/gp500test.tree",
+        "path_type": "hardlink",
+        "sha256": "21572fabe4e40d029f6d20969e4ebd9564614bb4d125e896eff9cd4b9bf1c0f3",
+        "sha256_in_prefix": "21572fabe4e40d029f6d20969e4ebd9564614bb4d125e896eff9cd4b9bf1c0f3",
+        "size_in_bytes": 16700
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/master_map.txt",
+        "path_type": "hardlink",
+        "sha256": "4d3f2217e4d07f10b19c3e24062b6ee0fca02abe27e6965a18f5377e2ae3b47d",
+        "sha256_in_prefix": "4d3f2217e4d07f10b19c3e24062b6ee0fca02abe27e6965a18f5377e2ae3b47d",
+        "size_in_bytes": 2438
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/min_dense_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "1f509deec271847b000c29e2a1a7f7b880371eb906e59c86e3f0cfd32be7205f",
+        "sha256_in_prefix": "1f509deec271847b000c29e2a1a7f7b880371eb906e59c86e3f0cfd32be7205f",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/min_sparse_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "bb2712f9a6485c6ba92077badc02bc6b8430f4891e737aa28df2d1fffccf879b",
+        "sha256_in_prefix": "bb2712f9a6485c6ba92077badc02bc6b8430f4891e737aa28df2d1fffccf879b",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/mothur_example.cons.taxonomy.gz",
+        "path_type": "hardlink",
+        "sha256": "96c6f7f4415695a3e52c220c3d3967b45b0ecb9ab7f6219c8e88d86a0b8a3538",
+        "sha256_in_prefix": "96c6f7f4415695a3e52c220c3d3967b45b0ecb9ab7f6219c8e88d86a0b8a3538",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/qiime500-refseq.fasta",
+        "path_type": "hardlink",
+        "sha256": "cc20d140acf910093d5d7619bde3186e517de9f5d4f5df64cd30e78159067b17",
+        "sha256_in_prefix": "cc20d140acf910093d5d7619bde3186e517de9f5d4f5df64cd30e78159067b17",
+        "size_in_bytes": 191508
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/rformat_dist_0.03.txt.gz",
+        "path_type": "hardlink",
+        "sha256": "cb0c7a5a5ae6fbf7a734a8cbbba7542091615ebaadc907d9dfc6a1d3eefed2ad",
+        "sha256_in_prefix": "cb0c7a5a5ae6fbf7a734a8cbbba7542091615ebaadc907d9dfc6a1d3eefed2ad",
+        "size_in_bytes": 26684
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/rich_dense_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "693d036eb98b0afafe248d43ab7fab567c82651d2e5f0e1f1690e8ecff171306",
+        "sha256_in_prefix": "693d036eb98b0afafe248d43ab7fab567c82651d2e5f0e1f1690e8ecff171306",
+        "size_in_bytes": 3278
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/rich_sparse_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "d4a8d780ac2f3a93b1b3c344673330d42cc15cbdfbc60c03b53c6a1962067e31",
+        "sha256_in_prefix": "d4a8d780ac2f3a93b1b3c344673330d42cc15cbdfbc60c03b53c6a1962067e31",
+        "size_in_bytes": 3460
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/study_1457_split_library_seqs_and_mapping.zip",
+        "path_type": "hardlink",
+        "sha256": "b746ca615de1a2e8ee63cc07bb83628d8cd2009830f9e0da76215e14b0987bba",
+        "sha256_in_prefix": "b746ca615de1a2e8ee63cc07bb83628d8cd2009830f9e0da76215e14b0987bba",
+        "size_in_bytes": 161176
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/study_816_split_library_seqs_and_mapping.tar.gz",
+        "path_type": "hardlink",
+        "sha256": "af73cb89e74da9a3491e9c6756a473b1ceb7494f5b3a75b23f5a23a99e858b14",
+        "sha256_in_prefix": "af73cb89e74da9a3491e9c6756a473b1ceb7494f5b3a75b23f5a23a99e858b14",
+        "size_in_bytes": 4991
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/study_816_split_library_seqs_and_mapping.zip",
+        "path_type": "hardlink",
+        "sha256": "6d3bf9948a5b20f087aebf2a8ef6a12eb2bed2336d5a4c302f8d562b785d889c",
+        "sha256_in_prefix": "6d3bf9948a5b20f087aebf2a8ef6a12eb2bed2336d5a4c302f8d562b785d889c",
+        "size_in_bytes": 5191
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/study_gp.txt",
+        "path_type": "hardlink",
+        "sha256": "4d3f2217e4d07f10b19c3e24062b6ee0fca02abe27e6965a18f5377e2ae3b47d",
+        "sha256_in_prefix": "4d3f2217e4d07f10b19c3e24062b6ee0fca02abe27e6965a18f5377e2ae3b47d",
+        "size_in_bytes": 2438
+      },
+      {
+        "_path": "lib/R/library/phyloseq/extdata/usearch.uc",
+        "path_type": "hardlink",
+        "sha256": "013605c481647d1b576834bd1bd641caa0c49ee1be764a07022fef07acfe9702",
+        "sha256_in_prefix": "013605c481647d1b576834bd1bd641caa0c49ee1be764a07022fef07acfe9702",
+        "size_in_bytes": 12127
+      },
+      {
+        "_path": "lib/R/library/phyloseq/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0381d7a8ca70a5808bfedb782e0583ea7fbbb1654226c8c6ecfb68e0ff60ae9c",
+        "sha256_in_prefix": "0381d7a8ca70a5808bfedb782e0583ea7fbbb1654226c8c6ecfb68e0ff60ae9c",
+        "size_in_bytes": 11892
+      },
+      {
+        "_path": "lib/R/library/phyloseq/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "08859b3118182221b4387bb384d7393102aece3180ce6d16bb363c515bf538c4",
+        "sha256_in_prefix": "08859b3118182221b4387bb384d7393102aece3180ce6d16bb363c515bf538c4",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "lib/R/library/phyloseq/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3790f7333a246add07e0644d63270ac7c414d9b1d8c04d474fd1613207a0947b",
+        "sha256_in_prefix": "3790f7333a246add07e0644d63270ac7c414d9b1d8c04d474fd1613207a0947b",
+        "size_in_bytes": 1332
+      },
+      {
+        "_path": "lib/R/library/phyloseq/help/phyloseq.rdb",
+        "path_type": "hardlink",
+        "sha256": "9a9c78e1ff667c01ca5d3c3f9af54ecf8a61020f696684573aa8ec8f42e5c6bc",
+        "sha256_in_prefix": "9a9c78e1ff667c01ca5d3c3f9af54ecf8a61020f696684573aa8ec8f42e5c6bc",
+        "size_in_bytes": 401575
+      },
+      {
+        "_path": "lib/R/library/phyloseq/help/phyloseq.rdx",
+        "path_type": "hardlink",
+        "sha256": "0e072b13d19888baecdeeaafb2e650b7dc9a26c5b812e0cb266752387bfcaba4",
+        "sha256_in_prefix": "0e072b13d19888baecdeeaafb2e650b7dc9a26c5b812e0cb266752387bfcaba4",
+        "size_in_bytes": 3078
+      },
+      {
+        "_path": "lib/R/library/phyloseq/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f2d90f8006d3d6d572c3de71b02f870b6b5b0126838984316dcdf68d030dfffd",
+        "sha256_in_prefix": "f2d90f8006d3d6d572c3de71b02f870b6b5b0126838984316dcdf68d030dfffd",
+        "size_in_bytes": 31402
+      },
+      {
+        "_path": "lib/R/library/phyloseq/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/phyloseq/scripts/installer.R",
+        "path_type": "hardlink",
+        "sha256": "a915b27c6b3346c4c9ef5933b8e7b3c82453999960e9d50655b05da23e91b9b7",
+        "sha256_in_prefix": "a915b27c6b3346c4c9ef5933b8e7b3c82453999960e9d50655b05da23e91b9b7",
+        "size_in_bytes": 1869
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-phyloseq",
+  "sha256": "a0df3a407be3ead6a4ac0247b75c22cfe3355b22676fee788e8c3861d427430b",
+  "size": 6008733,
+  "subdir": "noarch",
+  "timestamp": 1635939687000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-phyloseq-1.38.0-r41hdfd78af_0.tar.bz2",
+  "version": "1.38.0"
+}

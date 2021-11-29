@@ -1,0 +1,51 @@
+PERMANOVA               Perform PERMANOVA testing.
+bootDM                  Take a bootstrap sample from a square distance
+                        matrix.
+bootPower               Perform bootstrap power analysis on a list of
+                        square distance matrices.
+calcOmega2              Calculate omega-squared.
+calcPERMANOVAp          Calculate the PERMANOVA p-value.
+calcR2                  Calculate the coefficient of determination
+                        (R-squared).
+calcUJsample            Calculate unweighted Jaccard distance between
+                        two OTU vectors
+calcUJstudy             Calculate pairwise unweighted Jaccard distances
+                        from an OTU table
+calcWJsample            Calculate weighted Jaccard distance between two
+                        OTU vectors
+calcWJstudy             Calculate pairwise weighted Jaccard distances
+                        from an OTU table
+groupNames              Convert distance matrix subject names to
+                        group-level names.
+hashMean                Simulate a list of OTU tables to create a hash
+                        table relating depth of subsampling (rarefying)
+                        to mean pairwise distance
+hashSD                  Simulate a list of OTU tables to create a hash
+                        table relating OTU number to standard deviation
+                        of pairwise distances
+lowerTriDM              Extract the pairwise distances from the lower
+                        triangle of a square distance matrix.
+rareSamp                Rarefy a simulated OTU vector
+readDM                  Read QIIME-formatted distance matrices
+readDMdir               Read all QIIME-formatted distance matrices in
+                        working directory
+readDMmetric            Read all QIIME-formatted distance matrices in
+                        working directory that are labelled with a
+                        specified distance metric
+simNull                 Simulate OTU table with null group-level effect
+                        for presence-absence or abundance-weighted
+                        analysis
+simPower                Simulate a list of OTU tables encoding a range
+                        of effect sizes for presence-absence or
+                        abundance-weighted analysis
+simSamp                 Simulate a sample OTU vector
+simStudy                Simulate OTU table for presence-absence or
+                        abundance-weighted analysis
+simTreeList             Simulate a phylogenetic tree with specified OTU
+                        names
+simTreeTable            Simulate a phylogenetic tree with specified OTU
+                        names
+writeOTUlist            Export a list of simulated OTU tables to permit
+                        analysis of non-Jaccard distances
+writeOTUtable           Export a simulated OTU table to permit analysis
+                        of non-Jaccard distances

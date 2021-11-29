@@ -1,0 +1,355 @@
+{
+  "build": "r41h785f33e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-magrittr",
+    "r-purrr",
+    "r-httr",
+    "r-curl",
+    "r-rematch2",
+    "r-cellranger",
+    "r-ids",
+    "r-base >=4.1,<4.2.0a0",
+    "r-glue >=1.3.0",
+    "r-tibble >=2.1.1",
+    "r-cli >=3.0.0",
+    "r-vctrs >=0.2.3",
+    "r-gargle >=1.2.0",
+    "r-googledrive >=2.0.0",
+    "r-rlang >=0.4.11"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-googlesheets4-1.0.0-r41h785f33e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/googlesheets4/DESCRIPTION",
+    "lib/R/library/googlesheets4/INDEX",
+    "lib/R/library/googlesheets4/LICENSE",
+    "lib/R/library/googlesheets4/Meta/Rd.rds",
+    "lib/R/library/googlesheets4/Meta/features.rds",
+    "lib/R/library/googlesheets4/Meta/hsearch.rds",
+    "lib/R/library/googlesheets4/Meta/links.rds",
+    "lib/R/library/googlesheets4/Meta/nsInfo.rds",
+    "lib/R/library/googlesheets4/Meta/package.rds",
+    "lib/R/library/googlesheets4/NAMESPACE",
+    "lib/R/library/googlesheets4/NEWS.md",
+    "lib/R/library/googlesheets4/R/googlesheets4",
+    "lib/R/library/googlesheets4/R/googlesheets4.rdb",
+    "lib/R/library/googlesheets4/R/googlesheets4.rdx",
+    "lib/R/library/googlesheets4/R/sysdata.rdb",
+    "lib/R/library/googlesheets4/R/sysdata.rdx",
+    "lib/R/library/googlesheets4/WORDLIST",
+    "lib/R/library/googlesheets4/extdata/example_and_test_sheets.csv",
+    "lib/R/library/googlesheets4/extdata/fake-oauth-client-id-and-secret.json",
+    "lib/R/library/googlesheets4/help/AnIndex",
+    "lib/R/library/googlesheets4/help/aliases.rds",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-archived.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-retired.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-soft-deprecated.svg",
+    "lib/R/library/googlesheets4/help/figures/lifecycle-stable.svg",
+    "lib/R/library/googlesheets4/help/figures/logo.png",
+    "lib/R/library/googlesheets4/help/googlesheets4.rdb",
+    "lib/R/library/googlesheets4/help/googlesheets4.rdx",
+    "lib/R/library/googlesheets4/help/paths.rds",
+    "lib/R/library/googlesheets4/html/00Index.html",
+    "lib/R/library/googlesheets4/html/R.css",
+    "lib/R/library/googlesheets4/secret/googlesheets4-docs.json",
+    "lib/R/library/googlesheets4/secret/googlesheets4-testing.json"
+  ],
+  "fn": "r-googlesheets4-1.0.0-r41h785f33e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-googlesheets4-1.0.0-r41h785f33e_0",
+    "type": 1
+  },
+  "md5": "c492d9bb7120e03d42dddf6edf3e4337",
+  "name": "r-googlesheets4",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-googlesheets4-1.0.0-r41h785f33e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/googlesheets4/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b6753e3cf4c174b4393cff513893e81c3fe612c8972c5d1fd7696ef51ff03b14",
+        "sha256_in_prefix": "b6753e3cf4c174b4393cff513893e81c3fe612c8972c5d1fd7696ef51ff03b14",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/INDEX",
+        "path_type": "hardlink",
+        "sha256": "e34fbef20cf5e9bdaaa91e0063ac409321304f3dc3a8bbdac8ee729476c87540",
+        "sha256_in_prefix": "e34fbef20cf5e9bdaaa91e0063ac409321304f3dc3a8bbdac8ee729476c87540",
+        "size_in_bytes": 1939
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fc172efcf8c98783ea1747a0348160c8e5e8ec54a54afc47b2b79d96facd30db",
+        "sha256_in_prefix": "fc172efcf8c98783ea1747a0348160c8e5e8ec54a54afc47b2b79d96facd30db",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "4751d07310f87b487bcf8f50a5312a304ca6f428f59a0bdb717e6f0c9d3de66f",
+        "sha256_in_prefix": "4751d07310f87b487bcf8f50a5312a304ca6f428f59a0bdb717e6f0c9d3de66f",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0e6163ffac318aa6bb1b4346e6934b3f205fcf0dbe4eb602d907070619afc118",
+        "sha256_in_prefix": "0e6163ffac318aa6bb1b4346e6934b3f205fcf0dbe4eb602d907070619afc118",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "f046fad552631ecd4ec7084f69c4691d35fede45ac35c72433b62474ce66d0d6",
+        "sha256_in_prefix": "f046fad552631ecd4ec7084f69c4691d35fede45ac35c72433b62474ce66d0d6",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "2569ec3a8e8220df4803573e5bf6bf449d3bab88d0de096ce0e012887edbe2b7",
+        "sha256_in_prefix": "2569ec3a8e8220df4803573e5bf6bf449d3bab88d0de096ce0e012887edbe2b7",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a17f0dd1b33b53ca61c633fc42051684b00d33ca4216a60b3016fb95ec54adb9",
+        "sha256_in_prefix": "a17f0dd1b33b53ca61c633fc42051684b00d33ca4216a60b3016fb95ec54adb9",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a2cec952142bb377b1abb1c5c44ab6dc2c8505e2901d5237d7dcb25d64293c4e",
+        "sha256_in_prefix": "a2cec952142bb377b1abb1c5c44ab6dc2c8505e2901d5237d7dcb25d64293c4e",
+        "size_in_bytes": 4697
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "0a684c51e5804459a163cd36889122aab1ca3dcb3aa20fe24293804c0c8a5c12",
+        "sha256_in_prefix": "0a684c51e5804459a163cd36889122aab1ca3dcb3aa20fe24293804c0c8a5c12",
+        "size_in_bytes": 7448
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/R/googlesheets4",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/R/googlesheets4.rdb",
+        "path_type": "hardlink",
+        "sha256": "6f37574ba753e64a34a63f46333626e428a73063a17b88cd6d6ba92a2a01f927",
+        "sha256_in_prefix": "6f37574ba753e64a34a63f46333626e428a73063a17b88cd6d6ba92a2a01f927",
+        "size_in_bytes": 208325
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/R/googlesheets4.rdx",
+        "path_type": "hardlink",
+        "sha256": "83d70d1db0054b37e4cf536290f6dadc0d4be9c88e7a1b75a75760194b0ad2c2",
+        "sha256_in_prefix": "83d70d1db0054b37e4cf536290f6dadc0d4be9c88e7a1b75a75760194b0ad2c2",
+        "size_in_bytes": 4367
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "20f3097e7dd0facef82a6465721bca04f36d451190a033b6b58cc6fd4e63e0b3",
+        "sha256_in_prefix": "20f3097e7dd0facef82a6465721bca04f36d451190a033b6b58cc6fd4e63e0b3",
+        "size_in_bytes": 81842
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "60a0ebe3e15c8998665d6b4f9581eff537a727e89d95e4c8c9206cc9bfc35fea",
+        "sha256_in_prefix": "60a0ebe3e15c8998665d6b4f9581eff537a727e89d95e4c8c9206cc9bfc35fea",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "91b9634a7c57e289e615ae1b51a2ff85bda1b59d3063a65df1de53745f15262f",
+        "sha256_in_prefix": "91b9634a7c57e289e615ae1b51a2ff85bda1b59d3063a65df1de53745f15262f",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/extdata/example_and_test_sheets.csv",
+        "path_type": "hardlink",
+        "sha256": "b6749c956bd1f78417d57e482794f2ec59beaf40914f710257b8762b1e7e9a5e",
+        "sha256_in_prefix": "b6749c956bd1f78417d57e482794f2ec59beaf40914f710257b8762b1e7e9a5e",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/extdata/fake-oauth-client-id-and-secret.json",
+        "path_type": "hardlink",
+        "sha256": "cb0e8b1331475caaf6b478bde45e2cdf14bf0a1b9e90222c701d6653a6db63a5",
+        "sha256_in_prefix": "cb0e8b1331475caaf6b478bde45e2cdf14bf0a1b9e90222c701d6653a6db63a5",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1c033a45b5e47f419924cc060d8603881719c09110016a15b867a57951df36e3",
+        "sha256_in_prefix": "1c033a45b5e47f419924cc060d8603881719c09110016a15b867a57951df36e3",
+        "size_in_bytes": 1616
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "465642c56673bbb1df8e02ea73ff8f4ab6fb0204ef190f0c88be5b88aaeac98b",
+        "sha256_in_prefix": "465642c56673bbb1df8e02ea73ff8f4ab6fb0204ef190f0c88be5b88aaeac98b",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-retired.svg",
+        "path_type": "hardlink",
+        "sha256": "a74f73ab22058d1f9f2dfd41857933759cf1b8e3d03cc18bf1eddc1ab7f2daee",
+        "sha256_in_prefix": "a74f73ab22058d1f9f2dfd41857933759cf1b8e3d03cc18bf1eddc1ab7f2daee",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-soft-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "sha256_in_prefix": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "e0ec601f36428a37704757d4bc83b17bca44916ba1e0432c1215ba40cb9e8fe5",
+        "sha256_in_prefix": "e0ec601f36428a37704757d4bc83b17bca44916ba1e0432c1215ba40cb9e8fe5",
+        "size_in_bytes": 34743
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/googlesheets4.rdb",
+        "path_type": "hardlink",
+        "sha256": "a7396ebc2cd1bba4305c4417c361b7a9c49697b22a703b841a0992bb2e4510fa",
+        "sha256_in_prefix": "a7396ebc2cd1bba4305c4417c361b7a9c49697b22a703b841a0992bb2e4510fa",
+        "size_in_bytes": 138436
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/googlesheets4.rdx",
+        "path_type": "hardlink",
+        "sha256": "9e12de026fc755c63bb608b15c9badc5bac8f3914aa2bd613f05025e0ee2359f",
+        "sha256_in_prefix": "9e12de026fc755c63bb608b15c9badc5bac8f3914aa2bd613f05025e0ee2359f",
+        "size_in_bytes": 1039
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b62744930bd7a413278516057da09a13a92fd81405c602cd1ff087187b857eae",
+        "sha256_in_prefix": "b62744930bd7a413278516057da09a13a92fd81405c602cd1ff087187b857eae",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "87ca3793a1619efb6f0dd27c16bf3d0b5ab0af02852da2d8439e8598c07f34c4",
+        "sha256_in_prefix": "87ca3793a1619efb6f0dd27c16bf3d0b5ab0af02852da2d8439e8598c07f34c4",
+        "size_in_bytes": 7174
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/secret/googlesheets4-docs.json",
+        "path_type": "hardlink",
+        "sha256": "3a45739023ae79ea43329d07e3ff8aa6754cbf35f939ad886bbc5b697a7295fd",
+        "sha256_in_prefix": "3a45739023ae79ea43329d07e3ff8aa6754cbf35f939ad886bbc5b697a7295fd",
+        "size_in_bytes": 2366
+      },
+      {
+        "_path": "lib/R/library/googlesheets4/secret/googlesheets4-testing.json",
+        "path_type": "hardlink",
+        "sha256": "b85288a1d17d019e59d04b37e269038fc04f9e3ff9572172a6090bc1456b8fb1",
+        "sha256_in_prefix": "b85288a1d17d019e59d04b37e269038fc04f9e3ff9572172a6090bc1456b8fb1",
+        "size_in_bytes": 2372
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "66920028c1b661623900abc61b0a8677fe9a64515df8c101760a7147cdd7de04",
+  "size": 503865,
+  "subdir": "noarch",
+  "timestamp": 1632806918000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-googlesheets4-1.0.0-r41h785f33e_0.tar.bz2",
+  "version": "1.0.0"
+}

@@ -1,0 +1,254 @@
+{
+  "build": "r41h03ef668_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-rcpp >=0.11.0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-plyr-1.8.6-r41h03ef668_1",
+  "features": "",
+  "files": [
+    "lib/R/library/plyr/CITATION",
+    "lib/R/library/plyr/DESCRIPTION",
+    "lib/R/library/plyr/INDEX",
+    "lib/R/library/plyr/LICENSE",
+    "lib/R/library/plyr/Meta/Rd.rds",
+    "lib/R/library/plyr/Meta/data.rds",
+    "lib/R/library/plyr/Meta/features.rds",
+    "lib/R/library/plyr/Meta/hsearch.rds",
+    "lib/R/library/plyr/Meta/links.rds",
+    "lib/R/library/plyr/Meta/nsInfo.rds",
+    "lib/R/library/plyr/Meta/package.rds",
+    "lib/R/library/plyr/NAMESPACE",
+    "lib/R/library/plyr/NEWS.md",
+    "lib/R/library/plyr/R/plyr",
+    "lib/R/library/plyr/R/plyr.rdb",
+    "lib/R/library/plyr/R/plyr.rdx",
+    "lib/R/library/plyr/data/Rdata.rdb",
+    "lib/R/library/plyr/data/Rdata.rds",
+    "lib/R/library/plyr/data/Rdata.rdx",
+    "lib/R/library/plyr/help/AnIndex",
+    "lib/R/library/plyr/help/aliases.rds",
+    "lib/R/library/plyr/help/paths.rds",
+    "lib/R/library/plyr/help/plyr.rdb",
+    "lib/R/library/plyr/help/plyr.rdx",
+    "lib/R/library/plyr/html/00Index.html",
+    "lib/R/library/plyr/html/R.css",
+    "lib/R/library/plyr/libs/plyr.so"
+  ],
+  "fn": "r-plyr-1.8.6-r41h03ef668_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-plyr-1.8.6-r41h03ef668_1",
+    "type": 1
+  },
+  "md5": "36e616dc2c4c7d0be81b7e99bceb9467",
+  "name": "r-plyr",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-plyr-1.8.6-r41h03ef668_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/plyr/CITATION",
+        "path_type": "hardlink",
+        "sha256": "a850ae286eeaa0e9eee95e5592e4885835dab00d0c9e7a4f7e50a129f3ee2ba3",
+        "sha256_in_prefix": "a850ae286eeaa0e9eee95e5592e4885835dab00d0c9e7a4f7e50a129f3ee2ba3",
+        "size_in_bytes": 632
+      },
+      {
+        "_path": "lib/R/library/plyr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "adf198f1064238bdd06330d251b520739cb0b71f7dc194fcd98a96cd94dfafce",
+        "sha256_in_prefix": "adf198f1064238bdd06330d251b520739cb0b71f7dc194fcd98a96cd94dfafce",
+        "size_in_bytes": 1334
+      },
+      {
+        "_path": "lib/R/library/plyr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "8895a75fe4350512d950f4b0f1cec938eaad7f0bb83af7cad34ead2b32a7058b",
+        "sha256_in_prefix": "8895a75fe4350512d950f4b0f1cec938eaad7f0bb83af7cad34ead2b32a7058b",
+        "size_in_bytes": 4828
+      },
+      {
+        "_path": "lib/R/library/plyr/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a21e923e3f19a7534e0fc96b5b865bf7ca58bf2e30ee8505bb0cd1cb003d6290",
+        "sha256_in_prefix": "a21e923e3f19a7534e0fc96b5b865bf7ca58bf2e30ee8505bb0cd1cb003d6290",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d03cebd61c69ece97022a61e7ac00b31b81e6ff092948b915ca3bc4e76ba4f66",
+        "sha256_in_prefix": "d03cebd61c69ece97022a61e7ac00b31b81e6ff092948b915ca3bc4e76ba4f66",
+        "size_in_bytes": 3302
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "40dca965ae9a96ed4eda7738a44df9236bd42dd686414664575c3b1398437e49",
+        "sha256_in_prefix": "40dca965ae9a96ed4eda7738a44df9236bd42dd686414664575c3b1398437e49",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "02a1f38afe70b162677832bec8a28c89a7667e88562ae245eae341d1fc1da74b",
+        "sha256_in_prefix": "02a1f38afe70b162677832bec8a28c89a7667e88562ae245eae341d1fc1da74b",
+        "size_in_bytes": 3050
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "fab0a05c971d7f960922815f54d24a8107ca7f9669b88f7572ec006433de68d6",
+        "sha256_in_prefix": "fab0a05c971d7f960922815f54d24a8107ca7f9669b88f7572ec006433de68d6",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "becd0b117a192cd22d150666ea872bc28343b79ef3222cc2399d380a6d8071a9",
+        "sha256_in_prefix": "becd0b117a192cd22d150666ea872bc28343b79ef3222cc2399d380a6d8071a9",
+        "size_in_bytes": 911
+      },
+      {
+        "_path": "lib/R/library/plyr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "b7aed6fb68232fcb66cf212902efa75f80a92fb1d45171ce2cdf34b6d60d8c45",
+        "sha256_in_prefix": "b7aed6fb68232fcb66cf212902efa75f80a92fb1d45171ce2cdf34b6d60d8c45",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/R/library/plyr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f86d427bed30bd5e1acca8ef834c214fb6c129e3e9c237b0151f3d04bc4d89f2",
+        "sha256_in_prefix": "f86d427bed30bd5e1acca8ef834c214fb6c129e3e9c237b0151f3d04bc4d89f2",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "lib/R/library/plyr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "d23f5fa7c756bb0d7449ea13fd48d20702448356079a29f1338eb00601a87b59",
+        "sha256_in_prefix": "d23f5fa7c756bb0d7449ea13fd48d20702448356079a29f1338eb00601a87b59",
+        "size_in_bytes": 17845
+      },
+      {
+        "_path": "lib/R/library/plyr/R/plyr",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/plyr/R/plyr.rdb",
+        "path_type": "hardlink",
+        "sha256": "1580ca6bec3041c57817ec1c310f021bd0ebf665431ee87765d18a1f4b1dc62f",
+        "sha256_in_prefix": "1580ca6bec3041c57817ec1c310f021bd0ebf665431ee87765d18a1f4b1dc62f",
+        "size_in_bytes": 119425
+      },
+      {
+        "_path": "lib/R/library/plyr/R/plyr.rdx",
+        "path_type": "hardlink",
+        "sha256": "dd22f35d2bfba9e7a9695cf679af70d7ebfe0eb86d64571a3f4046a2c77d1a03",
+        "sha256_in_prefix": "dd22f35d2bfba9e7a9695cf679af70d7ebfe0eb86d64571a3f4046a2c77d1a03",
+        "size_in_bytes": 2017
+      },
+      {
+        "_path": "lib/R/library/plyr/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "37aabbe6aa93620441e2740183ca20cf5bf5370699b3394aed77dc738194b1a6",
+        "sha256_in_prefix": "37aabbe6aa93620441e2740183ca20cf5bf5370699b3394aed77dc738194b1a6",
+        "size_in_bytes": 472702
+      },
+      {
+        "_path": "lib/R/library/plyr/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "e0ccd60b7da4c87fa4b106957d60dc7065145bb48e27169356701471d9bef1d2",
+        "sha256_in_prefix": "e0ccd60b7da4c87fa4b106957d60dc7065145bb48e27169356701471d9bef1d2",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/R/library/plyr/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "e517f26f6ee0dd1f6123222e1fada160234fc5c018609bab65bcce233f0fed6d",
+        "sha256_in_prefix": "e517f26f6ee0dd1f6123222e1fada160234fc5c018609bab65bcce233f0fed6d",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/plyr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "7b51285885ce679a8f84615bfa5a63715b4b9080bec2beb5ba3677fc8134ec3d",
+        "sha256_in_prefix": "7b51285885ce679a8f84615bfa5a63715b4b9080bec2beb5ba3677fc8134ec3d",
+        "size_in_bytes": 1948
+      },
+      {
+        "_path": "lib/R/library/plyr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8a0e92f7eda7021d762f1dfa9788f75db4881a1c64d1a004459bd120b24fa7ab",
+        "sha256_in_prefix": "8a0e92f7eda7021d762f1dfa9788f75db4881a1c64d1a004459bd120b24fa7ab",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "lib/R/library/plyr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f36cf823e056d9982007c7eb3cd908a1b20cd429b8f885998fba5229f8ef123d",
+        "sha256_in_prefix": "f36cf823e056d9982007c7eb3cd908a1b20cd429b8f885998fba5229f8ef123d",
+        "size_in_bytes": 855
+      },
+      {
+        "_path": "lib/R/library/plyr/help/plyr.rdb",
+        "path_type": "hardlink",
+        "sha256": "c2965a74072bbd53893bb1fe29cd7f5c33b61e87382070d53985d7e947b6ad24",
+        "sha256_in_prefix": "c2965a74072bbd53893bb1fe29cd7f5c33b61e87382070d53985d7e947b6ad24",
+        "size_in_bytes": 189704
+      },
+      {
+        "_path": "lib/R/library/plyr/help/plyr.rdx",
+        "path_type": "hardlink",
+        "sha256": "ccd0ed0cefa4a4bb5b44118930df25a3ad9094dc4ca942773f69a65f8372f063",
+        "sha256_in_prefix": "ccd0ed0cefa4a4bb5b44118930df25a3ad9094dc4ca942773f69a65f8372f063",
+        "size_in_bytes": 2011
+      },
+      {
+        "_path": "lib/R/library/plyr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b163837922f2bd36d0a190ac8c62567217c567278e09a3fde097534a102d6ed8",
+        "sha256_in_prefix": "b163837922f2bd36d0a190ac8c62567217c567278e09a3fde097534a102d6ed8",
+        "size_in_bytes": 9165
+      },
+      {
+        "_path": "lib/R/library/plyr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/plyr/libs/plyr.so",
+        "path_type": "hardlink",
+        "sha256": "6db7b87d928f05b4717ed673631a5621e62fe2eaefb950e35be463652afac518",
+        "sha256_in_prefix": "6db7b87d928f05b4717ed673631a5621e62fe2eaefb950e35be463652afac518",
+        "size_in_bytes": 81352
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ab6d0f3ecd7d537e4e493f16fc9eb891743ee2386efab6d85d5c61a0988d1546",
+  "size": 851202,
+  "subdir": "linux-64",
+  "timestamp": 1621612545000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-plyr-1.8.6-r41h03ef668_1.tar.bz2",
+  "version": "1.8.6"
+}

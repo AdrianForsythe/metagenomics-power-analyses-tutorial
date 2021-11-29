@@ -1,0 +1,305 @@
+{
+  "build": "r41hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0",
+    "r-matrix >=1.2",
+    "bioconductor-rhdf5 >=2.38.0,<2.39.0",
+    "r-plyr >=1.8",
+    "r-jsonlite >=0.9.16"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/bioconductor-biomformat-1.22.0-r41hdfd78af_0",
+  "features": "",
+  "files": [
+    "lib/R/library/biomformat/DESCRIPTION",
+    "lib/R/library/biomformat/INDEX",
+    "lib/R/library/biomformat/Meta/Rd.rds",
+    "lib/R/library/biomformat/Meta/features.rds",
+    "lib/R/library/biomformat/Meta/hsearch.rds",
+    "lib/R/library/biomformat/Meta/links.rds",
+    "lib/R/library/biomformat/Meta/nsInfo.rds",
+    "lib/R/library/biomformat/Meta/package.rds",
+    "lib/R/library/biomformat/Meta/vignette.rds",
+    "lib/R/library/biomformat/NAMESPACE",
+    "lib/R/library/biomformat/NEWS",
+    "lib/R/library/biomformat/R/biomformat",
+    "lib/R/library/biomformat/R/biomformat.rdb",
+    "lib/R/library/biomformat/R/biomformat.rdx",
+    "lib/R/library/biomformat/doc/biomformat.R",
+    "lib/R/library/biomformat/doc/biomformat.Rmd",
+    "lib/R/library/biomformat/doc/biomformat.html",
+    "lib/R/library/biomformat/doc/index.html",
+    "lib/R/library/biomformat/extdata/min_dense_otu_table.biom",
+    "lib/R/library/biomformat/extdata/min_sparse_otu_table.biom",
+    "lib/R/library/biomformat/extdata/min_sparse_otu_table_hdf5.biom",
+    "lib/R/library/biomformat/extdata/rich_dense_char.biom",
+    "lib/R/library/biomformat/extdata/rich_dense_otu_table.biom",
+    "lib/R/library/biomformat/extdata/rich_sparse_char.biom",
+    "lib/R/library/biomformat/extdata/rich_sparse_otu_table.biom",
+    "lib/R/library/biomformat/extdata/rich_sparse_otu_table_hdf5.biom",
+    "lib/R/library/biomformat/help/AnIndex",
+    "lib/R/library/biomformat/help/aliases.rds",
+    "lib/R/library/biomformat/help/biomformat.rdb",
+    "lib/R/library/biomformat/help/biomformat.rdx",
+    "lib/R/library/biomformat/help/paths.rds",
+    "lib/R/library/biomformat/html/00Index.html",
+    "lib/R/library/biomformat/html/R.css"
+  ],
+  "fn": "bioconductor-biomformat-1.22.0-r41hdfd78af_0.tar.bz2",
+  "license": "GPL-2",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/bioconductor-biomformat-1.22.0-r41hdfd78af_0",
+    "type": 1
+  },
+  "md5": "f739cfc48509f251c92993495e21281c",
+  "name": "bioconductor-biomformat",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/bioconductor-biomformat-1.22.0-r41hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/biomformat/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b4c8a849e8895509bdb75085ce4ebbdbc75cb67f73bb692860076a94bb76212a",
+        "sha256_in_prefix": "b4c8a849e8895509bdb75085ce4ebbdbc75cb67f73bb692860076a94bb76212a",
+        "size_in_bytes": 1737
+      },
+      {
+        "_path": "lib/R/library/biomformat/INDEX",
+        "path_type": "hardlink",
+        "sha256": "833e0b2432db5fa1901cb737e3f3b8d4eebf22e6a8dd4a6dea7f76c86085fcbf",
+        "sha256_in_prefix": "833e0b2432db5fa1901cb737e3f3b8d4eebf22e6a8dd4a6dea7f76c86085fcbf",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "62158a27763a45fb924f00a72a8f742b4de6193261c702087ef5648c4a931e6e",
+        "sha256_in_prefix": "62158a27763a45fb924f00a72a8f742b4de6193261c702087ef5648c4a931e6e",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "39998405eafd7aba03778525c42211abab69d7bc6a263d3277969e3438ebd736",
+        "sha256_in_prefix": "39998405eafd7aba03778525c42211abab69d7bc6a263d3277969e3438ebd736",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "1ed8afa78e88aa387bd7a6a7bb41706bd11b8ac5e3830137a2d99bd948ac4a08",
+        "sha256_in_prefix": "1ed8afa78e88aa387bd7a6a7bb41706bd11b8ac5e3830137a2d99bd948ac4a08",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "2fd44f27816744af9947f4942d28753ea2b292079b3213bcb34b679151bcc1c8",
+        "sha256_in_prefix": "2fd44f27816744af9947f4942d28753ea2b292079b3213bcb34b679151bcc1c8",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "73f44ae76b5c7da52abbf6c07ab660ac2a6a90c98712fd35193a5a11c99ecf11",
+        "sha256_in_prefix": "73f44ae76b5c7da52abbf6c07ab660ac2a6a90c98712fd35193a5a11c99ecf11",
+        "size_in_bytes": 1418
+      },
+      {
+        "_path": "lib/R/library/biomformat/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "dd7fac7d8b82d7d756e828e418c63e3d121c9bc93e7b0c9c5d4b726737d5b923",
+        "sha256_in_prefix": "dd7fac7d8b82d7d756e828e418c63e3d121c9bc93e7b0c9c5d4b726737d5b923",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/R/library/biomformat/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "93bb9544c07a2a300aa21cc2c75328578287d768c8d772d1a2e1e15c8f702b06",
+        "sha256_in_prefix": "93bb9544c07a2a300aa21cc2c75328578287d768c8d772d1a2e1e15c8f702b06",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "lib/R/library/biomformat/NEWS",
+        "path_type": "hardlink",
+        "sha256": "512342e4ac0f0d68686da705e5f80ed8b1e7f0da10830540ce5654f576c7fbfe",
+        "sha256_in_prefix": "512342e4ac0f0d68686da705e5f80ed8b1e7f0da10830540ce5654f576c7fbfe",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "lib/R/library/biomformat/R/biomformat",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/biomformat/R/biomformat.rdb",
+        "path_type": "hardlink",
+        "sha256": "b09c1d45ed17cb11bc55519d59a48b9d957c5c95b46ea68ff6177eb6ecda7de6",
+        "sha256_in_prefix": "b09c1d45ed17cb11bc55519d59a48b9d957c5c95b46ea68ff6177eb6ecda7de6",
+        "size_in_bytes": 205774
+      },
+      {
+        "_path": "lib/R/library/biomformat/R/biomformat.rdx",
+        "path_type": "hardlink",
+        "sha256": "2e6664c3d9575cba2a8cfb3e08f1dc78240454f40d42710614fbee0ca23ca703",
+        "sha256_in_prefix": "2e6664c3d9575cba2a8cfb3e08f1dc78240454f40d42710614fbee0ca23ca703",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "lib/R/library/biomformat/doc/biomformat.R",
+        "path_type": "hardlink",
+        "sha256": "215033912ed1d7336e1471a7ed5e3d5dc46560097b71d234c5bbfe47cf846559",
+        "sha256_in_prefix": "215033912ed1d7336e1471a7ed5e3d5dc46560097b71d234c5bbfe47cf846559",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "lib/R/library/biomformat/doc/biomformat.Rmd",
+        "path_type": "hardlink",
+        "sha256": "86bb27cb4ab1ca691efb58cb803a0902f14a8b7e0c30ede588eb4f6d2beedc63",
+        "sha256_in_prefix": "86bb27cb4ab1ca691efb58cb803a0902f14a8b7e0c30ede588eb4f6d2beedc63",
+        "size_in_bytes": 7675
+      },
+      {
+        "_path": "lib/R/library/biomformat/doc/biomformat.html",
+        "path_type": "hardlink",
+        "sha256": "ede77a93bc29709782e3fdecb2795b7d97f3bb55e1af94dac128010d0534851a",
+        "sha256_in_prefix": "ede77a93bc29709782e3fdecb2795b7d97f3bb55e1af94dac128010d0534851a",
+        "size_in_bytes": 729720
+      },
+      {
+        "_path": "lib/R/library/biomformat/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "122b11545fb295085d2db992ed8bd2c2762466cdb0e49dfc3cbc8a76a0a6056f",
+        "sha256_in_prefix": "122b11545fb295085d2db992ed8bd2c2762466cdb0e49dfc3cbc8a76a0a6056f",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/min_dense_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "1f509deec271847b000c29e2a1a7f7b880371eb906e59c86e3f0cfd32be7205f",
+        "sha256_in_prefix": "1f509deec271847b000c29e2a1a7f7b880371eb906e59c86e3f0cfd32be7205f",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/min_sparse_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "bb2712f9a6485c6ba92077badc02bc6b8430f4891e737aa28df2d1fffccf879b",
+        "sha256_in_prefix": "bb2712f9a6485c6ba92077badc02bc6b8430f4891e737aa28df2d1fffccf879b",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/min_sparse_otu_table_hdf5.biom",
+        "path_type": "hardlink",
+        "sha256": "4babb94aefdc09ad07778cf5b02356d1a242966c521231aa0104e0a5914c2497",
+        "sha256_in_prefix": "4babb94aefdc09ad07778cf5b02356d1a242966c521231aa0104e0a5914c2497",
+        "size_in_bytes": 33800
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/rich_dense_char.biom",
+        "path_type": "hardlink",
+        "sha256": "338628238cb71c2006b28340f406165d3ed95feda1c8b0a99085f41e44d60d88",
+        "sha256_in_prefix": "338628238cb71c2006b28340f406165d3ed95feda1c8b0a99085f41e44d60d88",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/rich_dense_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "693d036eb98b0afafe248d43ab7fab567c82651d2e5f0e1f1690e8ecff171306",
+        "sha256_in_prefix": "693d036eb98b0afafe248d43ab7fab567c82651d2e5f0e1f1690e8ecff171306",
+        "size_in_bytes": 3278
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/rich_sparse_char.biom",
+        "path_type": "hardlink",
+        "sha256": "26d4f1049e2c9bf24ce20c25d7095cf32ece74bfe44a7010e871b598c6ae55c0",
+        "sha256_in_prefix": "26d4f1049e2c9bf24ce20c25d7095cf32ece74bfe44a7010e871b598c6ae55c0",
+        "size_in_bytes": 3517
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/rich_sparse_otu_table.biom",
+        "path_type": "hardlink",
+        "sha256": "d4a8d780ac2f3a93b1b3c344673330d42cc15cbdfbc60c03b53c6a1962067e31",
+        "sha256_in_prefix": "d4a8d780ac2f3a93b1b3c344673330d42cc15cbdfbc60c03b53c6a1962067e31",
+        "size_in_bytes": 3460
+      },
+      {
+        "_path": "lib/R/library/biomformat/extdata/rich_sparse_otu_table_hdf5.biom",
+        "path_type": "hardlink",
+        "sha256": "557678e984d1f712418d8e91738a5cc260cde339e6631e60b0430dfeb620a8e0",
+        "sha256_in_prefix": "557678e984d1f712418d8e91738a5cc260cde339e6631e60b0430dfeb620a8e0",
+        "size_in_bytes": 46952
+      },
+      {
+        "_path": "lib/R/library/biomformat/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d2ca95d3ca5423129a910dd4d4e52018840401660909449aa46339dbdea2ed41",
+        "sha256_in_prefix": "d2ca95d3ca5423129a910dd4d4e52018840401660909449aa46339dbdea2ed41",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/R/library/biomformat/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "b4d5dfe1c0b1a2afd5a3a6b4fc9bfe8ad79917f19f47c59bfd9adaee95e17862",
+        "sha256_in_prefix": "b4d5dfe1c0b1a2afd5a3a6b4fc9bfe8ad79917f19f47c59bfd9adaee95e17862",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/R/library/biomformat/help/biomformat.rdb",
+        "path_type": "hardlink",
+        "sha256": "a7b22f22b81503df58937d1d18c78593720e64f5384d8bcb0f2b93c9899f6d90",
+        "sha256_in_prefix": "a7b22f22b81503df58937d1d18c78593720e64f5384d8bcb0f2b93c9899f6d90",
+        "size_in_bytes": 42118
+      },
+      {
+        "_path": "lib/R/library/biomformat/help/biomformat.rdx",
+        "path_type": "hardlink",
+        "sha256": "c535ff6ebc147dd9edf3b633f5c44322ebc2088dc8bdab6f7594bcd29871ff0f",
+        "sha256_in_prefix": "c535ff6ebc147dd9edf3b633f5c44322ebc2088dc8bdab6f7594bcd29871ff0f",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "lib/R/library/biomformat/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6eec746eb98de94ea29d7631139b7f514aed279ff776ca834e0ae2191a6b3dd0",
+        "sha256_in_prefix": "6eec746eb98de94ea29d7631139b7f514aed279ff776ca834e0ae2191a6b3dd0",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "lib/R/library/biomformat/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "690665de970488dffb8f03c12e03dd1203c00abef8ed8c8e48ff03da5fe603e0",
+        "sha256_in_prefix": "690665de970488dffb8f03c12e03dd1203c00abef8ed8c8e48ff03da5fe603e0",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "lib/R/library/biomformat/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "53aabee5c6e870772de806259a5906b480d285e4296d5e6cde68848dd6a33060",
+  "size": 555019,
+  "subdir": "noarch",
+  "timestamp": 1635822311000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-biomformat-1.22.0-r41hdfd78af_0.tar.bz2",
+  "version": "1.22.0"
+}

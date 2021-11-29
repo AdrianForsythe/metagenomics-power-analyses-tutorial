@@ -1,0 +1,11 @@
+prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XFree86-DRI
+Description: XCB XFree86-DRI Extension
+Version: 1.14
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-xf86dri
+Cflags: -I${includedir}

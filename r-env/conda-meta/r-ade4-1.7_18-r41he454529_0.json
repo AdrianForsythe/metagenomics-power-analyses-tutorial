@@ -1,0 +1,1202 @@
+{
+  "build": "r41he454529_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-mass",
+    "r-sp",
+    "r-progress",
+    "r-pixmap",
+    "libgcc-ng >=9.4.0",
+    "libblas >=3.8.0,<4.0a0",
+    "liblapack >=3.8.0,<4.0a0",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-ade4-1.7_18-r41he454529_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ade4/CITATION",
+    "lib/R/library/ade4/DESCRIPTION",
+    "lib/R/library/ade4/INDEX",
+    "lib/R/library/ade4/Meta/Rd.rds",
+    "lib/R/library/ade4/Meta/data.rds",
+    "lib/R/library/ade4/Meta/features.rds",
+    "lib/R/library/ade4/Meta/hsearch.rds",
+    "lib/R/library/ade4/Meta/links.rds",
+    "lib/R/library/ade4/Meta/nsInfo.rds",
+    "lib/R/library/ade4/Meta/package.rds",
+    "lib/R/library/ade4/NAMESPACE",
+    "lib/R/library/ade4/R/ade4",
+    "lib/R/library/ade4/R/ade4.rdb",
+    "lib/R/library/ade4/R/ade4.rdx",
+    "lib/R/library/ade4/data/abouheif.eg.rda",
+    "lib/R/library/ade4/data/acacia.rda",
+    "lib/R/library/ade4/data/aminoacyl.rda",
+    "lib/R/library/ade4/data/apis108.rda",
+    "lib/R/library/ade4/data/aravo.rda",
+    "lib/R/library/ade4/data/ardeche.rda",
+    "lib/R/library/ade4/data/arrival.rda",
+    "lib/R/library/ade4/data/atlas.rda",
+    "lib/R/library/ade4/data/atya.rda",
+    "lib/R/library/ade4/data/avijons.rda",
+    "lib/R/library/ade4/data/avimedi.rda",
+    "lib/R/library/ade4/data/aviurba.rda",
+    "lib/R/library/ade4/data/bacteria.rda",
+    "lib/R/library/ade4/data/banque.rda",
+    "lib/R/library/ade4/data/baran95.rda",
+    "lib/R/library/ade4/data/bf88.rda",
+    "lib/R/library/ade4/data/bordeaux.rda",
+    "lib/R/library/ade4/data/bsetal97.rda",
+    "lib/R/library/ade4/data/buech.rda",
+    "lib/R/library/ade4/data/butterfly.rda",
+    "lib/R/library/ade4/data/capitales.rda",
+    "lib/R/library/ade4/data/carni19.rda",
+    "lib/R/library/ade4/data/carni70.rda",
+    "lib/R/library/ade4/data/carniherbi49.rda",
+    "lib/R/library/ade4/data/casitas.rda",
+    "lib/R/library/ade4/data/chatcat.rda",
+    "lib/R/library/ade4/data/chats.rda",
+    "lib/R/library/ade4/data/chazeb.rda",
+    "lib/R/library/ade4/data/chevaine.rda",
+    "lib/R/library/ade4/data/chickenk.rda",
+    "lib/R/library/ade4/data/clementines.rda",
+    "lib/R/library/ade4/data/cnc2003.rda",
+    "lib/R/library/ade4/data/coleo.rda",
+    "lib/R/library/ade4/data/corvus.rda",
+    "lib/R/library/ade4/data/datalist",
+    "lib/R/library/ade4/data/deug.rda",
+    "lib/R/library/ade4/data/doubs.rda",
+    "lib/R/library/ade4/data/dunedata.rda",
+    "lib/R/library/ade4/data/ecg.rda",
+    "lib/R/library/ade4/data/ecomor.rda",
+    "lib/R/library/ade4/data/elec88.rda",
+    "lib/R/library/ade4/data/escopage.rda",
+    "lib/R/library/ade4/data/euro123.rda",
+    "lib/R/library/ade4/data/fission.rda",
+    "lib/R/library/ade4/data/friday87.rda",
+    "lib/R/library/ade4/data/fruits.rda",
+    "lib/R/library/ade4/data/ggtortoises.rda",
+    "lib/R/library/ade4/data/granulo.rda",
+    "lib/R/library/ade4/data/hdpg.rda",
+    "lib/R/library/ade4/data/housetasks.rda",
+    "lib/R/library/ade4/data/humDNAm.rda",
+    "lib/R/library/ade4/data/ichtyo.rda",
+    "lib/R/library/ade4/data/irishdata.rda",
+    "lib/R/library/ade4/data/julliot.rda",
+    "lib/R/library/ade4/data/jv73.rda",
+    "lib/R/library/ade4/data/kcponds.rda",
+    "lib/R/library/ade4/data/lascaux.rda",
+    "lib/R/library/ade4/data/lizards.rda",
+    "lib/R/library/ade4/data/macaca.rda",
+    "lib/R/library/ade4/data/macon.rda",
+    "lib/R/library/ade4/data/macroloire.rda",
+    "lib/R/library/ade4/data/mafragh.rda",
+    "lib/R/library/ade4/data/maples.rda",
+    "lib/R/library/ade4/data/mariages.rda",
+    "lib/R/library/ade4/data/meau.rda",
+    "lib/R/library/ade4/data/meaudret.rda",
+    "lib/R/library/ade4/data/microsatt.rda",
+    "lib/R/library/ade4/data/mjrochet.rda",
+    "lib/R/library/ade4/data/mollusc.rda",
+    "lib/R/library/ade4/data/monde84.rda",
+    "lib/R/library/ade4/data/morphosport.rda",
+    "lib/R/library/ade4/data/newick.eg.rda",
+    "lib/R/library/ade4/data/njplot.rda",
+    "lib/R/library/ade4/data/olympic.rda",
+    "lib/R/library/ade4/data/oribatid.rda",
+    "lib/R/library/ade4/data/ours.rda",
+    "lib/R/library/ade4/data/palm.rda",
+    "lib/R/library/ade4/data/pap.rda",
+    "lib/R/library/ade4/data/pcw.rda",
+    "lib/R/library/ade4/data/perthi02.rda",
+    "lib/R/library/ade4/data/piosphere.rda",
+    "lib/R/library/ade4/data/presid2002.rda",
+    "lib/R/library/ade4/data/procella.rda",
+    "lib/R/library/ade4/data/rankrock.rda",
+    "lib/R/library/ade4/data/rhizobium.rda",
+    "lib/R/library/ade4/data/rhone.rda",
+    "lib/R/library/ade4/data/rpjdl.rda",
+    "lib/R/library/ade4/data/santacatalina.rda",
+    "lib/R/library/ade4/data/sarcelles.rda",
+    "lib/R/library/ade4/data/seconde.rda",
+    "lib/R/library/ade4/data/skulls.rda",
+    "lib/R/library/ade4/data/steppe.rda",
+    "lib/R/library/ade4/data/syndicats.rda",
+    "lib/R/library/ade4/data/t3012.rda",
+    "lib/R/library/ade4/data/tarentaise.rda",
+    "lib/R/library/ade4/data/taxo.eg.rda",
+    "lib/R/library/ade4/data/tintoodiel.rda",
+    "lib/R/library/ade4/data/tithonia.rda",
+    "lib/R/library/ade4/data/tortues.rda",
+    "lib/R/library/ade4/data/toxicity.rda",
+    "lib/R/library/ade4/data/trichometeo.rda",
+    "lib/R/library/ade4/data/ungulates.rda",
+    "lib/R/library/ade4/data/vegtf.rda",
+    "lib/R/library/ade4/data/veuvage.rda",
+    "lib/R/library/ade4/data/westafrica.rda",
+    "lib/R/library/ade4/data/woangers.rda",
+    "lib/R/library/ade4/data/worksurv.rda",
+    "lib/R/library/ade4/data/yanomama.rda",
+    "lib/R/library/ade4/data/zealand.rda",
+    "lib/R/library/ade4/help/AnIndex",
+    "lib/R/library/ade4/help/ade4.rdb",
+    "lib/R/library/ade4/help/ade4.rdx",
+    "lib/R/library/ade4/help/aliases.rds",
+    "lib/R/library/ade4/help/paths.rds",
+    "lib/R/library/ade4/html/00Index.html",
+    "lib/R/library/ade4/html/R.css",
+    "lib/R/library/ade4/libs/ade4.so",
+    "lib/R/library/ade4/pictures/atyacarto.pnm",
+    "lib/R/library/ade4/pictures/atyadigi.pnm",
+    "lib/R/library/ade4/pictures/avijonseau.pnm",
+    "lib/R/library/ade4/pictures/avijonsrou.pnm",
+    "lib/R/library/ade4/pictures/avijonsveg.pnm",
+    "lib/R/library/ade4/pictures/avijonsvil.pnm",
+    "lib/R/library/ade4/pictures/butterfly.pnm",
+    "lib/R/library/ade4/pictures/capitales.pnm",
+    "lib/R/library/ade4/pictures/fatala.pnm",
+    "lib/R/library/ade4/pictures/france_sm00.pnm",
+    "lib/R/library/ade4/pictures/ireland.pnm",
+    "lib/R/library/ade4/pictures/paris.pnm",
+    "lib/R/library/ade4/pictures/sarcelles.pnm",
+    "lib/R/library/ade4/pictures/tintoodiel.pnm"
+  ],
+  "fn": "r-ade4-1.7_18-r41he454529_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-ade4-1.7_18-r41he454529_0",
+    "type": 1
+  },
+  "md5": "93aa71e8ec857b34559bf15dc1e7509d",
+  "name": "r-ade4",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-ade4-1.7_18-r41he454529_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ade4/CITATION",
+        "path_type": "hardlink",
+        "sha256": "c0118e308100b6783e2c21e506ae7091f854d321da90c5a06c794a35128566c1",
+        "sha256_in_prefix": "c0118e308100b6783e2c21e506ae7091f854d321da90c5a06c794a35128566c1",
+        "size_in_bytes": 2737
+      },
+      {
+        "_path": "lib/R/library/ade4/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "bb9a0af595ffb5ea682be1477b5da62b856ba5c1f415a0a7852e7320d7899232",
+        "sha256_in_prefix": "bb9a0af595ffb5ea682be1477b5da62b856ba5c1f415a0a7852e7320d7899232",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "lib/R/library/ade4/INDEX",
+        "path_type": "hardlink",
+        "sha256": "f0ab62ddd3c0e936a2261d7375d6a2967457d0afbe9ac218296208f921607312",
+        "sha256_in_prefix": "f0ab62ddd3c0e936a2261d7375d6a2967457d0afbe9ac218296208f921607312",
+        "size_in_bytes": 21712
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "15c11938cd5e155585df6c5dc50bd4700f3312ec763718d7f331e20092aaa45a",
+        "sha256_in_prefix": "15c11938cd5e155585df6c5dc50bd4700f3312ec763718d7f331e20092aaa45a",
+        "size_in_bytes": 11113
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "ece83030ec4cf2d6d2a0e58a06abb35648f367d85f94f24e2ab05bc55a170d7a",
+        "sha256_in_prefix": "ece83030ec4cf2d6d2a0e58a06abb35648f367d85f94f24e2ab05bc55a170d7a",
+        "size_in_bytes": 2601
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ea7a19f46856b89e0aa069a6b10ef34a939051e2c6251d53420d37f4e0ea7923",
+        "sha256_in_prefix": "ea7a19f46856b89e0aa069a6b10ef34a939051e2c6251d53420d37f4e0ea7923",
+        "size_in_bytes": 10759
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "687c849fa5d1e5a2c05477d9ec7d4c65b01271770b79334ce0c0c6cd420e6d75",
+        "sha256_in_prefix": "687c849fa5d1e5a2c05477d9ec7d4c65b01271770b79334ce0c0c6cd420e6d75",
+        "size_in_bytes": 4860
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "9b969826631dc6db27b396a3ea62896b953d0f15cc125c0c9f20a303c1fbd587",
+        "sha256_in_prefix": "9b969826631dc6db27b396a3ea62896b953d0f15cc125c0c9f20a303c1fbd587",
+        "size_in_bytes": 2545
+      },
+      {
+        "_path": "lib/R/library/ade4/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d3c9f071c43815d31f9c2f7efeeb46c356124d2aa426c2e55ee369a6db45bb8b",
+        "sha256_in_prefix": "d3c9f071c43815d31f9c2f7efeeb46c356124d2aa426c2e55ee369a6db45bb8b",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "lib/R/library/ade4/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7093e0270f10d82624af165e7659224b94dc109d6b385dc52dbe2902e25617a1",
+        "sha256_in_prefix": "7093e0270f10d82624af165e7659224b94dc109d6b385dc52dbe2902e25617a1",
+        "size_in_bytes": 11483
+      },
+      {
+        "_path": "lib/R/library/ade4/R/ade4",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/ade4/R/ade4.rdb",
+        "path_type": "hardlink",
+        "sha256": "6f2ec0d5d22719355fecacfa473b2cde8372c41b0e68ef3cfa72bccc8144714f",
+        "sha256_in_prefix": "6f2ec0d5d22719355fecacfa473b2cde8372c41b0e68ef3cfa72bccc8144714f",
+        "size_in_bytes": 1451873
+      },
+      {
+        "_path": "lib/R/library/ade4/R/ade4.rdx",
+        "path_type": "hardlink",
+        "sha256": "13362e968c78b5a2093dee792b3a8e1c8f76a7db9d92e690696548cb2c39f00f",
+        "sha256_in_prefix": "13362e968c78b5a2093dee792b3a8e1c8f76a7db9d92e690696548cb2c39f00f",
+        "size_in_bytes": 5468
+      },
+      {
+        "_path": "lib/R/library/ade4/data/abouheif.eg.rda",
+        "path_type": "hardlink",
+        "sha256": "1c6de8f49af71ead303a207a6621102a245cfe183ef2086f194a1a78908ed631",
+        "sha256_in_prefix": "1c6de8f49af71ead303a207a6621102a245cfe183ef2086f194a1a78908ed631",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "lib/R/library/ade4/data/acacia.rda",
+        "path_type": "hardlink",
+        "sha256": "b03c71707f5c901e542eaaab6da793d5e8d1cee04fdeebe89f68245c6144d471",
+        "sha256_in_prefix": "b03c71707f5c901e542eaaab6da793d5e8d1cee04fdeebe89f68245c6144d471",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "lib/R/library/ade4/data/aminoacyl.rda",
+        "path_type": "hardlink",
+        "sha256": "a31d60b4092ab2c4e68e5e40663d28b3dd48f6c9bc73e71843b0cee3e6faf1d8",
+        "sha256_in_prefix": "a31d60b4092ab2c4e68e5e40663d28b3dd48f6c9bc73e71843b0cee3e6faf1d8",
+        "size_in_bytes": 3359
+      },
+      {
+        "_path": "lib/R/library/ade4/data/apis108.rda",
+        "path_type": "hardlink",
+        "sha256": "e359d51afa0d7d8e562b23939eef9e9965154656b29ee28fb4daf86f6a8c299f",
+        "sha256_in_prefix": "e359d51afa0d7d8e562b23939eef9e9965154656b29ee28fb4daf86f6a8c299f",
+        "size_in_bytes": 2004
+      },
+      {
+        "_path": "lib/R/library/ade4/data/aravo.rda",
+        "path_type": "hardlink",
+        "sha256": "9395ab7d8b80e769fc69e499f7beb21ad0a7f179c3b7ff8084e15057c7a84f52",
+        "sha256_in_prefix": "9395ab7d8b80e769fc69e499f7beb21ad0a7f179c3b7ff8084e15057c7a84f52",
+        "size_in_bytes": 6151
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ardeche.rda",
+        "path_type": "hardlink",
+        "sha256": "302ce3d0e70370167666869982ccf3a683e1724b30def0542ab640060edf520f",
+        "sha256_in_prefix": "302ce3d0e70370167666869982ccf3a683e1724b30def0542ab640060edf520f",
+        "size_in_bytes": 1594
+      },
+      {
+        "_path": "lib/R/library/ade4/data/arrival.rda",
+        "path_type": "hardlink",
+        "sha256": "829ffdd8372be3b1c3d4a1f30ba22774a8dfe0040989b0523e7dbba7e265d388",
+        "sha256_in_prefix": "829ffdd8372be3b1c3d4a1f30ba22774a8dfe0040989b0523e7dbba7e265d388",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/R/library/ade4/data/atlas.rda",
+        "path_type": "hardlink",
+        "sha256": "9a71120eb2f39d2f61ff1cc7d0fa33643d52c4acb31477c58a7baf294b39495d",
+        "sha256_in_prefix": "9a71120eb2f39d2f61ff1cc7d0fa33643d52c4acb31477c58a7baf294b39495d",
+        "size_in_bytes": 6145
+      },
+      {
+        "_path": "lib/R/library/ade4/data/atya.rda",
+        "path_type": "hardlink",
+        "sha256": "039cd59021e2dddbbe20c6da0514ea795dd8f3a8ebd221579db7f8f7f8b554ac",
+        "sha256_in_prefix": "039cd59021e2dddbbe20c6da0514ea795dd8f3a8ebd221579db7f8f7f8b554ac",
+        "size_in_bytes": 1928
+      },
+      {
+        "_path": "lib/R/library/ade4/data/avijons.rda",
+        "path_type": "hardlink",
+        "sha256": "3486443dbf377d54573f562f4813bc36ce23d34ec554ad5f713ac49b80285225",
+        "sha256_in_prefix": "3486443dbf377d54573f562f4813bc36ce23d34ec554ad5f713ac49b80285225",
+        "size_in_bytes": 15850
+      },
+      {
+        "_path": "lib/R/library/ade4/data/avimedi.rda",
+        "path_type": "hardlink",
+        "sha256": "43b0e102be7c6fab94decc37638d99f900499a6c0c568d832a7ebcd67b7408b4",
+        "sha256_in_prefix": "43b0e102be7c6fab94decc37638d99f900499a6c0c568d832a7ebcd67b7408b4",
+        "size_in_bytes": 3871
+      },
+      {
+        "_path": "lib/R/library/ade4/data/aviurba.rda",
+        "path_type": "hardlink",
+        "sha256": "18518d56957924454938268bfa4983a3c5b73be97d8c3318c5ecd87a2ed9da9f",
+        "sha256_in_prefix": "18518d56957924454938268bfa4983a3c5b73be97d8c3318c5ecd87a2ed9da9f",
+        "size_in_bytes": 2679
+      },
+      {
+        "_path": "lib/R/library/ade4/data/bacteria.rda",
+        "path_type": "hardlink",
+        "sha256": "27d12a408d80ce74228c1f70d35691a52c3360116b4d8d5bff05dbd01c89af2d",
+        "sha256_in_prefix": "27d12a408d80ce74228c1f70d35691a52c3360116b4d8d5bff05dbd01c89af2d",
+        "size_in_bytes": 9468
+      },
+      {
+        "_path": "lib/R/library/ade4/data/banque.rda",
+        "path_type": "hardlink",
+        "sha256": "3f59cff91821d7ecc0bbc64fd3785d311675493bef7f453486d30f351dd385fa",
+        "sha256_in_prefix": "3f59cff91821d7ecc0bbc64fd3785d311675493bef7f453486d30f351dd385fa",
+        "size_in_bytes": 7765
+      },
+      {
+        "_path": "lib/R/library/ade4/data/baran95.rda",
+        "path_type": "hardlink",
+        "sha256": "6e4c1755e182b8a17601a58d79c886ec0ff1eaaf5baba1e527438e26312a72f9",
+        "sha256_in_prefix": "6e4c1755e182b8a17601a58d79c886ec0ff1eaaf5baba1e527438e26312a72f9",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "lib/R/library/ade4/data/bf88.rda",
+        "path_type": "hardlink",
+        "sha256": "0f489e99c23ed8d3670e87cb6bff125bc38e88d49d55a71c58e514fb643367dc",
+        "sha256_in_prefix": "0f489e99c23ed8d3670e87cb6bff125bc38e88d49d55a71c58e514fb643367dc",
+        "size_in_bytes": 4271
+      },
+      {
+        "_path": "lib/R/library/ade4/data/bordeaux.rda",
+        "path_type": "hardlink",
+        "sha256": "7e565d1bbcbfb56fac1d94d679fc7c7c95a848a69fec13d84cd4cfa92bd58a2c",
+        "sha256_in_prefix": "7e565d1bbcbfb56fac1d94d679fc7c7c95a848a69fec13d84cd4cfa92bd58a2c",
+        "size_in_bytes": 280
+      },
+      {
+        "_path": "lib/R/library/ade4/data/bsetal97.rda",
+        "path_type": "hardlink",
+        "sha256": "7c1c937a4dd0ff74d7925d420c9c1763c15c5d87b47491455b72272f01fbe45d",
+        "sha256_in_prefix": "7c1c937a4dd0ff74d7925d420c9c1763c15c5d87b47491455b72272f01fbe45d",
+        "size_in_bytes": 6955
+      },
+      {
+        "_path": "lib/R/library/ade4/data/buech.rda",
+        "path_type": "hardlink",
+        "sha256": "d78be1be1c32f753d12cd720bec041a92bb7271df38218789df42a8454cc0423",
+        "sha256_in_prefix": "d78be1be1c32f753d12cd720bec041a92bb7271df38218789df42a8454cc0423",
+        "size_in_bytes": 3303
+      },
+      {
+        "_path": "lib/R/library/ade4/data/butterfly.rda",
+        "path_type": "hardlink",
+        "sha256": "7347f181d04e29ddd402a7b618b314ddf421899c52df506a316bf535bfca64f6",
+        "sha256_in_prefix": "7347f181d04e29ddd402a7b618b314ddf421899c52df506a316bf535bfca64f6",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "lib/R/library/ade4/data/capitales.rda",
+        "path_type": "hardlink",
+        "sha256": "184953be6fcfa5151bc424e3fc1147752f802b53540a5dc5fed96a23d917c43c",
+        "sha256_in_prefix": "184953be6fcfa5151bc424e3fc1147752f802b53540a5dc5fed96a23d917c43c",
+        "size_in_bytes": 608370
+      },
+      {
+        "_path": "lib/R/library/ade4/data/carni19.rda",
+        "path_type": "hardlink",
+        "sha256": "c55eeccb41833d028267cf1d310b9bfbd518c06b08bf027a13a4c82d2f8d4883",
+        "sha256_in_prefix": "c55eeccb41833d028267cf1d310b9bfbd518c06b08bf027a13a4c82d2f8d4883",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/R/library/ade4/data/carni70.rda",
+        "path_type": "hardlink",
+        "sha256": "18cc7b90195efc88b58c416d33b2eb965b12688ed416911da87d22c6ce52332b",
+        "sha256_in_prefix": "18cc7b90195efc88b58c416d33b2eb965b12688ed416911da87d22c6ce52332b",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "lib/R/library/ade4/data/carniherbi49.rda",
+        "path_type": "hardlink",
+        "sha256": "b4d963b9cc4d3ace804281e063824ebc1d87f899b37c9c4d99c62bb5ca7392b3",
+        "sha256_in_prefix": "b4d963b9cc4d3ace804281e063824ebc1d87f899b37c9c4d99c62bb5ca7392b3",
+        "size_in_bytes": 2934
+      },
+      {
+        "_path": "lib/R/library/ade4/data/casitas.rda",
+        "path_type": "hardlink",
+        "sha256": "58fed5c3016422921747c723178a5b0688ebd1757a0c889fd998c942bc50ec82",
+        "sha256_in_prefix": "58fed5c3016422921747c723178a5b0688ebd1757a0c889fd998c942bc50ec82",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "lib/R/library/ade4/data/chatcat.rda",
+        "path_type": "hardlink",
+        "sha256": "af15f5fa7dd84f0bccd51259760b63c5c105dac619e390b82dc52accbf5e6b04",
+        "sha256_in_prefix": "af15f5fa7dd84f0bccd51259760b63c5c105dac619e390b82dc52accbf5e6b04",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/ade4/data/chats.rda",
+        "path_type": "hardlink",
+        "sha256": "8e19c6f132ed4ed513a9752d430b9af3723183cdffb781c0b80e6f79c3730f92",
+        "sha256_in_prefix": "8e19c6f132ed4ed513a9752d430b9af3723183cdffb781c0b80e6f79c3730f92",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/R/library/ade4/data/chazeb.rda",
+        "path_type": "hardlink",
+        "sha256": "03310974c2376b4e7efbfe2d2520c52b6cb97012b287f87d88c52b5efa6716e5",
+        "sha256_in_prefix": "03310974c2376b4e7efbfe2d2520c52b6cb97012b287f87d88c52b5efa6716e5",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "lib/R/library/ade4/data/chevaine.rda",
+        "path_type": "hardlink",
+        "sha256": "edb5dcedec55a86f3b3a12fa2a9062c48e78f915b3b2e32a840836ee5c47cc8c",
+        "sha256_in_prefix": "edb5dcedec55a86f3b3a12fa2a9062c48e78f915b3b2e32a840836ee5c47cc8c",
+        "size_in_bytes": 3618
+      },
+      {
+        "_path": "lib/R/library/ade4/data/chickenk.rda",
+        "path_type": "hardlink",
+        "sha256": "1530d3b326898e603a1eb353b9687a878b97efea45d70f56689851f0fb78fe86",
+        "sha256_in_prefix": "1530d3b326898e603a1eb353b9687a878b97efea45d70f56689851f0fb78fe86",
+        "size_in_bytes": 18607
+      },
+      {
+        "_path": "lib/R/library/ade4/data/clementines.rda",
+        "path_type": "hardlink",
+        "sha256": "83d9c172fc787444fd45017e384b48991517e0816610aa917c2e6d8616a16368",
+        "sha256_in_prefix": "83d9c172fc787444fd45017e384b48991517e0816610aa917c2e6d8616a16368",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "lib/R/library/ade4/data/cnc2003.rda",
+        "path_type": "hardlink",
+        "sha256": "2a3b543428b1f01e7c916cb4201a2bec878494c98b15744ede4df9b6d03f08d3",
+        "sha256_in_prefix": "2a3b543428b1f01e7c916cb4201a2bec878494c98b15744ede4df9b6d03f08d3",
+        "size_in_bytes": 3791
+      },
+      {
+        "_path": "lib/R/library/ade4/data/coleo.rda",
+        "path_type": "hardlink",
+        "sha256": "3a3c9efb86643d212f3a56e11be53334f2f297c2efb520dbd5213890ac62626d",
+        "sha256_in_prefix": "3a3c9efb86643d212f3a56e11be53334f2f297c2efb520dbd5213890ac62626d",
+        "size_in_bytes": 3769
+      },
+      {
+        "_path": "lib/R/library/ade4/data/corvus.rda",
+        "path_type": "hardlink",
+        "sha256": "2e95e31d26418837b344d046d2815a4624a0bc26eef733ea30277693b7e58209",
+        "sha256_in_prefix": "2e95e31d26418837b344d046d2815a4624a0bc26eef733ea30277693b7e58209",
+        "size_in_bytes": 585
+      },
+      {
+        "_path": "lib/R/library/ade4/data/datalist",
+        "path_type": "hardlink",
+        "sha256": "202911a03c8a9e36341818d55a954a4d326616e122e6fc9693f15c3d2eeba81f",
+        "sha256_in_prefix": "202911a03c8a9e36341818d55a954a4d326616e122e6fc9693f15c3d2eeba81f",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "lib/R/library/ade4/data/deug.rda",
+        "path_type": "hardlink",
+        "sha256": "087b8bca17f47325204eff26ba38003175604a7fcaba3d4f4183d9a3743ed4c6",
+        "sha256_in_prefix": "087b8bca17f47325204eff26ba38003175604a7fcaba3d4f4183d9a3743ed4c6",
+        "size_in_bytes": 2113
+      },
+      {
+        "_path": "lib/R/library/ade4/data/doubs.rda",
+        "path_type": "hardlink",
+        "sha256": "dc0216a26f57ce698b741fee8dc0cb0c1f0b1539bd1cc090ff4d7f8bd0c247ee",
+        "sha256_in_prefix": "dc0216a26f57ce698b741fee8dc0cb0c1f0b1539bd1cc090ff4d7f8bd0c247ee",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "lib/R/library/ade4/data/dunedata.rda",
+        "path_type": "hardlink",
+        "sha256": "c4dba866bb74cb26fcdb3fb4bfad86dda16939e5e95b98b94a312cbf29b8f375",
+        "sha256_in_prefix": "c4dba866bb74cb26fcdb3fb4bfad86dda16939e5e95b98b94a312cbf29b8f375",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ecg.rda",
+        "path_type": "hardlink",
+        "sha256": "87346f288a4e604d76053e94dc84cf3f00eb2917815f3a3d5f489eeebd12f4a5",
+        "sha256_in_prefix": "87346f288a4e604d76053e94dc84cf3f00eb2917815f3a3d5f489eeebd12f4a5",
+        "size_in_bytes": 3644
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ecomor.rda",
+        "path_type": "hardlink",
+        "sha256": "436a1764190cd9143b135c45213fce94d08aae240b9e5a06aefea4d2f843f66a",
+        "sha256_in_prefix": "436a1764190cd9143b135c45213fce94d08aae240b9e5a06aefea4d2f843f66a",
+        "size_in_bytes": 7470
+      },
+      {
+        "_path": "lib/R/library/ade4/data/elec88.rda",
+        "path_type": "hardlink",
+        "sha256": "971fb8ba1f5e4c165a80921ff30bf703451ff243c8fb565a1b93a559b64db5d0",
+        "sha256_in_prefix": "971fb8ba1f5e4c165a80921ff30bf703451ff243c8fb565a1b93a559b64db5d0",
+        "size_in_bytes": 368813
+      },
+      {
+        "_path": "lib/R/library/ade4/data/escopage.rda",
+        "path_type": "hardlink",
+        "sha256": "b36aab46865da4dae8f00169deefaa92a6a03b985c3a4385bc19ce0a042c36fb",
+        "sha256_in_prefix": "b36aab46865da4dae8f00169deefaa92a6a03b985c3a4385bc19ce0a042c36fb",
+        "size_in_bytes": 1971
+      },
+      {
+        "_path": "lib/R/library/ade4/data/euro123.rda",
+        "path_type": "hardlink",
+        "sha256": "d34062a85389db925d686eacc9043aede8a4761b328616584c94968b5174ca75",
+        "sha256_in_prefix": "d34062a85389db925d686eacc9043aede8a4761b328616584c94968b5174ca75",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/R/library/ade4/data/fission.rda",
+        "path_type": "hardlink",
+        "sha256": "1413a93c7c6ff71f10abcd6db947c4ca289e8f0159e0f8b1c68848cc486455d4",
+        "sha256_in_prefix": "1413a93c7c6ff71f10abcd6db947c4ca289e8f0159e0f8b1c68848cc486455d4",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/R/library/ade4/data/friday87.rda",
+        "path_type": "hardlink",
+        "sha256": "23072da1a5e6a2bfd07d664a63d24a7f892adf8899545a6e2bf8fced507aa102",
+        "sha256_in_prefix": "23072da1a5e6a2bfd07d664a63d24a7f892adf8899545a6e2bf8fced507aa102",
+        "size_in_bytes": 1917
+      },
+      {
+        "_path": "lib/R/library/ade4/data/fruits.rda",
+        "path_type": "hardlink",
+        "sha256": "62fbd1325e90370e5ca2a577c78e61ee6743f31c8a88c329ee1ea611c9949066",
+        "sha256_in_prefix": "62fbd1325e90370e5ca2a577c78e61ee6743f31c8a88c329ee1ea611c9949066",
+        "size_in_bytes": 1586
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ggtortoises.rda",
+        "path_type": "hardlink",
+        "sha256": "b8cbfa91ca4380b611130ab6cb9f953eb3057a270f3d36b2458440573e347b2a",
+        "sha256_in_prefix": "b8cbfa91ca4380b611130ab6cb9f953eb3057a270f3d36b2458440573e347b2a",
+        "size_in_bytes": 13845
+      },
+      {
+        "_path": "lib/R/library/ade4/data/granulo.rda",
+        "path_type": "hardlink",
+        "sha256": "1e9e2df2c47beb0ea0ff06512974b62b80905d13d17da90d92809324f574d1e0",
+        "sha256_in_prefix": "1e9e2df2c47beb0ea0ff06512974b62b80905d13d17da90d92809324f574d1e0",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "lib/R/library/ade4/data/hdpg.rda",
+        "path_type": "hardlink",
+        "sha256": "6bfd99d8e7f8e472d3713459e1458f47c40115297dba408c668c709de1cbb2b7",
+        "sha256_in_prefix": "6bfd99d8e7f8e472d3713459e1458f47c40115297dba408c668c709de1cbb2b7",
+        "size_in_bytes": 353916
+      },
+      {
+        "_path": "lib/R/library/ade4/data/housetasks.rda",
+        "path_type": "hardlink",
+        "sha256": "0f67dd4b98612724888463bf4e86aca7a1ce7fa24eed865515f530403ff5a32f",
+        "sha256_in_prefix": "0f67dd4b98612724888463bf4e86aca7a1ce7fa24eed865515f530403ff5a32f",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/R/library/ade4/data/humDNAm.rda",
+        "path_type": "hardlink",
+        "sha256": "2fdc55ee1b70cea4f52bac31630e6a910492fd32a55d2888453911b0bace7e68",
+        "sha256_in_prefix": "2fdc55ee1b70cea4f52bac31630e6a910492fd32a55d2888453911b0bace7e68",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ichtyo.rda",
+        "path_type": "hardlink",
+        "sha256": "4943bed6eb1da58567b31905b96ff6ece0c80a6d3003c11693e2b0b3b827ff91",
+        "sha256_in_prefix": "4943bed6eb1da58567b31905b96ff6ece0c80a6d3003c11693e2b0b3b827ff91",
+        "size_in_bytes": 955
+      },
+      {
+        "_path": "lib/R/library/ade4/data/irishdata.rda",
+        "path_type": "hardlink",
+        "sha256": "7a548c7eb4456d0fb4e34ee08ba471cd03acc589425087916203a6e24fe60547",
+        "sha256_in_prefix": "7a548c7eb4456d0fb4e34ee08ba471cd03acc589425087916203a6e24fe60547",
+        "size_in_bytes": 20874
+      },
+      {
+        "_path": "lib/R/library/ade4/data/julliot.rda",
+        "path_type": "hardlink",
+        "sha256": "1e4d8efdb7b15414e9358afe3a925df616810ffb836dedd38b23f5e1b4734c09",
+        "sha256_in_prefix": "1e4d8efdb7b15414e9358afe3a925df616810ffb836dedd38b23f5e1b4734c09",
+        "size_in_bytes": 9042
+      },
+      {
+        "_path": "lib/R/library/ade4/data/jv73.rda",
+        "path_type": "hardlink",
+        "sha256": "7f0d6b327ab318e2075380323278b8bcbdc0875916f1b8225ec6febe45eb1c24",
+        "sha256_in_prefix": "7f0d6b327ab318e2075380323278b8bcbdc0875916f1b8225ec6febe45eb1c24",
+        "size_in_bytes": 5609
+      },
+      {
+        "_path": "lib/R/library/ade4/data/kcponds.rda",
+        "path_type": "hardlink",
+        "sha256": "151d01ed7cbcd219c0a62edadca6f7ca5ae8ba6be072f8418492d1767a341e5f",
+        "sha256_in_prefix": "151d01ed7cbcd219c0a62edadca6f7ca5ae8ba6be072f8418492d1767a341e5f",
+        "size_in_bytes": 7379
+      },
+      {
+        "_path": "lib/R/library/ade4/data/lascaux.rda",
+        "path_type": "hardlink",
+        "sha256": "d5f815bd609d6b974a64f0a2ac3b5290da96dceedd5f353affe06f25257579dc",
+        "sha256_in_prefix": "d5f815bd609d6b974a64f0a2ac3b5290da96dceedd5f353affe06f25257579dc",
+        "size_in_bytes": 27748
+      },
+      {
+        "_path": "lib/R/library/ade4/data/lizards.rda",
+        "path_type": "hardlink",
+        "sha256": "96681887b413523fcd2f15981c3246654d4ce5afcb31547b077465a7dec79a69",
+        "sha256_in_prefix": "96681887b413523fcd2f15981c3246654d4ce5afcb31547b077465a7dec79a69",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/R/library/ade4/data/macaca.rda",
+        "path_type": "hardlink",
+        "sha256": "bbc1f718a4cc4c24f45ba7cecba06c4574529c7501c481253f4b19cdfba8905f",
+        "sha256_in_prefix": "bbc1f718a4cc4c24f45ba7cecba06c4574529c7501c481253f4b19cdfba8905f",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "lib/R/library/ade4/data/macon.rda",
+        "path_type": "hardlink",
+        "sha256": "d8d1b5c3cace280b787c807ddcd6b9b568f5e2b85e04d347aecae302f19b23a3",
+        "sha256_in_prefix": "d8d1b5c3cace280b787c807ddcd6b9b568f5e2b85e04d347aecae302f19b23a3",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/R/library/ade4/data/macroloire.rda",
+        "path_type": "hardlink",
+        "sha256": "afe5ea8e4b4dd4df02526ac9270805c8b8a81d83d9b99da255096d1ad3bd5527",
+        "sha256_in_prefix": "afe5ea8e4b4dd4df02526ac9270805c8b8a81d83d9b99da255096d1ad3bd5527",
+        "size_in_bytes": 3126
+      },
+      {
+        "_path": "lib/R/library/ade4/data/mafragh.rda",
+        "path_type": "hardlink",
+        "sha256": "059c92efb6cb5733eae0354c5c0bd9eabbfabded2507537bc6407fd3631a4ab2",
+        "sha256_in_prefix": "059c92efb6cb5733eae0354c5c0bd9eabbfabded2507537bc6407fd3631a4ab2",
+        "size_in_bytes": 23386
+      },
+      {
+        "_path": "lib/R/library/ade4/data/maples.rda",
+        "path_type": "hardlink",
+        "sha256": "a90e8484b428df4e6196454edf317b1d7e03221a4a734cd11c8e065d0953057b",
+        "sha256_in_prefix": "a90e8484b428df4e6196454edf317b1d7e03221a4a734cd11c8e065d0953057b",
+        "size_in_bytes": 2030
+      },
+      {
+        "_path": "lib/R/library/ade4/data/mariages.rda",
+        "path_type": "hardlink",
+        "sha256": "76d67770705b1cf9a48fba770fe5e451c371aed17d172e4c4719a69a7a907378",
+        "sha256_in_prefix": "76d67770705b1cf9a48fba770fe5e451c371aed17d172e4c4719a69a7a907378",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "lib/R/library/ade4/data/meau.rda",
+        "path_type": "hardlink",
+        "sha256": "48db3e2d6c47b20f76804baaff83823950e670f7ff94f064deba2a5f12b50013",
+        "sha256_in_prefix": "48db3e2d6c47b20f76804baaff83823950e670f7ff94f064deba2a5f12b50013",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "lib/R/library/ade4/data/meaudret.rda",
+        "path_type": "hardlink",
+        "sha256": "e3a9165c8d85890cbd75c5e1f591187c832c32c776ec84773ce858dcc57920b4",
+        "sha256_in_prefix": "e3a9165c8d85890cbd75c5e1f591187c832c32c776ec84773ce858dcc57920b4",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "lib/R/library/ade4/data/microsatt.rda",
+        "path_type": "hardlink",
+        "sha256": "35edba857fed44ffe27024ebc6a7fe6b2edd139d522789afeffb56caf9f3db75",
+        "sha256_in_prefix": "35edba857fed44ffe27024ebc6a7fe6b2edd139d522789afeffb56caf9f3db75",
+        "size_in_bytes": 2607
+      },
+      {
+        "_path": "lib/R/library/ade4/data/mjrochet.rda",
+        "path_type": "hardlink",
+        "sha256": "454d7b945bad8915a975f3fe92c3ec7352b8ee026b53f8f35ee8fc3f960662e4",
+        "sha256_in_prefix": "454d7b945bad8915a975f3fe92c3ec7352b8ee026b53f8f35ee8fc3f960662e4",
+        "size_in_bytes": 2384
+      },
+      {
+        "_path": "lib/R/library/ade4/data/mollusc.rda",
+        "path_type": "hardlink",
+        "sha256": "7aa64fdb773ea043b468e1c8cbf622a692b6256467285ab7e122d286142eae3a",
+        "sha256_in_prefix": "7aa64fdb773ea043b468e1c8cbf622a692b6256467285ab7e122d286142eae3a",
+        "size_in_bytes": 2468
+      },
+      {
+        "_path": "lib/R/library/ade4/data/monde84.rda",
+        "path_type": "hardlink",
+        "sha256": "5c2d40396a165afcf20799fa17e8aa67e8d52e837cc399ff1e31dbdf4746d48e",
+        "sha256_in_prefix": "5c2d40396a165afcf20799fa17e8aa67e8d52e837cc399ff1e31dbdf4746d48e",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "lib/R/library/ade4/data/morphosport.rda",
+        "path_type": "hardlink",
+        "sha256": "4001d2581f857b785c9e5798940a31dc0b43a560d8050ffc6faa9b8e515aeabe",
+        "sha256_in_prefix": "4001d2581f857b785c9e5798940a31dc0b43a560d8050ffc6faa9b8e515aeabe",
+        "size_in_bytes": 2116
+      },
+      {
+        "_path": "lib/R/library/ade4/data/newick.eg.rda",
+        "path_type": "hardlink",
+        "sha256": "c516860c51809cb2dc196dc9d0759cb152a4c7dee823e00e28bb4cb7d378aa69",
+        "sha256_in_prefix": "c516860c51809cb2dc196dc9d0759cb152a4c7dee823e00e28bb4cb7d378aa69",
+        "size_in_bytes": 5277
+      },
+      {
+        "_path": "lib/R/library/ade4/data/njplot.rda",
+        "path_type": "hardlink",
+        "sha256": "eb2727491c573e8222b57877b76e57a89bc144fb4a402258303a0b5ecc11b03e",
+        "sha256_in_prefix": "eb2727491c573e8222b57877b76e57a89bc144fb4a402258303a0b5ecc11b03e",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "lib/R/library/ade4/data/olympic.rda",
+        "path_type": "hardlink",
+        "sha256": "bbdba076d9aee41e137893641dfb121b6711ef832e41cd12e577af6840009c05",
+        "sha256_in_prefix": "bbdba076d9aee41e137893641dfb121b6711ef832e41cd12e577af6840009c05",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "lib/R/library/ade4/data/oribatid.rda",
+        "path_type": "hardlink",
+        "sha256": "5f7f37ec93f7418f4632adebe0302555e8340a1231d8e4f8c0c3ce822914c417",
+        "sha256_in_prefix": "5f7f37ec93f7418f4632adebe0302555e8340a1231d8e4f8c0c3ce822914c417",
+        "size_in_bytes": 3609
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ours.rda",
+        "path_type": "hardlink",
+        "sha256": "7f6dcc9331e218037aa785ed922d3ce9547fe4ad0233581606d887bc53750897",
+        "sha256_in_prefix": "7f6dcc9331e218037aa785ed922d3ce9547fe4ad0233581606d887bc53750897",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/R/library/ade4/data/palm.rda",
+        "path_type": "hardlink",
+        "sha256": "dd68922989ad5e8a0adc55865c5cccaf95eb79f607a5f7262d74a5d1e913beda",
+        "sha256_in_prefix": "dd68922989ad5e8a0adc55865c5cccaf95eb79f607a5f7262d74a5d1e913beda",
+        "size_in_bytes": 3447
+      },
+      {
+        "_path": "lib/R/library/ade4/data/pap.rda",
+        "path_type": "hardlink",
+        "sha256": "fc1492608fe518330689b45c7f96c46c6919022ff77805f1821d4f71558f80cf",
+        "sha256_in_prefix": "fc1492608fe518330689b45c7f96c46c6919022ff77805f1821d4f71558f80cf",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/R/library/ade4/data/pcw.rda",
+        "path_type": "hardlink",
+        "sha256": "a4c08f33789a7ec67d3dbc26dd7d25a92e8ffc81c972bffd3af8df116d596e7e",
+        "sha256_in_prefix": "a4c08f33789a7ec67d3dbc26dd7d25a92e8ffc81c972bffd3af8df116d596e7e",
+        "size_in_bytes": 800003
+      },
+      {
+        "_path": "lib/R/library/ade4/data/perthi02.rda",
+        "path_type": "hardlink",
+        "sha256": "d6b3219bbdb9cad0d18d4b4d9ab19d553c89e3035752d99d79b368a1c7bd1842",
+        "sha256_in_prefix": "d6b3219bbdb9cad0d18d4b4d9ab19d553c89e3035752d99d79b368a1c7bd1842",
+        "size_in_bytes": 14530
+      },
+      {
+        "_path": "lib/R/library/ade4/data/piosphere.rda",
+        "path_type": "hardlink",
+        "sha256": "027ccb8e44c6e96d3cdb4f9a58b4fcc07512bf135daf888e15e21ebcf387380e",
+        "sha256_in_prefix": "027ccb8e44c6e96d3cdb4f9a58b4fcc07512bf135daf888e15e21ebcf387380e",
+        "size_in_bytes": 49493
+      },
+      {
+        "_path": "lib/R/library/ade4/data/presid2002.rda",
+        "path_type": "hardlink",
+        "sha256": "ba6391cfd2a0b40ff7951a71a18aadd983945f91eef6aae491596135a90a4ac2",
+        "sha256_in_prefix": "ba6391cfd2a0b40ff7951a71a18aadd983945f91eef6aae491596135a90a4ac2",
+        "size_in_bytes": 9313
+      },
+      {
+        "_path": "lib/R/library/ade4/data/procella.rda",
+        "path_type": "hardlink",
+        "sha256": "b0f07e08047b4e49893199d5b2766e385858cae0b3733ca7107341fc9c46db92",
+        "sha256_in_prefix": "b0f07e08047b4e49893199d5b2766e385858cae0b3733ca7107341fc9c46db92",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/R/library/ade4/data/rankrock.rda",
+        "path_type": "hardlink",
+        "sha256": "5ac394f1b2d446a74fe7163b8960605e64239ed49ad0f63c106c1f9887fe0c68",
+        "sha256_in_prefix": "5ac394f1b2d446a74fe7163b8960605e64239ed49ad0f63c106c1f9887fe0c68",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "lib/R/library/ade4/data/rhizobium.rda",
+        "path_type": "hardlink",
+        "sha256": "59377c7932a7a632cd894272a333b2c67718cb454f112dedb6a7e8a237f839b8",
+        "sha256_in_prefix": "59377c7932a7a632cd894272a333b2c67718cb454f112dedb6a7e8a237f839b8",
+        "size_in_bytes": 7380
+      },
+      {
+        "_path": "lib/R/library/ade4/data/rhone.rda",
+        "path_type": "hardlink",
+        "sha256": "f3ff60234572914cb87b8a8754fa63f59bff49256e66d58b868ead3906457d0a",
+        "sha256_in_prefix": "f3ff60234572914cb87b8a8754fa63f59bff49256e66d58b868ead3906457d0a",
+        "size_in_bytes": 2133
+      },
+      {
+        "_path": "lib/R/library/ade4/data/rpjdl.rda",
+        "path_type": "hardlink",
+        "sha256": "08bf51ccebe1896004e89fddd41b3e4d877a6b1843b536f7a6b764b3d4f6039d",
+        "sha256_in_prefix": "08bf51ccebe1896004e89fddd41b3e4d877a6b1843b536f7a6b764b3d4f6039d",
+        "size_in_bytes": 4642
+      },
+      {
+        "_path": "lib/R/library/ade4/data/santacatalina.rda",
+        "path_type": "hardlink",
+        "sha256": "e91588c10c82c43c23158c3e182851a49bfc82d8449c02fa3562c5ce321d58da",
+        "sha256_in_prefix": "e91588c10c82c43c23158c3e182851a49bfc82d8449c02fa3562c5ce321d58da",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "lib/R/library/ade4/data/sarcelles.rda",
+        "path_type": "hardlink",
+        "sha256": "eab082d4ec7839116636a172e4e828579694a317017678211934f8a731a452dc",
+        "sha256_in_prefix": "eab082d4ec7839116636a172e4e828579694a317017678211934f8a731a452dc",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "lib/R/library/ade4/data/seconde.rda",
+        "path_type": "hardlink",
+        "sha256": "3190b6928d99becbda35d4d65352d2c2347b7fc813134749f43f18134f539da8",
+        "sha256_in_prefix": "3190b6928d99becbda35d4d65352d2c2347b7fc813134749f43f18134f539da8",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "lib/R/library/ade4/data/skulls.rda",
+        "path_type": "hardlink",
+        "sha256": "f171d4a27da8bf27764bdb2f7b5533d89e9e45652640d41fe8e8d1974ab4525a",
+        "sha256_in_prefix": "f171d4a27da8bf27764bdb2f7b5533d89e9e45652640d41fe8e8d1974ab4525a",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "lib/R/library/ade4/data/steppe.rda",
+        "path_type": "hardlink",
+        "sha256": "da231999cc4ff313fb0d2668eeb990b9908bcf3499ca0e11c509c03c196be348",
+        "sha256_in_prefix": "da231999cc4ff313fb0d2668eeb990b9908bcf3499ca0e11c509c03c196be348",
+        "size_in_bytes": 4364
+      },
+      {
+        "_path": "lib/R/library/ade4/data/syndicats.rda",
+        "path_type": "hardlink",
+        "sha256": "59bf09492903afbfc8d8e0e217be6b9011ada3adfa58c90dade1c50d2ea79431",
+        "sha256_in_prefix": "59bf09492903afbfc8d8e0e217be6b9011ada3adfa58c90dade1c50d2ea79431",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/R/library/ade4/data/t3012.rda",
+        "path_type": "hardlink",
+        "sha256": "860f22bec54431c4c3c2a9d313c3149418dc8536e9f96b4827cdfd41276f32dd",
+        "sha256_in_prefix": "860f22bec54431c4c3c2a9d313c3149418dc8536e9f96b4827cdfd41276f32dd",
+        "size_in_bytes": 43350
+      },
+      {
+        "_path": "lib/R/library/ade4/data/tarentaise.rda",
+        "path_type": "hardlink",
+        "sha256": "6edc2695e1e9b9824a8ba9708dac23a86c4d4c61163f80db987dac7963b570fa",
+        "sha256_in_prefix": "6edc2695e1e9b9824a8ba9708dac23a86c4d4c61163f80db987dac7963b570fa",
+        "size_in_bytes": 8669
+      },
+      {
+        "_path": "lib/R/library/ade4/data/taxo.eg.rda",
+        "path_type": "hardlink",
+        "sha256": "06947aeb9374dc81ca0e595944f68153cf7c75a81eab111c8c3ba027bfb1a302",
+        "sha256_in_prefix": "06947aeb9374dc81ca0e595944f68153cf7c75a81eab111c8c3ba027bfb1a302",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/R/library/ade4/data/tintoodiel.rda",
+        "path_type": "hardlink",
+        "sha256": "85ad9fda840471a8cdc48702a5c8aaaace1ee5ccda6bbad501c19aad1a317838",
+        "sha256_in_prefix": "85ad9fda840471a8cdc48702a5c8aaaace1ee5ccda6bbad501c19aad1a317838",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "lib/R/library/ade4/data/tithonia.rda",
+        "path_type": "hardlink",
+        "sha256": "eee2f069f5901555616643f20b2307983ea480d0c8c922184eed093f3d70ad72",
+        "sha256_in_prefix": "eee2f069f5901555616643f20b2307983ea480d0c8c922184eed093f3d70ad72",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "lib/R/library/ade4/data/tortues.rda",
+        "path_type": "hardlink",
+        "sha256": "bc8a0a6ddbc2e1308f874ed4f1711c9b9c712e612c2093d7b636fafa6655c59a",
+        "sha256_in_prefix": "bc8a0a6ddbc2e1308f874ed4f1711c9b9c712e612c2093d7b636fafa6655c59a",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/R/library/ade4/data/toxicity.rda",
+        "path_type": "hardlink",
+        "sha256": "bbd5da835a1e5fa9178b7e68cd6054a0d409324f3a4249ae191bc119aee33dd8",
+        "sha256_in_prefix": "bbd5da835a1e5fa9178b7e68cd6054a0d409324f3a4249ae191bc119aee33dd8",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "lib/R/library/ade4/data/trichometeo.rda",
+        "path_type": "hardlink",
+        "sha256": "271a33be81c2cf9bce634738ebd35b1037ec2bcf1e028d42aad4a01a7c1ce98e",
+        "sha256_in_prefix": "271a33be81c2cf9bce634738ebd35b1037ec2bcf1e028d42aad4a01a7c1ce98e",
+        "size_in_bytes": 2231
+      },
+      {
+        "_path": "lib/R/library/ade4/data/ungulates.rda",
+        "path_type": "hardlink",
+        "sha256": "551ab3c6dc26c8ac134e1ff587e427db180ada453f995ec764eb3986c98e1c20",
+        "sha256_in_prefix": "551ab3c6dc26c8ac134e1ff587e427db180ada453f995ec764eb3986c98e1c20",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "lib/R/library/ade4/data/vegtf.rda",
+        "path_type": "hardlink",
+        "sha256": "78556c7dcc3f4171b32742b88a5bac83081dede397a4dc928f6d89aaced17c36",
+        "sha256_in_prefix": "78556c7dcc3f4171b32742b88a5bac83081dede397a4dc928f6d89aaced17c36",
+        "size_in_bytes": 12400
+      },
+      {
+        "_path": "lib/R/library/ade4/data/veuvage.rda",
+        "path_type": "hardlink",
+        "sha256": "b68f3b1c2ac10112ad3791722b026ec915554d7731619caf2bad122737c48f74",
+        "sha256_in_prefix": "b68f3b1c2ac10112ad3791722b026ec915554d7731619caf2bad122737c48f74",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "lib/R/library/ade4/data/westafrica.rda",
+        "path_type": "hardlink",
+        "sha256": "4c3a10d1b1623856daee1b8866d05a6b392217f17fbc027f4db84fd33d826b1d",
+        "sha256_in_prefix": "4c3a10d1b1623856daee1b8866d05a6b392217f17fbc027f4db84fd33d826b1d",
+        "size_in_bytes": 11316
+      },
+      {
+        "_path": "lib/R/library/ade4/data/woangers.rda",
+        "path_type": "hardlink",
+        "sha256": "de881032cda26310de09d3d4b0deb18059ca4dd4bfc3e53f0fea61c89c16a689",
+        "sha256_in_prefix": "de881032cda26310de09d3d4b0deb18059ca4dd4bfc3e53f0fea61c89c16a689",
+        "size_in_bytes": 2969
+      },
+      {
+        "_path": "lib/R/library/ade4/data/worksurv.rda",
+        "path_type": "hardlink",
+        "sha256": "565a0dec2b612d6b61c806859477d7b32f2598c2c19967f5ce48b96a1fe924e2",
+        "sha256_in_prefix": "565a0dec2b612d6b61c806859477d7b32f2598c2c19967f5ce48b96a1fe924e2",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "lib/R/library/ade4/data/yanomama.rda",
+        "path_type": "hardlink",
+        "sha256": "d7d9eef91f8c454e6d4d3a2ef500dd9e9508fcf19610ae46918e8e241bf9c92a",
+        "sha256_in_prefix": "d7d9eef91f8c454e6d4d3a2ef500dd9e9508fcf19610ae46918e8e241bf9c92a",
+        "size_in_bytes": 2099
+      },
+      {
+        "_path": "lib/R/library/ade4/data/zealand.rda",
+        "path_type": "hardlink",
+        "sha256": "fecfc1944ede3275f1d736588b02ae21b0bcf42f9b4d253eb1ceeb1186c8252f",
+        "sha256_in_prefix": "fecfc1944ede3275f1d736588b02ae21b0bcf42f9b4d253eb1ceeb1186c8252f",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/R/library/ade4/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6e1d83e4f6e4daa845e3bb7759bb1a8eeaeef59a3adde3a29a3d802e47a83fd6",
+        "sha256_in_prefix": "6e1d83e4f6e4daa845e3bb7759bb1a8eeaeef59a3adde3a29a3d802e47a83fd6",
+        "size_in_bytes": 10985
+      },
+      {
+        "_path": "lib/R/library/ade4/help/ade4.rdb",
+        "path_type": "hardlink",
+        "sha256": "90e2ef41474ebd983198bbb63e61cda6f3e2f74ff729fab82095fa2bc6380272",
+        "sha256_in_prefix": "90e2ef41474ebd983198bbb63e61cda6f3e2f74ff729fab82095fa2bc6380272",
+        "size_in_bytes": 880912
+      },
+      {
+        "_path": "lib/R/library/ade4/help/ade4.rdx",
+        "path_type": "hardlink",
+        "sha256": "e070a9d4746159f95af78b936703650ff10ddd019386056a1c770f7c61810319",
+        "sha256_in_prefix": "e070a9d4746159f95af78b936703650ff10ddd019386056a1c770f7c61810319",
+        "size_in_bytes": 5974
+      },
+      {
+        "_path": "lib/R/library/ade4/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0cb4be1320f6f49403ccfc02849a8a11c4a4b268a634a159eb33b8781429e046",
+        "sha256_in_prefix": "0cb4be1320f6f49403ccfc02849a8a11c4a4b268a634a159eb33b8781429e046",
+        "size_in_bytes": 3640
+      },
+      {
+        "_path": "lib/R/library/ade4/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c9cd1b8bbc1a6b27eeb691f4973fe2b23c58a7c9365b5b6011410a4ff26fdbe8",
+        "sha256_in_prefix": "c9cd1b8bbc1a6b27eeb691f4973fe2b23c58a7c9365b5b6011410a4ff26fdbe8",
+        "size_in_bytes": 2197
+      },
+      {
+        "_path": "lib/R/library/ade4/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a6d2dae44a9ea0f250adcdc6497b625e6ba418106a6a0d854d369bad5c4ad7d7",
+        "sha256_in_prefix": "a6d2dae44a9ea0f250adcdc6497b625e6ba418106a6a0d854d369bad5c4ad7d7",
+        "size_in_bytes": 69378
+      },
+      {
+        "_path": "lib/R/library/ade4/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/ade4/libs/ade4.so",
+        "path_type": "hardlink",
+        "sha256": "704fdc9af51a05b86dc3c027ec51c898ede1baa0f3f199c095b619ba9050f017",
+        "sha256_in_prefix": "704fdc9af51a05b86dc3c027ec51c898ede1baa0f3f199c095b619ba9050f017",
+        "size_in_bytes": 146528
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/atyacarto.pnm",
+        "path_type": "hardlink",
+        "sha256": "604db4f86f07194883b174ec3bc6a0eb9a5c40872d7fec8cf5859ddf4deff0e4",
+        "sha256_in_prefix": "604db4f86f07194883b174ec3bc6a0eb9a5c40872d7fec8cf5859ddf4deff0e4",
+        "size_in_bytes": 199644
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/atyadigi.pnm",
+        "path_type": "hardlink",
+        "sha256": "baeb8704f9d2b331614d6586207ae1b2695d55c44d1f6ee281def890286cb357",
+        "sha256_in_prefix": "baeb8704f9d2b331614d6586207ae1b2695d55c44d1f6ee281def890286cb357",
+        "size_in_bytes": 199644
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/avijonseau.pnm",
+        "path_type": "hardlink",
+        "sha256": "7281dd4a709e71e8236c7ac47601b8f16dc3c2d94c79b577004028b0d1772faa",
+        "sha256_in_prefix": "7281dd4a709e71e8236c7ac47601b8f16dc3c2d94c79b577004028b0d1772faa",
+        "size_in_bytes": 100091
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/avijonsrou.pnm",
+        "path_type": "hardlink",
+        "sha256": "98eeb1a5540972da0309fd53474933e78dda144226c7a35c4bed0b6f7ccbf5e8",
+        "sha256_in_prefix": "98eeb1a5540972da0309fd53474933e78dda144226c7a35c4bed0b6f7ccbf5e8",
+        "size_in_bytes": 100485
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/avijonsveg.pnm",
+        "path_type": "hardlink",
+        "sha256": "0d20cd23833727748a3bfbf3a8066e3cfae75138d33ee29ad5c50b5631370f06",
+        "sha256_in_prefix": "0d20cd23833727748a3bfbf3a8066e3cfae75138d33ee29ad5c50b5631370f06",
+        "size_in_bytes": 100091
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/avijonsvil.pnm",
+        "path_type": "hardlink",
+        "sha256": "1b22beefa5964916cf49228d435870b8bab02b9f7aa0d5965e925ea5d1112f2c",
+        "sha256_in_prefix": "1b22beefa5964916cf49228d435870b8bab02b9f7aa0d5965e925ea5d1112f2c",
+        "size_in_bytes": 100091
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/butterfly.pnm",
+        "path_type": "hardlink",
+        "sha256": "8091fab4a497e28370ce5658141561499cdc60aa601479bb1a167d675784f4a3",
+        "sha256_in_prefix": "8091fab4a497e28370ce5658141561499cdc60aa601479bb1a167d675784f4a3",
+        "size_in_bytes": 55515
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/capitales.pnm",
+        "path_type": "hardlink",
+        "sha256": "dc0299e0423a7d833351552912f6f928d56e8c1654cbce25c7b3ec8454782344",
+        "sha256_in_prefix": "dc0299e0423a7d833351552912f6f928d56e8c1654cbce25c7b3ec8454782344",
+        "size_in_bytes": 117451
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/fatala.pnm",
+        "path_type": "hardlink",
+        "sha256": "841daac5a1939cd7871cc338e0926897475b38ee00d0a530c28736ac060ba8b6",
+        "sha256_in_prefix": "841daac5a1939cd7871cc338e0926897475b38ee00d0a530c28736ac060ba8b6",
+        "size_in_bytes": 44527
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/france_sm00.pnm",
+        "path_type": "hardlink",
+        "sha256": "62f672f6f7863f00087b01c71f1f2b1fa5ef2be620bb2de817ece5a469da4ccc",
+        "sha256_in_prefix": "62f672f6f7863f00087b01c71f1f2b1fa5ef2be620bb2de817ece5a469da4ccc",
+        "size_in_bytes": 396996
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/ireland.pnm",
+        "path_type": "hardlink",
+        "sha256": "dd11d584a4b3ffc0d9978d7a8d25a854974133ecd742f82172540f41a14a0ed6",
+        "sha256_in_prefix": "dd11d584a4b3ffc0d9978d7a8d25a854974133ecd742f82172540f41a14a0ed6",
+        "size_in_bytes": 62211
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/paris.pnm",
+        "path_type": "hardlink",
+        "sha256": "45c2dffab83e9908f06c154c6d7e87a49a15d0d29934ee14ce767b74d7849333",
+        "sha256_in_prefix": "45c2dffab83e9908f06c154c6d7e87a49a15d0d29934ee14ce767b74d7849333",
+        "size_in_bytes": 244735
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/sarcelles.pnm",
+        "path_type": "hardlink",
+        "sha256": "1b09adb1b6deb77d7a597c0519433e84fbac625faf15b56a85f28b2c0bf12e54",
+        "sha256_in_prefix": "1b09adb1b6deb77d7a597c0519433e84fbac625faf15b56a85f28b2c0bf12e54",
+        "size_in_bytes": 66902
+      },
+      {
+        "_path": "lib/R/library/ade4/pictures/tintoodiel.pnm",
+        "path_type": "hardlink",
+        "sha256": "b917182e9fa52919b1b7babf39968c6b3a4a475af62ec07e43a86ce27beb6d9b",
+        "sha256_in_prefix": "b917182e9fa52919b1b7babf39968c6b3a4a475af62ec07e43a86ce27beb6d9b",
+        "size_in_bytes": 416655
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "194d86abd03abdf293b15bb9c25e4fbb44d3522b39170f56f44840a4c62d5d89",
+  "size": 5217916,
+  "subdir": "linux-64",
+  "timestamp": 1632765015000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ade4-1.7_18-r41he454529_0.tar.bz2",
+  "version": "1.7_18"
+}

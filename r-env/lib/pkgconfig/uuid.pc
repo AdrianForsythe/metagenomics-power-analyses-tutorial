@@ -1,0 +1,11 @@
+prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+exec_prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+libdir=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/lib
+includedir=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

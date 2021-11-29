@@ -1,0 +1,212 @@
+{
+  "build": "r41hcfec24a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-rappdirs-0.3.3-r41hcfec24a_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rappdirs/DESCRIPTION",
+    "lib/R/library/rappdirs/INDEX",
+    "lib/R/library/rappdirs/LICENSE",
+    "lib/R/library/rappdirs/Meta/Rd.rds",
+    "lib/R/library/rappdirs/Meta/features.rds",
+    "lib/R/library/rappdirs/Meta/hsearch.rds",
+    "lib/R/library/rappdirs/Meta/links.rds",
+    "lib/R/library/rappdirs/Meta/nsInfo.rds",
+    "lib/R/library/rappdirs/Meta/package.rds",
+    "lib/R/library/rappdirs/NAMESPACE",
+    "lib/R/library/rappdirs/NEWS.md",
+    "lib/R/library/rappdirs/R/rappdirs",
+    "lib/R/library/rappdirs/R/rappdirs.rdb",
+    "lib/R/library/rappdirs/R/rappdirs.rdx",
+    "lib/R/library/rappdirs/help/AnIndex",
+    "lib/R/library/rappdirs/help/aliases.rds",
+    "lib/R/library/rappdirs/help/paths.rds",
+    "lib/R/library/rappdirs/help/rappdirs.rdb",
+    "lib/R/library/rappdirs/help/rappdirs.rdx",
+    "lib/R/library/rappdirs/html/00Index.html",
+    "lib/R/library/rappdirs/html/R.css",
+    "lib/R/library/rappdirs/libs/rappdirs.so"
+  ],
+  "fn": "r-rappdirs-0.3.3-r41hcfec24a_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-rappdirs-0.3.3-r41hcfec24a_0",
+    "type": 1
+  },
+  "md5": "f7ce9670b3c54fc42156b761f9311df8",
+  "name": "r-rappdirs",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-rappdirs-0.3.3-r41hcfec24a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rappdirs/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c7e9a2a195c890171d8f29fdd73032120affa666e861d24d535e9b7ded0e0bff",
+        "sha256_in_prefix": "c7e9a2a195c890171d8f29fdd73032120affa666e861d24d535e9b7ded0e0bff",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "lib/R/library/rappdirs/INDEX",
+        "path_type": "hardlink",
+        "sha256": "75349188b13ad5d76824b06d54441c0d6e52e2db891de42185a6f4119d28c1f4",
+        "sha256_in_prefix": "75349188b13ad5d76824b06d54441c0d6e52e2db891de42185a6f4119d28c1f4",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/rappdirs/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71f2978aff959d8620ffe7dd5de4a41ac6050ba00a1927d6a3e6c3bdfda994b",
+        "sha256_in_prefix": "c71f2978aff959d8620ffe7dd5de4a41ac6050ba00a1927d6a3e6c3bdfda994b",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "lib/R/library/rappdirs/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "097d27079acf7868a2c986178c47edd8594ff7f1bbf44c398e6b3cdab02fe0a0",
+        "sha256_in_prefix": "097d27079acf7868a2c986178c47edd8594ff7f1bbf44c398e6b3cdab02fe0a0",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/R/library/rappdirs/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/rappdirs/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "e216e438c340595106ab8e2dd634abb5db33073e747562976016365f2f61a180",
+        "sha256_in_prefix": "e216e438c340595106ab8e2dd634abb5db33073e747562976016365f2f61a180",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "lib/R/library/rappdirs/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d83902101925aa164e7cd3aa670afe70a24b1072947f46a1c58217ab6f37b0ff",
+        "sha256_in_prefix": "d83902101925aa164e7cd3aa670afe70a24b1072947f46a1c58217ab6f37b0ff",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/R/library/rappdirs/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4d694b3035b06b2f66390edb9a67381f18adcaa4436cb97222468eeef0b8fd1b",
+        "sha256_in_prefix": "4d694b3035b06b2f66390edb9a67381f18adcaa4436cb97222468eeef0b8fd1b",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/R/library/rappdirs/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "6c8afafb62bd1e0ced0e17280ef3ae8b0d3bbd0ea31fdbcfc40c567163c752ee",
+        "sha256_in_prefix": "6c8afafb62bd1e0ced0e17280ef3ae8b0d3bbd0ea31fdbcfc40c567163c752ee",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "lib/R/library/rappdirs/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "da9dccf11b768c8a79b36be6154b307baeb8bf406f49448f98af77353ab338ea",
+        "sha256_in_prefix": "da9dccf11b768c8a79b36be6154b307baeb8bf406f49448f98af77353ab338ea",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "lib/R/library/rappdirs/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "6dae286442d7f78ad7a0cf7ea7be0ce1229de6cbc580546c77e4c21a5205a714",
+        "sha256_in_prefix": "6dae286442d7f78ad7a0cf7ea7be0ce1229de6cbc580546c77e4c21a5205a714",
+        "size_in_bytes": 760
+      },
+      {
+        "_path": "lib/R/library/rappdirs/R/rappdirs",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/rappdirs/R/rappdirs.rdb",
+        "path_type": "hardlink",
+        "sha256": "312d2ba63ac41acfc85c3d1ae284f6d6917b4288f14e05601bb3edc327570500",
+        "sha256_in_prefix": "312d2ba63ac41acfc85c3d1ae284f6d6917b4288f14e05601bb3edc327570500",
+        "size_in_bytes": 14294
+      },
+      {
+        "_path": "lib/R/library/rappdirs/R/rappdirs.rdx",
+        "path_type": "hardlink",
+        "sha256": "8f1a3bd7834416849727ce13d859b43c236526ff1c6e22d9d08480dcd0fe651f",
+        "sha256_in_prefix": "8f1a3bd7834416849727ce13d859b43c236526ff1c6e22d9d08480dcd0fe651f",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/rappdirs/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "dc2ed3e8a927e0d0857d695c59490c913ad55f782b625f6b9d1d546f063b4adb",
+        "sha256_in_prefix": "dc2ed3e8a927e0d0857d695c59490c913ad55f782b625f6b9d1d546f063b4adb",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/rappdirs/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "7077b6de7a67ca1bc74be6c321ab71bb6482f28ca4c1802b560015287d1216b7",
+        "sha256_in_prefix": "7077b6de7a67ca1bc74be6c321ab71bb6482f28ca4c1802b560015287d1216b7",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/rappdirs/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "88b94eb5b6c9535d92ec604c5864d2a87d3b5db3d8f24a10f3459c6d11f0b5a8",
+        "sha256_in_prefix": "88b94eb5b6c9535d92ec604c5864d2a87d3b5db3d8f24a10f3459c6d11f0b5a8",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/rappdirs/help/rappdirs.rdb",
+        "path_type": "hardlink",
+        "sha256": "36836b5518de945be94b0caa9aebd851acc795707e7d57c1875aff92643da616",
+        "sha256_in_prefix": "36836b5518de945be94b0caa9aebd851acc795707e7d57c1875aff92643da616",
+        "size_in_bytes": 19608
+      },
+      {
+        "_path": "lib/R/library/rappdirs/help/rappdirs.rdx",
+        "path_type": "hardlink",
+        "sha256": "cc45326a715a2178702d8ab2f7545b1dbf258ffbddd793cdd55baf0307b8a291",
+        "sha256_in_prefix": "cc45326a715a2178702d8ab2f7545b1dbf258ffbddd793cdd55baf0307b8a291",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "lib/R/library/rappdirs/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "d4ac495fa0542c13abb18842fbf56e752197d4bd81d74be8e750f6d9913ac656",
+        "sha256_in_prefix": "d4ac495fa0542c13abb18842fbf56e752197d4bd81d74be8e750f6d9913ac656",
+        "size_in_bytes": 1794
+      },
+      {
+        "_path": "lib/R/library/rappdirs/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rappdirs/libs/rappdirs.so",
+        "path_type": "hardlink",
+        "sha256": "6b10b1f7e0e66a5688f13a66d0d1528a78db60ce25f956969e26370e0af9e972",
+        "sha256_in_prefix": "6b10b1f7e0e66a5688f13a66d0d1528a78db60ce25f956969e26370e0af9e972",
+        "size_in_bytes": 16192
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "73d2f86dc51ebfb7f1ec19b81452f8cea85c8483fb93cb188ba8ff04e204d803",
+  "size": 51793,
+  "subdir": "linux-64",
+  "timestamp": 1621613451000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rappdirs-0.3.3-r41hcfec24a_0.tar.bz2",
+  "version": "0.3.3"
+}

@@ -1,0 +1,9 @@
+prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: KBProto
+Description: KB extension headers
+Version: 1.0.7
+Cflags: -I${includedir}

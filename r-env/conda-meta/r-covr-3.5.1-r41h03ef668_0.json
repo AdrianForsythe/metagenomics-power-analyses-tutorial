@@ -1,0 +1,340 @@
+{
+  "build": "r41h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-crayon",
+    "r-digest",
+    "r-httr",
+    "r-jsonlite",
+    "r-rex",
+    "r-withr >=1.0.2",
+    "r-yaml"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-covr-3.5.1-r41h03ef668_0",
+  "features": "",
+  "files": [
+    "lib/R/library/covr/DESCRIPTION",
+    "lib/R/library/covr/INDEX",
+    "lib/R/library/covr/Meta/Rd.rds",
+    "lib/R/library/covr/Meta/features.rds",
+    "lib/R/library/covr/Meta/hsearch.rds",
+    "lib/R/library/covr/Meta/links.rds",
+    "lib/R/library/covr/Meta/nsInfo.rds",
+    "lib/R/library/covr/Meta/package.rds",
+    "lib/R/library/covr/Meta/vignette.rds",
+    "lib/R/library/covr/NAMESPACE",
+    "lib/R/library/covr/NEWS.md",
+    "lib/R/library/covr/R/covr",
+    "lib/R/library/covr/R/covr.rdb",
+    "lib/R/library/covr/R/covr.rdx",
+    "lib/R/library/covr/doc/how_it_works.R",
+    "lib/R/library/covr/doc/how_it_works.Rmd",
+    "lib/R/library/covr/doc/how_it_works.html",
+    "lib/R/library/covr/doc/index.html",
+    "lib/R/library/covr/help/AnIndex",
+    "lib/R/library/covr/help/aliases.rds",
+    "lib/R/library/covr/help/covr.rdb",
+    "lib/R/library/covr/help/covr.rdx",
+    "lib/R/library/covr/help/figures/logo.png",
+    "lib/R/library/covr/help/paths.rds",
+    "lib/R/library/covr/html/00Index.html",
+    "lib/R/library/covr/html/R.css",
+    "lib/R/library/covr/libs/covr.so",
+    "lib/R/library/covr/rstudio/addins.dcf",
+    "lib/R/library/covr/www/report.css",
+    "lib/R/library/covr/www/shared/bootstrap/css/bootstrap-theme.min.css",
+    "lib/R/library/covr/www/shared/bootstrap/css/bootstrap.min.css",
+    "lib/R/library/covr/www/shared/bootstrap/js/bootstrap.min.js",
+    "lib/R/library/covr/www/shared/bootstrap/shim/html5shiv.min.js",
+    "lib/R/library/covr/www/shared/bootstrap/shim/respond.min.js",
+    "lib/R/library/covr/www/shared/highlight.js/LICENSE",
+    "lib/R/library/covr/www/shared/highlight.js/highlight.pack.js",
+    "lib/R/library/covr/www/shared/highlight.js/rstudio.css"
+  ],
+  "fn": "r-covr-3.5.1-r41h03ef668_0.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-covr-3.5.1-r41h03ef668_0",
+    "type": 1
+  },
+  "md5": "d60722a299ed69b6a903ed413c6673fa",
+  "name": "r-covr",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-covr-3.5.1-r41h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/covr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a7417e532d96c73b887d7f33efed64764f29a56c20431caa15765d1059e7ca33",
+        "sha256_in_prefix": "a7417e532d96c73b887d7f33efed64764f29a56c20431caa15765d1059e7ca33",
+        "size_in_bytes": 3518
+      },
+      {
+        "_path": "lib/R/library/covr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c43bda80ddc398421c64f252945416789b932ca6c6199262195b30c49d98aa88",
+        "sha256_in_prefix": "c43bda80ddc398421c64f252945416789b932ca6c6199262195b30c49d98aa88",
+        "size_in_bytes": 1712
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2cd8d667fef2cb0af5e6ca518051192c1edf2f9c0de5e70f5c0f36b9edb8865e",
+        "sha256_in_prefix": "2cd8d667fef2cb0af5e6ca518051192c1edf2f9c0de5e70f5c0f36b9edb8865e",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "77fbf9d194c42a50d84f8e555703876c6e91cec78813c6b712f310c59ed30686",
+        "sha256_in_prefix": "77fbf9d194c42a50d84f8e555703876c6e91cec78813c6b712f310c59ed30686",
+        "size_in_bytes": 1297
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "a76e6ae28f481447f438ce1b86aef15069cbb137b38dce51908121040472d17a",
+        "sha256_in_prefix": "a76e6ae28f481447f438ce1b86aef15069cbb137b38dce51908121040472d17a",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "3cd463d59d3f2c4d20136d6a20e2fb9f962b92374d5d0a4a4fd42b4043d75fea",
+        "sha256_in_prefix": "3cd463d59d3f2c4d20136d6a20e2fb9f962b92374d5d0a4a4fd42b4043d75fea",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8bceaa2d30dcb2bb34afd92cc70bf1a0d18112f6c6b346332588239d56688b4b",
+        "sha256_in_prefix": "8bceaa2d30dcb2bb34afd92cc70bf1a0d18112f6c6b346332588239d56688b4b",
+        "size_in_bytes": 2021
+      },
+      {
+        "_path": "lib/R/library/covr/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "00b991e5e3e1865b35ac11fee80c8a1a0c778f58a04db19dc4493dbd40c29323",
+        "sha256_in_prefix": "00b991e5e3e1865b35ac11fee80c8a1a0c778f58a04db19dc4493dbd40c29323",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/R/library/covr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "4d3216988539f86b637b78a4ef00704be3b0bec5a9a7b01caac2e31a1967fb96",
+        "sha256_in_prefix": "4d3216988539f86b637b78a4ef00704be3b0bec5a9a7b01caac2e31a1967fb96",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "lib/R/library/covr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "65094e6aa19d4bff3227ded25a46b5cb6bed5c1ba521e777812f612d3d3dc88f",
+        "sha256_in_prefix": "65094e6aa19d4bff3227ded25a46b5cb6bed5c1ba521e777812f612d3d3dc88f",
+        "size_in_bytes": 7724
+      },
+      {
+        "_path": "lib/R/library/covr/R/covr",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/covr/R/covr.rdb",
+        "path_type": "hardlink",
+        "sha256": "d9e875bf6404df6394cdcc6a2cf8b93224b3a2e94f499b07e6ff6201c47ad1b5",
+        "sha256_in_prefix": "d9e875bf6404df6394cdcc6a2cf8b93224b3a2e94f499b07e6ff6201c47ad1b5",
+        "size_in_bytes": 147865
+      },
+      {
+        "_path": "lib/R/library/covr/R/covr.rdx",
+        "path_type": "hardlink",
+        "sha256": "1b627cf3f5359ad7a19fc945d674853f01c640ad41acd302d4b53224e862a948",
+        "sha256_in_prefix": "1b627cf3f5359ad7a19fc945d674853f01c640ad41acd302d4b53224e862a948",
+        "size_in_bytes": 2313
+      },
+      {
+        "_path": "lib/R/library/covr/doc/how_it_works.R",
+        "path_type": "hardlink",
+        "sha256": "65331a5332b7ea20ff62377c32413c48d05f466d37cd250f34a9f8604267acfb",
+        "sha256_in_prefix": "65331a5332b7ea20ff62377c32413c48d05f466d37cd250f34a9f8604267acfb",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "lib/R/library/covr/doc/how_it_works.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7cef9e5494cf4aec326109fa2786b7baf88a11e701220d40cdf46b5583bce0dc",
+        "sha256_in_prefix": "7cef9e5494cf4aec326109fa2786b7baf88a11e701220d40cdf46b5583bce0dc",
+        "size_in_bytes": 12302
+      },
+      {
+        "_path": "lib/R/library/covr/doc/how_it_works.html",
+        "path_type": "hardlink",
+        "sha256": "4083edf943aa8b07029fe3b3dd9b6c5e0104cab9840518a811d7999b190d2f81",
+        "sha256_in_prefix": "4083edf943aa8b07029fe3b3dd9b6c5e0104cab9840518a811d7999b190d2f81",
+        "size_in_bytes": 27513
+      },
+      {
+        "_path": "lib/R/library/covr/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "cbe4c00b4572bd1f7d2a1495e288d22c4728f98dcdaf282af673459b8f26fa1d",
+        "sha256_in_prefix": "cbe4c00b4572bd1f7d2a1495e288d22c4728f98dcdaf282af673459b8f26fa1d",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "lib/R/library/covr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0575429396755fc58b1652d880fdaacac1d5b098f202b6e1dfde445919cd4d21",
+        "sha256_in_prefix": "0575429396755fc58b1652d880fdaacac1d5b098f202b6e1dfde445919cd4d21",
+        "size_in_bytes": 748
+      },
+      {
+        "_path": "lib/R/library/covr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "7b68c67bba44dcee0dce135ca8c5f1d07f4149f0fd6879ad2dd7e07bdd5795f5",
+        "sha256_in_prefix": "7b68c67bba44dcee0dce135ca8c5f1d07f4149f0fd6879ad2dd7e07bdd5795f5",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "lib/R/library/covr/help/covr.rdb",
+        "path_type": "hardlink",
+        "sha256": "3c35180648ec8ad219f0e098f25c531517c53a9984b5573079d657c678312104",
+        "sha256_in_prefix": "3c35180648ec8ad219f0e098f25c531517c53a9984b5573079d657c678312104",
+        "size_in_bytes": 48293
+      },
+      {
+        "_path": "lib/R/library/covr/help/covr.rdx",
+        "path_type": "hardlink",
+        "sha256": "7e4453e82beb8e3c9e7d0f8850851f1c0426e717aa1c6a1d4cb4d5f0aba82d6f",
+        "sha256_in_prefix": "7e4453e82beb8e3c9e7d0f8850851f1c0426e717aa1c6a1d4cb4d5f0aba82d6f",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "lib/R/library/covr/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "7c6db81700cc100072416a8a6da326ec0f1cee658e9e3630206c88af375f1da9",
+        "sha256_in_prefix": "7c6db81700cc100072416a8a6da326ec0f1cee658e9e3630206c88af375f1da9",
+        "size_in_bytes": 17142
+      },
+      {
+        "_path": "lib/R/library/covr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "1ed13f9d770da39f20c7068aa7486918b6278969072f00d34ee8c6ce3dbd05f9",
+        "sha256_in_prefix": "1ed13f9d770da39f20c7068aa7486918b6278969072f00d34ee8c6ce3dbd05f9",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/R/library/covr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "4c66ab0c455654f346ac70aa873ee2fdb6bdc21d367ed735c9d60bbbd198a4ef",
+        "sha256_in_prefix": "4c66ab0c455654f346ac70aa873ee2fdb6bdc21d367ed735c9d60bbbd198a4ef",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "lib/R/library/covr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/covr/libs/covr.so",
+        "path_type": "hardlink",
+        "sha256": "b3ab70126ede400b6d320cbede18b28968683df6a3227acd3cc9d5c8fbcf0428",
+        "sha256_in_prefix": "b3ab70126ede400b6d320cbede18b28968683df6a3227acd3cc9d5c8fbcf0428",
+        "size_in_bytes": 16416
+      },
+      {
+        "_path": "lib/R/library/covr/rstudio/addins.dcf",
+        "path_type": "hardlink",
+        "sha256": "f05d1cd0923a67beaff2d2ec24858758fef86ae385c49dd10bd7ac42467cc62c",
+        "sha256_in_prefix": "f05d1cd0923a67beaff2d2ec24858758fef86ae385c49dd10bd7ac42467cc62c",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/R/library/covr/www/report.css",
+        "path_type": "hardlink",
+        "sha256": "1b6c6bb9c40788036a0c7ae53f204bcb90a1f99eeb922be4fc2dec90114cdd33",
+        "sha256_in_prefix": "1b6c6bb9c40788036a0c7ae53f204bcb90a1f99eeb922be4fc2dec90114cdd33",
+        "size_in_bytes": 1237
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/bootstrap/css/bootstrap-theme.min.css",
+        "path_type": "hardlink",
+        "sha256": "6c7422a9c15b9c96f542187ad5163d70c87a911d204ee418ea214e063d728f4d",
+        "sha256_in_prefix": "6c7422a9c15b9c96f542187ad5163d70c87a911d204ee418ea214e063d728f4d",
+        "size_in_bytes": 23357
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/bootstrap/css/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "ef4271eb72498a8e2d28d8c06187f137f28863931f9e27f5c0ed9730368b9b82",
+        "sha256_in_prefix": "ef4271eb72498a8e2d28d8c06187f137f28863931f9e27f5c0ed9730368b9b82",
+        "size_in_bytes": 122425
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/bootstrap/js/bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327",
+        "sha256_in_prefix": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327",
+        "size_in_bytes": 36816
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/bootstrap/shim/html5shiv.min.js",
+        "path_type": "hardlink",
+        "sha256": "95ed2737d4ab0b494087a294b6eb4d28c13926f2c77ccf3bda4b1ae64bfd401a",
+        "sha256_in_prefix": "95ed2737d4ab0b494087a294b6eb4d28c13926f2c77ccf3bda4b1ae64bfd401a",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/bootstrap/shim/respond.min.js",
+        "path_type": "hardlink",
+        "sha256": "c7b66ee04aeac6fc31f77a14d5553af4047de35d2864fcf7560452a183dd4e62",
+        "sha256_in_prefix": "c7b66ee04aeac6fc31f77a14d5553af4047de35d2864fcf7560452a183dd4e62",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/highlight.js/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0e5030370f6cb118d12b03a55508b4cc98ff3c3c4578b4fa673c3e6e5c56e468",
+        "sha256_in_prefix": "0e5030370f6cb118d12b03a55508b4cc98ff3c3c4578b4fa673c3e6e5c56e468",
+        "size_in_bytes": 1496
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/highlight.js/highlight.pack.js",
+        "path_type": "hardlink",
+        "sha256": "6208e89791de1d8beabdb81db9a2f2560a4e20861286134e382797f7c2dc767e",
+        "sha256_in_prefix": "6208e89791de1d8beabdb81db9a2f2560a4e20861286134e382797f7c2dc767e",
+        "size_in_bytes": 11276
+      },
+      {
+        "_path": "lib/R/library/covr/www/shared/highlight.js/rstudio.css",
+        "path_type": "hardlink",
+        "sha256": "2bd001a48ec08dbac380397e36576182c708a872c5e10aa4c3de305f3f5f782f",
+        "sha256_in_prefix": "2bd001a48ec08dbac380397e36576182c708a872c5e10aa4c3de305f3f5f782f",
+        "size_in_bytes": 996
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2e17ac711a34a7ccfbe3a61bc8c8e41b37c24bc8ea02ba00b63f31bb1c8261df",
+  "size": 309348,
+  "subdir": "linux-64",
+  "timestamp": 1621945075000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-covr-3.5.1-r41h03ef668_0.tar.bz2",
+  "version": "3.5.1"
+}

@@ -1,0 +1,15 @@
+prefix=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+appdefaultdir=/crex/proj/sllstore2017021/nobackup/ADRIAN/metagenomics-power-analyses-tutorial/r-env/share/X11/app-defaults
+datarootdir=${prefix}/share
+errordbdir=${datarootdir}/X11
+
+Name: Xt
+Description: X Toolkit Library
+Version: 1.2.1
+Requires: xproto x11
+Requires.private: ice sm
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXt

@@ -1,0 +1,237 @@
+{
+  "build": "r41hcfec24a_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-sys >=2.1"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-askpass-1.1-r41hcfec24a_2",
+  "features": "",
+  "files": [
+    "lib/R/library/askpass/DESCRIPTION",
+    "lib/R/library/askpass/INDEX",
+    "lib/R/library/askpass/LICENSE",
+    "lib/R/library/askpass/Meta/Rd.rds",
+    "lib/R/library/askpass/Meta/features.rds",
+    "lib/R/library/askpass/Meta/hsearch.rds",
+    "lib/R/library/askpass/Meta/links.rds",
+    "lib/R/library/askpass/Meta/nsInfo.rds",
+    "lib/R/library/askpass/Meta/package.rds",
+    "lib/R/library/askpass/NAMESPACE",
+    "lib/R/library/askpass/NEWS",
+    "lib/R/library/askpass/R/askpass",
+    "lib/R/library/askpass/R/askpass.rdb",
+    "lib/R/library/askpass/R/askpass.rdx",
+    "lib/R/library/askpass/WORDLIST",
+    "lib/R/library/askpass/help/AnIndex",
+    "lib/R/library/askpass/help/aliases.rds",
+    "lib/R/library/askpass/help/askpass.rdb",
+    "lib/R/library/askpass/help/askpass.rdx",
+    "lib/R/library/askpass/help/paths.rds",
+    "lib/R/library/askpass/html/00Index.html",
+    "lib/R/library/askpass/html/R.css",
+    "lib/R/library/askpass/libs/askpass.so",
+    "lib/R/library/askpass/mac-askpass",
+    "lib/R/library/askpass/mac-simplepass"
+  ],
+  "fn": "r-askpass-1.1-r41hcfec24a_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-askpass-1.1-r41hcfec24a_2",
+    "type": 1
+  },
+  "md5": "58e1d05890607b8534f1933bbc847901",
+  "name": "r-askpass",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-askpass-1.1-r41hcfec24a_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/askpass/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "dc95cd0450fa9c00b46538168d9993eacd755f45e7bc6e0343ab53a9bff1425c",
+        "sha256_in_prefix": "dc95cd0450fa9c00b46538168d9993eacd755f45e7bc6e0343ab53a9bff1425c",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "lib/R/library/askpass/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c91cfd87537472c33a8bcccba76c612c8c62e344c225ce763be21a29802fe3dc",
+        "sha256_in_prefix": "c91cfd87537472c33a8bcccba76c612c8c62e344c225ce763be21a29802fe3dc",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "lib/R/library/askpass/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "485684feca79992b8973c4f8bcdab3f414f156299f7e6346513e30427e591879",
+        "sha256_in_prefix": "485684feca79992b8973c4f8bcdab3f414f156299f7e6346513e30427e591879",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "lib/R/library/askpass/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "a703c8eb774774c1051c8b951a972bdc07f3dd4c2c9e810b51e5878860906f3e",
+        "sha256_in_prefix": "a703c8eb774774c1051c8b951a972bdc07f3dd4c2c9e810b51e5878860906f3e",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/R/library/askpass/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/askpass/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ad5e7ba21daa765934ff6c2a9cc2819c036cc6f0b4b4ac527d19bd9e7b85473b",
+        "sha256_in_prefix": "ad5e7ba21daa765934ff6c2a9cc2819c036cc6f0b4b4ac527d19bd9e7b85473b",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/R/library/askpass/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "581c7d28e1bddb8bc22a3f20fcf283ec4a8cd3f278c34a2018ecbf8de8d02d7a",
+        "sha256_in_prefix": "581c7d28e1bddb8bc22a3f20fcf283ec4a8cd3f278c34a2018ecbf8de8d02d7a",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "lib/R/library/askpass/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "5f8c00564f2af1e5f433bb64c986f261053026cc195101d3f31cbe0b1a6f2ca5",
+        "sha256_in_prefix": "5f8c00564f2af1e5f433bb64c986f261053026cc195101d3f31cbe0b1a6f2ca5",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "lib/R/library/askpass/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "075399de2bfd273a6923e5af0a8150686821df794558a79a2c972f4005ed5129",
+        "sha256_in_prefix": "075399de2bfd273a6923e5af0a8150686821df794558a79a2c972f4005ed5129",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/R/library/askpass/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "38a833733342824a412a72e26da5931c8c81e0ffc990719ed842e614e0276c3e",
+        "sha256_in_prefix": "38a833733342824a412a72e26da5931c8c81e0ffc990719ed842e614e0276c3e",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "lib/R/library/askpass/NEWS",
+        "path_type": "hardlink",
+        "sha256": "f630dd9cf5cc18dfce78f0eac81071c7de6804e940d6593fb0a071b78a4c4fcc",
+        "sha256_in_prefix": "f630dd9cf5cc18dfce78f0eac81071c7de6804e940d6593fb0a071b78a4c4fcc",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/R/library/askpass/R/askpass",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/askpass/R/askpass.rdb",
+        "path_type": "hardlink",
+        "sha256": "900a8cdf3118ac529c8e58b069d61a86a8ed4d97341acbc8a5a48e0a975325c8",
+        "sha256_in_prefix": "900a8cdf3118ac529c8e58b069d61a86a8ed4d97341acbc8a5a48e0a975325c8",
+        "size_in_bytes": 8640
+      },
+      {
+        "_path": "lib/R/library/askpass/R/askpass.rdx",
+        "path_type": "hardlink",
+        "sha256": "df7d03be9bdbde2474da3342e14c211fa19da9d7f75c1583e4ab5a2526aeb73d",
+        "sha256_in_prefix": "df7d03be9bdbde2474da3342e14c211fa19da9d7f75c1583e4ab5a2526aeb73d",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/R/library/askpass/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "279651b7667d6187d7b391f76213324bfa3e240de5313a7ae2cc8f9b940a03e0",
+        "sha256_in_prefix": "279651b7667d6187d7b391f76213324bfa3e240de5313a7ae2cc8f9b940a03e0",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/R/library/askpass/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ef671e4a47df750b93635f501f2aaa6c1bca5e5d673ca616769481381b7f44c7",
+        "sha256_in_prefix": "ef671e4a47df750b93635f501f2aaa6c1bca5e5d673ca616769481381b7f44c7",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "lib/R/library/askpass/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "56b6c85ce19ecd6c46087de7a135d809542623f8e9e959d775da22207f3f2ce3",
+        "sha256_in_prefix": "56b6c85ce19ecd6c46087de7a135d809542623f8e9e959d775da22207f3f2ce3",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "lib/R/library/askpass/help/askpass.rdb",
+        "path_type": "hardlink",
+        "sha256": "742ed4572b8d127b8339d9a751c3ade95db8263c39e024d70acd354f30b820ee",
+        "sha256_in_prefix": "742ed4572b8d127b8339d9a751c3ade95db8263c39e024d70acd354f30b820ee",
+        "size_in_bytes": 2654
+      },
+      {
+        "_path": "lib/R/library/askpass/help/askpass.rdx",
+        "path_type": "hardlink",
+        "sha256": "28baa9481bf008682f1966237d01d99b6335635df2ee3c614aebd99c414d9511",
+        "sha256_in_prefix": "28baa9481bf008682f1966237d01d99b6335635df2ee3c614aebd99c414d9511",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/R/library/askpass/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9d9aae3274f742b70f1c8408591599722f145ca3e598febba3452311d8c854b3",
+        "sha256_in_prefix": "9d9aae3274f742b70f1c8408591599722f145ca3e598febba3452311d8c854b3",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/R/library/askpass/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "15fbf785a8589bac1bd2fb50f60adb500fcfabc9ef9b8009f5610a39147b52e9",
+        "sha256_in_prefix": "15fbf785a8589bac1bd2fb50f60adb500fcfabc9ef9b8009f5610a39147b52e9",
+        "size_in_bytes": 1209
+      },
+      {
+        "_path": "lib/R/library/askpass/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/askpass/libs/askpass.so",
+        "path_type": "hardlink",
+        "sha256": "c64a9b1cbba4de3e9b8218deec52b9e95a740b26ced316865eeedaee2fdb5d0c",
+        "sha256_in_prefix": "c64a9b1cbba4de3e9b8218deec52b9e95a740b26ced316865eeedaee2fdb5d0c",
+        "size_in_bytes": 16560
+      },
+      {
+        "_path": "lib/R/library/askpass/mac-askpass",
+        "path_type": "hardlink",
+        "sha256": "b291d237fbcafae014071167dd14cabc8214e3dd63334e4528a479a25bbc3bd5",
+        "sha256_in_prefix": "b291d237fbcafae014071167dd14cabc8214e3dd63334e4528a479a25bbc3bd5",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "lib/R/library/askpass/mac-simplepass",
+        "path_type": "hardlink",
+        "sha256": "8cf596483ff696e5fd2e3f59573bb512787ac93e1d03fce95edc58bed42612b7",
+        "sha256_in_prefix": "8cf596483ff696e5fd2e3f59573bb512787ac93e1d03fce95edc58bed42612b7",
+        "size_in_bytes": 353
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e22df48c5593f0f27b504a7c45a5e668e7c4327393c7931d3e91dcd9df98394d",
+  "size": 28731,
+  "subdir": "linux-64",
+  "timestamp": 1621630911000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-askpass-1.1-r41hcfec24a_2.tar.bz2",
+  "version": "1.1"
+}

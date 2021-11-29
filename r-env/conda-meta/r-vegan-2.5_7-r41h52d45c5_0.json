@@ -1,0 +1,493 @@
+{
+  "build": "r41h52d45c5_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran-ng",
+    "r-mass",
+    "r-lattice",
+    "r-cluster",
+    "r-mgcv",
+    "libgcc-ng >=9.3.0",
+    "libblas >=3.8.0,<4.0a0",
+    "libgfortran5 >=9.3.0",
+    "liblapack >=3.8.0,<4.0a0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-permute >=0.9_0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-vegan-2.5_7-r41h52d45c5_0",
+  "features": "",
+  "files": [
+    "lib/R/library/vegan/DESCRIPTION",
+    "lib/R/library/vegan/INDEX",
+    "lib/R/library/vegan/Meta/Rd.rds",
+    "lib/R/library/vegan/Meta/data.rds",
+    "lib/R/library/vegan/Meta/features.rds",
+    "lib/R/library/vegan/Meta/hsearch.rds",
+    "lib/R/library/vegan/Meta/links.rds",
+    "lib/R/library/vegan/Meta/nsInfo.rds",
+    "lib/R/library/vegan/Meta/package.rds",
+    "lib/R/library/vegan/Meta/vignette.rds",
+    "lib/R/library/vegan/NAMESPACE",
+    "lib/R/library/vegan/NEWS.Rd",
+    "lib/R/library/vegan/ONEWS",
+    "lib/R/library/vegan/OldChangeLog",
+    "lib/R/library/vegan/R/vegan",
+    "lib/R/library/vegan/R/vegan.rdb",
+    "lib/R/library/vegan/R/vegan.rdx",
+    "lib/R/library/vegan/data/BCI.env.rda",
+    "lib/R/library/vegan/data/BCI.rda",
+    "lib/R/library/vegan/data/dune.env.rda",
+    "lib/R/library/vegan/data/dune.phylodis.rda",
+    "lib/R/library/vegan/data/dune.rda",
+    "lib/R/library/vegan/data/dune.taxon.rda",
+    "lib/R/library/vegan/data/mite.env.rda",
+    "lib/R/library/vegan/data/mite.pcnm.rda",
+    "lib/R/library/vegan/data/mite.rda",
+    "lib/R/library/vegan/data/mite.xy.rda",
+    "lib/R/library/vegan/data/pyrifos.rda",
+    "lib/R/library/vegan/data/sipoo.map.rda",
+    "lib/R/library/vegan/data/sipoo.rda",
+    "lib/R/library/vegan/data/varechem.rda",
+    "lib/R/library/vegan/data/varespec.rda",
+    "lib/R/library/vegan/doc/FAQ-vegan.R",
+    "lib/R/library/vegan/doc/FAQ-vegan.Rmd",
+    "lib/R/library/vegan/doc/FAQ-vegan.html",
+    "lib/R/library/vegan/doc/decision-vegan.R",
+    "lib/R/library/vegan/doc/decision-vegan.Rnw",
+    "lib/R/library/vegan/doc/decision-vegan.pdf",
+    "lib/R/library/vegan/doc/diversity-vegan.R",
+    "lib/R/library/vegan/doc/diversity-vegan.Rnw",
+    "lib/R/library/vegan/doc/diversity-vegan.pdf",
+    "lib/R/library/vegan/doc/index.html",
+    "lib/R/library/vegan/doc/intro-vegan.R",
+    "lib/R/library/vegan/doc/intro-vegan.Rnw",
+    "lib/R/library/vegan/doc/intro-vegan.pdf",
+    "lib/R/library/vegan/doc/partitioning.R",
+    "lib/R/library/vegan/doc/partitioning.Rnw",
+    "lib/R/library/vegan/doc/partitioning.pdf",
+    "lib/R/library/vegan/help/AnIndex",
+    "lib/R/library/vegan/help/aliases.rds",
+    "lib/R/library/vegan/help/paths.rds",
+    "lib/R/library/vegan/help/vegan.rdb",
+    "lib/R/library/vegan/help/vegan.rdx",
+    "lib/R/library/vegan/html/00Index.html",
+    "lib/R/library/vegan/html/R.css",
+    "lib/R/library/vegan/libs/vegan.so"
+  ],
+  "fn": "r-vegan-2.5_7-r41h52d45c5_0.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-vegan-2.5_7-r41h52d45c5_0",
+    "type": 1
+  },
+  "md5": "dff3f67b29e140b8a1f276506fe4b911",
+  "name": "r-vegan",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-vegan-2.5_7-r41h52d45c5_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/vegan/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "df661b01be2e75c2f71bb142d20cba0aed17aacb1952a73256306b50e2df129d",
+        "sha256_in_prefix": "df661b01be2e75c2f71bb142d20cba0aed17aacb1952a73256306b50e2df129d",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "lib/R/library/vegan/INDEX",
+        "path_type": "hardlink",
+        "sha256": "91b2934e66c08e371405d32c9469c8c8b85e3343f5c21e722db0dcdd926c255b",
+        "sha256_in_prefix": "91b2934e66c08e371405d32c9469c8c8b85e3343f5c21e722db0dcdd926c255b",
+        "size_in_bytes": 10280
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "79ea8b72bd8df76cf162b7b200d401be9e732f0e9552b82434254e82b8941ec4",
+        "sha256_in_prefix": "79ea8b72bd8df76cf162b7b200d401be9e732f0e9552b82434254e82b8941ec4",
+        "size_in_bytes": 7677
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "f98f440554895ea2214fec583b975d8fe66e25ffa2dc583009a82f094188cdf5",
+        "sha256_in_prefix": "f98f440554895ea2214fec583b975d8fe66e25ffa2dc583009a82f094188cdf5",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "e54dd31c0d4f920357cadff1a2495e9d4f4a5cc4694620d9cfee293a66b4b7be",
+        "sha256_in_prefix": "e54dd31c0d4f920357cadff1a2495e9d4f4a5cc4694620d9cfee293a66b4b7be",
+        "size_in_bytes": 7860
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "be2e5253da2918ab6bfe78fa3c4fe0d9f61d669f6d0b20f4a4f236939327556e",
+        "sha256_in_prefix": "be2e5253da2918ab6bfe78fa3c4fe0d9f61d669f6d0b20f4a4f236939327556e",
+        "size_in_bytes": 4309
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "881047a6e67ad0c090fefcf72741f4bd3215bc72f7071095a85f1f70e1c12a7d",
+        "sha256_in_prefix": "881047a6e67ad0c090fefcf72741f4bd3215bc72f7071095a85f1f70e1c12a7d",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d9d2f9d60bc4bdad39232c3343580145a5b2024c4f373a705b2f49860b6f13ab",
+        "sha256_in_prefix": "d9d2f9d60bc4bdad39232c3343580145a5b2024c4f373a705b2f49860b6f13ab",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "lib/R/library/vegan/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "3b53993304c3d96a8d3f9aca41ad1da8a37ca9d875626f793cbc9e4049dcc7b4",
+        "sha256_in_prefix": "3b53993304c3d96a8d3f9aca41ad1da8a37ca9d875626f793cbc9e4049dcc7b4",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/R/library/vegan/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "246e801d34ac0c6df6b22c01209cc97d75261cf4d6d9f9d6c4b43f6931bf5ca5",
+        "sha256_in_prefix": "246e801d34ac0c6df6b22c01209cc97d75261cf4d6d9f9d6c4b43f6931bf5ca5",
+        "size_in_bytes": 15233
+      },
+      {
+        "_path": "lib/R/library/vegan/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "50b2395ff2849f7dc4c66714b55315b7029f4f5cfd87b83830546817db1f9523",
+        "sha256_in_prefix": "50b2395ff2849f7dc4c66714b55315b7029f4f5cfd87b83830546817db1f9523",
+        "size_in_bytes": 113281
+      },
+      {
+        "_path": "lib/R/library/vegan/ONEWS",
+        "path_type": "hardlink",
+        "sha256": "591057e350164628ac3609a453aab53b5bed93a44901fdbb84921871342dc8bc",
+        "sha256_in_prefix": "591057e350164628ac3609a453aab53b5bed93a44901fdbb84921871342dc8bc",
+        "size_in_bytes": 94769
+      },
+      {
+        "_path": "lib/R/library/vegan/OldChangeLog",
+        "path_type": "hardlink",
+        "sha256": "bd31ae65db507a4650fc70aa986127308e1932d87272eb776223c2dda05ffd90",
+        "sha256_in_prefix": "bd31ae65db507a4650fc70aa986127308e1932d87272eb776223c2dda05ffd90",
+        "size_in_bytes": 248126
+      },
+      {
+        "_path": "lib/R/library/vegan/R/vegan",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/vegan/R/vegan.rdb",
+        "path_type": "hardlink",
+        "sha256": "0c28012b5cb6cf744c3fa8d26372d1c40473c0e949aeb258af296e21ed3f9711",
+        "sha256_in_prefix": "0c28012b5cb6cf744c3fa8d26372d1c40473c0e949aeb258af296e21ed3f9711",
+        "size_in_bytes": 1256612
+      },
+      {
+        "_path": "lib/R/library/vegan/R/vegan.rdx",
+        "path_type": "hardlink",
+        "sha256": "e3ce132a1433adda67ae1714c9352bc265c8fe57db67308e12c2868f794a46a2",
+        "sha256_in_prefix": "e3ce132a1433adda67ae1714c9352bc265c8fe57db67308e12c2868f794a46a2",
+        "size_in_bytes": 7646
+      },
+      {
+        "_path": "lib/R/library/vegan/data/BCI.env.rda",
+        "path_type": "hardlink",
+        "sha256": "05158f8b19ff582007ab793522bc1cd38e6f2766cf4bc707cba84648495d14c1",
+        "sha256_in_prefix": "05158f8b19ff582007ab793522bc1cd38e6f2766cf4bc707cba84648495d14c1",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "lib/R/library/vegan/data/BCI.rda",
+        "path_type": "hardlink",
+        "sha256": "9730c9a9db6eb455ae97c61c863a2ca6a074f7d00a3062b9a3a9a873158a5fd1",
+        "sha256_in_prefix": "9730c9a9db6eb455ae97c61c863a2ca6a074f7d00a3062b9a3a9a873158a5fd1",
+        "size_in_bytes": 8759
+      },
+      {
+        "_path": "lib/R/library/vegan/data/dune.env.rda",
+        "path_type": "hardlink",
+        "sha256": "7a1cda26babc5db30d7ae3def2b10c2bb4f3d0002f078afbf2307829f60b09c5",
+        "sha256_in_prefix": "7a1cda26babc5db30d7ae3def2b10c2bb4f3d0002f078afbf2307829f60b09c5",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "lib/R/library/vegan/data/dune.phylodis.rda",
+        "path_type": "hardlink",
+        "sha256": "c3b2a3975c8d24d1cd31a2962c0adb82025773e3493e2b010f0b0f7a81ad16ba",
+        "sha256_in_prefix": "c3b2a3975c8d24d1cd31a2962c0adb82025773e3493e2b010f0b0f7a81ad16ba",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "lib/R/library/vegan/data/dune.rda",
+        "path_type": "hardlink",
+        "sha256": "613156178d6b7cc81579e7f096b4202229e83bc871f7974e1e3ef16389e75b18",
+        "sha256_in_prefix": "613156178d6b7cc81579e7f096b4202229e83bc871f7974e1e3ef16389e75b18",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/R/library/vegan/data/dune.taxon.rda",
+        "path_type": "hardlink",
+        "sha256": "266c989a866f7321928a5847113e2af40d2ffdef87ddfdb96b044cd68257b6a6",
+        "sha256_in_prefix": "266c989a866f7321928a5847113e2af40d2ffdef87ddfdb96b044cd68257b6a6",
+        "size_in_bytes": 758
+      },
+      {
+        "_path": "lib/R/library/vegan/data/mite.env.rda",
+        "path_type": "hardlink",
+        "sha256": "a6dea903a01176852ca601af1ab1815c11a3be9f8737dee9051ed23919a74eec",
+        "sha256_in_prefix": "a6dea903a01176852ca601af1ab1815c11a3be9f8737dee9051ed23919a74eec",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "lib/R/library/vegan/data/mite.pcnm.rda",
+        "path_type": "hardlink",
+        "sha256": "72925040c79513cc363f3a60e11cb8fa8cc8ff211c6d37c52317f7282ffbf735",
+        "sha256_in_prefix": "72925040c79513cc363f3a60e11cb8fa8cc8ff211c6d37c52317f7282ffbf735",
+        "size_in_bytes": 12316
+      },
+      {
+        "_path": "lib/R/library/vegan/data/mite.rda",
+        "path_type": "hardlink",
+        "sha256": "072aabb3f03ee7a364ce8ac4b9e3a022cbac087dedb48b785ffd4ec36433e361",
+        "sha256_in_prefix": "072aabb3f03ee7a364ce8ac4b9e3a022cbac087dedb48b785ffd4ec36433e361",
+        "size_in_bytes": 2062
+      },
+      {
+        "_path": "lib/R/library/vegan/data/mite.xy.rda",
+        "path_type": "hardlink",
+        "sha256": "cebc7313c978b6aaf62350fcdc2a9cb8e76949e0a7fe51b142f865de55cf6329",
+        "sha256_in_prefix": "cebc7313c978b6aaf62350fcdc2a9cb8e76949e0a7fe51b142f865de55cf6329",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/R/library/vegan/data/pyrifos.rda",
+        "path_type": "hardlink",
+        "sha256": "876fa431624b4453d90bbdcbc84e6e7a6d964b3372918d59d5a9d21f264aca40",
+        "sha256_in_prefix": "876fa431624b4453d90bbdcbc84e6e7a6d964b3372918d59d5a9d21f264aca40",
+        "size_in_bytes": 14208
+      },
+      {
+        "_path": "lib/R/library/vegan/data/sipoo.map.rda",
+        "path_type": "hardlink",
+        "sha256": "dafa2438e2a035feb759359548f8e3443745a6015e0e5b1088319df14b1070b1",
+        "sha256_in_prefix": "dafa2438e2a035feb759359548f8e3443745a6015e0e5b1088319df14b1070b1",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "lib/R/library/vegan/data/sipoo.rda",
+        "path_type": "hardlink",
+        "sha256": "9b9b519dd3e41e6a6d33f0e93e5705db6c8ea25e7095d91a41eb8b0a5fe31cc4",
+        "sha256_in_prefix": "9b9b519dd3e41e6a6d33f0e93e5705db6c8ea25e7095d91a41eb8b0a5fe31cc4",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "lib/R/library/vegan/data/varechem.rda",
+        "path_type": "hardlink",
+        "sha256": "b17acad08b0ae45cf2b4aa09ee15469f4a68d7e699830229979a46c6c161715f",
+        "sha256_in_prefix": "b17acad08b0ae45cf2b4aa09ee15469f4a68d7e699830229979a46c6c161715f",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/R/library/vegan/data/varespec.rda",
+        "path_type": "hardlink",
+        "sha256": "8874b885aaaeab2d95572585f70312f6135356f30d6d73fe748f6a3354adbdad",
+        "sha256_in_prefix": "8874b885aaaeab2d95572585f70312f6135356f30d6d73fe748f6a3354adbdad",
+        "size_in_bytes": 2187
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/FAQ-vegan.R",
+        "path_type": "hardlink",
+        "sha256": "d08b6cc963e214aabf75bb450914f3001975ce330ae5973bb73ea62628e4c2b0",
+        "sha256_in_prefix": "d08b6cc963e214aabf75bb450914f3001975ce330ae5973bb73ea62628e4c2b0",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/FAQ-vegan.Rmd",
+        "path_type": "hardlink",
+        "sha256": "be7cb6829188cf8101d52e583f01ba2c31e32b4e6061e2734d781e66c03e8cf0",
+        "sha256_in_prefix": "be7cb6829188cf8101d52e583f01ba2c31e32b4e6061e2734d781e66c03e8cf0",
+        "size_in_bytes": 33810
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/FAQ-vegan.html",
+        "path_type": "hardlink",
+        "sha256": "2298feef6a763c02c55aba418492ad0b636690096ac0a08aee2bf395dc952006",
+        "sha256_in_prefix": "2298feef6a763c02c55aba418492ad0b636690096ac0a08aee2bf395dc952006",
+        "size_in_bytes": 48969
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/decision-vegan.R",
+        "path_type": "hardlink",
+        "sha256": "65b969af8a6cf2354ee71b0aedd29b04956a746fbc311ea0328b3a232e03c01d",
+        "sha256_in_prefix": "65b969af8a6cf2354ee71b0aedd29b04956a746fbc311ea0328b3a232e03c01d",
+        "size_in_bytes": 5460
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/decision-vegan.Rnw",
+        "path_type": "hardlink",
+        "sha256": "5808b9afa09a0d332e251bf9e0133db8072d17218893eea4f46eb44582af7e79",
+        "sha256_in_prefix": "5808b9afa09a0d332e251bf9e0133db8072d17218893eea4f46eb44582af7e79",
+        "size_in_bytes": 30859
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/decision-vegan.pdf",
+        "path_type": "hardlink",
+        "sha256": "dc397ed03bec77503fce426098f4ec682365477345810de58f3dc6839e2243f7",
+        "sha256_in_prefix": "dc397ed03bec77503fce426098f4ec682365477345810de58f3dc6839e2243f7",
+        "size_in_bytes": 339104
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/diversity-vegan.R",
+        "path_type": "hardlink",
+        "sha256": "b30fb069bd6a6445ef8023c39fc34468b9a8d88a9371a1916affe1d5e31d1ed8",
+        "sha256_in_prefix": "b30fb069bd6a6445ef8023c39fc34468b9a8d88a9371a1916affe1d5e31d1ed8",
+        "size_in_bytes": 7542
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/diversity-vegan.Rnw",
+        "path_type": "hardlink",
+        "sha256": "69c02a94342dec438a75912952307e88274fb9aefde4f0c57d4eec652bc13fc5",
+        "sha256_in_prefix": "69c02a94342dec438a75912952307e88274fb9aefde4f0c57d4eec652bc13fc5",
+        "size_in_bytes": 32460
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/diversity-vegan.pdf",
+        "path_type": "hardlink",
+        "sha256": "8df5a1e3c19e12ea3d38c84d2cae8fa9d2f9a3feb1aa198b53a5e251ed2f4587",
+        "sha256_in_prefix": "8df5a1e3c19e12ea3d38c84d2cae8fa9d2f9a3feb1aa198b53a5e251ed2f4587",
+        "size_in_bytes": 390035
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "06b67084bf7aca35879f91b47f460193474623ee871d61e1f8f9ee9314761562",
+        "sha256_in_prefix": "06b67084bf7aca35879f91b47f460193474623ee871d61e1f8f9ee9314761562",
+        "size_in_bytes": 3299
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/intro-vegan.R",
+        "path_type": "hardlink",
+        "sha256": "02dc011ae12ad85376bfe58a08d917672e904f9540ed788bb03dac4f84ab7a55",
+        "sha256_in_prefix": "02dc011ae12ad85376bfe58a08d917672e904f9540ed788bb03dac4f84ab7a55",
+        "size_in_bytes": 6150
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/intro-vegan.Rnw",
+        "path_type": "hardlink",
+        "sha256": "dc46b18dd85ce309c6c9dfefe3fe4074ba247d8caf0c43e641690277195b18ce",
+        "sha256_in_prefix": "dc46b18dd85ce309c6c9dfefe3fe4074ba247d8caf0c43e641690277195b18ce",
+        "size_in_bytes": 14210
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/intro-vegan.pdf",
+        "path_type": "hardlink",
+        "sha256": "d1f7908485533f0c09da04ca44f2c20f20591e0f9acb7bb80c4a5db20cc9e287",
+        "sha256_in_prefix": "d1f7908485533f0c09da04ca44f2c20f20591e0f9acb7bb80c4a5db20cc9e287",
+        "size_in_bytes": 231558
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/partitioning.R",
+        "path_type": "hardlink",
+        "sha256": "ce7fe87f133df8aafa0f161d1aa730dbfd0f6a590614cfcafc2b7907c8ebf94e",
+        "sha256_in_prefix": "ce7fe87f133df8aafa0f161d1aa730dbfd0f6a590614cfcafc2b7907c8ebf94e",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/partitioning.Rnw",
+        "path_type": "hardlink",
+        "sha256": "e46d99a97ac24b44df30aa093d16be07c5c06cf622feb705708f400e0f5b3bea",
+        "sha256_in_prefix": "e46d99a97ac24b44df30aa093d16be07c5c06cf622feb705708f400e0f5b3bea",
+        "size_in_bytes": 2691
+      },
+      {
+        "_path": "lib/R/library/vegan/doc/partitioning.pdf",
+        "path_type": "hardlink",
+        "sha256": "174107538c42cd7d9c322c337f83e437e88d5daf922fe01a6ed6a833114a3602",
+        "sha256_in_prefix": "174107538c42cd7d9c322c337f83e437e88d5daf922fe01a6ed6a833114a3602",
+        "size_in_bytes": 137359
+      },
+      {
+        "_path": "lib/R/library/vegan/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1d9f9892338f1dd65a47175e55985ba92c409b92490ae367df0b4c2e0c6e7de3",
+        "sha256_in_prefix": "1d9f9892338f1dd65a47175e55985ba92c409b92490ae367df0b4c2e0c6e7de3",
+        "size_in_bytes": 13030
+      },
+      {
+        "_path": "lib/R/library/vegan/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "59da0a6304d2ed2b6e1f8d3c328508bc83c9003fa377522bda518b10480cbdb0",
+        "sha256_in_prefix": "59da0a6304d2ed2b6e1f8d3c328508bc83c9003fa377522bda518b10480cbdb0",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "lib/R/library/vegan/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "0474e3b326bde94a1416d02ad3ca33b6e2f6f358644a99c3e16f68fa3e69876c",
+        "sha256_in_prefix": "0474e3b326bde94a1416d02ad3ca33b6e2f6f358644a99c3e16f68fa3e69876c",
+        "size_in_bytes": 1129
+      },
+      {
+        "_path": "lib/R/library/vegan/help/vegan.rdb",
+        "path_type": "hardlink",
+        "sha256": "eef9ec2f1e9f54c3217c004f7420c74ce5475754d57b10c82a8d5a76c06b6b4d",
+        "sha256_in_prefix": "eef9ec2f1e9f54c3217c004f7420c74ce5475754d57b10c82a8d5a76c06b6b4d",
+        "size_in_bytes": 940181
+      },
+      {
+        "_path": "lib/R/library/vegan/help/vegan.rdx",
+        "path_type": "hardlink",
+        "sha256": "ae7e5553fba2d3972576d07a843c31eefe7c934e0047b27211c39e6517a19e41",
+        "sha256_in_prefix": "ae7e5553fba2d3972576d07a843c31eefe7c934e0047b27211c39e6517a19e41",
+        "size_in_bytes": 2673
+      },
+      {
+        "_path": "lib/R/library/vegan/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "1a104eb4723550b21167e7131e94fd11e4aa9e5b50f77c2687de229a689924b8",
+        "sha256_in_prefix": "1a104eb4723550b21167e7131e94fd11e4aa9e5b50f77c2687de229a689924b8",
+        "size_in_bytes": 78165
+      },
+      {
+        "_path": "lib/R/library/vegan/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/vegan/libs/vegan.so",
+        "path_type": "hardlink",
+        "sha256": "d4530fac0b733a3120f8780b11be92241a265496574acdeedb9ba93b589efe01",
+        "sha256_in_prefix": "d4530fac0b733a3120f8780b11be92241a265496574acdeedb9ba93b589efe01",
+        "size_in_bytes": 95528
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ae8e5b0032c3e5f0f8aff157ec4dad7464de0f579de06d43c1493a16388e584f",
+  "size": 3595142,
+  "subdir": "linux-64",
+  "timestamp": 1621850444000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-vegan-2.5_7-r41h52d45c5_0.tar.bz2",
+  "version": "2.5_7"
+}

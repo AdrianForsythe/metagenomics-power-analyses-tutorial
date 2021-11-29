@@ -1,0 +1,590 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-jsonlite",
+    "r-withr",
+    "r-rstudioapi",
+    "r-rappdirs",
+    "r-base >=4.1,<4.2.0a0",
+    "r-glue >=1.3.0",
+    "r-httr >=1.4.0",
+    "r-fs >=1.3.1",
+    "r-rlang >=0.4.9",
+    "r-cli >=2.3.1"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-gargle-1.2.0-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/gargle/DESCRIPTION",
+    "lib/R/library/gargle/INDEX",
+    "lib/R/library/gargle/LICENSE",
+    "lib/R/library/gargle/Meta/Rd.rds",
+    "lib/R/library/gargle/Meta/features.rds",
+    "lib/R/library/gargle/Meta/hsearch.rds",
+    "lib/R/library/gargle/Meta/links.rds",
+    "lib/R/library/gargle/Meta/nsInfo.rds",
+    "lib/R/library/gargle/Meta/package.rds",
+    "lib/R/library/gargle/Meta/vignette.rds",
+    "lib/R/library/gargle/NAMESPACE",
+    "lib/R/library/gargle/NEWS.md",
+    "lib/R/library/gargle/R/gargle",
+    "lib/R/library/gargle/R/gargle.rdb",
+    "lib/R/library/gargle/R/gargle.rdx",
+    "lib/R/library/gargle/R/sysdata.rdb",
+    "lib/R/library/gargle/R/sysdata.rdx",
+    "lib/R/library/gargle/WORDLIST",
+    "lib/R/library/gargle/discovery-doc-ingest/api-wide-parameter-names.txt",
+    "lib/R/library/gargle/discovery-doc-ingest/api-wide-parameters-humane.txt",
+    "lib/R/library/gargle/discovery-doc-ingest/api-wide-parameters.csv",
+    "lib/R/library/gargle/discovery-doc-ingest/discover-discovery.R",
+    "lib/R/library/gargle/discovery-doc-ingest/drive-example.R",
+    "lib/R/library/gargle/discovery-doc-ingest/ingest-functions.R",
+    "lib/R/library/gargle/discovery-doc-ingest/method-properties-humane.txt",
+    "lib/R/library/gargle/discovery-doc-ingest/method-properties.csv",
+    "lib/R/library/gargle/discovery-doc-ingest/method-property-names.txt",
+    "lib/R/library/gargle/discovery-doc-ingest/parameter-properties-humane.txt",
+    "lib/R/library/gargle/discovery-doc-ingest/parameter-properties.csv",
+    "lib/R/library/gargle/discovery-doc-ingest/parameter-property-names.txt",
+    "lib/R/library/gargle/doc/auth-from-web.R",
+    "lib/R/library/gargle/doc/auth-from-web.Rmd",
+    "lib/R/library/gargle/doc/auth-from-web.html",
+    "lib/R/library/gargle/doc/gargle-auth-in-client-package.R",
+    "lib/R/library/gargle/doc/gargle-auth-in-client-package.Rmd",
+    "lib/R/library/gargle/doc/gargle-auth-in-client-package.html",
+    "lib/R/library/gargle/doc/get-api-credentials.R",
+    "lib/R/library/gargle/doc/get-api-credentials.Rmd",
+    "lib/R/library/gargle/doc/get-api-credentials.html",
+    "lib/R/library/gargle/doc/how-gargle-gets-tokens.R",
+    "lib/R/library/gargle/doc/how-gargle-gets-tokens.Rmd",
+    "lib/R/library/gargle/doc/how-gargle-gets-tokens.html",
+    "lib/R/library/gargle/doc/index.html",
+    "lib/R/library/gargle/doc/non-interactive-auth.R",
+    "lib/R/library/gargle/doc/non-interactive-auth.Rmd",
+    "lib/R/library/gargle/doc/non-interactive-auth.html",
+    "lib/R/library/gargle/doc/request-helper-functions.R",
+    "lib/R/library/gargle/doc/request-helper-functions.Rmd",
+    "lib/R/library/gargle/doc/request-helper-functions.html",
+    "lib/R/library/gargle/doc/troubleshooting.R",
+    "lib/R/library/gargle/doc/troubleshooting.Rmd",
+    "lib/R/library/gargle/doc/troubleshooting.html",
+    "lib/R/library/gargle/help/AnIndex",
+    "lib/R/library/gargle/help/aliases.rds",
+    "lib/R/library/gargle/help/figures/lifecycle-archived.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-stable.svg",
+    "lib/R/library/gargle/help/figures/lifecycle-superseded.svg",
+    "lib/R/library/gargle/help/gargle.rdb",
+    "lib/R/library/gargle/help/gargle.rdx",
+    "lib/R/library/gargle/help/paths.rds",
+    "lib/R/library/gargle/html/00Index.html",
+    "lib/R/library/gargle/html/R.css",
+    "lib/R/library/gargle/secret/gargle-testing.json"
+  ],
+  "fn": "r-gargle-1.2.0-r41hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-gargle-1.2.0-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "3d3eca5ae3c8df899e6522c9e0f337dd",
+  "name": "r-gargle",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-gargle-1.2.0-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gargle/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a8edb3b541d475b9408a36489b53cd7831a7f16998f74ae7adcc14cbfbe40f71",
+        "sha256_in_prefix": "a8edb3b541d475b9408a36489b53cd7831a7f16998f74ae7adcc14cbfbe40f71",
+        "size_in_bytes": 1980
+      },
+      {
+        "_path": "lib/R/library/gargle/INDEX",
+        "path_type": "hardlink",
+        "sha256": "6c61fd66d3944be4d06ee195129407697bf07515186dc1532a13deecd5936766",
+        "sha256_in_prefix": "6c61fd66d3944be4d06ee195129407697bf07515186dc1532a13deecd5936766",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "lib/R/library/gargle/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3bac9b934c0b9689fa159f8d20b674a30ed8800a18c0b8e11ca380e865398ea4",
+        "sha256_in_prefix": "3bac9b934c0b9689fa159f8d20b674a30ed8800a18c0b8e11ca380e865398ea4",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "3854e58db2d5d223d63844d46d4d499dcb87ddade5b23c8df0f70fe9e37fc7e6",
+        "sha256_in_prefix": "3854e58db2d5d223d63844d46d4d499dcb87ddade5b23c8df0f70fe9e37fc7e6",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "100fecde19315e7995b1a86d523ac3837993a59c39704ff4de955e4515d3b230",
+        "sha256_in_prefix": "100fecde19315e7995b1a86d523ac3837993a59c39704ff4de955e4515d3b230",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ca3229e0a53eb549cf5d542f09d0e4c79f7c9275ac2b971186d722ff341b76f2",
+        "sha256_in_prefix": "ca3229e0a53eb549cf5d542f09d0e4c79f7c9275ac2b971186d722ff341b76f2",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "70ef45fd4a6e0c6f790f1f2e8725a63b8790982f132f19f44b8c3a9012af50c9",
+        "sha256_in_prefix": "70ef45fd4a6e0c6f790f1f2e8725a63b8790982f132f19f44b8c3a9012af50c9",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "47dbdb05070bf4f73eecc87e35daa50306f33881da3e022dd7746eddd03225ee",
+        "sha256_in_prefix": "47dbdb05070bf4f73eecc87e35daa50306f33881da3e022dd7746eddd03225ee",
+        "size_in_bytes": 1542
+      },
+      {
+        "_path": "lib/R/library/gargle/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "9f188c1c01659c8eb880eaf050d8ba4f8a63c947c6f87bce47232d3ec0509917",
+        "sha256_in_prefix": "9f188c1c01659c8eb880eaf050d8ba4f8a63c947c6f87bce47232d3ec0509917",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "lib/R/library/gargle/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c5cd2dda62018c49399484a069b6f456fc45207c1bb02630e2e45210f05ad589",
+        "sha256_in_prefix": "c5cd2dda62018c49399484a069b6f456fc45207c1bb02630e2e45210f05ad589",
+        "size_in_bytes": 1405
+      },
+      {
+        "_path": "lib/R/library/gargle/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "3b73f333cb98d3cf02a3f6a7131be179a73d6c14491e234fb41a00486e3df498",
+        "sha256_in_prefix": "3b73f333cb98d3cf02a3f6a7131be179a73d6c14491e234fb41a00486e3df498",
+        "size_in_bytes": 12183
+      },
+      {
+        "_path": "lib/R/library/gargle/R/gargle",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/gargle/R/gargle.rdb",
+        "path_type": "hardlink",
+        "sha256": "e76af5c5887ede203039f1d344632174a2d6444e4bb03bd66e8d69d434409f5a",
+        "sha256_in_prefix": "e76af5c5887ede203039f1d344632174a2d6444e4bb03bd66e8d69d434409f5a",
+        "size_in_bytes": 239078
+      },
+      {
+        "_path": "lib/R/library/gargle/R/gargle.rdx",
+        "path_type": "hardlink",
+        "sha256": "d52bcfec810c9a3d5f1f025ed6f1b434e4e5e392c7b2c1d9d0e9ec42507e2726",
+        "sha256_in_prefix": "d52bcfec810c9a3d5f1f025ed6f1b434e4e5e392c7b2c1d9d0e9ec42507e2726",
+        "size_in_bytes": 2918
+      },
+      {
+        "_path": "lib/R/library/gargle/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "2eb87f6c352b1034e1cb7fe6ab928af8ee69173658a1cca1ed9d57c1e2d9884c",
+        "sha256_in_prefix": "2eb87f6c352b1034e1cb7fe6ab928af8ee69173658a1cca1ed9d57c1e2d9884c",
+        "size_in_bytes": 3495
+      },
+      {
+        "_path": "lib/R/library/gargle/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "63cb72176001ee3b941aaea9bb43c6384ef7aeb27673ad8cd78bec5c4135e063",
+        "sha256_in_prefix": "63cb72176001ee3b941aaea9bb43c6384ef7aeb27673ad8cd78bec5c4135e063",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/gargle/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "4abdc8f8b55333db35d72c63fa14c298e8c20f29c75c0c0d3b8e06a0a880b966",
+        "sha256_in_prefix": "4abdc8f8b55333db35d72c63fa14c298e8c20f29c75c0c0d3b8e06a0a880b966",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/api-wide-parameter-names.txt",
+        "path_type": "hardlink",
+        "sha256": "ce7963833a94f7d0ad6cb7766e25c02fec6012052f278037da6214cec61ee80d",
+        "sha256_in_prefix": "ce7963833a94f7d0ad6cb7766e25c02fec6012052f278037da6214cec61ee80d",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/api-wide-parameters-humane.txt",
+        "path_type": "hardlink",
+        "sha256": "b20d4f80abfcd6f70e30ce28c683e80ce9224935d4fbe736ca44a804dc87bdcc",
+        "sha256_in_prefix": "b20d4f80abfcd6f70e30ce28c683e80ce9224935d4fbe736ca44a804dc87bdcc",
+        "size_in_bytes": 748
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/api-wide-parameters.csv",
+        "path_type": "hardlink",
+        "sha256": "814e31e345a53f3f0e91fa7d8884cdbf7725ab9f316206c19aa4f89472310f3d",
+        "sha256_in_prefix": "814e31e345a53f3f0e91fa7d8884cdbf7725ab9f316206c19aa4f89472310f3d",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/discover-discovery.R",
+        "path_type": "hardlink",
+        "sha256": "a45c279d3e7e96a8700f0e9a82fb1d716dcec717155a0ee1ddb546facfcded60",
+        "sha256_in_prefix": "a45c279d3e7e96a8700f0e9a82fb1d716dcec717155a0ee1ddb546facfcded60",
+        "size_in_bytes": 2584
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/drive-example.R",
+        "path_type": "hardlink",
+        "sha256": "788c3237d8dde4314f4c5e0743dad7b9b36cc7bd2215b9f9a48b020e28c595d0",
+        "sha256_in_prefix": "788c3237d8dde4314f4c5e0743dad7b9b36cc7bd2215b9f9a48b020e28c595d0",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/ingest-functions.R",
+        "path_type": "hardlink",
+        "sha256": "e4f7c5c8fdfdbbaad2fa6fcc781e9fd69d39b46a480f8d2ecc778b16798e9443",
+        "sha256_in_prefix": "e4f7c5c8fdfdbbaad2fa6fcc781e9fd69d39b46a480f8d2ecc778b16798e9443",
+        "size_in_bytes": 8978
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/method-properties-humane.txt",
+        "path_type": "hardlink",
+        "sha256": "fa1d8fc863cd4cc601b5d2673e9aba01b7f24bc3cd03ad827e24c06d1a6401cc",
+        "sha256_in_prefix": "fa1d8fc863cd4cc601b5d2673e9aba01b7f24bc3cd03ad827e24c06d1a6401cc",
+        "size_in_bytes": 1938
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/method-properties.csv",
+        "path_type": "hardlink",
+        "sha256": "05ae140275804f6e4ea3cdd59b3eab089acabf3dc9d3f2e03bf5ffd9c5dfbf06",
+        "sha256_in_prefix": "05ae140275804f6e4ea3cdd59b3eab089acabf3dc9d3f2e03bf5ffd9c5dfbf06",
+        "size_in_bytes": 3250
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/method-property-names.txt",
+        "path_type": "hardlink",
+        "sha256": "ce7963833a94f7d0ad6cb7766e25c02fec6012052f278037da6214cec61ee80d",
+        "sha256_in_prefix": "ce7963833a94f7d0ad6cb7766e25c02fec6012052f278037da6214cec61ee80d",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/parameter-properties-humane.txt",
+        "path_type": "hardlink",
+        "sha256": "e9457cf2e5dacba503b720c629f22bb86996d38b35cc2cf8670809ae831b763b",
+        "sha256_in_prefix": "e9457cf2e5dacba503b720c629f22bb86996d38b35cc2cf8670809ae831b763b",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/parameter-properties.csv",
+        "path_type": "hardlink",
+        "sha256": "665559c4ec73906ee247a6c11dac2b51154e35c20ea828cfd627194873d580cb",
+        "sha256_in_prefix": "665559c4ec73906ee247a6c11dac2b51154e35c20ea828cfd627194873d580cb",
+        "size_in_bytes": 3238
+      },
+      {
+        "_path": "lib/R/library/gargle/discovery-doc-ingest/parameter-property-names.txt",
+        "path_type": "hardlink",
+        "sha256": "8e5d80aac6749ff9cf62ff6043db61b79ca80935af3c6af3174bf657a2b64556",
+        "sha256_in_prefix": "8e5d80aac6749ff9cf62ff6043db61b79ca80935af3c6af3174bf657a2b64556",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/auth-from-web.R",
+        "path_type": "hardlink",
+        "sha256": "a2f951e0fa5a2497a6b1bf238f33675d9209009b73d8ef5ccffe99785621b3e0",
+        "sha256_in_prefix": "a2f951e0fa5a2497a6b1bf238f33675d9209009b73d8ef5ccffe99785621b3e0",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/auth-from-web.Rmd",
+        "path_type": "hardlink",
+        "sha256": "6bea42f475a69dbfd47fc0b2c9a492e68d4fd8da7908c00bf298b944bdee50c8",
+        "sha256_in_prefix": "6bea42f475a69dbfd47fc0b2c9a492e68d4fd8da7908c00bf298b944bdee50c8",
+        "size_in_bytes": 6216
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/auth-from-web.html",
+        "path_type": "hardlink",
+        "sha256": "bdedafc0c094a048d3a9c9df57c0db0b2f9b5b2293a1358ac1caed42a4d08eff",
+        "sha256_in_prefix": "bdedafc0c094a048d3a9c9df57c0db0b2f9b5b2293a1358ac1caed42a4d08eff",
+        "size_in_bytes": 19774
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/gargle-auth-in-client-package.R",
+        "path_type": "hardlink",
+        "sha256": "e96e06278dda8fd25602b47893420ea51ba364664b45555717038ec0892a3dad",
+        "sha256_in_prefix": "e96e06278dda8fd25602b47893420ea51ba364664b45555717038ec0892a3dad",
+        "size_in_bytes": 5038
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/gargle-auth-in-client-package.Rmd",
+        "path_type": "hardlink",
+        "sha256": "ee2cb0674c45ab73c83488b21f7e501858efacd1dcfafebf10096dfb58ff354d",
+        "sha256_in_prefix": "ee2cb0674c45ab73c83488b21f7e501858efacd1dcfafebf10096dfb58ff354d",
+        "size_in_bytes": 17355
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/gargle-auth-in-client-package.html",
+        "path_type": "hardlink",
+        "sha256": "154ce3dd969e90b2ffca0d5cf3f81bf450faea2a3e7951311b9669e3ba9d76f2",
+        "sha256_in_prefix": "154ce3dd969e90b2ffca0d5cf3f81bf450faea2a3e7951311b9669e3ba9d76f2",
+        "size_in_bytes": 46220
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/get-api-credentials.R",
+        "path_type": "hardlink",
+        "sha256": "e67d76158cd3d5fb10e9ea59f973d54bfdc21521e59d06a94fadb292de8e9963",
+        "sha256_in_prefix": "e67d76158cd3d5fb10e9ea59f973d54bfdc21521e59d06a94fadb292de8e9963",
+        "size_in_bytes": 1266
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/get-api-credentials.Rmd",
+        "path_type": "hardlink",
+        "sha256": "054b896edab305c22fbd3f6a444009dd573eb625f5d37ca151c497c9be1b7d1f",
+        "sha256_in_prefix": "054b896edab305c22fbd3f6a444009dd573eb625f5d37ca151c497c9be1b7d1f",
+        "size_in_bytes": 14038
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/get-api-credentials.html",
+        "path_type": "hardlink",
+        "sha256": "7e800c9874ec2f1045c8601610cdf759d53f239b2d03727d3e15102b2a81d0d9",
+        "sha256_in_prefix": "7e800c9874ec2f1045c8601610cdf759d53f239b2d03727d3e15102b2a81d0d9",
+        "size_in_bytes": 29777
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/how-gargle-gets-tokens.R",
+        "path_type": "hardlink",
+        "sha256": "ced7c77c69d9c8915a1a06298e66066c472aebea91d795fb1fa8daa0afb6f1de",
+        "sha256_in_prefix": "ced7c77c69d9c8915a1a06298e66066c472aebea91d795fb1fa8daa0afb6f1de",
+        "size_in_bytes": 6119
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/how-gargle-gets-tokens.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5a9806d54f7602aae321cfd2c25779d932415b8cf94078ccfbc24c5487d61f13",
+        "sha256_in_prefix": "5a9806d54f7602aae321cfd2c25779d932415b8cf94078ccfbc24c5487d61f13",
+        "size_in_bytes": 18893
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/how-gargle-gets-tokens.html",
+        "path_type": "hardlink",
+        "sha256": "aae01666df2a30f3bc3aea9ce9c59a9a3b8bb4600f8ef238e22446ef99afefd3",
+        "sha256_in_prefix": "aae01666df2a30f3bc3aea9ce9c59a9a3b8bb4600f8ef238e22446ef99afefd3",
+        "size_in_bytes": 48476
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "887139c32e43250de4aef2de2932e98d5efccaa7cd59172296cf636e019e790f",
+        "sha256_in_prefix": "887139c32e43250de4aef2de2932e98d5efccaa7cd59172296cf636e019e790f",
+        "size_in_bytes": 4636
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/non-interactive-auth.R",
+        "path_type": "hardlink",
+        "sha256": "65eafeba7df09996702ffc25712ddaede721319bc63bc3a795da0317112879b0",
+        "sha256_in_prefix": "65eafeba7df09996702ffc25712ddaede721319bc63bc3a795da0317112879b0",
+        "size_in_bytes": 4184
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/non-interactive-auth.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c5db13d7f174307ccd778a89add6e770c0dcccae3102a5f9104eaf41af9497d8",
+        "sha256_in_prefix": "c5db13d7f174307ccd778a89add6e770c0dcccae3102a5f9104eaf41af9497d8",
+        "size_in_bytes": 15647
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/non-interactive-auth.html",
+        "path_type": "hardlink",
+        "sha256": "9095eb52d69870da2a296b928930d26e30866926ef07c6ac8aa61c696493d348",
+        "sha256_in_prefix": "9095eb52d69870da2a296b928930d26e30866926ef07c6ac8aa61c696493d348",
+        "size_in_bytes": 39718
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/request-helper-functions.R",
+        "path_type": "hardlink",
+        "sha256": "3036f9cf271c0637cbaf27776ce929f8904d964eb6ce2e3fbbbb49698b4156a8",
+        "sha256_in_prefix": "3036f9cf271c0637cbaf27776ce929f8904d964eb6ce2e3fbbbb49698b4156a8",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/request-helper-functions.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5825a9459899c240a2fe06faf5042d328418cc826ab3bd3f033accef8ac6deec",
+        "sha256_in_prefix": "5825a9459899c240a2fe06faf5042d328418cc826ab3bd3f033accef8ac6deec",
+        "size_in_bytes": 11278
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/request-helper-functions.html",
+        "path_type": "hardlink",
+        "sha256": "4fce97ce18eb01a7da9e5edc82937a7c448b4fb60a989965618d7ea46df6de13",
+        "sha256_in_prefix": "4fce97ce18eb01a7da9e5edc82937a7c448b4fb60a989965618d7ea46df6de13",
+        "size_in_bytes": 37518
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/troubleshooting.R",
+        "path_type": "hardlink",
+        "sha256": "ec4744e4f748e1fb5adb4431c89c03448b23a94fa625993546b5153f31cf87c9",
+        "sha256_in_prefix": "ec4744e4f748e1fb5adb4431c89c03448b23a94fa625993546b5153f31cf87c9",
+        "size_in_bytes": 2706
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/troubleshooting.Rmd",
+        "path_type": "hardlink",
+        "sha256": "408e914a54689603fccea61ab772a023314f3d2ec6bf52b80fb0c637f9d0716a",
+        "sha256_in_prefix": "408e914a54689603fccea61ab772a023314f3d2ec6bf52b80fb0c637f9d0716a",
+        "size_in_bytes": 8528
+      },
+      {
+        "_path": "lib/R/library/gargle/doc/troubleshooting.html",
+        "path_type": "hardlink",
+        "sha256": "101712eeac07968c1cb60d6cb83426913a00a8929f2fc61c0a61a17d5319d195",
+        "sha256_in_prefix": "101712eeac07968c1cb60d6cb83426913a00a8929f2fc61c0a61a17d5319d195",
+        "size_in_bytes": 66385
+      },
+      {
+        "_path": "lib/R/library/gargle/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "01d5719d959b8f4832136c18a61c8dd9967216257839fc87adb9c45b702b8211",
+        "sha256_in_prefix": "01d5719d959b8f4832136c18a61c8dd9967216257839fc87adb9c45b702b8211",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "lib/R/library/gargle/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "492d26a9c17ea70a3df7e4f9182a2388588ed5c570bb803e5fdacac544edd61e",
+        "sha256_in_prefix": "492d26a9c17ea70a3df7e4f9182a2388588ed5c570bb803e5fdacac544edd61e",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/gargle/help/figures/lifecycle-superseded.svg",
+        "path_type": "hardlink",
+        "sha256": "c425824d3301dc7d4dc0100d408c4b469f488a8488be748a1fbe61abae5bab9e",
+        "sha256_in_prefix": "c425824d3301dc7d4dc0100d408c4b469f488a8488be748a1fbe61abae5bab9e",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/R/library/gargle/help/gargle.rdb",
+        "path_type": "hardlink",
+        "sha256": "e35a15a02d08b74f2fcc4cab65986965bb18853c89c870cbb7d576da757ff733",
+        "sha256_in_prefix": "e35a15a02d08b74f2fcc4cab65986965bb18853c89c870cbb7d576da757ff733",
+        "size_in_bytes": 118451
+      },
+      {
+        "_path": "lib/R/library/gargle/help/gargle.rdx",
+        "path_type": "hardlink",
+        "sha256": "5cca215bd7f17bd8b6c0cf9a8c87f0af68f22cb9cd6c08656ea2a5876912c634",
+        "sha256_in_prefix": "5cca215bd7f17bd8b6c0cf9a8c87f0af68f22cb9cd6c08656ea2a5876912c634",
+        "size_in_bytes": 894
+      },
+      {
+        "_path": "lib/R/library/gargle/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f69fdbbefcc9d62190cfe377d25ba25ef3915ec15ec63117e8476a74396b9520",
+        "sha256_in_prefix": "f69fdbbefcc9d62190cfe377d25ba25ef3915ec15ec63117e8476a74396b9520",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "lib/R/library/gargle/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "7597c9437d3b52754f83a8df0f5db502071146e27163dc98679a17c7e55bb908",
+        "sha256_in_prefix": "7597c9437d3b52754f83a8df0f5db502071146e27163dc98679a17c7e55bb908",
+        "size_in_bytes": 5862
+      },
+      {
+        "_path": "lib/R/library/gargle/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/gargle/secret/gargle-testing.json",
+        "path_type": "hardlink",
+        "sha256": "d115fedbcef535cc7c35b7443efeac5c6871d8b1b56cb6eb65a332144da0af6a",
+        "sha256_in_prefix": "d115fedbcef535cc7c35b7443efeac5c6871d8b1b56cb6eb65a332144da0af6a",
+        "size_in_bytes": 2338
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9305eec9eafc68c1c22a413f9f12caafdd7cc77ff376ab7ff601e9c04abfb3f8",
+  "size": 493035,
+  "subdir": "noarch",
+  "timestamp": 1625260239000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gargle-1.2.0-r41hc72bb7e_0.tar.bz2",
+  "version": "1.2.0"
+}

@@ -1,0 +1,244 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-magrittr",
+    "r-dplyr",
+    "r-tibble",
+    "r-broom",
+    "r-base >=4.1,<4.2.0a0",
+    "r-rlang >=0.2.0",
+    "r-purrr >=0.2.2",
+    "r-tidyr >=0.8.0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-modelr-0.1.8-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/modelr/DESCRIPTION",
+    "lib/R/library/modelr/INDEX",
+    "lib/R/library/modelr/Meta/Rd.rds",
+    "lib/R/library/modelr/Meta/data.rds",
+    "lib/R/library/modelr/Meta/features.rds",
+    "lib/R/library/modelr/Meta/hsearch.rds",
+    "lib/R/library/modelr/Meta/links.rds",
+    "lib/R/library/modelr/Meta/nsInfo.rds",
+    "lib/R/library/modelr/Meta/package.rds",
+    "lib/R/library/modelr/NAMESPACE",
+    "lib/R/library/modelr/NEWS.md",
+    "lib/R/library/modelr/R/modelr",
+    "lib/R/library/modelr/R/modelr.rdb",
+    "lib/R/library/modelr/R/modelr.rdx",
+    "lib/R/library/modelr/data/Rdata.rdb",
+    "lib/R/library/modelr/data/Rdata.rds",
+    "lib/R/library/modelr/data/Rdata.rdx",
+    "lib/R/library/modelr/help/AnIndex",
+    "lib/R/library/modelr/help/aliases.rds",
+    "lib/R/library/modelr/help/figures/logo.png",
+    "lib/R/library/modelr/help/modelr.rdb",
+    "lib/R/library/modelr/help/modelr.rdx",
+    "lib/R/library/modelr/help/paths.rds",
+    "lib/R/library/modelr/html/00Index.html",
+    "lib/R/library/modelr/html/R.css"
+  ],
+  "fn": "r-modelr-0.1.8-r41hc72bb7e_0.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-modelr-0.1.8-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "08e88ad50f32800e090d23d8dea3293f",
+  "name": "r-modelr",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-modelr-0.1.8-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/modelr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "52c93016665356770f2bf768f7272bf89797bb6159665082f528539b44b0504f",
+        "sha256_in_prefix": "52c93016665356770f2bf768f7272bf89797bb6159665082f528539b44b0504f",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "lib/R/library/modelr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b55660446ee6e835370358e6cd0ba3e9c125bee187f1b2915c4d9303b10966a7",
+        "sha256_in_prefix": "b55660446ee6e835370358e6cd0ba3e9c125bee187f1b2915c4d9303b10966a7",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "3692d1dcb04960be6cff21a22a48a4fab2269ff53743275c0a78f7141c86b9ab",
+        "sha256_in_prefix": "3692d1dcb04960be6cff21a22a48a4fab2269ff53743275c0a78f7141c86b9ab",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "811bd3675201f9c950acdf83b1985a8cb4888f459178a7c6da6466442faaabf8",
+        "sha256_in_prefix": "811bd3675201f9c950acdf83b1985a8cb4888f459178a7c6da6466442faaabf8",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "3c22c71ed0b5e3b850b433bb484ebae80775c33ce93091bd27214e479a140445",
+        "sha256_in_prefix": "3c22c71ed0b5e3b850b433bb484ebae80775c33ce93091bd27214e479a140445",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "dccb331ff937c105618df689cac3fb37e1421ed2bf9a2bba54f9d137ba174025",
+        "sha256_in_prefix": "dccb331ff937c105618df689cac3fb37e1421ed2bf9a2bba54f9d137ba174025",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "87f3188b5a361da839f7adfe5ec36a57c2602d211795db593e567cb6f5efefd4",
+        "sha256_in_prefix": "87f3188b5a361da839f7adfe5ec36a57c2602d211795db593e567cb6f5efefd4",
+        "size_in_bytes": 633
+      },
+      {
+        "_path": "lib/R/library/modelr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "18891ec4125f02aaa40018301ede9a98754f24c661545d26de84f661f37e8e6d",
+        "sha256_in_prefix": "18891ec4125f02aaa40018301ede9a98754f24c661545d26de84f661f37e8e6d",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "lib/R/library/modelr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "47c1a3aa282e8e8dc6cc0021a57e6586d268044bdd95ce23204660362a3dead9",
+        "sha256_in_prefix": "47c1a3aa282e8e8dc6cc0021a57e6586d268044bdd95ce23204660362a3dead9",
+        "size_in_bytes": 1368
+      },
+      {
+        "_path": "lib/R/library/modelr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "46790520cbf5933a60f0be81a2b66441083da0124f398c52ca932f5b4d2e5a02",
+        "sha256_in_prefix": "46790520cbf5933a60f0be81a2b66441083da0124f398c52ca932f5b4d2e5a02",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "lib/R/library/modelr/R/modelr",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/modelr/R/modelr.rdb",
+        "path_type": "hardlink",
+        "sha256": "99d901dd41f8a3cd4abc16ddded222e4b7f813264c158fb59a28f4b93f689d97",
+        "sha256_in_prefix": "99d901dd41f8a3cd4abc16ddded222e4b7f813264c158fb59a28f4b93f689d97",
+        "size_in_bytes": 43132
+      },
+      {
+        "_path": "lib/R/library/modelr/R/modelr.rdx",
+        "path_type": "hardlink",
+        "sha256": "e5c295a6c7c2c02acca5d9f9343f0571b6d949f34614e8cf0765d7067adbdfa4",
+        "sha256_in_prefix": "e5c295a6c7c2c02acca5d9f9343f0571b6d949f34614e8cf0765d7067adbdfa4",
+        "size_in_bytes": 1195
+      },
+      {
+        "_path": "lib/R/library/modelr/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "44dee848d859db0fa0a58f1e80c3bce207f16f4176ef11f100806224af188658",
+        "sha256_in_prefix": "44dee848d859db0fa0a58f1e80c3bce207f16f4176ef11f100806224af188658",
+        "size_in_bytes": 72838
+      },
+      {
+        "_path": "lib/R/library/modelr/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "be4a06da63b5bd7b30c54e7530933dbdbbd511988647dbbf47556c4923a6506f",
+        "sha256_in_prefix": "be4a06da63b5bd7b30c54e7530933dbdbbd511988647dbbf47556c4923a6506f",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/R/library/modelr/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "2c93495418b4f4c1ea5c46ec5ccb93dfb7fa4bdac6485d03af68299153610fb1",
+        "sha256_in_prefix": "2c93495418b4f4c1ea5c46ec5ccb93dfb7fa4bdac6485d03af68299153610fb1",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/modelr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "7bc9787279c3e5e80036bf1f53d4d5b805cb09b76e11122dbb7837bb01b21908",
+        "sha256_in_prefix": "7bc9787279c3e5e80036bf1f53d4d5b805cb09b76e11122dbb7837bb01b21908",
+        "size_in_bytes": 937
+      },
+      {
+        "_path": "lib/R/library/modelr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4de9661ab8402f0a0544e63466127d5e5ac8f582b8c8a7a88ec0c41f44e40449",
+        "sha256_in_prefix": "4de9661ab8402f0a0544e63466127d5e5ac8f582b8c8a7a88ec0c41f44e40449",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/R/library/modelr/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "a8b1b515ea3673e0e70a7f39b0784aececdbe63c4d4e3bc92cee8b6801822b04",
+        "sha256_in_prefix": "a8b1b515ea3673e0e70a7f39b0784aececdbe63c4d4e3bc92cee8b6801822b04",
+        "size_in_bytes": 31772
+      },
+      {
+        "_path": "lib/R/library/modelr/help/modelr.rdb",
+        "path_type": "hardlink",
+        "sha256": "e618c1608fba31824fb91b4dea8e2c8c32c5ffb0d50afe7b606999d705df282e",
+        "sha256_in_prefix": "e618c1608fba31824fb91b4dea8e2c8c32c5ffb0d50afe7b606999d705df282e",
+        "size_in_bytes": 41456
+      },
+      {
+        "_path": "lib/R/library/modelr/help/modelr.rdx",
+        "path_type": "hardlink",
+        "sha256": "35bc667bb84a92a1df3537667f1a76996d0c23f8a2668c21dff88b165c7cf5b6",
+        "sha256_in_prefix": "35bc667bb84a92a1df3537667f1a76996d0c23f8a2668c21dff88b165c7cf5b6",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/R/library/modelr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f7f6822159c20f8e57460bd5f81f57e36c27b872d27774e692fc3cf587bd87e6",
+        "sha256_in_prefix": "f7f6822159c20f8e57460bd5f81f57e36c27b872d27774e692fc3cf587bd87e6",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "lib/R/library/modelr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "0dfc1284eee9e3ead314d9e3ce1c2c6500466cad80c0152764690256087a42d5",
+        "sha256_in_prefix": "0dfc1284eee9e3ead314d9e3ce1c2c6500466cad80c0152764690256087a42d5",
+        "size_in_bytes": 5848
+      },
+      {
+        "_path": "lib/R/library/modelr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b19700393e2ddbc84db564e5af6cad184fd8c698d510501eccdb20347eec6f93",
+  "size": 223965,
+  "subdir": "noarch",
+  "timestamp": 1622060082000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-modelr-0.1.8-r41hc72bb7e_0.tar.bz2",
+  "version": "0.1.8"
+}

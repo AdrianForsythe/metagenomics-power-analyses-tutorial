@@ -1,0 +1,221 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-pixmap-0.4_12-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/pixmap/DESCRIPTION",
+    "lib/R/library/pixmap/INDEX",
+    "lib/R/library/pixmap/Meta/Rd.rds",
+    "lib/R/library/pixmap/Meta/features.rds",
+    "lib/R/library/pixmap/Meta/hsearch.rds",
+    "lib/R/library/pixmap/Meta/links.rds",
+    "lib/R/library/pixmap/Meta/nsInfo.rds",
+    "lib/R/library/pixmap/Meta/package.rds",
+    "lib/R/library/pixmap/NAMESPACE",
+    "lib/R/library/pixmap/NEWS",
+    "lib/R/library/pixmap/R/pixmap",
+    "lib/R/library/pixmap/R/pixmap.rdb",
+    "lib/R/library/pixmap/R/pixmap.rdx",
+    "lib/R/library/pixmap/help/AnIndex",
+    "lib/R/library/pixmap/help/aliases.rds",
+    "lib/R/library/pixmap/help/paths.rds",
+    "lib/R/library/pixmap/help/pixmap.rdb",
+    "lib/R/library/pixmap/help/pixmap.rdx",
+    "lib/R/library/pixmap/html/00Index.html",
+    "lib/R/library/pixmap/html/R.css",
+    "lib/R/library/pixmap/pictures/logo.pbm",
+    "lib/R/library/pixmap/pictures/logo.pgm",
+    "lib/R/library/pixmap/pictures/logo.ppm"
+  ],
+  "fn": "r-pixmap-0.4_12-r41hc72bb7e_0.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-pixmap-0.4_12-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "1509130d683c3a51e0367ddcede1e21d",
+  "name": "r-pixmap",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-pixmap-0.4_12-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/pixmap/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b9cabc98d8642a309c6b6f02223b2c8e33d5dc11398c27174b9d5206fe718c37",
+        "sha256_in_prefix": "b9cabc98d8642a309c6b6f02223b2c8e33d5dc11398c27174b9d5206fe718c37",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/R/library/pixmap/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9df32e66e0e2337156c0fe12f4afa4742d30408a565d68892c0afa80e2986590",
+        "sha256_in_prefix": "9df32e66e0e2337156c0fe12f4afa4742d30408a565d68892c0afa80e2986590",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/R/library/pixmap/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "7c6e0d2b8f4bf8899339892fbf1bb32eebfa56953c6ce30cd3abccf1f2ae8703",
+        "sha256_in_prefix": "7c6e0d2b8f4bf8899339892fbf1bb32eebfa56953c6ce30cd3abccf1f2ae8703",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/R/library/pixmap/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/pixmap/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "5f7e5e7d34b9b8fd210707529abbddab5ef6e1d17d3f8e9aa966951b6e4f1819",
+        "sha256_in_prefix": "5f7e5e7d34b9b8fd210707529abbddab5ef6e1d17d3f8e9aa966951b6e4f1819",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "lib/R/library/pixmap/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "93e7498e5ecf7cdc8e073e46b10a0d957ded991946a894fffa2e9712c0767428",
+        "sha256_in_prefix": "93e7498e5ecf7cdc8e073e46b10a0d957ded991946a894fffa2e9712c0767428",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/R/library/pixmap/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "3d954d3d7f3bb47e23e7889671a1b040bae507a58a3f1d5d079012d87882e6c3",
+        "sha256_in_prefix": "3d954d3d7f3bb47e23e7889671a1b040bae507a58a3f1d5d079012d87882e6c3",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/R/library/pixmap/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e3fffa6f9a6b3d78fcf3b044173e7c2b6b54b56b531d3f991d14525408c4eb15",
+        "sha256_in_prefix": "e3fffa6f9a6b3d78fcf3b044173e7c2b6b54b56b531d3f991d14525408c4eb15",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/R/library/pixmap/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "199d0f6194cbe3f12fde748677041b2ab8645a7167aeae2711ba263ff48501ca",
+        "sha256_in_prefix": "199d0f6194cbe3f12fde748677041b2ab8645a7167aeae2711ba263ff48501ca",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/R/library/pixmap/NEWS",
+        "path_type": "hardlink",
+        "sha256": "db60fb225fa7c36c8d79f18a2e5ee1418cc428f50c14a511aee855ba4eca6455",
+        "sha256_in_prefix": "db60fb225fa7c36c8d79f18a2e5ee1418cc428f50c14a511aee855ba4eca6455",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "lib/R/library/pixmap/R/pixmap",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/pixmap/R/pixmap.rdb",
+        "path_type": "hardlink",
+        "sha256": "81351cde6d0f32745e25eda95e6e81cec5f170de50fc42ff99112db09f4a0fc3",
+        "sha256_in_prefix": "81351cde6d0f32745e25eda95e6e81cec5f170de50fc42ff99112db09f4a0fc3",
+        "size_in_bytes": 187482
+      },
+      {
+        "_path": "lib/R/library/pixmap/R/pixmap.rdx",
+        "path_type": "hardlink",
+        "sha256": "a1df0f0c576c20c06a3a43d98e3bcb1fa035d3f5a4bba77cf1d92fbce0ad4ec0",
+        "sha256_in_prefix": "a1df0f0c576c20c06a3a43d98e3bcb1fa035d3f5a4bba77cf1d92fbce0ad4ec0",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "lib/R/library/pixmap/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e24408fddb3acc5d3a58e06828e53c03bfb85d038fd11daefc327d03ee7b1158",
+        "sha256_in_prefix": "e24408fddb3acc5d3a58e06828e53c03bfb85d038fd11daefc327d03ee7b1158",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "lib/R/library/pixmap/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5877613b835c28238604cfddf2c7a2f57912302ec3cb761cc38e84f3c961b86b",
+        "sha256_in_prefix": "5877613b835c28238604cfddf2c7a2f57912302ec3cb761cc38e84f3c961b86b",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/R/library/pixmap/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f4acebd075a4f1fca6a4b50f0454672fe0f0708cc71255185c793a5f57ed77ef",
+        "sha256_in_prefix": "f4acebd075a4f1fca6a4b50f0454672fe0f0708cc71255185c793a5f57ed77ef",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/R/library/pixmap/help/pixmap.rdb",
+        "path_type": "hardlink",
+        "sha256": "6d3b194024cbe2f352b9e523875e316965721151a2988f35b581f56867084bbb",
+        "sha256_in_prefix": "6d3b194024cbe2f352b9e523875e316965721151a2988f35b581f56867084bbb",
+        "size_in_bytes": 18582
+      },
+      {
+        "_path": "lib/R/library/pixmap/help/pixmap.rdx",
+        "path_type": "hardlink",
+        "sha256": "a456f71add5fcf4150437ba0711eabaf798177274bb4a2a96d78275fb3e173c1",
+        "sha256_in_prefix": "a456f71add5fcf4150437ba0711eabaf798177274bb4a2a96d78275fb3e173c1",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/R/library/pixmap/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "53687ee34304b1deee1d82b3f2a7f467f0758ce0d43897354023200bbf830a04",
+        "sha256_in_prefix": "53687ee34304b1deee1d82b3f2a7f467f0758ce0d43897354023200bbf830a04",
+        "size_in_bytes": 4273
+      },
+      {
+        "_path": "lib/R/library/pixmap/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/pixmap/pictures/logo.pbm",
+        "path_type": "hardlink",
+        "sha256": "b36f2f3dc6bd231595546caa18b28c9dd2e92754cf7a71b231ba03b0197232c4",
+        "sha256_in_prefix": "b36f2f3dc6bd231595546caa18b28c9dd2e92754cf7a71b231ba03b0197232c4",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "lib/R/library/pixmap/pictures/logo.pgm",
+        "path_type": "hardlink",
+        "sha256": "da1c5e5cb7785abc769eee09218bcf27697873e3d78e6daae42b657c2163bdef",
+        "sha256_in_prefix": "da1c5e5cb7785abc769eee09218bcf27697873e3d78e6daae42b657c2163bdef",
+        "size_in_bytes": 7836
+      },
+      {
+        "_path": "lib/R/library/pixmap/pictures/logo.ppm",
+        "path_type": "hardlink",
+        "sha256": "5dd014c016860a26b8b57688c27270a59436c03cbbee9af1da999a6c003d893e",
+        "sha256_in_prefix": "5dd014c016860a26b8b57688c27270a59436c03cbbee9af1da999a6c003d893e",
+        "size_in_bytes": 23390
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "979f36c17eeb1dd66d25b3275b3bb9f62412a7eb04daa8c80b3ec58347cd3c44",
+  "size": 234949,
+  "subdir": "noarch",
+  "timestamp": 1621844595000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-pixmap-0.4_12-r41hc72bb7e_0.tar.bz2",
+  "version": "0.4_12"
+}

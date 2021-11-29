@@ -1,0 +1,622 @@
+{
+  "build": "r41h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.4.0",
+    "libstdcxx-ng >=9.4.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-cpp11 >=0.2.7"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-tzdb-0.2.0-r41h03ef668_0",
+  "features": "",
+  "files": [
+    "lib/R/library/tzdb/DESCRIPTION",
+    "lib/R/library/tzdb/INDEX",
+    "lib/R/library/tzdb/LICENSE",
+    "lib/R/library/tzdb/Meta/Rd.rds",
+    "lib/R/library/tzdb/Meta/features.rds",
+    "lib/R/library/tzdb/Meta/hsearch.rds",
+    "lib/R/library/tzdb/Meta/links.rds",
+    "lib/R/library/tzdb/Meta/nsInfo.rds",
+    "lib/R/library/tzdb/Meta/package.rds",
+    "lib/R/library/tzdb/NAMESPACE",
+    "lib/R/library/tzdb/NEWS.md",
+    "lib/R/library/tzdb/R/tzdb",
+    "lib/R/library/tzdb/R/tzdb.rdb",
+    "lib/R/library/tzdb/R/tzdb.rdx",
+    "lib/R/library/tzdb/help/AnIndex",
+    "lib/R/library/tzdb/help/aliases.rds",
+    "lib/R/library/tzdb/help/paths.rds",
+    "lib/R/library/tzdb/help/tzdb.rdb",
+    "lib/R/library/tzdb/help/tzdb.rdx",
+    "lib/R/library/tzdb/html/00Index.html",
+    "lib/R/library/tzdb/html/R.css",
+    "lib/R/library/tzdb/include/date/chrono_io.h",
+    "lib/R/library/tzdb/include/date/date.h",
+    "lib/R/library/tzdb/include/date/ios.h",
+    "lib/R/library/tzdb/include/date/islamic.h",
+    "lib/R/library/tzdb/include/date/iso_week.h",
+    "lib/R/library/tzdb/include/date/julian.h",
+    "lib/R/library/tzdb/include/date/ptz.h",
+    "lib/R/library/tzdb/include/date/solar_hijri.h",
+    "lib/R/library/tzdb/include/date/tz.h",
+    "lib/R/library/tzdb/include/date/tz_private.h",
+    "lib/R/library/tzdb/include/tzdb/date.h",
+    "lib/R/library/tzdb/include/tzdb/defines.h",
+    "lib/R/library/tzdb/include/tzdb/islamic.h",
+    "lib/R/library/tzdb/include/tzdb/iso_week.h",
+    "lib/R/library/tzdb/include/tzdb/julian.h",
+    "lib/R/library/tzdb/include/tzdb/ptz.h",
+    "lib/R/library/tzdb/include/tzdb/solar_hijri.h",
+    "lib/R/library/tzdb/include/tzdb/tz.h",
+    "lib/R/library/tzdb/include/tzdb/tzdb.h",
+    "lib/R/library/tzdb/libs/tzdb.so",
+    "lib/R/library/tzdb/tzdata/CONTRIBUTING",
+    "lib/R/library/tzdb/tzdata/LICENSE",
+    "lib/R/library/tzdb/tzdata/Makefile",
+    "lib/R/library/tzdb/tzdata/NEWS",
+    "lib/R/library/tzdb/tzdata/README",
+    "lib/R/library/tzdb/tzdata/SECURITY",
+    "lib/R/library/tzdb/tzdata/africa",
+    "lib/R/library/tzdb/tzdata/antarctica",
+    "lib/R/library/tzdb/tzdata/asia",
+    "lib/R/library/tzdb/tzdata/australasia",
+    "lib/R/library/tzdb/tzdata/backward",
+    "lib/R/library/tzdb/tzdata/backzone",
+    "lib/R/library/tzdb/tzdata/calendars",
+    "lib/R/library/tzdb/tzdata/checklinks.awk",
+    "lib/R/library/tzdb/tzdata/checktab.awk",
+    "lib/R/library/tzdb/tzdata/etcetera",
+    "lib/R/library/tzdb/tzdata/europe",
+    "lib/R/library/tzdb/tzdata/factory",
+    "lib/R/library/tzdb/tzdata/iso3166.tab",
+    "lib/R/library/tzdb/tzdata/leap-seconds.list",
+    "lib/R/library/tzdb/tzdata/leapseconds",
+    "lib/R/library/tzdb/tzdata/leapseconds.awk",
+    "lib/R/library/tzdb/tzdata/northamerica",
+    "lib/R/library/tzdb/tzdata/southamerica",
+    "lib/R/library/tzdb/tzdata/theory.html",
+    "lib/R/library/tzdb/tzdata/version",
+    "lib/R/library/tzdb/tzdata/windowsZones.xml",
+    "lib/R/library/tzdb/tzdata/ziguard.awk",
+    "lib/R/library/tzdb/tzdata/zishrink.awk",
+    "lib/R/library/tzdb/tzdata/zone.tab",
+    "lib/R/library/tzdb/tzdata/zone1970.tab",
+    "lib/R/library/tzdb/tzdata/zoneinfo2tdf.pl"
+  ],
+  "fn": "r-tzdb-0.2.0-r41h03ef668_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-tzdb-0.2.0-r41h03ef668_0",
+    "type": 1
+  },
+  "md5": "98cd48f0379e6bc3d5c942a90d7c0bf0",
+  "name": "r-tzdb",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-tzdb-0.2.0-r41h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/tzdb/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d6fdce593c47426d6363921d6ddf5b906dd65b7d23bb45cb0f973571b7fab22f",
+        "sha256_in_prefix": "d6fdce593c47426d6363921d6ddf5b906dd65b7d23bb45cb0f973571b7fab22f",
+        "size_in_bytes": 1773
+      },
+      {
+        "_path": "lib/R/library/tzdb/INDEX",
+        "path_type": "hardlink",
+        "sha256": "7341498c12f42cfbeb0b1401402bfe6a86e411d64fa15cb9fec83635e08ef673",
+        "sha256_in_prefix": "7341498c12f42cfbeb0b1401402bfe6a86e411d64fa15cb9fec83635e08ef673",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "lib/R/library/tzdb/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7c3942aabc480610c905d161347afbadacc42a9983fd9ce559f15a18c22a5e8f",
+        "sha256_in_prefix": "7c3942aabc480610c905d161347afbadacc42a9983fd9ce559f15a18c22a5e8f",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "lib/R/library/tzdb/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b24b01ea76a63ee09a2ee61adad6add76dc56617abdbe1e570b8c3c282d07d3a",
+        "sha256_in_prefix": "b24b01ea76a63ee09a2ee61adad6add76dc56617abdbe1e570b8c3c282d07d3a",
+        "size_in_bytes": 406
+      },
+      {
+        "_path": "lib/R/library/tzdb/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/tzdb/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4b9e162818ce584d88c5e1e1285f83691b67e95abbf3cc52abc3c8a844c08c65",
+        "sha256_in_prefix": "4b9e162818ce584d88c5e1e1285f83691b67e95abbf3cc52abc3c8a844c08c65",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/R/library/tzdb/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "7f8e5a4464d429bc9ae2d9d25f2c7466397fbb4d946bde8d3ae4d35468101209",
+        "sha256_in_prefix": "7f8e5a4464d429bc9ae2d9d25f2c7466397fbb4d946bde8d3ae4d35468101209",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/R/library/tzdb/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ffbd0c5785a633af7d62df1f98a6c0362d3ef7933e8f3e9429f40a5fd39c9d71",
+        "sha256_in_prefix": "ffbd0c5785a633af7d62df1f98a6c0362d3ef7933e8f3e9429f40a5fd39c9d71",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/tzdb/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "eef35c06419e303c761bf179214426c74137446dd066b2e8142a3523b6604073",
+        "sha256_in_prefix": "eef35c06419e303c761bf179214426c74137446dd066b2e8142a3523b6604073",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "lib/R/library/tzdb/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "af943ca78179bdab8c300482b73ee8318fcdcdb233c98f41d299a5c172789736",
+        "sha256_in_prefix": "af943ca78179bdab8c300482b73ee8318fcdcdb233c98f41d299a5c172789736",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/tzdb/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "5c52da09749bab68143fbd60f4dab1231d12d6b6401e14455174ed4ac370ff7d",
+        "sha256_in_prefix": "5c52da09749bab68143fbd60f4dab1231d12d6b6401e14455174ed4ac370ff7d",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/R/library/tzdb/R/tzdb",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/tzdb/R/tzdb.rdb",
+        "path_type": "hardlink",
+        "sha256": "668fca0a442a88d0bc7dcb2c4773940c6e8bb5d2d119633e0788b29074b18462",
+        "sha256_in_prefix": "668fca0a442a88d0bc7dcb2c4773940c6e8bb5d2d119633e0788b29074b18462",
+        "size_in_bytes": 4514
+      },
+      {
+        "_path": "lib/R/library/tzdb/R/tzdb.rdx",
+        "path_type": "hardlink",
+        "sha256": "8c75ec84e5d7a469cbfc997de3d856ac9b6bfc65091efb79b1b6beeb6d83222a",
+        "sha256_in_prefix": "8c75ec84e5d7a469cbfc997de3d856ac9b6bfc65091efb79b1b6beeb6d83222a",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/R/library/tzdb/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1e19f61fb74b22b4d88f5ffe41b85972879daf789aacd2154eb3f05d4841dc55",
+        "sha256_in_prefix": "1e19f61fb74b22b4d88f5ffe41b85972879daf789aacd2154eb3f05d4841dc55",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/R/library/tzdb/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "9daf489a41fef3494f15ff073baa71e1386f226a1088734ac651902f6740cf10",
+        "sha256_in_prefix": "9daf489a41fef3494f15ff073baa71e1386f226a1088734ac651902f6740cf10",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/R/library/tzdb/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "ce045a68f85577718d4133d083c29eb6f124dc46b169b89890e3691474010643",
+        "sha256_in_prefix": "ce045a68f85577718d4133d083c29eb6f124dc46b169b89890e3691474010643",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/tzdb/help/tzdb.rdb",
+        "path_type": "hardlink",
+        "sha256": "7b9463d6b61400f2dadf299993347c638fc4363221a118a0a777853a35dee810",
+        "sha256_in_prefix": "7b9463d6b61400f2dadf299993347c638fc4363221a118a0a777853a35dee810",
+        "size_in_bytes": 6890
+      },
+      {
+        "_path": "lib/R/library/tzdb/help/tzdb.rdx",
+        "path_type": "hardlink",
+        "sha256": "b9e1f4cded7a266b0e108f739e72b71f2617dea1850410b36edd20d5f8374ec4",
+        "sha256_in_prefix": "b9e1f4cded7a266b0e108f739e72b71f2617dea1850410b36edd20d5f8374ec4",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "lib/R/library/tzdb/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "33451d66a6f565c5206eda506f978d0a7b717379c527a315a7aa258bdee45e47",
+        "sha256_in_prefix": "33451d66a6f565c5206eda506f978d0a7b717379c527a315a7aa258bdee45e47",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "lib/R/library/tzdb/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/chrono_io.h",
+        "path_type": "hardlink",
+        "sha256": "290b523159d669612bb21e06f7af663b6f4ff602ba897c972b7f350be925d4ff",
+        "sha256_in_prefix": "290b523159d669612bb21e06f7af663b6f4ff602ba897c972b7f350be925d4ff",
+        "size_in_bytes": 1467
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/date.h",
+        "path_type": "hardlink",
+        "sha256": "4128c22ef4c0789d83b55db9a1811f2710d1244805cf83e6942e23b8d523a6cb",
+        "sha256_in_prefix": "4128c22ef4c0789d83b55db9a1811f2710d1244805cf83e6942e23b8d523a6cb",
+        "size_in_bytes": 238188
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/ios.h",
+        "path_type": "hardlink",
+        "sha256": "7368c4617ff954c0f135e27727118ca877cf46b81437a1b7b15419fbff17868b",
+        "sha256_in_prefix": "7368c4617ff954c0f135e27727118ca877cf46b81437a1b7b15419fbff17868b",
+        "size_in_bytes": 1609
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/islamic.h",
+        "path_type": "hardlink",
+        "sha256": "08ad759091f2979979c73c55c36c6d973f49f289332a7f7c81e5f1f41948c1fd",
+        "sha256_in_prefix": "08ad759091f2979979c73c55c36c6d973f49f289332a7f7c81e5f1f41948c1fd",
+        "size_in_bytes": 71119
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/iso_week.h",
+        "path_type": "hardlink",
+        "sha256": "0b7f96b8a1472620820adeaeef2733ce8a46f2e21e526ab6a92c938011fc54ae",
+        "sha256_in_prefix": "0b7f96b8a1472620820adeaeef2733ce8a46f2e21e526ab6a92c938011fc54ae",
+        "size_in_bytes": 43034
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/julian.h",
+        "path_type": "hardlink",
+        "sha256": "92e3fbd5dac552641c8c79c1c6cf2853e797c50a626ddb5d8b376eaa405769c3",
+        "sha256_in_prefix": "92e3fbd5dac552641c8c79c1c6cf2853e797c50a626ddb5d8b376eaa405769c3",
+        "size_in_bytes": 71984
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/ptz.h",
+        "path_type": "hardlink",
+        "sha256": "53e730891ef8acaa61985e1bc9af73e3907019e901609c4f15d2a087dc75388c",
+        "sha256_in_prefix": "53e730891ef8acaa61985e1bc9af73e3907019e901609c4f15d2a087dc75388c",
+        "size_in_bytes": 24012
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/solar_hijri.h",
+        "path_type": "hardlink",
+        "sha256": "bb00591d61f3a100dad44da985a9fc173916d303374b3a8e2d9ec6d9d1b3c908",
+        "sha256_in_prefix": "bb00591d61f3a100dad44da985a9fc173916d303374b3a8e2d9ec6d9d1b3c908",
+        "size_in_bytes": 78728
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/tz.h",
+        "path_type": "hardlink",
+        "sha256": "14684ab4fa59e2bef0435370560019a4bc520effe3911f0e6da7eceb0c9994da",
+        "sha256_in_prefix": "14684ab4fa59e2bef0435370560019a4bc520effe3911f0e6da7eceb0c9994da",
+        "size_in_bytes": 84617
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/date/tz_private.h",
+        "path_type": "hardlink",
+        "sha256": "db1f521c56bc62cc96b46bd8f6febf04bc26e88b30f4856a3558064db0f067a1",
+        "sha256_in_prefix": "db1f521c56bc62cc96b46bd8f6febf04bc26e88b30f4856a3558064db0f067a1",
+        "size_in_bytes": 10690
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/date.h",
+        "path_type": "hardlink",
+        "sha256": "da74accb9d2edc37457f4fdb172319468c51cbb17a5642d7b2f348dd4e87e0c8",
+        "sha256_in_prefix": "da74accb9d2edc37457f4fdb172319468c51cbb17a5642d7b2f348dd4e87e0c8",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/defines.h",
+        "path_type": "hardlink",
+        "sha256": "7dcd039a66b70d643648906268e4ade508c87a8d4b1406de3bc0a3555a398dee",
+        "sha256_in_prefix": "7dcd039a66b70d643648906268e4ade508c87a8d4b1406de3bc0a3555a398dee",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/islamic.h",
+        "path_type": "hardlink",
+        "sha256": "b1b53970ed433297b3e3aab6aab73349072771a26dec295fd62d1169ae6f8656",
+        "sha256_in_prefix": "b1b53970ed433297b3e3aab6aab73349072771a26dec295fd62d1169ae6f8656",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/iso_week.h",
+        "path_type": "hardlink",
+        "sha256": "553ce5b4f1f6e347b3b88e1518bf6c0842a5cd6112e2fd4eefe0050c3d6e3442",
+        "sha256_in_prefix": "553ce5b4f1f6e347b3b88e1518bf6c0842a5cd6112e2fd4eefe0050c3d6e3442",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/julian.h",
+        "path_type": "hardlink",
+        "sha256": "74319291e10e8c40c6c00d9af2e05290a6edd2f487fafb012e3ec2d1c0a322fb",
+        "sha256_in_prefix": "74319291e10e8c40c6c00d9af2e05290a6edd2f487fafb012e3ec2d1c0a322fb",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/ptz.h",
+        "path_type": "hardlink",
+        "sha256": "91c5e2c6ae35ff1ec0f862123578451671f86d7fd7f4b1d3b4478a1145a6f9e0",
+        "sha256_in_prefix": "91c5e2c6ae35ff1ec0f862123578451671f86d7fd7f4b1d3b4478a1145a6f9e0",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/solar_hijri.h",
+        "path_type": "hardlink",
+        "sha256": "2ced7d9a4b35a49072443436276a9a8d6dc2ca2a97a2adce8d8485373bd2f845",
+        "sha256_in_prefix": "2ced7d9a4b35a49072443436276a9a8d6dc2ca2a97a2adce8d8485373bd2f845",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/tz.h",
+        "path_type": "hardlink",
+        "sha256": "270c2aade4efcdf4e45c378f569b5ee84e1ecb3650c61813b6717c1059210ff2",
+        "sha256_in_prefix": "270c2aade4efcdf4e45c378f569b5ee84e1ecb3650c61813b6717c1059210ff2",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/R/library/tzdb/include/tzdb/tzdb.h",
+        "path_type": "hardlink",
+        "sha256": "765333b74d760781fd509996517415530c50cc7b674acb6fe79dffc55f583356",
+        "sha256_in_prefix": "765333b74d760781fd509996517415530c50cc7b674acb6fe79dffc55f583356",
+        "size_in_bytes": 1340
+      },
+      {
+        "_path": "lib/R/library/tzdb/libs/tzdb.so",
+        "path_type": "hardlink",
+        "sha256": "c26b6ce1c4aac9c3034b799573f85e8562a191235b16b01e7b99bfa58793a13b",
+        "sha256_in_prefix": "c26b6ce1c4aac9c3034b799573f85e8562a191235b16b01e7b99bfa58793a13b",
+        "size_in_bytes": 265896
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/CONTRIBUTING",
+        "path_type": "hardlink",
+        "sha256": "9642b1e491bdf5d56524b2f90354ce70a51a48ef21f137002c539c7ad3283e24",
+        "sha256_in_prefix": "9642b1e491bdf5d56524b2f90354ce70a51a48ef21f137002c539c7ad3283e24",
+        "size_in_bytes": 3115
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+        "sha256_in_prefix": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/Makefile",
+        "path_type": "hardlink",
+        "sha256": "01687570db787770d69c46354237f37bed181b058db98badfab15828066c35bc",
+        "sha256_in_prefix": "01687570db787770d69c46354237f37bed181b058db98badfab15828066c35bc",
+        "size_in_bytes": 44614
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/NEWS",
+        "path_type": "hardlink",
+        "sha256": "e8060d75d825474eb983f047059bbd53cd046af99ebedf3b56c2855f19be0285",
+        "sha256_in_prefix": "e8060d75d825474eb983f047059bbd53cd046af99ebedf3b56c2855f19be0285",
+        "size_in_bytes": 199369
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/README",
+        "path_type": "hardlink",
+        "sha256": "dcf695741ec13503214104ac21463706989db3c3f3666d25d8f083514a7060c2",
+        "sha256_in_prefix": "dcf695741ec13503214104ac21463706989db3c3f3666d25d8f083514a7060c2",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/SECURITY",
+        "path_type": "hardlink",
+        "sha256": "535e2da4455bfbe6e34390f91f061750acf5b1447131115f6c4168c112089072",
+        "sha256_in_prefix": "535e2da4455bfbe6e34390f91f061750acf5b1447131115f6c4168c112089072",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/africa",
+        "path_type": "hardlink",
+        "sha256": "a6320358b715005cd99a1baf5a1bee45c012e87da0c315779d45f3b24ee792c2",
+        "sha256_in_prefix": "a6320358b715005cd99a1baf5a1bee45c012e87da0c315779d45f3b24ee792c2",
+        "size_in_bytes": 66152
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/antarctica",
+        "path_type": "hardlink",
+        "sha256": "176eea689b5857ff0bf056fec9e15c6d82789d4553d0a5d4f9b9b063cca9520b",
+        "sha256_in_prefix": "176eea689b5857ff0bf056fec9e15c6d82789d4553d0a5d4f9b9b063cca9520b",
+        "size_in_bytes": 12845
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/asia",
+        "path_type": "hardlink",
+        "sha256": "e7aebcb06fa2e3f0a2f38812bb1d2644aa529c927c6588e6549aa7b071b93642",
+        "sha256_in_prefix": "e7aebcb06fa2e3f0a2f38812bb1d2644aa529c927c6588e6549aa7b071b93642",
+        "size_in_bytes": 178098
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/australasia",
+        "path_type": "hardlink",
+        "sha256": "8db1268dccb4ae4c44337b06001d5b6c999f9d9cc53b6f945410158104018d3f",
+        "sha256_in_prefix": "8db1268dccb4ae4c44337b06001d5b6c999f9d9cc53b6f945410158104018d3f",
+        "size_in_bytes": 100079
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/backward",
+        "path_type": "hardlink",
+        "sha256": "4be6adfae2cf6bd6adad83b71b78f8bf4309030cb77973be14e4dd395cef92cc",
+        "sha256_in_prefix": "4be6adfae2cf6bd6adad83b71b78f8bf4309030cb77973be14e4dd395cef92cc",
+        "size_in_bytes": 4872
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/backzone",
+        "path_type": "hardlink",
+        "sha256": "d809cc56118bf8caf309504baae808302b6c664fb7a0fc3e994914903339810a",
+        "sha256_in_prefix": "d809cc56118bf8caf309504baae808302b6c664fb7a0fc3e994914903339810a",
+        "size_in_bytes": 43496
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/calendars",
+        "path_type": "hardlink",
+        "sha256": "53e564da92c7c926b2dc2107aa66ddd9803388a1451eea1de0063b1bc160ab19",
+        "sha256_in_prefix": "53e564da92c7c926b2dc2107aa66ddd9803388a1451eea1de0063b1bc160ab19",
+        "size_in_bytes": 5567
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/checklinks.awk",
+        "path_type": "hardlink",
+        "sha256": "c67cfc97f5e77d08b3a7556ca494f27ba1d9a76990f1460fa0a7970725cd82ef",
+        "sha256_in_prefix": "c67cfc97f5e77d08b3a7556ca494f27ba1d9a76990f1460fa0a7970725cd82ef",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/checktab.awk",
+        "path_type": "hardlink",
+        "sha256": "1ddb35ca94c3d87caaa36c379adba303ecebf7041e0911a549aafdb7c35e12f1",
+        "sha256_in_prefix": "1ddb35ca94c3d87caaa36c379adba303ecebf7041e0911a549aafdb7c35e12f1",
+        "size_in_bytes": 4474
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/etcetera",
+        "path_type": "hardlink",
+        "sha256": "e3a117b3e8f9d70012ce4782681836c018055f1fd0ab7b3246ecdd49c7707105",
+        "sha256_in_prefix": "e3a117b3e8f9d70012ce4782681836c018055f1fd0ab7b3246ecdd49c7707105",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/europe",
+        "path_type": "hardlink",
+        "sha256": "80a19b21e8d111032d32100fd605065bf262b433244cf8d708639cccc3277dc0",
+        "sha256_in_prefix": "80a19b21e8d111032d32100fd605065bf262b433244cf8d708639cccc3277dc0",
+        "size_in_bytes": 182834
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/factory",
+        "path_type": "hardlink",
+        "sha256": "1457f0d09dec52c1208a818ea66796764eeabbbd4ed2dc2f1f5e7b84d2c980c9",
+        "sha256_in_prefix": "1457f0d09dec52c1208a818ea66796764eeabbbd4ed2dc2f1f5e7b84d2c980c9",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/iso3166.tab",
+        "path_type": "hardlink",
+        "sha256": "04c87fc98ecc5e9f03304cbbd636ab157dc8252369c2e132223228d872945c3e",
+        "sha256_in_prefix": "04c87fc98ecc5e9f03304cbbd636ab157dc8252369c2e132223228d872945c3e",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/leap-seconds.list",
+        "path_type": "hardlink",
+        "sha256": "90ef4a0b97f38f2fa4d1a8be95780b448ff00d7af90d941086e50f93fbc762ea",
+        "sha256_in_prefix": "90ef4a0b97f38f2fa4d1a8be95780b448ff00d7af90d941086e50f93fbc762ea",
+        "size_in_bytes": 10659
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/leapseconds",
+        "path_type": "hardlink",
+        "sha256": "66d1a7dd26cecdafbec50c7e9eb33ce3cc6fa3565a0c97015575fe2c9eb7add8",
+        "sha256_in_prefix": "66d1a7dd26cecdafbec50c7e9eb33ce3cc6fa3565a0c97015575fe2c9eb7add8",
+        "size_in_bytes": 3388
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/leapseconds.awk",
+        "path_type": "hardlink",
+        "sha256": "d11d15b7f3039a3b1f43916ac71decc25305694e156ce51d703729cc8302b871",
+        "sha256_in_prefix": "d11d15b7f3039a3b1f43916ac71decc25305694e156ce51d703729cc8302b871",
+        "size_in_bytes": 8889
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/northamerica",
+        "path_type": "hardlink",
+        "sha256": "d437af6e13a996b8b9cf12e8cd93d05c4222fb2485570daa97a8d89095e8d411",
+        "sha256_in_prefix": "d437af6e13a996b8b9cf12e8cd93d05c4222fb2485570daa97a8d89095e8d411",
+        "size_in_bytes": 164344
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/southamerica",
+        "path_type": "hardlink",
+        "sha256": "cc31391497c3a77b95632c413e0fe24d0e6c6a808466983bbaf06db6f155a0a1",
+        "sha256_in_prefix": "cc31391497c3a77b95632c413e0fe24d0e6c6a808466983bbaf06db6f155a0a1",
+        "size_in_bytes": 88198
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/theory.html",
+        "path_type": "hardlink",
+        "sha256": "6dd48a874c4aee89da90ddc17e58cce44f5de34af7ea7a3201fde16f00bd221a",
+        "sha256_in_prefix": "6dd48a874c4aee89da90ddc17e58cce44f5de34af7ea7a3201fde16f00bd221a",
+        "size_in_bytes": 60700
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/version",
+        "path_type": "hardlink",
+        "sha256": "7d3e9e74b30fcc98e2e1c847f59d798dc0c7a6bd406ca8645cd6bc3ceffa89f2",
+        "sha256_in_prefix": "7d3e9e74b30fcc98e2e1c847f59d798dc0c7a6bd406ca8645cd6bc3ceffa89f2",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/windowsZones.xml",
+        "path_type": "hardlink",
+        "sha256": "75fb0a4041124dfe487a39f5e30bd5adb90ed1040b047980db4593722c1d8ee1",
+        "sha256_in_prefix": "75fb0a4041124dfe487a39f5e30bd5adb90ed1040b047980db4593722c1d8ee1",
+        "size_in_bytes": 49812
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/ziguard.awk",
+        "path_type": "hardlink",
+        "sha256": "b2a3486258c126ac03eb83840654586438e7ffc44dd09e454e216e9d3610ca56",
+        "sha256_in_prefix": "b2a3486258c126ac03eb83840654586438e7ffc44dd09e454e216e9d3610ca56",
+        "size_in_bytes": 4260
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/zishrink.awk",
+        "path_type": "hardlink",
+        "sha256": "3dec323a5b750f11aa8051ed605e25f808bcc14734e556d2a9edbcc4ec3ff08c",
+        "sha256_in_prefix": "3dec323a5b750f11aa8051ed605e25f808bcc14734e556d2a9edbcc4ec3ff08c",
+        "size_in_bytes": 8347
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/zone.tab",
+        "path_type": "hardlink",
+        "sha256": "4b5a2e2b193dbe4780fc0107166c369093d5b894d4ccf2b462b4992c681444ae",
+        "sha256_in_prefix": "4b5a2e2b193dbe4780fc0107166c369093d5b894d4ccf2b462b4992c681444ae",
+        "size_in_bytes": 19419
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/zone1970.tab",
+        "path_type": "hardlink",
+        "sha256": "525991e907e3b2a7740e44f3404c425864de39f6ed3f4aee0417c8e3f30a2902",
+        "sha256_in_prefix": "525991e907e3b2a7740e44f3404c425864de39f6ed3f4aee0417c8e3f30a2902",
+        "size_in_bytes": 17593
+      },
+      {
+        "_path": "lib/R/library/tzdb/tzdata/zoneinfo2tdf.pl",
+        "path_type": "hardlink",
+        "sha256": "5ba1181279c99e9d9ef729449faa6ebf6c2871d2f3e3084e0178db4666723fcb",
+        "sha256_in_prefix": "5ba1181279c99e9d9ef729449faa6ebf6c2871d2f3e3084e0178db4666723fcb",
+        "size_in_bytes": 1450
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f74c67305e699de048deac65fee6f14d26f07a8ffa0f5b2c3b443433b0317f7e",
+  "size": 535589,
+  "subdir": "linux-64",
+  "timestamp": 1635355529000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-tzdb-0.2.0-r41h03ef668_0.tar.bz2",
+  "version": "0.2.0"
+}

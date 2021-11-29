@@ -1,0 +1,2844 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0",
+    "r-crosstalk",
+    "r-htmltools >=0.3.6",
+    "r-htmlwidgets >=1.3",
+    "r-jquerylib",
+    "r-jsonlite >=0.9.16",
+    "r-magrittr",
+    "r-promises"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-dt-0.20-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/DT/DESCRIPTION",
+    "lib/R/library/DT/INDEX",
+    "lib/R/library/DT/LICENSE",
+    "lib/R/library/DT/Meta/Rd.rds",
+    "lib/R/library/DT/Meta/features.rds",
+    "lib/R/library/DT/Meta/hsearch.rds",
+    "lib/R/library/DT/Meta/links.rds",
+    "lib/R/library/DT/Meta/nsInfo.rds",
+    "lib/R/library/DT/Meta/package.rds",
+    "lib/R/library/DT/Meta/vignette.rds",
+    "lib/R/library/DT/NAMESPACE",
+    "lib/R/library/DT/NEWS.Rd",
+    "lib/R/library/DT/R/DT",
+    "lib/R/library/DT/R/DT.rdb",
+    "lib/R/library/DT/R/DT.rdx",
+    "lib/R/library/DT/doc/DT.Rmd",
+    "lib/R/library/DT/doc/DT.html",
+    "lib/R/library/DT/doc/index.html",
+    "lib/R/library/DT/examples/DT-click/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-click/Readme.md",
+    "lib/R/library/DT/examples/DT-click/rsconnect/shinyapps.io/yihui/DT-click.dcf",
+    "lib/R/library/DT/examples/DT-click/server.R",
+    "lib/R/library/DT/examples/DT-click/ui.R",
+    "lib/R/library/DT/examples/DT-crosstalk/plotly-persist.R",
+    "lib/R/library/DT/examples/DT-edit/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-edit/Readme.md",
+    "lib/R/library/DT/examples/DT-edit/app.R",
+    "lib/R/library/DT/examples/DT-edit/rsconnect/shinyapps.io/yihui/DT-edit.dcf",
+    "lib/R/library/DT/examples/DT-filter/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-filter/Readme.md",
+    "lib/R/library/DT/examples/DT-filter/rsconnect/shinyapps.io/yihui/DT-filter.dcf",
+    "lib/R/library/DT/examples/DT-filter/server.R",
+    "lib/R/library/DT/examples/DT-filter/ui.R",
+    "lib/R/library/DT/examples/DT-info/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-info/Readme.md",
+    "lib/R/library/DT/examples/DT-info/rsconnect/shinyapps.io/yihui/DT-info.dcf",
+    "lib/R/library/DT/examples/DT-info/server.R",
+    "lib/R/library/DT/examples/DT-info/ui.R",
+    "lib/R/library/DT/examples/DT-proxy/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-proxy/Readme.md",
+    "lib/R/library/DT/examples/DT-proxy/rsconnect/shinyapps.io/yihui/DT-proxy.dcf",
+    "lib/R/library/DT/examples/DT-proxy/server.R",
+    "lib/R/library/DT/examples/DT-proxy/ui.R",
+    "lib/R/library/DT/examples/DT-radio/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-radio/Readme.md",
+    "lib/R/library/DT/examples/DT-radio/app.R",
+    "lib/R/library/DT/examples/DT-radio/rsconnect/shinyapps.io/yihui/DT-radio.dcf",
+    "lib/R/library/DT/examples/DT-reload/app.R",
+    "lib/R/library/DT/examples/DT-rows/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-rows/Readme.md",
+    "lib/R/library/DT/examples/DT-rows/rsconnect/shinyapps.io/yihui/DT-rows.dcf",
+    "lib/R/library/DT/examples/DT-rows/server.R",
+    "lib/R/library/DT/examples/DT-rows/ui.R",
+    "lib/R/library/DT/examples/DT-scroller/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-scroller/Readme.md",
+    "lib/R/library/DT/examples/DT-scroller/rsconnect/shinyapps.io/yihui/DT-scroller.dcf",
+    "lib/R/library/DT/examples/DT-scroller/server.R",
+    "lib/R/library/DT/examples/DT-scroller/ui.R",
+    "lib/R/library/DT/examples/DT-scroller/www/large.txt",
+    "lib/R/library/DT/examples/DT-selection/DESCRIPTION",
+    "lib/R/library/DT/examples/DT-selection/Readme.md",
+    "lib/R/library/DT/examples/DT-selection/rsconnect/shinyapps.io/yihui/DT-selection.dcf",
+    "lib/R/library/DT/examples/DT-selection/server.R",
+    "lib/R/library/DT/examples/DT-selection/ui.R",
+    "lib/R/library/DT/examples/DT-shiny/server.R",
+    "lib/R/library/DT/examples/DT-shiny/ui.R",
+    "lib/R/library/DT/examples/ajax-shiny.R",
+    "lib/R/library/DT/examples/datatable.R",
+    "lib/R/library/DT/help/AnIndex",
+    "lib/R/library/DT/help/DT.rdb",
+    "lib/R/library/DT/help/DT.rdx",
+    "lib/R/library/DT/help/aliases.rds",
+    "lib/R/library/DT/help/paths.rds",
+    "lib/R/library/DT/html/00Index.html",
+    "lib/R/library/DT/html/R.css",
+    "lib/R/library/DT/htmlwidgets/css/datatables-crosstalk.css",
+    "lib/R/library/DT/htmlwidgets/datatables.js",
+    "lib/R/library/DT/htmlwidgets/datatables.yaml",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/dataTables.autoFill.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.colVis.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.html5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.print.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/dataTables.buttons.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/jszip.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/pdfmake.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/vfs_fonts.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/dataTables.colReorder.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/DateTime/css/dataTables.dateTime.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/DateTime/js/dataTables.dateTime.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/dataTables.fixedColumns.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/dataTables.fixedHeader.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/dataTables.keyTable.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/dataTables.responsive.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/dataTables.rowGroup.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/dataTables.rowReorder.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/dataTables.scroller.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/dataTables.searchBuilder.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/dataTables.searchPanes.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/dataTables.select.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/dataRender/ellipsis/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/scrollResize/source.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/searchHighlight/jquery.highlight.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/searchHighlight/source.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/searchHighlight/source.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/filtering/accent-neutralise/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/filtering/diacritics-neutralise/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/ellipses/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/extjs/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/four_button/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/full_numbers_no_ellipses/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/input/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/scrolling/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/select/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/simple_incremental_bootstrap/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/simple_numbers_no_ellipses/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/sorting/natural/source.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap.extra.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap4.extra.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap4.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap5.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bulma.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.foundation.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.jqueryui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.semanticui.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.extra.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bootstrap.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bootstrap4.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bootstrap5.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bulma.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.foundation.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.jqueryui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.semanticui.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/js/jquery.dataTables.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/datatables/license.txt",
+    "lib/R/library/DT/htmlwidgets/lib/nouislider/jquery.nouislider.min.css",
+    "lib/R/library/DT/htmlwidgets/lib/nouislider/jquery.nouislider.min.js",
+    "lib/R/library/DT/htmlwidgets/lib/selectize/selectize.bootstrap3.css",
+    "lib/R/library/DT/htmlwidgets/lib/selectize/selectize.min.js"
+  ],
+  "fn": "r-dt-0.20-r41hc72bb7e_0.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-dt-0.20-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "7cc5f7f7a1cea22c4d69e2ccfcd8679a",
+  "name": "r-dt",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-dt-0.20-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/DT/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7a18d921ab8b785748bdfcb227a12f1094880134531b68783d49fb84f439f63e",
+        "sha256_in_prefix": "7a18d921ab8b785748bdfcb227a12f1094880134531b68783d49fb84f439f63e",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "lib/R/library/DT/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9caa085a880dba630d4b817bb04d7ebc1b31a33a9b248916f4f5931be9777a9b",
+        "sha256_in_prefix": "9caa085a880dba630d4b817bb04d7ebc1b31a33a9b248916f4f5931be9777a9b",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "lib/R/library/DT/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "156ab956644c6f24e8a038ae5c0dab85c97b28975ff9c75b1050c95f8ca01f79",
+        "sha256_in_prefix": "156ab956644c6f24e8a038ae5c0dab85c97b28975ff9c75b1050c95f8ca01f79",
+        "size_in_bytes": 15743
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "1e6721a01cd653e62cdf9175c82c6d8a91cc5371e7b2cfe1828ec3afb25472da",
+        "sha256_in_prefix": "1e6721a01cd653e62cdf9175c82c6d8a91cc5371e7b2cfe1828ec3afb25472da",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "1646285ea71594d850eca842102f11bdc6b9cec2454ce2f447dfadd4d127adc5",
+        "sha256_in_prefix": "1646285ea71594d850eca842102f11bdc6b9cec2454ce2f447dfadd4d127adc5",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d3687831c8aaa51f9a6e933112ff5386ef184b97626e33c2e67fca0d91c49b27",
+        "sha256_in_prefix": "d3687831c8aaa51f9a6e933112ff5386ef184b97626e33c2e67fca0d91c49b27",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4bde8c29506440a76de88182786f6511a7734b4873b1576a1ea2dcf0c679c6c8",
+        "sha256_in_prefix": "4bde8c29506440a76de88182786f6511a7734b4873b1576a1ea2dcf0c679c6c8",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "872e468832334c480d9217842fb8d2ad38ea3c3ea31b06050c919c48f3300bcb",
+        "sha256_in_prefix": "872e468832334c480d9217842fb8d2ad38ea3c3ea31b06050c919c48f3300bcb",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/R/library/DT/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "e54e6ad5eefa31b64e85613bd65b8797029cfe2af8912072e26596be2df3c732",
+        "sha256_in_prefix": "e54e6ad5eefa31b64e85613bd65b8797029cfe2af8912072e26596be2df3c732",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "lib/R/library/DT/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b522662d0658ab3d06ee92a3c7f646d10912628334a51fa80c6921ef89d82a53",
+        "sha256_in_prefix": "b522662d0658ab3d06ee92a3c7f646d10912628334a51fa80c6921ef89d82a53",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "lib/R/library/DT/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "fa421ef5b61e3d350439f4ffc48118429e32ed3b0808f0d712f7bf7e7739ab86",
+        "sha256_in_prefix": "fa421ef5b61e3d350439f4ffc48118429e32ed3b0808f0d712f7bf7e7739ab86",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/R/library/DT/R/DT",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/DT/R/DT.rdb",
+        "path_type": "hardlink",
+        "sha256": "d15b66e16782a7b9f74ad4e4643a73b222232c9248cd72cdfb5546fa3dfae151",
+        "sha256_in_prefix": "d15b66e16782a7b9f74ad4e4643a73b222232c9248cd72cdfb5546fa3dfae151",
+        "size_in_bytes": 109594
+      },
+      {
+        "_path": "lib/R/library/DT/R/DT.rdx",
+        "path_type": "hardlink",
+        "sha256": "e00155d4c8f467ec15f887f2657d0017b642de130218ed34ecfd7e478e148a41",
+        "sha256_in_prefix": "e00155d4c8f467ec15f887f2657d0017b642de130218ed34ecfd7e478e148a41",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "lib/R/library/DT/doc/DT.Rmd",
+        "path_type": "hardlink",
+        "sha256": "06000168a2d6778929aeac8cc06a9915795c9db7c74f67c5e7febe3afd9aee1d",
+        "sha256_in_prefix": "06000168a2d6778929aeac8cc06a9915795c9db7c74f67c5e7febe3afd9aee1d",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/R/library/DT/doc/DT.html",
+        "path_type": "hardlink",
+        "sha256": "7e53b938273c9330dab2751697ce884c0d5df161c60e2a385e8e0228f2a12307",
+        "sha256_in_prefix": "7e53b938273c9330dab2751697ce884c0d5df161c60e2a385e8e0228f2a12307",
+        "size_in_bytes": 426804
+      },
+      {
+        "_path": "lib/R/library/DT/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "990e559e8b2837b0bcf6eb7c9d6ff5e240dc3e43dcef3d59191de97f85610b87",
+        "sha256_in_prefix": "990e559e8b2837b0bcf6eb7c9d6ff5e240dc3e43dcef3d59191de97f85610b87",
+        "size_in_bytes": 1363
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-click/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d0fb0bcbc94fd006e8dcf709511771e83db95ab9523fff76f89f5da629be3a8e",
+        "sha256_in_prefix": "d0fb0bcbc94fd006e8dcf709511771e83db95ab9523fff76f89f5da629be3a8e",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-click/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "5c6b9d990132cb6c74b36e38d3a51436ce6fd7c96768f8df5aeb72005aff21ad",
+        "sha256_in_prefix": "5c6b9d990132cb6c74b36e38d3a51436ce6fd7c96768f8df5aeb72005aff21ad",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-click/rsconnect/shinyapps.io/yihui/DT-click.dcf",
+        "path_type": "hardlink",
+        "sha256": "fad403d754f0419f7b3a52b628d8fb82248c0b625a596ee77903becaa8563543",
+        "sha256_in_prefix": "fad403d754f0419f7b3a52b628d8fb82248c0b625a596ee77903becaa8563543",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-click/server.R",
+        "path_type": "hardlink",
+        "sha256": "e9972979602ee4089430d3cc0b49113276f00467b6c9fb23db6d5f91488b5da1",
+        "sha256_in_prefix": "e9972979602ee4089430d3cc0b49113276f00467b6c9fb23db6d5f91488b5da1",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-click/ui.R",
+        "path_type": "hardlink",
+        "sha256": "d44567ede643f7b3cb8d26fd18a2a55ebe78513178220502648f17e2a8489c96",
+        "sha256_in_prefix": "d44567ede643f7b3cb8d26fd18a2a55ebe78513178220502648f17e2a8489c96",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-crosstalk/plotly-persist.R",
+        "path_type": "hardlink",
+        "sha256": "87caca511d73864d02f357dbb24592da925648d6e36eec69e660b79d8d4f93e5",
+        "sha256_in_prefix": "87caca511d73864d02f357dbb24592da925648d6e36eec69e660b79d8d4f93e5",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-edit/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "0bd8258bfc3945b1e55e15b1f517f90f35ba40c5e00944cb71e3020c8f59df6d",
+        "sha256_in_prefix": "0bd8258bfc3945b1e55e15b1f517f90f35ba40c5e00944cb71e3020c8f59df6d",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-edit/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "fd6210e8b91bbfc9ffc8ca1d79cc2d20513f47e86aa936879045fe45e006dd01",
+        "sha256_in_prefix": "fd6210e8b91bbfc9ffc8ca1d79cc2d20513f47e86aa936879045fe45e006dd01",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-edit/app.R",
+        "path_type": "hardlink",
+        "sha256": "31d527424f6fe9f9e0a1ec3e53f68865ad060d05273ed5a33b504d2633fe0370",
+        "sha256_in_prefix": "31d527424f6fe9f9e0a1ec3e53f68865ad060d05273ed5a33b504d2633fe0370",
+        "size_in_bytes": 3120
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-edit/rsconnect/shinyapps.io/yihui/DT-edit.dcf",
+        "path_type": "hardlink",
+        "sha256": "12819ad4803c3c54d3bbffebb5f2c9223ff940bcf6639db1a35bef7f2df9687b",
+        "sha256_in_prefix": "12819ad4803c3c54d3bbffebb5f2c9223ff940bcf6639db1a35bef7f2df9687b",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-filter/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "3e6687a8873186155e70937453eda593f5e58c2e4e4d56f7e641b960082925ad",
+        "sha256_in_prefix": "3e6687a8873186155e70937453eda593f5e58c2e4e4d56f7e641b960082925ad",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-filter/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "a6363e3acc5cb030835d9a371346454a79f7c98b77eada02e08edd729be4d1fb",
+        "sha256_in_prefix": "a6363e3acc5cb030835d9a371346454a79f7c98b77eada02e08edd729be4d1fb",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-filter/rsconnect/shinyapps.io/yihui/DT-filter.dcf",
+        "path_type": "hardlink",
+        "sha256": "0682a19ea471263f3635a58a9ba4049a6c1b8a3134d2975f36498192b43d769b",
+        "sha256_in_prefix": "0682a19ea471263f3635a58a9ba4049a6c1b8a3134d2975f36498192b43d769b",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-filter/server.R",
+        "path_type": "hardlink",
+        "sha256": "3a10e15e53f04f30e69ab2d78327a5083357e6d20d17745dd492a1b09ba7a286",
+        "sha256_in_prefix": "3a10e15e53f04f30e69ab2d78327a5083357e6d20d17745dd492a1b09ba7a286",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-filter/ui.R",
+        "path_type": "hardlink",
+        "sha256": "0e7b9ea10a4cf8b2fbe6b8f543024e4f9febfcc5911088530edcef0ef86115d5",
+        "sha256_in_prefix": "0e7b9ea10a4cf8b2fbe6b8f543024e4f9febfcc5911088530edcef0ef86115d5",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-info/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "6d5f7af3b59594f5ef7f54b9d0304cd90c77be460899ab9975610bae975a5e1d",
+        "sha256_in_prefix": "6d5f7af3b59594f5ef7f54b9d0304cd90c77be460899ab9975610bae975a5e1d",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-info/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "2e0af433999014bfa25d4768ccdc1e8918233d08f631f6475673c775d89ab2fb",
+        "sha256_in_prefix": "2e0af433999014bfa25d4768ccdc1e8918233d08f631f6475673c775d89ab2fb",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-info/rsconnect/shinyapps.io/yihui/DT-info.dcf",
+        "path_type": "hardlink",
+        "sha256": "7adb9ce9aa7e1154bf9856f04b1917da24b224f2e3bafef27b442d1eeb7339e2",
+        "sha256_in_prefix": "7adb9ce9aa7e1154bf9856f04b1917da24b224f2e3bafef27b442d1eeb7339e2",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-info/server.R",
+        "path_type": "hardlink",
+        "sha256": "091dba5961a23b448ffa9bbe49b487ddbc5344ce751134e46bc09e858627a933",
+        "sha256_in_prefix": "091dba5961a23b448ffa9bbe49b487ddbc5344ce751134e46bc09e858627a933",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-info/ui.R",
+        "path_type": "hardlink",
+        "sha256": "155c7046fe4d5bb576399f27dc9cb2c74d4b1043912356c5d4c7321467fd7fb3",
+        "sha256_in_prefix": "155c7046fe4d5bb576399f27dc9cb2c74d4b1043912356c5d4c7321467fd7fb3",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-proxy/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1fe723e9f6856a6f7f0a68de71fc3bc758eaf916ceedefbed7dddaac98fe9ec8",
+        "sha256_in_prefix": "1fe723e9f6856a6f7f0a68de71fc3bc758eaf916ceedefbed7dddaac98fe9ec8",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-proxy/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "415e3a12acfe87cf2afd61342f4b6ed28ee16bcb2e98ae5e203cc918a575aebb",
+        "sha256_in_prefix": "415e3a12acfe87cf2afd61342f4b6ed28ee16bcb2e98ae5e203cc918a575aebb",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-proxy/rsconnect/shinyapps.io/yihui/DT-proxy.dcf",
+        "path_type": "hardlink",
+        "sha256": "1862b3dfbed39fa0eed1ac32ed2e12e0e9dd52eed56c4df2f430813297353def",
+        "sha256_in_prefix": "1862b3dfbed39fa0eed1ac32ed2e12e0e9dd52eed56c4df2f430813297353def",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-proxy/server.R",
+        "path_type": "hardlink",
+        "sha256": "d9fc694be2b71aea2d54c0fe9d24a72a23b9d2fe5ae48740229e0f8263f56f9b",
+        "sha256_in_prefix": "d9fc694be2b71aea2d54c0fe9d24a72a23b9d2fe5ae48740229e0f8263f56f9b",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-proxy/ui.R",
+        "path_type": "hardlink",
+        "sha256": "4a7879d2063697ff4b0ab5d700928769a7e4bfb32708f3e12096b801db64a87b",
+        "sha256_in_prefix": "4a7879d2063697ff4b0ab5d700928769a7e4bfb32708f3e12096b801db64a87b",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-radio/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1bbf0c59833d8ce7ec7f2a99d9fedac568e0ea24b00a6597106e20965f4b26f9",
+        "sha256_in_prefix": "1bbf0c59833d8ce7ec7f2a99d9fedac568e0ea24b00a6597106e20965f4b26f9",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-radio/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "dd6bc1469e47af211e6f7791c480f9efb53a717bc4cd290644d0927e9baf2dff",
+        "sha256_in_prefix": "dd6bc1469e47af211e6f7791c480f9efb53a717bc4cd290644d0927e9baf2dff",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-radio/app.R",
+        "path_type": "hardlink",
+        "sha256": "8344bbb9a78c7a704f08c9c6588560e5f7dc10c647116ac22d50daf9a7325989",
+        "sha256_in_prefix": "8344bbb9a78c7a704f08c9c6588560e5f7dc10c647116ac22d50daf9a7325989",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-radio/rsconnect/shinyapps.io/yihui/DT-radio.dcf",
+        "path_type": "hardlink",
+        "sha256": "08545cde0ac5ccfbe5bef2746028ff262e8025519d085982f303f9f60f22b367",
+        "sha256_in_prefix": "08545cde0ac5ccfbe5bef2746028ff262e8025519d085982f303f9f60f22b367",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-reload/app.R",
+        "path_type": "hardlink",
+        "sha256": "c6b9379f909e2a54ee332e17f76d426958bf8ce1d302494ce6ae75570d9292a9",
+        "sha256_in_prefix": "c6b9379f909e2a54ee332e17f76d426958bf8ce1d302494ce6ae75570d9292a9",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-rows/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "fc5035e0c43cb8b05865bed9976841aef9ed4a9bb4d3dae1da081bf67b5c5434",
+        "sha256_in_prefix": "fc5035e0c43cb8b05865bed9976841aef9ed4a9bb4d3dae1da081bf67b5c5434",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-rows/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "0dbbfdc8d478fbcfbe25d76908b4adfd8d3e1c0ea2a8c8cadcadbcd7691c6d6f",
+        "sha256_in_prefix": "0dbbfdc8d478fbcfbe25d76908b4adfd8d3e1c0ea2a8c8cadcadbcd7691c6d6f",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-rows/rsconnect/shinyapps.io/yihui/DT-rows.dcf",
+        "path_type": "hardlink",
+        "sha256": "477fb87d4f99db840e61008c54269db7ae58ec50d67e15f4ba1a95a7837efb81",
+        "sha256_in_prefix": "477fb87d4f99db840e61008c54269db7ae58ec50d67e15f4ba1a95a7837efb81",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-rows/server.R",
+        "path_type": "hardlink",
+        "sha256": "cfe3dd9b4c5eec7b934155b1d07922ddea76d747ce4ea465411ba30da7406ced",
+        "sha256_in_prefix": "cfe3dd9b4c5eec7b934155b1d07922ddea76d747ce4ea465411ba30da7406ced",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-rows/ui.R",
+        "path_type": "hardlink",
+        "sha256": "fcada8aa7f8f395afe3ba852eac49a0ccf24780d9fa82cb55eca9d52da2ed2e6",
+        "sha256_in_prefix": "fcada8aa7f8f395afe3ba852eac49a0ccf24780d9fa82cb55eca9d52da2ed2e6",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-scroller/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f6223b0968aef67bd533a56d224f19cec920958a9d4f8e53715a52c76d3c4e4b",
+        "sha256_in_prefix": "f6223b0968aef67bd533a56d224f19cec920958a9d4f8e53715a52c76d3c4e4b",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-scroller/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "fb77385bfea7cee270d82eac1b961b345c98d7ca8c607ed1cdc521d6df513af5",
+        "sha256_in_prefix": "fb77385bfea7cee270d82eac1b961b345c98d7ca8c607ed1cdc521d6df513af5",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-scroller/rsconnect/shinyapps.io/yihui/DT-scroller.dcf",
+        "path_type": "hardlink",
+        "sha256": "b7bcd53d11f8f5fd210dd210f7762566cec5e9e84a05e59944e700e6d6f5af84",
+        "sha256_in_prefix": "b7bcd53d11f8f5fd210dd210f7762566cec5e9e84a05e59944e700e6d6f5af84",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-scroller/server.R",
+        "path_type": "hardlink",
+        "sha256": "cad196ce20c0dcb51121768d4ada99a69e90255e54ed17075192b9b835e4bc16",
+        "sha256_in_prefix": "cad196ce20c0dcb51121768d4ada99a69e90255e54ed17075192b9b835e4bc16",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-scroller/ui.R",
+        "path_type": "hardlink",
+        "sha256": "80baf9356275c8069a6e798e1054c873fac4b08479e5989d22a490547da6aee2",
+        "sha256_in_prefix": "80baf9356275c8069a6e798e1054c873fac4b08479e5989d22a490547da6aee2",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-scroller/www/large.txt",
+        "path_type": "hardlink",
+        "sha256": "98b04f8e50580cc484d5d3b3abfa0a93beb8d8896ebdacf357fe28387ebf8906",
+        "sha256_in_prefix": "98b04f8e50580cc484d5d3b3abfa0a93beb8d8896ebdacf357fe28387ebf8906",
+        "size_in_bytes": 20906
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-selection/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "8ef2eee2cf6bb1df298328d3ff1a080e60ec87dd97ffdc4a88900de2a4f7058f",
+        "sha256_in_prefix": "8ef2eee2cf6bb1df298328d3ff1a080e60ec87dd97ffdc4a88900de2a4f7058f",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-selection/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "ee9aa8f4e045fec02c5dd1a6e9becb0a598ce38877febbd248a3d51414b48eb9",
+        "sha256_in_prefix": "ee9aa8f4e045fec02c5dd1a6e9becb0a598ce38877febbd248a3d51414b48eb9",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-selection/rsconnect/shinyapps.io/yihui/DT-selection.dcf",
+        "path_type": "hardlink",
+        "sha256": "fb902e4e3971573163a9bbe8671d0437ca6d82b477f781177be9ceea3715b370",
+        "sha256_in_prefix": "fb902e4e3971573163a9bbe8671d0437ca6d82b477f781177be9ceea3715b370",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-selection/server.R",
+        "path_type": "hardlink",
+        "sha256": "cf6d730dd87dacd83cec7647a6a9ff4521a80e10933841b7de74df239af6f2e6",
+        "sha256_in_prefix": "cf6d730dd87dacd83cec7647a6a9ff4521a80e10933841b7de74df239af6f2e6",
+        "size_in_bytes": 5493
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-selection/ui.R",
+        "path_type": "hardlink",
+        "sha256": "65a2ce05337993895f0e210c81d0f72032c5b7a46310f12f8e7651a9356f9631",
+        "sha256_in_prefix": "65a2ce05337993895f0e210c81d0f72032c5b7a46310f12f8e7651a9356f9631",
+        "size_in_bytes": 4481
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-shiny/server.R",
+        "path_type": "hardlink",
+        "sha256": "2c9e5d853d19c6141d7f81ff7dd054a89c62db0cf46fed867780971d9f0df3f5",
+        "sha256_in_prefix": "2c9e5d853d19c6141d7f81ff7dd054a89c62db0cf46fed867780971d9f0df3f5",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/DT/examples/DT-shiny/ui.R",
+        "path_type": "hardlink",
+        "sha256": "5c399e6755807f13089fecfbc07f69a78af33da6b03d30704604b8734e71e491",
+        "sha256_in_prefix": "5c399e6755807f13089fecfbc07f69a78af33da6b03d30704604b8734e71e491",
+        "size_in_bytes": 352
+      },
+      {
+        "_path": "lib/R/library/DT/examples/ajax-shiny.R",
+        "path_type": "hardlink",
+        "sha256": "e47dafbab6c9e0530fbf625b5e7ba12799058bb07d07c3a9a3a1388eba1308dc",
+        "sha256_in_prefix": "e47dafbab6c9e0530fbf625b5e7ba12799058bb07d07c3a9a3a1388eba1308dc",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/R/library/DT/examples/datatable.R",
+        "path_type": "hardlink",
+        "sha256": "7ce4a357c42dac22207595e569cf9c4388367693d9c5a9bdb826204c8fd5f88f",
+        "sha256_in_prefix": "7ce4a357c42dac22207595e569cf9c4388367693d9c5a9bdb826204c8fd5f88f",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "lib/R/library/DT/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "68cd0e74f93d992cdd50fdd37e19d6b82e84eea73f0fade0a49bbe46ad434dbc",
+        "sha256_in_prefix": "68cd0e74f93d992cdd50fdd37e19d6b82e84eea73f0fade0a49bbe46ad434dbc",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/R/library/DT/help/DT.rdb",
+        "path_type": "hardlink",
+        "sha256": "cc540445fc5ac648ca26a01022f52db585481ed499b425ce71899e209bbc2418",
+        "sha256_in_prefix": "cc540445fc5ac648ca26a01022f52db585481ed499b425ce71899e209bbc2418",
+        "size_in_bytes": 44714
+      },
+      {
+        "_path": "lib/R/library/DT/help/DT.rdx",
+        "path_type": "hardlink",
+        "sha256": "1a2410ee34854a8ac026f09eca35aaae7fbfd5bf367351d1cd3d040f67a5f6fe",
+        "sha256_in_prefix": "1a2410ee34854a8ac026f09eca35aaae7fbfd5bf367351d1cd3d040f67a5f6fe",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/R/library/DT/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "7fcbabded742c83e19fe645944594d2529a4b50084bc3e7b2d698c19d1f23e16",
+        "sha256_in_prefix": "7fcbabded742c83e19fe645944594d2529a4b50084bc3e7b2d698c19d1f23e16",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/R/library/DT/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "8c05082b9a2c5947ec0e92f32f91926c114f3521549f78e652a9c16f2182c857",
+        "sha256_in_prefix": "8c05082b9a2c5947ec0e92f32f91926c114f3521549f78e652a9c16f2182c857",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/DT/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "4c6a96f5683925d7d0dc5f647a8ee3391700716a57da75e19ba4277f6946b76d",
+        "sha256_in_prefix": "4c6a96f5683925d7d0dc5f647a8ee3391700716a57da75e19ba4277f6946b76d",
+        "size_in_bytes": 6354
+      },
+      {
+        "_path": "lib/R/library/DT/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/css/datatables-crosstalk.css",
+        "path_type": "hardlink",
+        "sha256": "e685af7ab6a207fd42b12116831499e7a215ce01fb8e93ffbb7323bdd052415f",
+        "sha256_in_prefix": "e685af7ab6a207fd42b12116831499e7a215ce01fb8e93ffbb7323bdd052415f",
+        "size_in_bytes": 699
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/datatables.js",
+        "path_type": "hardlink",
+        "sha256": "726ccebe3b07f13a4996a6fb0bdd1477939d469bcc7adc1e33d4bfc161fc99c2",
+        "sha256_in_prefix": "726ccebe3b07f13a4996a6fb0bdd1477939d469bcc7adc1e33d4bfc161fc99c2",
+        "size_in_bytes": 57061
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/datatables.yaml",
+        "path_type": "hardlink",
+        "sha256": "19249be8b3d0e4b978edbe4c9515b30486651f3c971f088debb5c63011553436",
+        "sha256_in_prefix": "19249be8b3d0e4b978edbe4c9515b30486651f3c971f088debb5c63011553436",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "e04f9bd48375ee3a0ce14bf74cc487940fea5a03a1bd0e7df77ea8aa1edd3acc",
+        "sha256_in_prefix": "e04f9bd48375ee3a0ce14bf74cc487940fea5a03a1bd0e7df77ea8aa1edd3acc",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "8c85f3a33ed7b245eddae45a67374d2f850982d53ed3cdc54b04c26d387fd8cb",
+        "sha256_in_prefix": "8c85f3a33ed7b245eddae45a67374d2f850982d53ed3cdc54b04c26d387fd8cb",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "aeb0323d34ca1adb5823d272cd40f13236eeb8d62c6d5f1ec00713d5d2a3da25",
+        "sha256_in_prefix": "aeb0323d34ca1adb5823d272cd40f13236eeb8d62c6d5f1ec00713d5d2a3da25",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "348df552c647b4c88de7fbe9e855fb0c225ea4b22a09bdf8552db430efe0d844",
+        "sha256_in_prefix": "348df552c647b4c88de7fbe9e855fb0c225ea4b22a09bdf8552db430efe0d844",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "762ec39954da947147d1c9cc63f8cf179dbb3c475188b0e63c5332ec96c0c9d4",
+        "sha256_in_prefix": "762ec39954da947147d1c9cc63f8cf179dbb3c475188b0e63c5332ec96c0c9d4",
+        "size_in_bytes": 1887
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "d46063a2ccba612169e4f4b6705424b74a013bb2e61aca9da95d0c1f42b03198",
+        "sha256_in_prefix": "d46063a2ccba612169e4f4b6705424b74a013bb2e61aca9da95d0c1f42b03198",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "3831f3c6fd312735d874ec7ecd4b32bea1f71d0229e63014b4f7832564382a3b",
+        "sha256_in_prefix": "3831f3c6fd312735d874ec7ecd4b32bea1f71d0229e63014b4f7832564382a3b",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/css/autoFill.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "e88845421446ca849599781962851bc5c6819ed84752048fb1f48d4b8927c778",
+        "sha256_in_prefix": "e88845421446ca849599781962851bc5c6819ed84752048fb1f48d4b8927c778",
+        "size_in_bytes": 1672
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "e5c81ad0acf79e3d855e34384096600e265633b427c3dc7dc3f02642c7a81528",
+        "sha256_in_prefix": "e5c81ad0acf79e3d855e34384096600e265633b427c3dc7dc3f02642c7a81528",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "47ef317844dff8c27674bec82147b044bd60358604d536d17a1cd48a39c60e44",
+        "sha256_in_prefix": "47ef317844dff8c27674bec82147b044bd60358604d536d17a1cd48a39c60e44",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "101133bfc310a084af8ea096fdefb8315cd4fecb5dd8f809e2b98edfc98965f0",
+        "sha256_in_prefix": "101133bfc310a084af8ea096fdefb8315cd4fecb5dd8f809e2b98edfc98965f0",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "27433ed8cda0943282f0ac4c362cf6d48995f2f2dd4b22735fd15af291a21cb2",
+        "sha256_in_prefix": "27433ed8cda0943282f0ac4c362cf6d48995f2f2dd4b22735fd15af291a21cb2",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "0ff21c19ca8764d425b1ce5e203a8b7c9325e576674c010a6c280696018d983b",
+        "sha256_in_prefix": "0ff21c19ca8764d425b1ce5e203a8b7c9325e576674c010a6c280696018d983b",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "c3865821563a55b6e73d9422008faaedd155afc1925885a93b3a994a35d545ea",
+        "sha256_in_prefix": "c3865821563a55b6e73d9422008faaedd155afc1925885a93b3a994a35d545ea",
+        "size_in_bytes": 592
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "138241209d965da96e985a1e1de2d474f57f6bd19371f4e89696cc69344cf5f0",
+        "sha256_in_prefix": "138241209d965da96e985a1e1de2d474f57f6bd19371f4e89696cc69344cf5f0",
+        "size_in_bytes": 625
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/autoFill.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "80c13b74d462e67272610666befc7f4c81ba86b57e83e047bc075389c015e34e",
+        "sha256_in_prefix": "80c13b74d462e67272610666befc7f4c81ba86b57e83e047bc075389c015e34e",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/AutoFill/js/dataTables.autoFill.min.js",
+        "path_type": "hardlink",
+        "sha256": "46f590fa3b7efe419f72da6a372084430063cc9bd796ef97f474739f55dbc8a2",
+        "sha256_in_prefix": "46f590fa3b7efe419f72da6a372084430063cc9bd796ef97f474739f55dbc8a2",
+        "size_in_bytes": 15615
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "7e736519d3e1c6023cc774c9902c67b5e3f2599fd3c63f8597e19f79a4ce401f",
+        "sha256_in_prefix": "7e736519d3e1c6023cc774c9902c67b5e3f2599fd3c63f8597e19f79a4ce401f",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "7cf602962661cb5a91700e5321cb207e5493094de1631482bc497feb98be13a6",
+        "sha256_in_prefix": "7cf602962661cb5a91700e5321cb207e5493094de1631482bc497feb98be13a6",
+        "size_in_bytes": 4869
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "0146f010cea50107e0d5461d012d310145e3bcc6282e47d41b6ba053f22da871",
+        "sha256_in_prefix": "0146f010cea50107e0d5461d012d310145e3bcc6282e47d41b6ba053f22da871",
+        "size_in_bytes": 4869
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "7e82a1f6699b44043c873a3d0fca4194733f94b46073e2cd249112ff43a69674",
+        "sha256_in_prefix": "7e82a1f6699b44043c873a3d0fca4194733f94b46073e2cd249112ff43a69674",
+        "size_in_bytes": 3760
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "7ab0a31eedaa8dfc7c551b982226c6aa6072a6f88b668580bfd30b471fa0162a",
+        "sha256_in_prefix": "7ab0a31eedaa8dfc7c551b982226c6aa6072a6f88b668580bfd30b471fa0162a",
+        "size_in_bytes": 11945
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "0fade6fbd0e103b68c7afba42235e65d2e1f1dfae2562a081650006c31a56625",
+        "sha256_in_prefix": "0fade6fbd0e103b68c7afba42235e65d2e1f1dfae2562a081650006c31a56625",
+        "size_in_bytes": 4054
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "01b17ccfaa5f9aec651709df855d635925810600270531ca8a741ca36c4f7251",
+        "sha256_in_prefix": "01b17ccfaa5f9aec651709df855d635925810600270531ca8a741ca36c4f7251",
+        "size_in_bytes": 4996
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/css/buttons.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "a146eb81d1d92d159d8c82be556bdf9ee71e4b0a00d6d3752b9687337766ef0e",
+        "sha256_in_prefix": "a146eb81d1d92d159d8c82be556bdf9ee71e4b0a00d6d3752b9687337766ef0e",
+        "size_in_bytes": 3928
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "b06add9f6e69b827ba208b6f3312028452c0f48d9fae49834e84b7b960527fdb",
+        "sha256_in_prefix": "b06add9f6e69b827ba208b6f3312028452c0f48d9fae49834e84b7b960527fdb",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "fcf74d6589614ea2fb03afb1b3925080a527d51072cd510a5acf71e80e65a184",
+        "sha256_in_prefix": "fcf74d6589614ea2fb03afb1b3925080a527d51072cd510a5acf71e80e65a184",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "84634f4574d296692789183dd0ad02b115cbdb932afd62cb7b2d5f64d1f2eb13",
+        "sha256_in_prefix": "84634f4574d296692789183dd0ad02b115cbdb932afd62cb7b2d5f64d1f2eb13",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "e0ad354a81293c509e4c5045211e023b81d55cd81010fc0f6f52a2eaf662c658",
+        "sha256_in_prefix": "e0ad354a81293c509e4c5045211e023b81d55cd81010fc0f6f52a2eaf662c658",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.colVis.min.js",
+        "path_type": "hardlink",
+        "sha256": "64f2e0e6b11d13c94c117659d03b3a62f06d3862638d185857ebac078a03ff82",
+        "sha256_in_prefix": "64f2e0e6b11d13c94c117659d03b3a62f06d3862638d185857ebac078a03ff82",
+        "size_in_bytes": 3183
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "df13f1348d606b03745a4399bce97ba15b7f8486645df7d01e644609da09502f",
+        "sha256_in_prefix": "df13f1348d606b03745a4399bce97ba15b7f8486645df7d01e644609da09502f",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "1cb614b4a1bac0ddd27cb7b6d967ce64340e726c71034b4701dd0337ece7958b",
+        "sha256_in_prefix": "1cb614b4a1bac0ddd27cb7b6d967ce64340e726c71034b4701dd0337ece7958b",
+        "size_in_bytes": 1529
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.html5.min.js",
+        "path_type": "hardlink",
+        "sha256": "8080a2557f4957591d060df8f243e66b229c15e1906cab1e6015913d6d870910",
+        "sha256_in_prefix": "8080a2557f4957591d060df8f243e66b229c15e1906cab1e6015913d6d870910",
+        "size_in_bytes": 25090
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "c210a306a6a155339050c82c32bbf47f609f1ec581a556c391a6d1cb5267885b",
+        "sha256_in_prefix": "c210a306a6a155339050c82c32bbf47f609f1ec581a556c391a6d1cb5267885b",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.print.min.js",
+        "path_type": "hardlink",
+        "sha256": "7790fcb6526b394ea55a96f761ed1ba353a488542cdb6ba70e1c12815a84f43c",
+        "sha256_in_prefix": "7790fcb6526b394ea55a96f761ed1ba353a488542cdb6ba70e1c12815a84f43c",
+        "size_in_bytes": 2514
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/buttons.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "e429848a2bec5867f0b9f96df11697adb48881fbd2676a977ae613edae83d913",
+        "sha256_in_prefix": "e429848a2bec5867f0b9f96df11697adb48881fbd2676a977ae613edae83d913",
+        "size_in_bytes": 1198
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/dataTables.buttons.min.js",
+        "path_type": "hardlink",
+        "sha256": "ce0b9b6bd7d65cea90ccd5dd2152ac017f5c0416c020266431d71a322fd21973",
+        "sha256_in_prefix": "ce0b9b6bd7d65cea90ccd5dd2152ac017f5c0416c020266431d71a322fd21973",
+        "size_in_bytes": 24315
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/jszip.min.js",
+        "path_type": "hardlink",
+        "sha256": "9e170a21bb67ccf7dcab122c726e72637105a45d893350afa9b7a38369a0c1fd",
+        "sha256_in_prefix": "9e170a21bb67ccf7dcab122c726e72637105a45d893350afa9b7a38369a0c1fd",
+        "size_in_bytes": 76985
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/pdfmake.js",
+        "path_type": "hardlink",
+        "sha256": "2a72924a0c88d6e79b8ea682cfca60c6d49facb8019fc98b8dff31f11540dce9",
+        "sha256_in_prefix": "2a72924a0c88d6e79b8ea682cfca60c6d49facb8019fc98b8dff31f11540dce9",
+        "size_in_bytes": 1918910
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/vfs_fonts.js",
+        "path_type": "hardlink",
+        "sha256": "5cb81fa70754070475938e9859359a268122c9b62cac154ebb8e120e812662cc",
+        "sha256_in_prefix": "5cb81fa70754070475938e9859359a268122c9b62cac154ebb8e120e812662cc",
+        "size_in_bytes": 870284
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "fa0c9ccb18c08ec5f63aeaee007ad70feac6c1230b786ca85a71e4bdb952dbe0",
+        "sha256_in_prefix": "fa0c9ccb18c08ec5f63aeaee007ad70feac6c1230b786ca85a71e4bdb952dbe0",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "1357432d96d1b7cf7e5230ce9daeb2377bf6f522b3eb55e067e5a3aa8634a940",
+        "sha256_in_prefix": "1357432d96d1b7cf7e5230ce9daeb2377bf6f522b3eb55e067e5a3aa8634a940",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "0d0de285d981540bfe60314817afc3e6c289a1b816848e7974ddc8769bb98a88",
+        "sha256_in_prefix": "0d0de285d981540bfe60314817afc3e6c289a1b816848e7974ddc8769bb98a88",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "bcbe956b0ab9ec31ef0cb37b8e99bb727087fae028dc4e5e77554bd6bf10b2f4",
+        "sha256_in_prefix": "bcbe956b0ab9ec31ef0cb37b8e99bb727087fae028dc4e5e77554bd6bf10b2f4",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "c00fb83a1f191a964ad70790f3aa1cc41360471a80fbd4b77e6de36635bd83a9",
+        "sha256_in_prefix": "c00fb83a1f191a964ad70790f3aa1cc41360471a80fbd4b77e6de36635bd83a9",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "a24ba72f068dc156ab6d7b453d61839c4036015cfc75e66ec52680ac284b7b42",
+        "sha256_in_prefix": "a24ba72f068dc156ab6d7b453d61839c4036015cfc75e66ec52680ac284b7b42",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "c00fb83a1f191a964ad70790f3aa1cc41360471a80fbd4b77e6de36635bd83a9",
+        "sha256_in_prefix": "c00fb83a1f191a964ad70790f3aa1cc41360471a80fbd4b77e6de36635bd83a9",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/css/colReorder.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "35bfbe54ac6764fdf7cf63356f5e88ddbcf7c854faaeb2d98cfa4098451517e6",
+        "sha256_in_prefix": "35bfbe54ac6764fdf7cf63356f5e88ddbcf7c854faaeb2d98cfa4098451517e6",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "80ab4f2a54db268b19c96e3268629c5f41f832bee7d7ac3da738d9674b61f194",
+        "sha256_in_prefix": "80ab4f2a54db268b19c96e3268629c5f41f832bee7d7ac3da738d9674b61f194",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "7fdfa9d7757fa74447071afb95bb0b10f52e38514b666ef6997ff370da0cf714",
+        "sha256_in_prefix": "7fdfa9d7757fa74447071afb95bb0b10f52e38514b666ef6997ff370da0cf714",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "026c48e1630c5e3f8da0dd1569861e31ebdc356e60a81acf23aa452d5f52722d",
+        "sha256_in_prefix": "026c48e1630c5e3f8da0dd1569861e31ebdc356e60a81acf23aa452d5f52722d",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "69e4f27ff637f82d93851b273adb0bf06361ef3616b03838a9375dfd7645ba35",
+        "sha256_in_prefix": "69e4f27ff637f82d93851b273adb0bf06361ef3616b03838a9375dfd7645ba35",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "11580780e3cbf9515c8ec807d1479d41136cd34016351cfe177ebc8d329879b4",
+        "sha256_in_prefix": "11580780e3cbf9515c8ec807d1479d41136cd34016351cfe177ebc8d329879b4",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "26a78e24044b5fb93aefdf20c94fe3244e71ea2d2537dbce35f8f421a37a81ff",
+        "sha256_in_prefix": "26a78e24044b5fb93aefdf20c94fe3244e71ea2d2537dbce35f8f421a37a81ff",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "6504ed8e1e27767501a2a7640e3666e1e0fbeb4fb03d0ba3d4d5c42fe5b55032",
+        "sha256_in_prefix": "6504ed8e1e27767501a2a7640e3666e1e0fbeb4fb03d0ba3d4d5c42fe5b55032",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/colReorder.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "dfc0899acce5deb4038ee9fedd7bed1372f0b7635ccff15ee33425705029d2dd",
+        "sha256_in_prefix": "dfc0899acce5deb4038ee9fedd7bed1372f0b7635ccff15ee33425705029d2dd",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/ColReorder/js/dataTables.colReorder.min.js",
+        "path_type": "hardlink",
+        "sha256": "d3d7077bfb159116007fb8d2cea8720a65b59dc43d50f782b61e3dc6deb8e436",
+        "sha256_in_prefix": "d3d7077bfb159116007fb8d2cea8720a65b59dc43d50f782b61e3dc6deb8e436",
+        "size_in_bytes": 13767
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/DateTime/css/dataTables.dateTime.min.css",
+        "path_type": "hardlink",
+        "sha256": "e98798841c7f2e46257a430844cd7e7d7cc569109038b2a6b3f96b15c3bab5f2",
+        "sha256_in_prefix": "e98798841c7f2e46257a430844cd7e7d7cc569109038b2a6b3f96b15c3bab5f2",
+        "size_in_bytes": 5052
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/DateTime/js/dataTables.dateTime.min.js",
+        "path_type": "hardlink",
+        "sha256": "dbb6e593b571c11ce451b7fa4dfb52c87250d5e6acd9fbdc0c50d5a2a4659139",
+        "sha256_in_prefix": "dbb6e593b571c11ce451b7fa4dfb52c87250d5e6acd9fbdc0c50d5a2a4659139",
+        "size_in_bytes": 18274
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "5d524b5b2053b48b355318d39b1f332a8df83f3ba2872b00f0cb9112f189b91d",
+        "sha256_in_prefix": "5d524b5b2053b48b355318d39b1f332a8df83f3ba2872b00f0cb9112f189b91d",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "5d524b5b2053b48b355318d39b1f332a8df83f3ba2872b00f0cb9112f189b91d",
+        "sha256_in_prefix": "5d524b5b2053b48b355318d39b1f332a8df83f3ba2872b00f0cb9112f189b91d",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "10d204c2b582a2b1e99b4e441eb04a60f35e08990481dd68b769653b5dc4b9eb",
+        "sha256_in_prefix": "10d204c2b582a2b1e99b4e441eb04a60f35e08990481dd68b769653b5dc4b9eb",
+        "size_in_bytes": 1426
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "97c933ac0760a4a01e94b84d5381782589fccca9cc251f4668d385cbf0f25fe9",
+        "sha256_in_prefix": "97c933ac0760a4a01e94b84d5381782589fccca9cc251f4668d385cbf0f25fe9",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "575c59515a722b03876733c35b8f2c83e539606a9e4d37ae48af0b45f6f2b33e",
+        "sha256_in_prefix": "575c59515a722b03876733c35b8f2c83e539606a9e4d37ae48af0b45f6f2b33e",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "7692a707e63a08dfc01696d9fd5b8b430b7156f0ad0d366dcb2e2564938c39d2",
+        "sha256_in_prefix": "7692a707e63a08dfc01696d9fd5b8b430b7156f0ad0d366dcb2e2564938c39d2",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "31f06bcf7ce96c2f39d205b0414f5b55ac7e9fc3946e6b47c210d52ae268fcda",
+        "sha256_in_prefix": "31f06bcf7ce96c2f39d205b0414f5b55ac7e9fc3946e6b47c210d52ae268fcda",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/css/fixedColumns.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "77ac52aaf6d57a3f59826eeab4ff86ae03df4d0bb2e9596fdb17c9ccf8e82b5f",
+        "sha256_in_prefix": "77ac52aaf6d57a3f59826eeab4ff86ae03df4d0bb2e9596fdb17c9ccf8e82b5f",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/dataTables.fixedColumns.min.js",
+        "path_type": "hardlink",
+        "sha256": "6075e4a1dd119185bbc687315590f27e7ed0d8eb540411e27a9075e3267cac70",
+        "sha256_in_prefix": "6075e4a1dd119185bbc687315590f27e7ed0d8eb540411e27a9075e3267cac70",
+        "size_in_bytes": 16602
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "a491e996fa1edde7c71fe1a97e9fcb469babb2983a4410bc8efe8a09073fa6fc",
+        "sha256_in_prefix": "a491e996fa1edde7c71fe1a97e9fcb469babb2983a4410bc8efe8a09073fa6fc",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "3fd3f3c14fa626ddf84809e53570d0ff3f779a919b6d69c59c0a27dd975c9e67",
+        "sha256_in_prefix": "3fd3f3c14fa626ddf84809e53570d0ff3f779a919b6d69c59c0a27dd975c9e67",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "ba17ba63b6b854d3258672b45e0ec9ed3d87585a2040ffe384db7537653dc487",
+        "sha256_in_prefix": "ba17ba63b6b854d3258672b45e0ec9ed3d87585a2040ffe384db7537653dc487",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "de791e3add0915c5388c0fe6c94b0425fd1203e1947d7421eab28edf99fba85f",
+        "sha256_in_prefix": "de791e3add0915c5388c0fe6c94b0425fd1203e1947d7421eab28edf99fba85f",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "41b36f4cbbf4972e47b70be30696ba076b0cc83decfff49015b4fe301ed47263",
+        "sha256_in_prefix": "41b36f4cbbf4972e47b70be30696ba076b0cc83decfff49015b4fe301ed47263",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "562176e08d26e4bff760307c56c35d7ea2b81aa6f2825e015ee6e16733f060fd",
+        "sha256_in_prefix": "562176e08d26e4bff760307c56c35d7ea2b81aa6f2825e015ee6e16733f060fd",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "ab4d1ca4320c82de9f72d2a7408abc10f1e7f5963d3e783f8b3c2fe76721fd83",
+        "sha256_in_prefix": "ab4d1ca4320c82de9f72d2a7408abc10f1e7f5963d3e783f8b3c2fe76721fd83",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedColumns/js/fixedColumns.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "a0e153c0558a422edf2b87c5640202b9dda8db1f46ac951ac378212349b81b20",
+        "sha256_in_prefix": "a0e153c0558a422edf2b87c5640202b9dda8db1f46ac951ac378212349b81b20",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "sha256_in_prefix": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "sha256_in_prefix": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "sha256_in_prefix": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "1863ca82f9405472e6295ee29f54683bdc3d4b2450570eff206e10435e82d2ff",
+        "sha256_in_prefix": "1863ca82f9405472e6295ee29f54683bdc3d4b2450570eff206e10435e82d2ff",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "37438ca0631abeb549b23f673afbb2360470ff8386fb107e2dad9fce53a43a42",
+        "sha256_in_prefix": "37438ca0631abeb549b23f673afbb2360470ff8386fb107e2dad9fce53a43a42",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "sha256_in_prefix": "fead67cf341e0d3a9483538b75293ec8309784a552b5deb8114942cd2d0dc7f2",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "26987cfed2c042bdba3a929aa8b25bca5cf0bd8966d0cf9d5942d8168efd264e",
+        "sha256_in_prefix": "26987cfed2c042bdba3a929aa8b25bca5cf0bd8966d0cf9d5942d8168efd264e",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/css/fixedHeader.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "6cc0c3ff338b8dc5d1a38cbc0a786d63f388e09db1f7c68b286127c9842b1558",
+        "sha256_in_prefix": "6cc0c3ff338b8dc5d1a38cbc0a786d63f388e09db1f7c68b286127c9842b1558",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/dataTables.fixedHeader.min.js",
+        "path_type": "hardlink",
+        "sha256": "d3c1384cec0f65d4f499d55d7744a9e475ee1c82d22104001991d5ee683f12ec",
+        "sha256_in_prefix": "d3c1384cec0f65d4f499d55d7744a9e475ee1c82d22104001991d5ee683f12ec",
+        "size_in_bytes": 14380
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "39475ef61e64d01e82eda777cc766c9dc4d643340a4d251ada86d97502a1b510",
+        "sha256_in_prefix": "39475ef61e64d01e82eda777cc766c9dc4d643340a4d251ada86d97502a1b510",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "1024387c3793972e9db043dc5100fa462ef0cbac4f5c139af018c37745e8a5d3",
+        "sha256_in_prefix": "1024387c3793972e9db043dc5100fa462ef0cbac4f5c139af018c37745e8a5d3",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "59ae4cf0e84c09589c23429abbed36f6e17a6037a48fcca4f4d61e51e0d0d180",
+        "sha256_in_prefix": "59ae4cf0e84c09589c23429abbed36f6e17a6037a48fcca4f4d61e51e0d0d180",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "86f0d473d13130f59a31b929a684a1f6b34a79da78e595248c5988257c2f447b",
+        "sha256_in_prefix": "86f0d473d13130f59a31b929a684a1f6b34a79da78e595248c5988257c2f447b",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "e16a2ea3eda19fa1b34096c9e37c98da19ca4f37e7ae771a535402d97d6e475f",
+        "sha256_in_prefix": "e16a2ea3eda19fa1b34096c9e37c98da19ca4f37e7ae771a535402d97d6e475f",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "e9c4d498951582da1f69f7e1e5258b205855d13b8a4dfba295e8e9e0f3b7cbd8",
+        "sha256_in_prefix": "e9c4d498951582da1f69f7e1e5258b205855d13b8a4dfba295e8e9e0f3b7cbd8",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "93f2a3eb81079db6b48a6cf5da3c1af2c27191bfa62fea2feedaf0b1f10d1e15",
+        "sha256_in_prefix": "93f2a3eb81079db6b48a6cf5da3c1af2c27191bfa62fea2feedaf0b1f10d1e15",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/FixedHeader/js/fixedHeader.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "0c9704fe3b771663525d4551353674995644e1024eff69e219996adb15225990",
+        "sha256_in_prefix": "0c9704fe3b771663525d4551353674995644e1024eff69e219996adb15225990",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "91be7d6b59fb7394c5c48e5d97a3bd7a2bf6789c655233705f1a36532afd75ff",
+        "sha256_in_prefix": "91be7d6b59fb7394c5c48e5d97a3bd7a2bf6789c655233705f1a36532afd75ff",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "dda97609f3cec9967ed5a085d0d3667ff6b3e03291c3d03457cb3a9c2b20d3cf",
+        "sha256_in_prefix": "dda97609f3cec9967ed5a085d0d3667ff6b3e03291c3d03457cb3a9c2b20d3cf",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "a93c42c7862fdac16fea09620df89f2b9eab1362b6681d33add233af16295eb2",
+        "sha256_in_prefix": "a93c42c7862fdac16fea09620df89f2b9eab1362b6681d33add233af16295eb2",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "7513b3c7b558825fbaa01e7999745936aaf2e6f21d94c14403cf69956fe2aee5",
+        "sha256_in_prefix": "7513b3c7b558825fbaa01e7999745936aaf2e6f21d94c14403cf69956fe2aee5",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "cf23b9e281df8fc91ef4bc8c822fb58429b01d7024c5cd7162b80651b5e1a13c",
+        "sha256_in_prefix": "cf23b9e281df8fc91ef4bc8c822fb58429b01d7024c5cd7162b80651b5e1a13c",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "cf34981000181909481a2218339076363c36d27a31d5cf3358b4781825da2bf5",
+        "sha256_in_prefix": "cf34981000181909481a2218339076363c36d27a31d5cf3358b4781825da2bf5",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "cf23b9e281df8fc91ef4bc8c822fb58429b01d7024c5cd7162b80651b5e1a13c",
+        "sha256_in_prefix": "cf23b9e281df8fc91ef4bc8c822fb58429b01d7024c5cd7162b80651b5e1a13c",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/css/keyTable.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "e2ea2519993fd0e973fb5c75bda5f46171185eb464739ab0aad8e9e85803b128",
+        "sha256_in_prefix": "e2ea2519993fd0e973fb5c75bda5f46171185eb464739ab0aad8e9e85803b128",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/dataTables.keyTable.min.js",
+        "path_type": "hardlink",
+        "sha256": "511c466f3239cde7b8c5501d943f45c336cada5fe4a5be8bc2fa81827a56c40d",
+        "sha256_in_prefix": "511c466f3239cde7b8c5501d943f45c336cada5fe4a5be8bc2fa81827a56c40d",
+        "size_in_bytes": 15797
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "5fce6181e4e4bd514a1886172debbaec76af6744f7843eef5015f14d5c405b8b",
+        "sha256_in_prefix": "5fce6181e4e4bd514a1886172debbaec76af6744f7843eef5015f14d5c405b8b",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "63c9b95c82a56e6a120ad5ce0a71582a71506c209effbe255cdb89ff944f1dd5",
+        "sha256_in_prefix": "63c9b95c82a56e6a120ad5ce0a71582a71506c209effbe255cdb89ff944f1dd5",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "d7b9578f4f4595fb3f2c7aefa7ea4cb9db371d723b67c82ac01fa4a3bcb0e433",
+        "sha256_in_prefix": "d7b9578f4f4595fb3f2c7aefa7ea4cb9db371d723b67c82ac01fa4a3bcb0e433",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "0cfce1a7c9e564848cd309c6db2822e95124f08fb148298d70f42a6ec5acda68",
+        "sha256_in_prefix": "0cfce1a7c9e564848cd309c6db2822e95124f08fb148298d70f42a6ec5acda68",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "dcee94fc852524a0093f000bc5b958515fcb3a7e26032d657d6262adebb86e15",
+        "sha256_in_prefix": "dcee94fc852524a0093f000bc5b958515fcb3a7e26032d657d6262adebb86e15",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "7859c06e41f43f1afd37ca5dfd107df59d6052abd843cb23f4d27b831831499f",
+        "sha256_in_prefix": "7859c06e41f43f1afd37ca5dfd107df59d6052abd843cb23f4d27b831831499f",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "5dce285054fe69058892b642d568878a7a6bc8c4fbd7ac0b2fc6600c6e117560",
+        "sha256_in_prefix": "5dce285054fe69058892b642d568878a7a6bc8c4fbd7ac0b2fc6600c6e117560",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/KeyTable/js/keyTable.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "4685c6a99ff8b8eec6f286a319839cdcda931ab3b8f523f272306eb82782848d",
+        "sha256_in_prefix": "4685c6a99ff8b8eec6f286a319839cdcda931ab3b8f523f272306eb82782848d",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "acbbf5d2edd7a7d2cb695aee79bc5d9dc194c49f21e5fb82b2e9a7e4fb5d677c",
+        "sha256_in_prefix": "acbbf5d2edd7a7d2cb695aee79bc5d9dc194c49f21e5fb82b2e9a7e4fb5d677c",
+        "size_in_bytes": 4301
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "3118312c58bb616fcab0f9f5c3cc881b8ddd111ba57c09d4d3e35e5af4eee2b6",
+        "sha256_in_prefix": "3118312c58bb616fcab0f9f5c3cc881b8ddd111ba57c09d4d3e35e5af4eee2b6",
+        "size_in_bytes": 4301
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "4873b6cbf41ada28dc83f70f624b3d0c6d99f065ea1cf21d0eca8ecc32a39106",
+        "sha256_in_prefix": "4873b6cbf41ada28dc83f70f624b3d0c6d99f065ea1cf21d0eca8ecc32a39106",
+        "size_in_bytes": 4301
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "0c3d8cdaa64f0c923f1ffa6b6d45df802bf7da71667bde3cf52284895614e096",
+        "sha256_in_prefix": "0c3d8cdaa64f0c923f1ffa6b6d45df802bf7da71667bde3cf52284895614e096",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "63f01d056d6786fccfa30b93d65bc5e0f918e9047e9ea63305c6e6903086df46",
+        "sha256_in_prefix": "63f01d056d6786fccfa30b93d65bc5e0f918e9047e9ea63305c6e6903086df46",
+        "size_in_bytes": 4238
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "6e7fd48482d707ca1463f07a3a521407db225adf66a88825316bb23316a6226b",
+        "sha256_in_prefix": "6e7fd48482d707ca1463f07a3a521407db225adf66a88825316bb23316a6226b",
+        "size_in_bytes": 4286
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "63f01d056d6786fccfa30b93d65bc5e0f918e9047e9ea63305c6e6903086df46",
+        "sha256_in_prefix": "63f01d056d6786fccfa30b93d65bc5e0f918e9047e9ea63305c6e6903086df46",
+        "size_in_bytes": 4238
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/css/responsive.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "e83df8662ab6dd4a8218abf39c40be1aba91df10c9a5061256135de94b905404",
+        "sha256_in_prefix": "e83df8662ab6dd4a8218abf39c40be1aba91df10c9a5061256135de94b905404",
+        "size_in_bytes": 4303
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/dataTables.responsive.min.js",
+        "path_type": "hardlink",
+        "sha256": "7feaf64d7dca902e9abe9bfb17c6d18556593bc9d6ef126198229dea4ecfa861",
+        "sha256_in_prefix": "7feaf64d7dca902e9abe9bfb17c6d18556593bc9d6ef126198229dea4ecfa861",
+        "size_in_bytes": 16849
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "c3fc6d0df62f8e71d3fcacd97199172f22a55f42bc66aad39590645fba58aa40",
+        "sha256_in_prefix": "c3fc6d0df62f8e71d3fcacd97199172f22a55f42bc66aad39590645fba58aa40",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "308c5ac6865fe2c0252c5abaed7b8055e542d4943b85b5b99823c994e4bbc11d",
+        "sha256_in_prefix": "308c5ac6865fe2c0252c5abaed7b8055e542d4943b85b5b99823c994e4bbc11d",
+        "size_in_bytes": 3661
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "1dae6b9a43475a3b884d1381f9fc093b293ad26ce4af0d71a6b57a45d50acbb2",
+        "sha256_in_prefix": "1dae6b9a43475a3b884d1381f9fc093b293ad26ce4af0d71a6b57a45d50acbb2",
+        "size_in_bytes": 3683
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "7055864de9cda29c2e7129d9fee8eef6834f221b93aa9b62b5d5d09fa705ce9e",
+        "sha256_in_prefix": "7055864de9cda29c2e7129d9fee8eef6834f221b93aa9b62b5d5d09fa705ce9e",
+        "size_in_bytes": 3791
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "017dd3e3ef9e0660df034c7bfd558723b8437e197b46fa8d5809840dcd838f1d",
+        "sha256_in_prefix": "017dd3e3ef9e0660df034c7bfd558723b8437e197b46fa8d5809840dcd838f1d",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "6210a2e1a3e3e2da939ac8eec531c9c861e9bc37889a7a81d2c8a430e7f251fe",
+        "sha256_in_prefix": "6210a2e1a3e3e2da939ac8eec531c9c861e9bc37889a7a81d2c8a430e7f251fe",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "c019e130a16ad12a59cc01c20c90b3801a8b66b966bbfe075635288c2441ac87",
+        "sha256_in_prefix": "c019e130a16ad12a59cc01c20c90b3801a8b66b966bbfe075635288c2441ac87",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Responsive/js/responsive.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "8a4d6239d29736711c7520d310e5d19a0fed554cf2cc83d2cfa6cf3a5e4b590e",
+        "sha256_in_prefix": "8a4d6239d29736711c7520d310e5d19a0fed554cf2cc83d2cfa6cf3a5e4b590e",
+        "size_in_bytes": 3520
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "sha256_in_prefix": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "sha256_in_prefix": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "d6bdb0ba3126c41f2a3f7734b5b2a007fb7a82e025da023a625d0a7dc0069593",
+        "sha256_in_prefix": "d6bdb0ba3126c41f2a3f7734b5b2a007fb7a82e025da023a625d0a7dc0069593",
+        "size_in_bytes": 1396
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "sha256_in_prefix": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "sha256_in_prefix": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "sha256_in_prefix": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "sha256_in_prefix": "d433d94a817425e21f78a054903b217f9a279e45f79ae18c96aa9c08ceb382d0",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/css/rowGroup.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "6755c60e4aca2360478f7e7807e939c9369944e72a9f580eb3c8a7248c4f747f",
+        "sha256_in_prefix": "6755c60e4aca2360478f7e7807e939c9369944e72a9f580eb3c8a7248c4f747f",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/dataTables.rowGroup.min.js",
+        "path_type": "hardlink",
+        "sha256": "6e91d110063c23d5a269c1c13d248d47372a193a47afc1e0bcce6b3067414b1e",
+        "sha256_in_prefix": "6e91d110063c23d5a269c1c13d248d47372a193a47afc1e0bcce6b3067414b1e",
+        "size_in_bytes": 6815
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "23976cb2eeef51d618a45d6f613bd5bc1441234114b402f31cf800bbd98db8d2",
+        "sha256_in_prefix": "23976cb2eeef51d618a45d6f613bd5bc1441234114b402f31cf800bbd98db8d2",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "adce60f0dd4da49dabf0ea7698c4f81be689aa6911e6d3acb7eb4a677d282f3c",
+        "sha256_in_prefix": "adce60f0dd4da49dabf0ea7698c4f81be689aa6911e6d3acb7eb4a677d282f3c",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "b0459652d507126c1c16b7404069fcb8b87e801f7d8df7289777eeec322d960c",
+        "sha256_in_prefix": "b0459652d507126c1c16b7404069fcb8b87e801f7d8df7289777eeec322d960c",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "007e22a78c75dc4660b59e8c33b4c5191239af90205263179ffad564f3129628",
+        "sha256_in_prefix": "007e22a78c75dc4660b59e8c33b4c5191239af90205263179ffad564f3129628",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "17bc9edce2c576417dfde88117bc2ac822efea67959d713ad9a885d563d27363",
+        "sha256_in_prefix": "17bc9edce2c576417dfde88117bc2ac822efea67959d713ad9a885d563d27363",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "da40681812c6b42d559a4521e9a000ac14aae7c693b467a78cd7e30beb30b22c",
+        "sha256_in_prefix": "da40681812c6b42d559a4521e9a000ac14aae7c693b467a78cd7e30beb30b22c",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "ec4d9165adf72b14055722e01021f4dfaf29489c745daf8623c6eb17def08476",
+        "sha256_in_prefix": "ec4d9165adf72b14055722e01021f4dfaf29489c745daf8623c6eb17def08476",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowGroup/js/rowGroup.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "8151d846a5b9d32324c8bcc9f8ec54e4e2670b1377290b9c99aee892e8e5fc0c",
+        "sha256_in_prefix": "8151d846a5b9d32324c8bcc9f8ec54e4e2670b1377290b9c99aee892e8e5fc0c",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "fed70d408aa5efa2b85243684c5c97bd27c1d54ee3cd146cf8a9b066aed702d8",
+        "sha256_in_prefix": "fed70d408aa5efa2b85243684c5c97bd27c1d54ee3cd146cf8a9b066aed702d8",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "3025031d17d8fa33b01db9759a19ce2d99a120be28d7fe7c702aaa80aba916ab",
+        "sha256_in_prefix": "3025031d17d8fa33b01db9759a19ce2d99a120be28d7fe7c702aaa80aba916ab",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "6dcaf2376bf2b3661da29fba34649af47ba7116ddacf8ba27e2c3df0425e8a9c",
+        "sha256_in_prefix": "6dcaf2376bf2b3661da29fba34649af47ba7116ddacf8ba27e2c3df0425e8a9c",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "52e6b12860094bd68d86c39e7e1e7fd70984707dcca93f3386a01dfcea9a28b1",
+        "sha256_in_prefix": "52e6b12860094bd68d86c39e7e1e7fd70984707dcca93f3386a01dfcea9a28b1",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "77e982050f7c09ecc05a7cc760c8998763f57a4871aef4b5d68d4845b3b5785f",
+        "sha256_in_prefix": "77e982050f7c09ecc05a7cc760c8998763f57a4871aef4b5d68d4845b3b5785f",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "fed70d408aa5efa2b85243684c5c97bd27c1d54ee3cd146cf8a9b066aed702d8",
+        "sha256_in_prefix": "fed70d408aa5efa2b85243684c5c97bd27c1d54ee3cd146cf8a9b066aed702d8",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "77e982050f7c09ecc05a7cc760c8998763f57a4871aef4b5d68d4845b3b5785f",
+        "sha256_in_prefix": "77e982050f7c09ecc05a7cc760c8998763f57a4871aef4b5d68d4845b3b5785f",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/css/rowReorder.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "c922d051359de9c207afcb3683f068f669087162f28b80d992881270fa50fe4a",
+        "sha256_in_prefix": "c922d051359de9c207afcb3683f068f669087162f28b80d992881270fa50fe4a",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/dataTables.rowReorder.min.js",
+        "path_type": "hardlink",
+        "sha256": "9c1e7255d6b06b7d9c117790a38a0409062248676ee771991f5de09ac5ae52dd",
+        "sha256_in_prefix": "9c1e7255d6b06b7d9c117790a38a0409062248676ee771991f5de09ac5ae52dd",
+        "size_in_bytes": 7733
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "b5bff39de24ff6bab5f481947a81aa05707be29ffb2afcf972ae04406bbbc831",
+        "sha256_in_prefix": "b5bff39de24ff6bab5f481947a81aa05707be29ffb2afcf972ae04406bbbc831",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "5fe307da7cdda1b268a6fe625596a0db771396e1c0b7fffc7e3a1ff26edbb6b3",
+        "sha256_in_prefix": "5fe307da7cdda1b268a6fe625596a0db771396e1c0b7fffc7e3a1ff26edbb6b3",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "6245ae56e37898971e0eced3e9650b0451186222c3ee4ec3cb1e9af6781a8ef7",
+        "sha256_in_prefix": "6245ae56e37898971e0eced3e9650b0451186222c3ee4ec3cb1e9af6781a8ef7",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "bd9010eccc21892913fd66a7b69a97c7063e519444e4c9891c4c3ce91fc39f13",
+        "sha256_in_prefix": "bd9010eccc21892913fd66a7b69a97c7063e519444e4c9891c4c3ce91fc39f13",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "48e1eecc277418650fd0a1e3a67d106364a578ce394679686d3d2149b1397c2d",
+        "sha256_in_prefix": "48e1eecc277418650fd0a1e3a67d106364a578ce394679686d3d2149b1397c2d",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "b866729b473ba4601afb69d0959a104e00a5cd3fb8e5b79b3c01f775cdfdc8ae",
+        "sha256_in_prefix": "b866729b473ba4601afb69d0959a104e00a5cd3fb8e5b79b3c01f775cdfdc8ae",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "96caae8f15de26ff329f86904d8d12e115c8fba364a5b744867f29706ccb9eb3",
+        "sha256_in_prefix": "96caae8f15de26ff329f86904d8d12e115c8fba364a5b744867f29706ccb9eb3",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/RowReorder/js/rowReorder.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "73cfbeb877464f953ea82851228a5839437c255ab45c57508c07686f44516be2",
+        "sha256_in_prefix": "73cfbeb877464f953ea82851228a5839437c255ab45c57508c07686f44516be2",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "ed8c18afd0b2d7b52a5b5e40295ad650fabde47337df98b15e4e93e8b8e6fb51",
+        "sha256_in_prefix": "ed8c18afd0b2d7b52a5b5e40295ad650fabde47337df98b15e4e93e8b8e6fb51",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "da814b9f8c6a255ea56b90d09b83d819ab964c73a469ed0a04214845c0195388",
+        "sha256_in_prefix": "da814b9f8c6a255ea56b90d09b83d819ab964c73a469ed0a04214845c0195388",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "da814b9f8c6a255ea56b90d09b83d819ab964c73a469ed0a04214845c0195388",
+        "sha256_in_prefix": "da814b9f8c6a255ea56b90d09b83d819ab964c73a469ed0a04214845c0195388",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "sha256_in_prefix": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "sha256_in_prefix": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "4ddc815720bd073ed948afe18ba076dd1069ec5d75a4f3c5ed3c4b5515793eb8",
+        "sha256_in_prefix": "4ddc815720bd073ed948afe18ba076dd1069ec5d75a4f3c5ed3c4b5515793eb8",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "sha256_in_prefix": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/css/scroller.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "sha256_in_prefix": "7a25cbe646cfd0c21415e845da9ea1a145feb6488be6c9a0c23c2b92d49c37be",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/dataTables.scroller.min.js",
+        "path_type": "hardlink",
+        "sha256": "96f08f98a07af484f025bb24c26729780adf57570ce0fe3f9819da6a92e6c77f",
+        "sha256_in_prefix": "96f08f98a07af484f025bb24c26729780adf57570ce0fe3f9819da6a92e6c77f",
+        "size_in_bytes": 15277
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "aa6ec14dd56a94e1cb848e20477c6dc3c321f7dce36ffc7551ebf0cfd8a90a89",
+        "sha256_in_prefix": "aa6ec14dd56a94e1cb848e20477c6dc3c321f7dce36ffc7551ebf0cfd8a90a89",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "17e176742bfdd7f4e2a9fe2f406b4d26cec88439805e1c7932c02ad6530a3df6",
+        "sha256_in_prefix": "17e176742bfdd7f4e2a9fe2f406b4d26cec88439805e1c7932c02ad6530a3df6",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "3cad3e6b2ff9e0ba758b167ddbfaaf2a3640e27c96f48b23ca060fd40311b481",
+        "sha256_in_prefix": "3cad3e6b2ff9e0ba758b167ddbfaaf2a3640e27c96f48b23ca060fd40311b481",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "bb43e60000c13ca7e6d0e972af3de7503b9541f38ac45b9e7f4a77b350342c61",
+        "sha256_in_prefix": "bb43e60000c13ca7e6d0e972af3de7503b9541f38ac45b9e7f4a77b350342c61",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "27885140a5ad88a339702f8920733e15feb058ac69065228ccc67e1ba89bf1ce",
+        "sha256_in_prefix": "27885140a5ad88a339702f8920733e15feb058ac69065228ccc67e1ba89bf1ce",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "53537c6fd48f09a77eb119a7da925b9f7ebd71a1117286fad5480c0ba27caf82",
+        "sha256_in_prefix": "53537c6fd48f09a77eb119a7da925b9f7ebd71a1117286fad5480c0ba27caf82",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "72e1de00c1a294ec30fea3ddff3db27f326640cae36b3d530bd4629f2d578b39",
+        "sha256_in_prefix": "72e1de00c1a294ec30fea3ddff3db27f326640cae36b3d530bd4629f2d578b39",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Scroller/js/scroller.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "c0422bc4ee375c58d1eec92287d614ea0ed2dd009bf011af99c418e0696b2bb9",
+        "sha256_in_prefix": "c0422bc4ee375c58d1eec92287d614ea0ed2dd009bf011af99c418e0696b2bb9",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "c2936dbc78e45b90a1fd784a0e5f177c3029a0fd0614977abd197fb9edb2b8a0",
+        "sha256_in_prefix": "c2936dbc78e45b90a1fd784a0e5f177c3029a0fd0614977abd197fb9edb2b8a0",
+        "size_in_bytes": 3929
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "5c6e748052bebacf9b27eaecb40eae324abd9496adade8d28f3747eae0dddc60",
+        "sha256_in_prefix": "5c6e748052bebacf9b27eaecb40eae324abd9496adade8d28f3747eae0dddc60",
+        "size_in_bytes": 4152
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "3807c2b3d491ed46375e1f22ce5f16729333189e46bf5450565cc00aea98fafa",
+        "sha256_in_prefix": "3807c2b3d491ed46375e1f22ce5f16729333189e46bf5450565cc00aea98fafa",
+        "size_in_bytes": 4308
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "90582c93af506b6a88a33c0c03ad585886266df5f78b27e1d83069ab692e6a05",
+        "sha256_in_prefix": "90582c93af506b6a88a33c0c03ad585886266df5f78b27e1d83069ab692e6a05",
+        "size_in_bytes": 4175
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "2f6132423b0378ec84bb135750d3c134c0b31c9f5c933ca231912db47771fc79",
+        "sha256_in_prefix": "2f6132423b0378ec84bb135750d3c134c0b31c9f5c933ca231912db47771fc79",
+        "size_in_bytes": 5486
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "cfb6ee9d08ac765aa8cbfa0291e8262f5b3c9a3689c478bec1e5a590a5cb1d8f",
+        "sha256_in_prefix": "cfb6ee9d08ac765aa8cbfa0291e8262f5b3c9a3689c478bec1e5a590a5cb1d8f",
+        "size_in_bytes": 4275
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "f3397c09c644e4491c2e2d705027958f7b9d1db8b9a1fec560374774140fb7a8",
+        "sha256_in_prefix": "f3397c09c644e4491c2e2d705027958f7b9d1db8b9a1fec560374774140fb7a8",
+        "size_in_bytes": 3944
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/css/searchBuilder.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "d83a7e4a2f7baf425888c2c5dc6302ce430b3744ca7fc5015ab01ad8744dd87a",
+        "sha256_in_prefix": "d83a7e4a2f7baf425888c2c5dc6302ce430b3744ca7fc5015ab01ad8744dd87a",
+        "size_in_bytes": 5000
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/dataTables.searchBuilder.min.js",
+        "path_type": "hardlink",
+        "sha256": "d4fcdd71e3c8b01fc2fc6cb31fbff7b4afd8b0af1bc86211e3628d5baab40842",
+        "sha256_in_prefix": "d4fcdd71e3c8b01fc2fc6cb31fbff7b4afd8b0af1bc86211e3628d5baab40842",
+        "size_in_bytes": 71530
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "054b938530b1c2aac131bbbe0927a76dea39207f1269fd85aa544e957f8edbbc",
+        "sha256_in_prefix": "054b938530b1c2aac131bbbe0927a76dea39207f1269fd85aa544e957f8edbbc",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "39714c698f69933cdd02f46398cd080865764953188ea6b18da54d6708247e34",
+        "sha256_in_prefix": "39714c698f69933cdd02f46398cd080865764953188ea6b18da54d6708247e34",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "8f87645c661939db5876d4422f562ed0331649b078b9029ff3c9ad34e44e547e",
+        "sha256_in_prefix": "8f87645c661939db5876d4422f562ed0331649b078b9029ff3c9ad34e44e547e",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "b8fc63dba7004e385e59d2245330cf73d968aa89c4f6afabec517b06ad9dd0f8",
+        "sha256_in_prefix": "b8fc63dba7004e385e59d2245330cf73d968aa89c4f6afabec517b06ad9dd0f8",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "bf327267a0686bd75a113b7ebb190a45f9eb4d752d17249bb3a472c7e1983f34",
+        "sha256_in_prefix": "bf327267a0686bd75a113b7ebb190a45f9eb4d752d17249bb3a472c7e1983f34",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "434c0ba63d4f1bea6a5801e1b2102bf9ad96613b340c74e4472e1cd0d99350fb",
+        "sha256_in_prefix": "434c0ba63d4f1bea6a5801e1b2102bf9ad96613b340c74e4472e1cd0d99350fb",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "1e6ba0ce3253ae4cf8794f6c14cc4b445555f09fafdbdf3353cc1f4d3cef0af0",
+        "sha256_in_prefix": "1e6ba0ce3253ae4cf8794f6c14cc4b445555f09fafdbdf3353cc1f4d3cef0af0",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchBuilder/js/searchBuilder.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "46496be3b9b79cedddd3b9725ca2906e542f332ccbbd3d081ff49d0ecbbe75fb",
+        "sha256_in_prefix": "46496be3b9b79cedddd3b9725ca2906e542f332ccbbd3d081ff49d0ecbbe75fb",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "2f5684504817745b9f9ef42cfcbd25dcf74efb383bbcd349ad9ec65e46d85ec3",
+        "sha256_in_prefix": "2f5684504817745b9f9ef42cfcbd25dcf74efb383bbcd349ad9ec65e46d85ec3",
+        "size_in_bytes": 10070
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "60e342896ce62ae4d22f9f6d8441e10d22c8a28785a47ab4420770911b471560",
+        "sha256_in_prefix": "60e342896ce62ae4d22f9f6d8441e10d22c8a28785a47ab4420770911b471560",
+        "size_in_bytes": 10670
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "75023b453da2a0b56cf16951f4a039a6a6b7f70915fc46db045e8c035fd5aa3f",
+        "sha256_in_prefix": "75023b453da2a0b56cf16951f4a039a6a6b7f70915fc46db045e8c035fd5aa3f",
+        "size_in_bytes": 10915
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "e97fe45ebc77b85c5899b3ebfe666d02dfc9c9f3637a3f5e59e835a5c069c351",
+        "sha256_in_prefix": "e97fe45ebc77b85c5899b3ebfe666d02dfc9c9f3637a3f5e59e835a5c069c351",
+        "size_in_bytes": 10046
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "96f5a348aecbba1e1e91a76fbdc34b5a1300b17c1e3004304932bd66bf695ad2",
+        "sha256_in_prefix": "96f5a348aecbba1e1e91a76fbdc34b5a1300b17c1e3004304932bd66bf695ad2",
+        "size_in_bytes": 11671
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "b52afe9628ffb88d1c050394766136529765626fb209e309b7c0bfd6d332fed3",
+        "sha256_in_prefix": "b52afe9628ffb88d1c050394766136529765626fb209e309b7c0bfd6d332fed3",
+        "size_in_bytes": 10172
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "b6460530d7aacb99f6318cac3190f4a4f1682e71af6c2d5eeb0cf76b9f6a85e5",
+        "sha256_in_prefix": "b6460530d7aacb99f6318cac3190f4a4f1682e71af6c2d5eeb0cf76b9f6a85e5",
+        "size_in_bytes": 11984
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/css/searchPanes.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "79b097aa131b88883d8c85548e23b271a74f13e1b7451c6913072fb6e1ba77e6",
+        "sha256_in_prefix": "79b097aa131b88883d8c85548e23b271a74f13e1b7451c6913072fb6e1ba77e6",
+        "size_in_bytes": 10478
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/dataTables.searchPanes.min.js",
+        "path_type": "hardlink",
+        "sha256": "3f9d22b7fd6547ec8947c21af504d8dc2e2eaa36cb4bd1148e03456c8f32f813",
+        "sha256_in_prefix": "3f9d22b7fd6547ec8947c21af504d8dc2e2eaa36cb4bd1148e03456c8f32f813",
+        "size_in_bytes": 63394
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "fd325784501b287c3a0c8ff62f19dedadf4e663097b02cac48bfee9cbd6c2e15",
+        "sha256_in_prefix": "fd325784501b287c3a0c8ff62f19dedadf4e663097b02cac48bfee9cbd6c2e15",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "8d951848765c073bf2c1492bdee23113cb8448e3e016c0ee5de68378f668b1ab",
+        "sha256_in_prefix": "8d951848765c073bf2c1492bdee23113cb8448e3e016c0ee5de68378f668b1ab",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "50784376b083d43ea2df8abba2d445104161aa9ac5e77071ad5325e6cda6f28e",
+        "sha256_in_prefix": "50784376b083d43ea2df8abba2d445104161aa9ac5e77071ad5325e6cda6f28e",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "b737ff85dbf4b6bb14a24124779b9ae566323abf9f8369fcb2f222a8e60aa076",
+        "sha256_in_prefix": "b737ff85dbf4b6bb14a24124779b9ae566323abf9f8369fcb2f222a8e60aa076",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "84cb74af47dd49604ed1997e77e493983fea7ef8efa942319f79694bf4e4e404",
+        "sha256_in_prefix": "84cb74af47dd49604ed1997e77e493983fea7ef8efa942319f79694bf4e4e404",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "6f505c79b7cbd36e0538f8832429bc81ee3447a366baae626402ab3411eff982",
+        "sha256_in_prefix": "6f505c79b7cbd36e0538f8832429bc81ee3447a366baae626402ab3411eff982",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "836ec5aa8b35bfffd61f0453050c3ae4f314ce7a922e697191fe34905b0139e0",
+        "sha256_in_prefix": "836ec5aa8b35bfffd61f0453050c3ae4f314ce7a922e697191fe34905b0139e0",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/SearchPanes/js/searchPanes.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "d0e0f9240c28680c713b550dc12c201375c11ec299e5b5b9104a102eac4729a3",
+        "sha256_in_prefix": "d0e0f9240c28680c713b550dc12c201375c11ec299e5b5b9104a102eac4729a3",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "0e7fe2b8ce1451a4f1780da06f7aeee3148e1afab5a75c161593ccc0762bd786",
+        "sha256_in_prefix": "0e7fe2b8ce1451a4f1780da06f7aeee3148e1afab5a75c161593ccc0762bd786",
+        "size_in_bytes": 4428
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "7e6137cb81fa83b4d1d6538042b1ebad9067ade743e1c7fdb3cef4b658a2832e",
+        "sha256_in_prefix": "7e6137cb81fa83b4d1d6538042b1ebad9067ade743e1c7fdb3cef4b658a2832e",
+        "size_in_bytes": 4431
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "ba63dca550f4838f493a95ac854d7b2e532743bf3ba5ef62e0be189b60221d5c",
+        "sha256_in_prefix": "ba63dca550f4838f493a95ac854d7b2e532743bf3ba5ef62e0be189b60221d5c",
+        "size_in_bytes": 4431
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "3c874c7f86d8d30210c371fab733dcb165b81be442300c6478617e425ef6f5e7",
+        "sha256_in_prefix": "3c874c7f86d8d30210c371fab733dcb165b81be442300c6478617e425ef6f5e7",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "8f71eea78edbf341ed2898442a267beba91d111cba257cbe0d1d61dcfed07f2f",
+        "sha256_in_prefix": "8f71eea78edbf341ed2898442a267beba91d111cba257cbe0d1d61dcfed07f2f",
+        "size_in_bytes": 4195
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "6166c9c624ec03279c5b8dfd6b8b9c6c0f24a3bf5de0fd7641df0864c19be973",
+        "sha256_in_prefix": "6166c9c624ec03279c5b8dfd6b8b9c6c0f24a3bf5de0fd7641df0864c19be973",
+        "size_in_bytes": 4513
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "8f71eea78edbf341ed2898442a267beba91d111cba257cbe0d1d61dcfed07f2f",
+        "sha256_in_prefix": "8f71eea78edbf341ed2898442a267beba91d111cba257cbe0d1d61dcfed07f2f",
+        "size_in_bytes": 4195
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/css/select.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "ba10f03ffdda404c31ad5f87ecf28ce47de65e19667091d1f6ab617770a05e3c",
+        "sha256_in_prefix": "ba10f03ffdda404c31ad5f87ecf28ce47de65e19667091d1f6ab617770a05e3c",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/dataTables.select.min.js",
+        "path_type": "hardlink",
+        "sha256": "57d25aa5bfae43b3f3801f815f3f1557ad54ddced98896d1934d2a94e1cafd21",
+        "sha256_in_prefix": "57d25aa5bfae43b3f3801f815f3f1557ad54ddced98896d1934d2a94e1cafd21",
+        "size_in_bytes": 12663
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "0d56e81aaf8080b9d542ba9eb7d6a0e2f5b839dbafdef49906905d77f45d3641",
+        "sha256_in_prefix": "0d56e81aaf8080b9d542ba9eb7d6a0e2f5b839dbafdef49906905d77f45d3641",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "0351a32c41cb2c4e3847064bdbb89c65110d87fae58a0d9eaf7d4667214b564b",
+        "sha256_in_prefix": "0351a32c41cb2c4e3847064bdbb89c65110d87fae58a0d9eaf7d4667214b564b",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "63263061688f9167997fb028834145533cbfc5cd1eae82998fa406a28ce4f95d",
+        "sha256_in_prefix": "63263061688f9167997fb028834145533cbfc5cd1eae82998fa406a28ce4f95d",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "5a17b89f82071f1ff3aa472c86240944c0294146e525c36bfe6d28a07f87aa7a",
+        "sha256_in_prefix": "5a17b89f82071f1ff3aa472c86240944c0294146e525c36bfe6d28a07f87aa7a",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "956025509eee3f00ed6daa562f1045684e58280d01064c93389dddf0ded11413",
+        "sha256_in_prefix": "956025509eee3f00ed6daa562f1045684e58280d01064c93389dddf0ded11413",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "ddeeb319db152f769ed33d4207fefe2b1ae4000c99ff1b96ae234034709902ab",
+        "sha256_in_prefix": "ddeeb319db152f769ed33d4207fefe2b1ae4000c99ff1b96ae234034709902ab",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "effcf2e837e9a06286a9a4c2b19d316a58a210f24c08cf6b231b2a775014e210",
+        "sha256_in_prefix": "effcf2e837e9a06286a9a4c2b19d316a58a210f24c08cf6b231b2a775014e210",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-extensions/Select/js/select.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "7566af5a1f8c8c96a01b33d19425a86f5631d17d26baa70eae8c057d0d6e2636",
+        "sha256_in_prefix": "7566af5a1f8c8c96a01b33d19425a86f5631d17d26baa70eae8c057d0d6e2636",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/dataRender/ellipsis/source.js",
+        "path_type": "hardlink",
+        "sha256": "f7b6ffe29f3a5f9a09d76e0790638819b4dc50b7d0c2d132b7d044a07eff04dc",
+        "sha256_in_prefix": "f7b6ffe29f3a5f9a09d76e0790638819b4dc50b7d0c2d132b7d044a07eff04dc",
+        "size_in_bytes": 2755
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/scrollResize/source.min.js",
+        "path_type": "hardlink",
+        "sha256": "ae971be3270dc68bdff9e95e09e783fe714030d1b1b1e16fd20043ee7456231e",
+        "sha256_in_prefix": "ae971be3270dc68bdff9e95e09e783fe714030d1b1b1e16fd20043ee7456231e",
+        "size_in_bytes": 2648
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/searchHighlight/jquery.highlight.js",
+        "path_type": "hardlink",
+        "sha256": "ba1644ab7a7419197a1dcc6564b51acdd086912b133552f90908fcc3474a1722",
+        "sha256_in_prefix": "ba1644ab7a7419197a1dcc6564b51acdd086912b133552f90908fcc3474a1722",
+        "size_in_bytes": 5400
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/searchHighlight/source.css",
+        "path_type": "hardlink",
+        "sha256": "91ba4af06f4920b5d49c27c870b8dfb4c6f30b4977ded6099d02cfb6e9f23963",
+        "sha256_in_prefix": "91ba4af06f4920b5d49c27c870b8dfb4c6f30b4977ded6099d02cfb6e9f23963",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/features/searchHighlight/source.min.js",
+        "path_type": "hardlink",
+        "sha256": "28b6114112df0f77e98d014d540d0e3859c0e19eec037b9676bce955cea85017",
+        "sha256_in_prefix": "28b6114112df0f77e98d014d540d0e3859c0e19eec037b9676bce955cea85017",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/filtering/accent-neutralise/source.js",
+        "path_type": "hardlink",
+        "sha256": "2816a12ff72d34ef8cdda9c5011059f5b261f6ce72f0729a3340ed1089534eb3",
+        "sha256_in_prefix": "2816a12ff72d34ef8cdda9c5011059f5b261f6ce72f0729a3340ed1089534eb3",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/filtering/diacritics-neutralise/source.js",
+        "path_type": "hardlink",
+        "sha256": "6ceb24f4e50d1a073e6c81942aa37c9434353381434bcb429e76f8c9b02643d8",
+        "sha256_in_prefix": "6ceb24f4e50d1a073e6c81942aa37c9434353381434bcb429e76f8c9b02643d8",
+        "size_in_bytes": 10441
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/ellipses/source.js",
+        "path_type": "hardlink",
+        "sha256": "c46a1ddf3c0645e2d4c0dbb332cc5b7394651e55fe3f535a39a7df42493b3f21",
+        "sha256_in_prefix": "c46a1ddf3c0645e2d4c0dbb332cc5b7394651e55fe3f535a39a7df42493b3f21",
+        "size_in_bytes": 6612
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/extjs/source.js",
+        "path_type": "hardlink",
+        "sha256": "97ccba1220d9b66120f2abf56570257af0ada9386aa68a35cd2428c28d7805db",
+        "sha256_in_prefix": "97ccba1220d9b66120f2abf56570257af0ada9386aa68a35cd2428c28d7805db",
+        "size_in_bytes": 5152
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/four_button/source.js",
+        "path_type": "hardlink",
+        "sha256": "be4866de6ae2ad9cc16c948e4f6eb7187a422c5b5e5b32d96a089ea071cabe22",
+        "sha256_in_prefix": "be4866de6ae2ad9cc16c948e4f6eb7187a422c5b5e5b32d96a089ea071cabe22",
+        "size_in_bytes": 3488
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/full_numbers_no_ellipses/source.js",
+        "path_type": "hardlink",
+        "sha256": "4e447ec8a1d1171df43d0dfc1ec390c06f545a088c239ec489292a341db42922",
+        "sha256_in_prefix": "4e447ec8a1d1171df43d0dfc1ec390c06f545a088c239ec489292a341db42922",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/input/source.js",
+        "path_type": "hardlink",
+        "sha256": "433a977a3cda5193a174239c1650e03e086b13638e2aeccdacf43bcf181d7142",
+        "sha256_in_prefix": "433a977a3cda5193a174239c1650e03e086b13638e2aeccdacf43bcf181d7142",
+        "size_in_bytes": 7534
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/scrolling/source.js",
+        "path_type": "hardlink",
+        "sha256": "541caa7b92a6cb4616e762306a9228b730a3635b6deffb9a39b203cb113d90ce",
+        "sha256_in_prefix": "541caa7b92a6cb4616e762306a9228b730a3635b6deffb9a39b203cb113d90ce",
+        "size_in_bytes": 4345
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/select/source.js",
+        "path_type": "hardlink",
+        "sha256": "d9a52dbdf03da1908c3abcc638caf964b97c9404ac0d21c4c39dcd9bcba9d779",
+        "sha256_in_prefix": "d9a52dbdf03da1908c3abcc638caf964b97c9404ac0d21c4c39dcd9bcba9d779",
+        "size_in_bytes": 3644
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/simple_incremental_bootstrap/source.js",
+        "path_type": "hardlink",
+        "sha256": "7a6cc8119d9e72281faa7c2f8b94a384a3035fea3d3e1079c15305146ca5d1a5",
+        "sha256_in_prefix": "7a6cc8119d9e72281faa7c2f8b94a384a3035fea3d3e1079c15305146ca5d1a5",
+        "size_in_bytes": 6799
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/pagination/simple_numbers_no_ellipses/source.js",
+        "path_type": "hardlink",
+        "sha256": "ca28fabe56de5de12cb8dbb54674cef8bc79fe24c9b320ad63df6b526eed4c6d",
+        "sha256_in_prefix": "ca28fabe56de5de12cb8dbb54674cef8bc79fe24c9b320ad63df6b526eed4c6d",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables-plugins/sorting/natural/source.js",
+        "path_type": "hardlink",
+        "sha256": "3777f8ce46801dfd7cb89365467710f8f3d09f03dc20233cdad27f0d09038d86",
+        "sha256_in_prefix": "3777f8ce46801dfd7cb89365467710f8f3d09f03dc20233cdad27f0d09038d86",
+        "size_in_bytes": 4012
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap.extra.css",
+        "path_type": "hardlink",
+        "sha256": "ae5c74dba65a1ad8936a09cf534e88ecfd41167ea8e5b7a6603bf8273ce4855e",
+        "sha256_in_prefix": "ae5c74dba65a1ad8936a09cf534e88ecfd41167ea8e5b7a6603bf8273ce4855e",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "8e2790c38e9d84938b0033b5b21ba816173caff7fb881e3a96d4d6a6bf25d187",
+        "sha256_in_prefix": "8e2790c38e9d84938b0033b5b21ba816173caff7fb881e3a96d4d6a6bf25d187",
+        "size_in_bytes": 8183
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap4.extra.css",
+        "path_type": "hardlink",
+        "sha256": "a4316686d4c78cb5601d162841b6279c8c75e54e60ba208725f127d3469513d8",
+        "sha256_in_prefix": "a4316686d4c78cb5601d162841b6279c8c75e54e60ba208725f127d3469513d8",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap4.min.css",
+        "path_type": "hardlink",
+        "sha256": "2bbed92e1ee24d80cf639555d059c71c3289047fb1baacba222e8786f692fc91",
+        "sha256_in_prefix": "2bbed92e1ee24d80cf639555d059c71c3289047fb1baacba222e8786f692fc91",
+        "size_in_bytes": 9056
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bootstrap5.min.css",
+        "path_type": "hardlink",
+        "sha256": "5ef5c33492e62f99c8b0ac47363e6cd1c4eaa921cb7f0957bc989ad3a517a7c2",
+        "sha256_in_prefix": "5ef5c33492e62f99c8b0ac47363e6cd1c4eaa921cb7f0957bc989ad3a517a7c2",
+        "size_in_bytes": 9704
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.bulma.min.css",
+        "path_type": "hardlink",
+        "sha256": "dd72504e206830294a8ff97627d5f2f9ca1c909d4ca20a001d39581c401cc524",
+        "sha256_in_prefix": "dd72504e206830294a8ff97627d5f2f9ca1c909d4ca20a001d39581c401cc524",
+        "size_in_bytes": 7658
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "6967e8a999c44c64cc9a909101c76fab7672e8f1f965afddecb6c3905a7968ea",
+        "sha256_in_prefix": "6967e8a999c44c64cc9a909101c76fab7672e8f1f965afddecb6c3905a7968ea",
+        "size_in_bytes": 15604
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.foundation.min.css",
+        "path_type": "hardlink",
+        "sha256": "68f3c7369fef4cc57777652d3df4da9e22cc6ee28bd44e478baddbf1e9eceac0",
+        "sha256_in_prefix": "68f3c7369fef4cc57777652d3df4da9e22cc6ee28bd44e478baddbf1e9eceac0",
+        "size_in_bytes": 7575
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.jqueryui.min.css",
+        "path_type": "hardlink",
+        "sha256": "4e64885aecb4a9b880e41b5aa259814016704f697337f816c7cb8b50de9a53c6",
+        "sha256_in_prefix": "4e64885aecb4a9b880e41b5aa259814016704f697337f816c7cb8b50de9a53c6",
+        "size_in_bytes": 20605
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/dataTables.semanticui.min.css",
+        "path_type": "hardlink",
+        "sha256": "8549cd208b31a74fc29c188a41f91dd2cebe379663a89324032ed827b662b199",
+        "sha256_in_prefix": "8549cd208b31a74fc29c188a41f91dd2cebe379663a89324032ed827b662b199",
+        "size_in_bytes": 6442
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.extra.css",
+        "path_type": "hardlink",
+        "sha256": "d09c0bac7716c2864745996c76abb5342e50f6a87f395b6cf98ccf79aea41714",
+        "sha256_in_prefix": "d09c0bac7716c2864745996c76abb5342e50f6a87f395b6cf98ccf79aea41714",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.min.css",
+        "path_type": "hardlink",
+        "sha256": "539ba52dafb6deef06d67573307be05ba7227ffe36e651ad29303cba7bd0f5f6",
+        "sha256_in_prefix": "539ba52dafb6deef06d67573307be05ba7227ffe36e651ad29303cba7bd0f5f6",
+        "size_in_bytes": 17280
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "1ff6491e3f74d9ea86a1c349623903dce06eb63ebc9fe4f63520639df5764289",
+        "sha256_in_prefix": "1ff6491e3f74d9ea86a1c349623903dce06eb63ebc9fe4f63520639df5764289",
+        "size_in_bytes": 4401
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bootstrap4.min.js",
+        "path_type": "hardlink",
+        "sha256": "d8ccda79c0869303bbef93ef44992a313778b11e9cb918909644f6894782b125",
+        "sha256_in_prefix": "d8ccda79c0869303bbef93ef44992a313778b11e9cb918909644f6894782b125",
+        "size_in_bytes": 4520
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bootstrap5.min.js",
+        "path_type": "hardlink",
+        "sha256": "da26250989894c70aa1082d48ce8eb18558f1c8cb89faf82bc7cce6194f64ada",
+        "sha256_in_prefix": "da26250989894c70aa1082d48ce8eb18558f1c8cb89faf82bc7cce6194f64ada",
+        "size_in_bytes": 4480
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.bulma.min.js",
+        "path_type": "hardlink",
+        "sha256": "514583e49ba1028e27f487a9fbb857ba503a1b0d993bdda45e179bec164c3aa8",
+        "sha256_in_prefix": "514583e49ba1028e27f487a9fbb857ba503a1b0d993bdda45e179bec164c3aa8",
+        "size_in_bytes": 4658
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "a780ffc380eaacbc2d9c238a53009bcf23d08660a982fe5d32f0a25373d5323f",
+        "sha256_in_prefix": "a780ffc380eaacbc2d9c238a53009bcf23d08660a982fe5d32f0a25373d5323f",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.foundation.min.js",
+        "path_type": "hardlink",
+        "sha256": "2c0fc27eab6ad4e460c93b89002719c8099b58ba4d8311cb11952eac2e34589f",
+        "sha256_in_prefix": "2c0fc27eab6ad4e460c93b89002719c8099b58ba4d8311cb11952eac2e34589f",
+        "size_in_bytes": 2150
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.jqueryui.min.js",
+        "path_type": "hardlink",
+        "sha256": "695f807509b67719e88189674ef3216f57c4932960da29914099602caa2150c2",
+        "sha256_in_prefix": "695f807509b67719e88189674ef3216f57c4932960da29914099602caa2150c2",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/dataTables.semanticui.min.js",
+        "path_type": "hardlink",
+        "sha256": "799d5ba5dc9288df9e530569a73cb22c2c3253e67cbd7619e6b8ed5ec6671074",
+        "sha256_in_prefix": "799d5ba5dc9288df9e530569a73cb22c2c3253e67cbd7619e6b8ed5ec6671074",
+        "size_in_bytes": 4871
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/js/jquery.dataTables.min.js",
+        "path_type": "hardlink",
+        "sha256": "80e27f4f754c43406bc33ed562b2e854043e344d1ae6f1e88f5bd72351d42336",
+        "sha256_in_prefix": "80e27f4f754c43406bc33ed562b2e854043e344d1ae6f1e88f5bd72351d42336",
+        "size_in_bytes": 87897
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/datatables/license.txt",
+        "path_type": "hardlink",
+        "sha256": "c6a873f21550ed804f76013c36e14225704c1aa551fdb870e0c626eb91c19247",
+        "sha256_in_prefix": "c6a873f21550ed804f76013c36e14225704c1aa551fdb870e0c626eb91c19247",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/nouislider/jquery.nouislider.min.css",
+        "path_type": "hardlink",
+        "sha256": "d46f8850dff2be56adb9db2f969cc61ecb3bb36496311c87d80d0ec5c004f289",
+        "sha256_in_prefix": "d46f8850dff2be56adb9db2f969cc61ecb3bb36496311c87d80d0ec5c004f289",
+        "size_in_bytes": 2136
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/nouislider/jquery.nouislider.min.js",
+        "path_type": "hardlink",
+        "sha256": "41e13dc80cb9191a7d8ece8bb948ca7c48c7f02b4a6a3eba78edd2a0496b9290",
+        "sha256_in_prefix": "41e13dc80cb9191a7d8ece8bb948ca7c48c7f02b4a6a3eba78edd2a0496b9290",
+        "size_in_bytes": 11729
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/selectize/selectize.bootstrap3.css",
+        "path_type": "hardlink",
+        "sha256": "289929c54895fd56d9399995e687cd7690a6d0635c9368a0159b18685ee4e4f1",
+        "sha256_in_prefix": "289929c54895fd56d9399995e687cd7690a6d0635c9368a0159b18685ee4e4f1",
+        "size_in_bytes": 10602
+      },
+      {
+        "_path": "lib/R/library/DT/htmlwidgets/lib/selectize/selectize.min.js",
+        "path_type": "hardlink",
+        "sha256": "c874531b5f01187b7e075fcd14a5ebca235ca29185cb9513312f5de6b6fd4ff1",
+        "sha256_in_prefix": "c874531b5f01187b7e075fcd14a5ebca235ca29185cb9513312f5de6b6fd4ff1",
+        "size_in_bytes": 42323
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "753db5e15a2dc4fbe2e39d638c45dd4c7376765578391d04e952dff19085bde0",
+  "size": 1508694,
+  "subdir": "noarch",
+  "timestamp": 1637006210000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-dt-0.20-r41hc72bb7e_0.tar.bz2",
+  "version": "0.20"
+}

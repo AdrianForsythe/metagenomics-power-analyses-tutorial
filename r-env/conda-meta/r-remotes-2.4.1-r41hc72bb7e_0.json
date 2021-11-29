@@ -1,0 +1,253 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-remotes-2.4.1-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/remotes/DESCRIPTION",
+    "lib/R/library/remotes/INDEX",
+    "lib/R/library/remotes/LICENSE",
+    "lib/R/library/remotes/Meta/Rd.rds",
+    "lib/R/library/remotes/Meta/features.rds",
+    "lib/R/library/remotes/Meta/hsearch.rds",
+    "lib/R/library/remotes/Meta/links.rds",
+    "lib/R/library/remotes/Meta/nsInfo.rds",
+    "lib/R/library/remotes/Meta/package.rds",
+    "lib/R/library/remotes/Meta/vignette.rds",
+    "lib/R/library/remotes/NAMESPACE",
+    "lib/R/library/remotes/NEWS.md",
+    "lib/R/library/remotes/R/remotes",
+    "lib/R/library/remotes/R/remotes.rdb",
+    "lib/R/library/remotes/R/remotes.rdx",
+    "lib/R/library/remotes/doc/dependencies.Rmd",
+    "lib/R/library/remotes/doc/dependencies.html",
+    "lib/R/library/remotes/doc/index.html",
+    "lib/R/library/remotes/help/AnIndex",
+    "lib/R/library/remotes/help/aliases.rds",
+    "lib/R/library/remotes/help/paths.rds",
+    "lib/R/library/remotes/help/remotes.rdb",
+    "lib/R/library/remotes/help/remotes.rdx",
+    "lib/R/library/remotes/html/00Index.html",
+    "lib/R/library/remotes/html/R.css",
+    "lib/R/library/remotes/install-github.R",
+    "lib/R/library/remotes/install-github.Rin"
+  ],
+  "fn": "r-remotes-2.4.1-r41hc72bb7e_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-remotes-2.4.1-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "8643c7679a7306e487c1588602c6f19f",
+  "name": "r-remotes",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-remotes-2.4.1-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/remotes/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "ccdd768e975bda444b9b16d66a0ab6f6bf5720707582c316b3bc35e610f442d4",
+        "sha256_in_prefix": "ccdd768e975bda444b9b16d66a0ab6f6bf5720707582c316b3bc35e610f442d4",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "lib/R/library/remotes/INDEX",
+        "path_type": "hardlink",
+        "sha256": "270e785e2f7bb0c01eb9251179e971665c20e7122e07d4cfec093659c933cb39",
+        "sha256_in_prefix": "270e785e2f7bb0c01eb9251179e971665c20e7122e07d4cfec093659c933cb39",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "lib/R/library/remotes/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4b7bc772ceec96e1a05a1ed3c8467db820bde0c16ee8d72a0bd942cca2e2a545",
+        "sha256_in_prefix": "4b7bc772ceec96e1a05a1ed3c8467db820bde0c16ee8d72a0bd942cca2e2a545",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b814e3ea0d9ff422ab5d481c2078f30a2a16078b09ceb6cc97e03e94ca3ec6c1",
+        "sha256_in_prefix": "b814e3ea0d9ff422ab5d481c2078f30a2a16078b09ceb6cc97e03e94ca3ec6c1",
+        "size_in_bytes": 1220
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0b0326149fe4795036cad638a88e2f833bf9a20055ad0baefd076159879d4e91",
+        "sha256_in_prefix": "0b0326149fe4795036cad638a88e2f833bf9a20055ad0baefd076159879d4e91",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "398ffb3ef911f0756d72145bcab023a268eefa6605a1a6009a1557a862e211a7",
+        "sha256_in_prefix": "398ffb3ef911f0756d72145bcab023a268eefa6605a1a6009a1557a862e211a7",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "77fb44a78a6673d462b5893026ddc6088d46da266a6394c64645796129a18533",
+        "sha256_in_prefix": "77fb44a78a6673d462b5893026ddc6088d46da266a6394c64645796129a18533",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "5b589fafa2c02e941954ec919244b864a8a7641acc2862e745707b2bf4cd64e5",
+        "sha256_in_prefix": "5b589fafa2c02e941954ec919244b864a8a7641acc2862e745707b2bf4cd64e5",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "lib/R/library/remotes/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "b1163edf1a4278d04533803674b12244c5bcb32b79176240646d3b91cb40c6aa",
+        "sha256_in_prefix": "b1163edf1a4278d04533803674b12244c5bcb32b79176240646d3b91cb40c6aa",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/R/library/remotes/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a305ec5e3f09e0d1d1477c9d4e570532b0fdcf7d6d97e8ba88e49fdc0348ba50",
+        "sha256_in_prefix": "a305ec5e3f09e0d1d1477c9d4e570532b0fdcf7d6d97e8ba88e49fdc0348ba50",
+        "size_in_bytes": 3343
+      },
+      {
+        "_path": "lib/R/library/remotes/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "5a7c681ebec8f1d9d5278bfbf2cf1afbfda2c4bde659255836d506f5c7d73f59",
+        "sha256_in_prefix": "5a7c681ebec8f1d9d5278bfbf2cf1afbfda2c4bde659255836d506f5c7d73f59",
+        "size_in_bytes": 17366
+      },
+      {
+        "_path": "lib/R/library/remotes/R/remotes",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/remotes/R/remotes.rdb",
+        "path_type": "hardlink",
+        "sha256": "9152751eac75a77af0b5ffa120951255141a7e204de7266896210b9b3709c369",
+        "sha256_in_prefix": "9152751eac75a77af0b5ffa120951255141a7e204de7266896210b9b3709c369",
+        "size_in_bytes": 231660
+      },
+      {
+        "_path": "lib/R/library/remotes/R/remotes.rdx",
+        "path_type": "hardlink",
+        "sha256": "981f7cfee1341b731257f38c4a81929b8407f71b8f2aa02df3bac77ceac56cc7",
+        "sha256_in_prefix": "981f7cfee1341b731257f38c4a81929b8407f71b8f2aa02df3bac77ceac56cc7",
+        "size_in_bytes": 3956
+      },
+      {
+        "_path": "lib/R/library/remotes/doc/dependencies.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5acb9f2b72480b3ee3ff228586dd8639165e99ec76167e2a16d6a6da8e9944c4",
+        "sha256_in_prefix": "5acb9f2b72480b3ee3ff228586dd8639165e99ec76167e2a16d6a6da8e9944c4",
+        "size_in_bytes": 2803
+      },
+      {
+        "_path": "lib/R/library/remotes/doc/dependencies.html",
+        "path_type": "hardlink",
+        "sha256": "9df0d970e42b7e1175890781b4501666faeb924c58fc30367d18dd3057fe72fb",
+        "sha256_in_prefix": "9df0d970e42b7e1175890781b4501666faeb924c58fc30367d18dd3057fe72fb",
+        "size_in_bytes": 17918
+      },
+      {
+        "_path": "lib/R/library/remotes/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "f26241fe6856c88e19a34a7ce6b4d237bc0396485d5bfa30c126c1fce7021429",
+        "sha256_in_prefix": "f26241fe6856c88e19a34a7ce6b4d237bc0396485d5bfa30c126c1fce7021429",
+        "size_in_bytes": 1442
+      },
+      {
+        "_path": "lib/R/library/remotes/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e8b83b2dfb5747e71d999df73a5b1f857ee65c87e1395ef855a49d3acffebcff",
+        "sha256_in_prefix": "e8b83b2dfb5747e71d999df73a5b1f857ee65c87e1395ef855a49d3acffebcff",
+        "size_in_bytes": 1246
+      },
+      {
+        "_path": "lib/R/library/remotes/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "3ea239ab558d8bbc9f3a9cc3148deda7553db58abdb2a87dd9fa63764dd02a3b",
+        "sha256_in_prefix": "3ea239ab558d8bbc9f3a9cc3148deda7553db58abdb2a87dd9fa63764dd02a3b",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "lib/R/library/remotes/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f583f3256e73964bb1c590c9b79ad26e74d957107390273ae5990256518fd2ab",
+        "sha256_in_prefix": "f583f3256e73964bb1c590c9b79ad26e74d957107390273ae5990256518fd2ab",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "lib/R/library/remotes/help/remotes.rdb",
+        "path_type": "hardlink",
+        "sha256": "cb96adc0c0f15028cf883d908e9bd76c5d0b37394b061a3a387f6b6b163c2638",
+        "sha256_in_prefix": "cb96adc0c0f15028cf883d908e9bd76c5d0b37394b061a3a387f6b6b163c2638",
+        "size_in_bytes": 97847
+      },
+      {
+        "_path": "lib/R/library/remotes/help/remotes.rdx",
+        "path_type": "hardlink",
+        "sha256": "20824673b8f669910679084fd5cef6cd9e97f7d4a4bc8dabdb7c36f29b19415e",
+        "sha256_in_prefix": "20824673b8f669910679084fd5cef6cd9e97f7d4a4bc8dabdb7c36f29b19415e",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/R/library/remotes/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "78244272a8c43a5093b5a82febf209bff7c98795bbab8862dde634f68b6b9d3e",
+        "sha256_in_prefix": "78244272a8c43a5093b5a82febf209bff7c98795bbab8862dde634f68b6b9d3e",
+        "size_in_bytes": 4664
+      },
+      {
+        "_path": "lib/R/library/remotes/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/remotes/install-github.R",
+        "path_type": "hardlink",
+        "sha256": "70fd98f712f2eefa4f1917d331def83d971e182a4c2f61022914cf865e602f9d",
+        "sha256_in_prefix": "70fd98f712f2eefa4f1917d331def83d971e182a4c2f61022914cf865e602f9d",
+        "size_in_bytes": 182106
+      },
+      {
+        "_path": "lib/R/library/remotes/install-github.Rin",
+        "path_type": "hardlink",
+        "sha256": "e89e11383df425905c7ae1c14f496aaf47516673741bed8ba96f810b35955606",
+        "sha256_in_prefix": "e89e11383df425905c7ae1c14f496aaf47516673741bed8ba96f810b35955606",
+        "size_in_bytes": 744
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "25688158664fd3940da9f2a9f6e2c58c2e8ad609796ad577568bf37c3a890a4e",
+  "size": 414181,
+  "subdir": "noarch",
+  "timestamp": 1632906698000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-remotes-2.4.1-r41hc72bb7e_0.tar.bz2",
+  "version": "2.4.1"
+}

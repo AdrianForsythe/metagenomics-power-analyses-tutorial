@@ -1,0 +1,261 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-gitcreds-0.1.1-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/gitcreds/DESCRIPTION",
+    "lib/R/library/gitcreds/INDEX",
+    "lib/R/library/gitcreds/LICENSE",
+    "lib/R/library/gitcreds/Meta/Rd.rds",
+    "lib/R/library/gitcreds/Meta/features.rds",
+    "lib/R/library/gitcreds/Meta/hsearch.rds",
+    "lib/R/library/gitcreds/Meta/links.rds",
+    "lib/R/library/gitcreds/Meta/nsInfo.rds",
+    "lib/R/library/gitcreds/Meta/package.rds",
+    "lib/R/library/gitcreds/Meta/vignette.rds",
+    "lib/R/library/gitcreds/NAMESPACE",
+    "lib/R/library/gitcreds/NEWS.md",
+    "lib/R/library/gitcreds/R/gitcreds",
+    "lib/R/library/gitcreds/R/gitcreds.rdb",
+    "lib/R/library/gitcreds/R/gitcreds.rdx",
+    "lib/R/library/gitcreds/doc/helper-survey.Rmd",
+    "lib/R/library/gitcreds/doc/helper-survey.html",
+    "lib/R/library/gitcreds/doc/index.html",
+    "lib/R/library/gitcreds/doc/package.R",
+    "lib/R/library/gitcreds/doc/package.Rmd",
+    "lib/R/library/gitcreds/doc/package.html",
+    "lib/R/library/gitcreds/help/AnIndex",
+    "lib/R/library/gitcreds/help/aliases.rds",
+    "lib/R/library/gitcreds/help/gitcreds.rdb",
+    "lib/R/library/gitcreds/help/gitcreds.rdx",
+    "lib/R/library/gitcreds/help/paths.rds",
+    "lib/R/library/gitcreds/html/00Index.html",
+    "lib/R/library/gitcreds/html/R.css"
+  ],
+  "fn": "r-gitcreds-0.1.1-r41hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-gitcreds-0.1.1-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "fb869a1d2514d7115c13d4f84087cd09",
+  "name": "r-gitcreds",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-gitcreds-0.1.1-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gitcreds/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "99c0a83e4236e93674a14b9dde9212ae25983c5aafe51b489979e6206df04c76",
+        "sha256_in_prefix": "99c0a83e4236e93674a14b9dde9212ae25983c5aafe51b489979e6206df04c76",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/R/library/gitcreds/INDEX",
+        "path_type": "hardlink",
+        "sha256": "1f2f8dc76e150a759627d1d51cc4bd2afa7a940dff1b546be3d9967fc0744f30",
+        "sha256_in_prefix": "1f2f8dc76e150a759627d1d51cc4bd2afa7a940dff1b546be3d9967fc0744f30",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "lib/R/library/gitcreds/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7344cd85514ea2237dafb285290a51f2e03224f04b2956b48da9a75b3048ea33",
+        "sha256_in_prefix": "7344cd85514ea2237dafb285290a51f2e03224f04b2956b48da9a75b3048ea33",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "89089471adbf9ed2e70c7410b1524b8b3df0e6d166a06c6cc661e752ce028796",
+        "sha256_in_prefix": "89089471adbf9ed2e70c7410b1524b8b3df0e6d166a06c6cc661e752ce028796",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ec5557bf92d9294a5e7f2e418081a5b1dfdab1966d3e58a84c3df1cf437e50c3",
+        "sha256_in_prefix": "ec5557bf92d9294a5e7f2e418081a5b1dfdab1966d3e58a84c3df1cf437e50c3",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "af13e35c90c71797378c3eec92e24470e29e55798cc92ed7937b7c10a078a05d",
+        "sha256_in_prefix": "af13e35c90c71797378c3eec92e24470e29e55798cc92ed7937b7c10a078a05d",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "2011f8b14b9af9fc04f14676e95eac96838e90250416695d484a3dde53430600",
+        "sha256_in_prefix": "2011f8b14b9af9fc04f14676e95eac96838e90250416695d484a3dde53430600",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "739a609ec929d805379c885057f1dbe23460d8e6d4476da90ba089f5ee2f29bc",
+        "sha256_in_prefix": "739a609ec929d805379c885057f1dbe23460d8e6d4476da90ba089f5ee2f29bc",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "lib/R/library/gitcreds/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "39ef71179510a9eb3d9da9389f8f6508c33b56f51cdab28dc0167a82b41c1285",
+        "sha256_in_prefix": "39ef71179510a9eb3d9da9389f8f6508c33b56f51cdab28dc0167a82b41c1285",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "lib/R/library/gitcreds/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "bf513dda03ca966fcd484011633be068c74ee44d636f8e622f6d7db821c8986d",
+        "sha256_in_prefix": "bf513dda03ca966fcd484011633be068c74ee44d636f8e622f6d7db821c8986d",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/R/library/gitcreds/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "26baa3ec092ccf79148a2bc74277c13ddb50641fd033d18b21fdb6f64131b3ba",
+        "sha256_in_prefix": "26baa3ec092ccf79148a2bc74277c13ddb50641fd033d18b21fdb6f64131b3ba",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "lib/R/library/gitcreds/R/gitcreds",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/gitcreds/R/gitcreds.rdb",
+        "path_type": "hardlink",
+        "sha256": "d5c7cf3d866103913299db02ae46f84091e82de659b024bad79d781e5294dcae",
+        "sha256_in_prefix": "d5c7cf3d866103913299db02ae46f84091e82de659b024bad79d781e5294dcae",
+        "size_in_bytes": 33504
+      },
+      {
+        "_path": "lib/R/library/gitcreds/R/gitcreds.rdx",
+        "path_type": "hardlink",
+        "sha256": "d3d7cc4be2f83953c507a80e4990918409bbb556083733f91f38e0d65f035b61",
+        "sha256_in_prefix": "d3d7cc4be2f83953c507a80e4990918409bbb556083733f91f38e0d65f035b61",
+        "size_in_bytes": 601
+      },
+      {
+        "_path": "lib/R/library/gitcreds/doc/helper-survey.Rmd",
+        "path_type": "hardlink",
+        "sha256": "93e057613dc499ce8440223363c27afed0a81dba495bf274d1866e177f7c141b",
+        "sha256_in_prefix": "93e057613dc499ce8440223363c27afed0a81dba495bf274d1866e177f7c141b",
+        "size_in_bytes": 38398
+      },
+      {
+        "_path": "lib/R/library/gitcreds/doc/helper-survey.html",
+        "path_type": "hardlink",
+        "sha256": "1d2fef7abbd7546e66d1f37b35b13e73405038b256c843badc50be4575640215",
+        "sha256_in_prefix": "1d2fef7abbd7546e66d1f37b35b13e73405038b256c843badc50be4575640215",
+        "size_in_bytes": 58445
+      },
+      {
+        "_path": "lib/R/library/gitcreds/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "50b17a41d1569132fc34d3d7c5b5a640f12d61a3ea37f47866c29361d752c34c",
+        "sha256_in_prefix": "50b17a41d1569132fc34d3d7c5b5a640f12d61a3ea37f47866c29361d752c34c",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "lib/R/library/gitcreds/doc/package.R",
+        "path_type": "hardlink",
+        "sha256": "9a572abe18b94818990ef0dea12e9d3a6c6f293bf7a117e28e6d76127f437304",
+        "sha256_in_prefix": "9a572abe18b94818990ef0dea12e9d3a6c6f293bf7a117e28e6d76127f437304",
+        "size_in_bytes": 1838
+      },
+      {
+        "_path": "lib/R/library/gitcreds/doc/package.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b31f896584834c2ae18bf2d5f855078a58ac1ee4a48d3b3b7ac21f7e6526a424",
+        "sha256_in_prefix": "b31f896584834c2ae18bf2d5f855078a58ac1ee4a48d3b3b7ac21f7e6526a424",
+        "size_in_bytes": 6842
+      },
+      {
+        "_path": "lib/R/library/gitcreds/doc/package.html",
+        "path_type": "hardlink",
+        "sha256": "61958b7c6f110ed1eb63b087310634a69c5c323bb20b4762be5d6e3a82040c01",
+        "sha256_in_prefix": "61958b7c6f110ed1eb63b087310634a69c5c323bb20b4762be5d6e3a82040c01",
+        "size_in_bytes": 23120
+      },
+      {
+        "_path": "lib/R/library/gitcreds/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "57d07a54defb285b493e0deef469256336774cfc8c08c1ae4708166503b73648",
+        "sha256_in_prefix": "57d07a54defb285b493e0deef469256336774cfc8c08c1ae4708166503b73648",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "lib/R/library/gitcreds/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fd435e54407d6b8125e298d4ba2a5a877b049901d3c4f4bff207c4fd24f833a4",
+        "sha256_in_prefix": "fd435e54407d6b8125e298d4ba2a5a877b049901d3c4f4bff207c4fd24f833a4",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/R/library/gitcreds/help/gitcreds.rdb",
+        "path_type": "hardlink",
+        "sha256": "34ba75909dc4d0ccb1d01ceb56eb9793550dda8b2827f2b31c2c82937195e3e2",
+        "sha256_in_prefix": "34ba75909dc4d0ccb1d01ceb56eb9793550dda8b2827f2b31c2c82937195e3e2",
+        "size_in_bytes": 24180
+      },
+      {
+        "_path": "lib/R/library/gitcreds/help/gitcreds.rdx",
+        "path_type": "hardlink",
+        "sha256": "14ecf9a3b29712470975e2b54f1f5062752fdea96165e4fb8c9040461cee4f4d",
+        "sha256_in_prefix": "14ecf9a3b29712470975e2b54f1f5062752fdea96165e4fb8c9040461cee4f4d",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/gitcreds/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "efea7daef4e947ec835f5bb7d68c9fd8b9923dac293346dce84f357accbd55f3",
+        "sha256_in_prefix": "efea7daef4e947ec835f5bb7d68c9fd8b9923dac293346dce84f357accbd55f3",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/R/library/gitcreds/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "75ab8685d18effd5d6a7b8b1941584c942b1d49b87461ae7a7cef0f2464ab75d",
+        "sha256_in_prefix": "75ab8685d18effd5d6a7b8b1941584c942b1d49b87461ae7a7cef0f2464ab75d",
+        "size_in_bytes": 2516
+      },
+      {
+        "_path": "lib/R/library/gitcreds/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9a16ddbfbd8945dba8d2ad4d65512c1b69e33ed59b91c04b71937d7652f82c35",
+  "size": 94595,
+  "subdir": "noarch",
+  "timestamp": 1621844676000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gitcreds-0.1.1-r41hc72bb7e_0.tar.bz2",
+  "version": "0.1.1"
+}

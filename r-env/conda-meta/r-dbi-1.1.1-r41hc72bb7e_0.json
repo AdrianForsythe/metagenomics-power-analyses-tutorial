@@ -1,0 +1,357 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-dbi-1.1.1-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/DBI/DESCRIPTION",
+    "lib/R/library/DBI/INDEX",
+    "lib/R/library/DBI/Meta/Rd.rds",
+    "lib/R/library/DBI/Meta/features.rds",
+    "lib/R/library/DBI/Meta/hsearch.rds",
+    "lib/R/library/DBI/Meta/links.rds",
+    "lib/R/library/DBI/Meta/nsInfo.rds",
+    "lib/R/library/DBI/Meta/package.rds",
+    "lib/R/library/DBI/Meta/vignette.rds",
+    "lib/R/library/DBI/NAMESPACE",
+    "lib/R/library/DBI/NEWS.md",
+    "lib/R/library/DBI/R/DBI",
+    "lib/R/library/DBI/R/DBI.rdb",
+    "lib/R/library/DBI/R/DBI.rdx",
+    "lib/R/library/DBI/doc/DBI-1.Rmd",
+    "lib/R/library/DBI/doc/DBI-1.html",
+    "lib/R/library/DBI/doc/DBI-advanced.R",
+    "lib/R/library/DBI/doc/DBI-advanced.Rmd",
+    "lib/R/library/DBI/doc/DBI-advanced.html",
+    "lib/R/library/DBI/doc/DBI-history.Rmd",
+    "lib/R/library/DBI/doc/DBI-history.html",
+    "lib/R/library/DBI/doc/DBI-proposal.Rmd",
+    "lib/R/library/DBI/doc/DBI-proposal.html",
+    "lib/R/library/DBI/doc/DBI.R",
+    "lib/R/library/DBI/doc/DBI.Rmd",
+    "lib/R/library/DBI/doc/DBI.html",
+    "lib/R/library/DBI/doc/backend.R",
+    "lib/R/library/DBI/doc/backend.Rmd",
+    "lib/R/library/DBI/doc/backend.html",
+    "lib/R/library/DBI/doc/index.html",
+    "lib/R/library/DBI/doc/spec.R",
+    "lib/R/library/DBI/doc/spec.Rmd",
+    "lib/R/library/DBI/doc/spec.html",
+    "lib/R/library/DBI/help/AnIndex",
+    "lib/R/library/DBI/help/DBI.rdb",
+    "lib/R/library/DBI/help/DBI.rdx",
+    "lib/R/library/DBI/help/aliases.rds",
+    "lib/R/library/DBI/help/paths.rds",
+    "lib/R/library/DBI/html/00Index.html",
+    "lib/R/library/DBI/html/R.css"
+  ],
+  "fn": "r-dbi-1.1.1-r41hc72bb7e_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-dbi-1.1.1-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "4d63ab9ae7641ff0380d7934d8911527",
+  "name": "r-dbi",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-dbi-1.1.1-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/DBI/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "369f5afbd8585e5cab50bdbaf1e3a880d5dc39cd49cf68e66d4e5ffdb981dc5a",
+        "sha256_in_prefix": "369f5afbd8585e5cab50bdbaf1e3a880d5dc39cd49cf68e66d4e5ffdb981dc5a",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "lib/R/library/DBI/INDEX",
+        "path_type": "hardlink",
+        "sha256": "fbcca7d1400439f52bc11cb94370afc523f36418b151ec8123cf02f1eebacbfe",
+        "sha256_in_prefix": "fbcca7d1400439f52bc11cb94370afc523f36418b151ec8123cf02f1eebacbfe",
+        "size_in_bytes": 2977
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "fc40f3048a7958143c195c267d7c94245ced6e071c2862849a3610647fa73ac0",
+        "sha256_in_prefix": "fc40f3048a7958143c195c267d7c94245ced6e071c2862849a3610647fa73ac0",
+        "size_in_bytes": 2812
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "16455f6171f4406de8a1fd0ca80d16f1aa0bfdbe9dcff3dbb413f7d73a1957f7",
+        "sha256_in_prefix": "16455f6171f4406de8a1fd0ca80d16f1aa0bfdbe9dcff3dbb413f7d73a1957f7",
+        "size_in_bytes": 2714
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "3b6faf7aa721a3303aba15f541980f92889e0b3929a011092b9b7e7536b94dec",
+        "sha256_in_prefix": "3b6faf7aa721a3303aba15f541980f92889e0b3929a011092b9b7e7536b94dec",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "8ee4a6814c290de0d09cf956941b54e117aaa6fb08c7071b6be699cb2abb9a04",
+        "sha256_in_prefix": "8ee4a6814c290de0d09cf956941b54e117aaa6fb08c7071b6be699cb2abb9a04",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8cbe4641ffc04987f1b8baae6c35e31c29d8c50a872a192fe4ef262beca7f7d1",
+        "sha256_in_prefix": "8cbe4641ffc04987f1b8baae6c35e31c29d8c50a872a192fe4ef262beca7f7d1",
+        "size_in_bytes": 1462
+      },
+      {
+        "_path": "lib/R/library/DBI/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "22f0905aa6909d966d7d53e645306ae6dc8f967fd2d4473e11793aa2fbe64e02",
+        "sha256_in_prefix": "22f0905aa6909d966d7d53e645306ae6dc8f967fd2d4473e11793aa2fbe64e02",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/R/library/DBI/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "74850bf5932834648abceef242e26c5c7a75ea6bdc6d0375073114a1cefd576e",
+        "sha256_in_prefix": "74850bf5932834648abceef242e26c5c7a75ea6bdc6d0375073114a1cefd576e",
+        "size_in_bytes": 2485
+      },
+      {
+        "_path": "lib/R/library/DBI/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "8d5c0436fb0738c35e2c732fa42a511ef79a94388a7eafa154b02abd8c4354e1",
+        "sha256_in_prefix": "8d5c0436fb0738c35e2c732fa42a511ef79a94388a7eafa154b02abd8c4354e1",
+        "size_in_bytes": 17370
+      },
+      {
+        "_path": "lib/R/library/DBI/R/DBI",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/DBI/R/DBI.rdb",
+        "path_type": "hardlink",
+        "sha256": "b57804a5b8b10e00f78348f989f4986285181e69148090fba1f936baacc86b91",
+        "sha256_in_prefix": "b57804a5b8b10e00f78348f989f4986285181e69148090fba1f936baacc86b91",
+        "size_in_bytes": 316898
+      },
+      {
+        "_path": "lib/R/library/DBI/R/DBI.rdx",
+        "path_type": "hardlink",
+        "sha256": "139bd2b50ed8cfcf6308ddbd96c79a72c8794165d53992dd442b6d41e027a835",
+        "sha256_in_prefix": "139bd2b50ed8cfcf6308ddbd96c79a72c8794165d53992dd442b6d41e027a835",
+        "size_in_bytes": 4456
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-1.Rmd",
+        "path_type": "hardlink",
+        "sha256": "64afa44c39ffae0f1a93e71a9f2a637278d8116c8d20326cdeea257d3e86a91d",
+        "sha256_in_prefix": "64afa44c39ffae0f1a93e71a9f2a637278d8116c8d20326cdeea257d3e86a91d",
+        "size_in_bytes": 24607
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-1.html",
+        "path_type": "hardlink",
+        "sha256": "74f8882997f793fcda717a7979ec2c64ba981d7cecf2d90d505d11cbf0679239",
+        "sha256_in_prefix": "74f8882997f793fcda717a7979ec2c64ba981d7cecf2d90d505d11cbf0679239",
+        "size_in_bytes": 142753
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-advanced.R",
+        "path_type": "hardlink",
+        "sha256": "f4b058f9f7f85fd9bf7692437c7ea82e5d041355e32a97004de34eb222175d6d",
+        "sha256_in_prefix": "f4b058f9f7f85fd9bf7692437c7ea82e5d041355e32a97004de34eb222175d6d",
+        "size_in_bytes": 4791
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-advanced.Rmd",
+        "path_type": "hardlink",
+        "sha256": "d4c02ce14112923d72e29e296f96aa3a3f8959340e1cb62d7f798511fafd1d86",
+        "sha256_in_prefix": "d4c02ce14112923d72e29e296f96aa3a3f8959340e1cb62d7f798511fafd1d86",
+        "size_in_bytes": 10544
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-advanced.html",
+        "path_type": "hardlink",
+        "sha256": "aded3ad67820a2381c2bbb67116de9f7f2bee3fde63bb6414bb318584a364ae5",
+        "sha256_in_prefix": "aded3ad67820a2381c2bbb67116de9f7f2bee3fde63bb6414bb318584a364ae5",
+        "size_in_bytes": 47665
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-history.Rmd",
+        "path_type": "hardlink",
+        "sha256": "66fef45f8c3dfcbdac1c21faa85ccc076981d0637780a6f140e181b5088798d3",
+        "sha256_in_prefix": "66fef45f8c3dfcbdac1c21faa85ccc076981d0637780a6f140e181b5088798d3",
+        "size_in_bytes": 5262
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-history.html",
+        "path_type": "hardlink",
+        "sha256": "867dacaab7bf9f04acce85f2cb53c5ef26e657993d729e08b220dbfca896ac5a",
+        "sha256_in_prefix": "867dacaab7bf9f04acce85f2cb53c5ef26e657993d729e08b220dbfca896ac5a",
+        "size_in_bytes": 9956
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-proposal.Rmd",
+        "path_type": "hardlink",
+        "sha256": "d73764480101e5ce6432dc5740e3a07bd1c06bc7855e388518f9eb549ccb98c9",
+        "sha256_in_prefix": "d73764480101e5ce6432dc5740e3a07bd1c06bc7855e388518f9eb549ccb98c9",
+        "size_in_bytes": 27934
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI-proposal.html",
+        "path_type": "hardlink",
+        "sha256": "e2507ea3241d259c72ec8849779fc8111b2dbe456d5606ece554b5ed1348df45",
+        "sha256_in_prefix": "e2507ea3241d259c72ec8849779fc8111b2dbe456d5606ece554b5ed1348df45",
+        "size_in_bytes": 61813
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI.R",
+        "path_type": "hardlink",
+        "sha256": "1b3b171bb8cd341b999b20027adbd8b39eaed17a762f79667f4ee2355dc9aaa2",
+        "sha256_in_prefix": "1b3b171bb8cd341b999b20027adbd8b39eaed17a762f79667f4ee2355dc9aaa2",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI.Rmd",
+        "path_type": "hardlink",
+        "sha256": "48dc985bc72fb03fa1721ead162d0c88bfa26327bd3e2e711cf06807b2c7a469",
+        "sha256_in_prefix": "48dc985bc72fb03fa1721ead162d0c88bfa26327bd3e2e711cf06807b2c7a469",
+        "size_in_bytes": 6702
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/DBI.html",
+        "path_type": "hardlink",
+        "sha256": "6d34b2ff9998a2ce7a60584c89763a274b97d2a545f40a0e3f64a70e7d5b1770",
+        "sha256_in_prefix": "6d34b2ff9998a2ce7a60584c89763a274b97d2a545f40a0e3f64a70e7d5b1770",
+        "size_in_bytes": 25142
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/backend.R",
+        "path_type": "hardlink",
+        "sha256": "aad8943aac69194a13303d6cd08f3b5db6c2a42e992e7fcedbd9a802465aaa28",
+        "sha256_in_prefix": "aad8943aac69194a13303d6cd08f3b5db6c2a42e992e7fcedbd9a802465aaa28",
+        "size_in_bytes": 2882
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/backend.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c66c777e7689bd82111ba781ddf82beb96c006cd88a91781a45603ba5fc29143",
+        "sha256_in_prefix": "c66c777e7689bd82111ba781ddf82beb96c006cd88a91781a45603ba5fc29143",
+        "size_in_bytes": 10336
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/backend.html",
+        "path_type": "hardlink",
+        "sha256": "aea74a7b8acd3e2c9d505fe7cf1c481896873132056bf17e947455804f839c0e",
+        "sha256_in_prefix": "aea74a7b8acd3e2c9d505fe7cf1c481896873132056bf17e947455804f839c0e",
+        "size_in_bytes": 32382
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "7d174f206b5bc1cc08b97110b80b06ae8ed932968ab9ba5be461007711b60fea",
+        "sha256_in_prefix": "7d174f206b5bc1cc08b97110b80b06ae8ed932968ab9ba5be461007711b60fea",
+        "size_in_bytes": 3912
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/spec.R",
+        "path_type": "hardlink",
+        "sha256": "edcd4626b110d0b041db2e1041928c3b68fc1f10ca6f98e574b0434c79320742",
+        "sha256_in_prefix": "edcd4626b110d0b041db2e1041928c3b68fc1f10ca6f98e574b0434c79320742",
+        "size_in_bytes": 4274
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/spec.Rmd",
+        "path_type": "hardlink",
+        "sha256": "65cd0fce3fa06910fc3b6569ee4c67749cbb48f080378f7bec91f826523f45b5",
+        "sha256_in_prefix": "65cd0fce3fa06910fc3b6569ee4c67749cbb48f080378f7bec91f826523f45b5",
+        "size_in_bytes": 5085
+      },
+      {
+        "_path": "lib/R/library/DBI/doc/spec.html",
+        "path_type": "hardlink",
+        "sha256": "782116b86401888e66c92aa5160c53f87876a9830d326df7a8f849e552e18825",
+        "sha256_in_prefix": "782116b86401888e66c92aa5160c53f87876a9830d326df7a8f849e552e18825",
+        "size_in_bytes": 172497
+      },
+      {
+        "_path": "lib/R/library/DBI/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "30e0372e45d6818013f0f744a91adfc0e837bad0ce39443d41554c5e48538093",
+        "sha256_in_prefix": "30e0372e45d6818013f0f744a91adfc0e837bad0ce39443d41554c5e48538093",
+        "size_in_bytes": 4499
+      },
+      {
+        "_path": "lib/R/library/DBI/help/DBI.rdb",
+        "path_type": "hardlink",
+        "sha256": "286fbeeee4c8c760e21b9bc2912f80f3a6f1c39e4e03a0d90c79500d6197b757",
+        "sha256_in_prefix": "286fbeeee4c8c760e21b9bc2912f80f3a6f1c39e4e03a0d90c79500d6197b757",
+        "size_in_bytes": 239558
+      },
+      {
+        "_path": "lib/R/library/DBI/help/DBI.rdx",
+        "path_type": "hardlink",
+        "sha256": "d220378b3cbb3a79d1c164ff15556363374bf66be40abea99dc5f2ad471bdc52",
+        "sha256_in_prefix": "d220378b3cbb3a79d1c164ff15556363374bf66be40abea99dc5f2ad471bdc52",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "lib/R/library/DBI/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d18bd7e6b24bb30923d7cef362c051b652c5b1b54c8df0421d8a4b5a57713463",
+        "sha256_in_prefix": "d18bd7e6b24bb30923d7cef362c051b652c5b1b54c8df0421d8a4b5a57713463",
+        "size_in_bytes": 1228
+      },
+      {
+        "_path": "lib/R/library/DBI/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "49925d080e40cace7a0416b12aedb52789cae41d9fc10f6547940d79bbf95754",
+        "sha256_in_prefix": "49925d080e40cace7a0416b12aedb52789cae41d9fc10f6547940d79bbf95754",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/DBI/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "fe2fa0f4ea93b79ed8a70dd987b284df3a4670855e631038b0c5406a31ce04fe",
+        "sha256_in_prefix": "fe2fa0f4ea93b79ed8a70dd987b284df3a4670855e631038b0c5406a31ce04fe",
+        "size_in_bytes": 8490
+      },
+      {
+        "_path": "lib/R/library/DBI/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5f1cdf52157ce82cb14ca449773b79f30e02e6414b7360a83cc29fe64e13db37",
+  "size": 694399,
+  "subdir": "noarch",
+  "timestamp": 1621840213000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-dbi-1.1.1-r41hc72bb7e_0.tar.bz2",
+  "version": "1.1.1"
+}

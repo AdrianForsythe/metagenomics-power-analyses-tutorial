@@ -1,0 +1,358 @@
+{
+  "build": "r41h859d828_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran-ng",
+    "libgcc-ng >=9.3.0",
+    "libgfortran5 >=9.3.0",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/r-cluster-2.1.2-r41h859d828_0",
+  "features": "",
+  "files": [
+    "lib/R/library/cluster/CITATION",
+    "lib/R/library/cluster/DESCRIPTION",
+    "lib/R/library/cluster/INDEX",
+    "lib/R/library/cluster/Meta/Rd.rds",
+    "lib/R/library/cluster/Meta/data.rds",
+    "lib/R/library/cluster/Meta/features.rds",
+    "lib/R/library/cluster/Meta/hsearch.rds",
+    "lib/R/library/cluster/Meta/links.rds",
+    "lib/R/library/cluster/Meta/nsInfo.rds",
+    "lib/R/library/cluster/Meta/package.rds",
+    "lib/R/library/cluster/NAMESPACE",
+    "lib/R/library/cluster/NEWS.Rd",
+    "lib/R/library/cluster/R/cluster",
+    "lib/R/library/cluster/R/cluster.rdb",
+    "lib/R/library/cluster/R/cluster.rdx",
+    "lib/R/library/cluster/data/Rdata.rdb",
+    "lib/R/library/cluster/data/Rdata.rds",
+    "lib/R/library/cluster/data/Rdata.rdx",
+    "lib/R/library/cluster/help/AnIndex",
+    "lib/R/library/cluster/help/aliases.rds",
+    "lib/R/library/cluster/help/cluster.rdb",
+    "lib/R/library/cluster/help/cluster.rdx",
+    "lib/R/library/cluster/help/paths.rds",
+    "lib/R/library/cluster/html/00Index.html",
+    "lib/R/library/cluster/html/R.css",
+    "lib/R/library/cluster/libs/cluster.so",
+    "lib/R/library/cluster/po/de/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/po/de/LC_MESSAGES/cluster.mo",
+    "lib/R/library/cluster/po/en@quot/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/po/en@quot/LC_MESSAGES/cluster.mo",
+    "lib/R/library/cluster/po/fr/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/po/fr/LC_MESSAGES/cluster.mo",
+    "lib/R/library/cluster/po/it/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/po/it/LC_MESSAGES/cluster.mo",
+    "lib/R/library/cluster/po/ko/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/po/ko/LC_MESSAGES/cluster.mo",
+    "lib/R/library/cluster/po/lt/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/po/lt/LC_MESSAGES/cluster.mo",
+    "lib/R/library/cluster/po/pl/LC_MESSAGES/R-cluster.mo",
+    "lib/R/library/cluster/test-tools.R"
+  ],
+  "fn": "r-cluster-2.1.2-r41h859d828_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/r-cluster-2.1.2-r41h859d828_0",
+    "type": 1
+  },
+  "md5": "6999e0034291b5f29e64bae8451807f7",
+  "name": "r-cluster",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/r-cluster-2.1.2-r41h859d828_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/cluster/CITATION",
+        "path_type": "hardlink",
+        "sha256": "181dd0adcb4f8a5fd38a15441b0ac95df3da11b2936550a0d8aa002db2f08ff4",
+        "sha256_in_prefix": "181dd0adcb4f8a5fd38a15441b0ac95df3da11b2936550a0d8aa002db2f08ff4",
+        "size_in_bytes": 1468
+      },
+      {
+        "_path": "lib/R/library/cluster/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7eea4148f265045e202adff157c69cb6d2c307c88eb1759b7bd914b4307f640f",
+        "sha256_in_prefix": "7eea4148f265045e202adff157c69cb6d2c307c88eb1759b7bd914b4307f640f",
+        "size_in_bytes": 2655
+      },
+      {
+        "_path": "lib/R/library/cluster/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9604a39f7786a8b01d403fd3f0dbeffd35746496c80ac716557a68043cedcd3d",
+        "sha256_in_prefix": "9604a39f7786a8b01d403fd3f0dbeffd35746496c80ac716557a68043cedcd3d",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "7be00e7097739368e71a68d2a2cd7a89202c510ef9200693daebc5f1ce4c5c74",
+        "sha256_in_prefix": "7be00e7097739368e71a68d2a2cd7a89202c510ef9200693daebc5f1ce4c5c74",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "1390991640cf9aea636af49cd0f5318f7c183b535427b80d7e85204408a4ca36",
+        "sha256_in_prefix": "1390991640cf9aea636af49cd0f5318f7c183b535427b80d7e85204408a4ca36",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "5ac9ac6e7a4f3b70934cd17bf799612508315796db5898a5a71611e48caf5e1c",
+        "sha256_in_prefix": "5ac9ac6e7a4f3b70934cd17bf799612508315796db5898a5a71611e48caf5e1c",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "87e5d7bd404436a7034701b44b1a6513797e97336b8596805c2a97fb120a4609",
+        "sha256_in_prefix": "87e5d7bd404436a7034701b44b1a6513797e97336b8596805c2a97fb120a4609",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bd6a8b4cdf0d259ac3b04ccf93bab8b716af6650e477341721ba9d8b811509c6",
+        "sha256_in_prefix": "bd6a8b4cdf0d259ac3b04ccf93bab8b716af6650e477341721ba9d8b811509c6",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "lib/R/library/cluster/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "9a387c05865fad28fc7a0717f09d40c2cc303b1f6f619cb4fd371d1e4a2d425a",
+        "sha256_in_prefix": "9a387c05865fad28fc7a0717f09d40c2cc303b1f6f619cb4fd371d1e4a2d425a",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "lib/R/library/cluster/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "950e9b223fffdd9d0aa1e9b2ec0be27d76bd57186d337a1b83bfd34b59e41b02",
+        "sha256_in_prefix": "950e9b223fffdd9d0aa1e9b2ec0be27d76bd57186d337a1b83bfd34b59e41b02",
+        "size_in_bytes": 2414
+      },
+      {
+        "_path": "lib/R/library/cluster/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "fe8e8b673eb13ac5f5454d00256d4d70bd3806049ebe1d93516db4f921c02abc",
+        "sha256_in_prefix": "fe8e8b673eb13ac5f5454d00256d4d70bd3806049ebe1d93516db4f921c02abc",
+        "size_in_bytes": 15393
+      },
+      {
+        "_path": "lib/R/library/cluster/R/cluster",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/cluster/R/cluster.rdb",
+        "path_type": "hardlink",
+        "sha256": "782309da6468ebb40dee930fde43df2cda7b83acc177a71e868a4d6daf0dfebd",
+        "sha256_in_prefix": "782309da6468ebb40dee930fde43df2cda7b83acc177a71e868a4d6daf0dfebd",
+        "size_in_bytes": 162352
+      },
+      {
+        "_path": "lib/R/library/cluster/R/cluster.rdx",
+        "path_type": "hardlink",
+        "sha256": "f6dcfb2a20787f2d39a3613bed2ab4344145d4db09cce00736928aa95a4ed06b",
+        "sha256_in_prefix": "f6dcfb2a20787f2d39a3613bed2ab4344145d4db09cce00736928aa95a4ed06b",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "lib/R/library/cluster/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "3cefe3f9fa8e8e5cc92aef8bbea19aaed20ce937e69c2c841aa4efced7e51449",
+        "sha256_in_prefix": "3cefe3f9fa8e8e5cc92aef8bbea19aaed20ce937e69c2c841aa4efced7e51449",
+        "size_in_bytes": 48861
+      },
+      {
+        "_path": "lib/R/library/cluster/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "c445c9d731bfe79e7ae1c4e0d6a8e0064035784bb83b2c64c8acedc0bcd2c0f6",
+        "sha256_in_prefix": "c445c9d731bfe79e7ae1c4e0d6a8e0064035784bb83b2c64c8acedc0bcd2c0f6",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/cluster/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "9e42733660669025f763161991ec8ef200af8848b62531cb3bc28e14d61ab380",
+        "sha256_in_prefix": "9e42733660669025f763161991ec8ef200af8848b62531cb3bc28e14d61ab380",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/R/library/cluster/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6a40d205028517cefcdb5007d117ea25be705afff4332c7a661f431926b42c4e",
+        "sha256_in_prefix": "6a40d205028517cefcdb5007d117ea25be705afff4332c7a661f431926b42c4e",
+        "size_in_bytes": 2105
+      },
+      {
+        "_path": "lib/R/library/cluster/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5f45bfd812bb5530d39c10ea3963de4f9898c3800892728cb5ac3d1ecf50f268",
+        "sha256_in_prefix": "5f45bfd812bb5530d39c10ea3963de4f9898c3800892728cb5ac3d1ecf50f268",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "lib/R/library/cluster/help/cluster.rdb",
+        "path_type": "hardlink",
+        "sha256": "e99c1bdcf6ba162776aecc84bdca7a3c2abf847eab619f66924c49db85fbb563",
+        "sha256_in_prefix": "e99c1bdcf6ba162776aecc84bdca7a3c2abf847eab619f66924c49db85fbb563",
+        "size_in_bytes": 253760
+      },
+      {
+        "_path": "lib/R/library/cluster/help/cluster.rdx",
+        "path_type": "hardlink",
+        "sha256": "ae43cda46558547c87d08b99d01f002f962f4afb145e1cb85d3c9dda0e123481",
+        "sha256_in_prefix": "ae43cda46558547c87d08b99d01f002f962f4afb145e1cb85d3c9dda0e123481",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "lib/R/library/cluster/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b98a4650ab807b993ea291dbe0edf9e1647cbb607b983516f69bacba6d93e401",
+        "sha256_in_prefix": "b98a4650ab807b993ea291dbe0edf9e1647cbb607b983516f69bacba6d93e401",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/R/library/cluster/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "4021f03be26cc436303d0f47a4cd00bed83f36c1d401fca58d2d232f5b0b0dad",
+        "sha256_in_prefix": "4021f03be26cc436303d0f47a4cd00bed83f36c1d401fca58d2d232f5b0b0dad",
+        "size_in_bytes": 11921
+      },
+      {
+        "_path": "lib/R/library/cluster/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/cluster/libs/cluster.so",
+        "path_type": "hardlink",
+        "sha256": "33fc2bb27bbfb2e9ab271ccea3e67d627f7466c67968cfcb4cb0edf3f750a7f8",
+        "sha256_in_prefix": "33fc2bb27bbfb2e9ab271ccea3e67d627f7466c67968cfcb4cb0edf3f750a7f8",
+        "size_in_bytes": 85312
+      },
+      {
+        "_path": "lib/R/library/cluster/po/de/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "049abe988fa9cc2c240370c5421984bb840d5c58d164633ade74b0873f70915f",
+        "sha256_in_prefix": "049abe988fa9cc2c240370c5421984bb840d5c58d164633ade74b0873f70915f",
+        "size_in_bytes": 12803
+      },
+      {
+        "_path": "lib/R/library/cluster/po/de/LC_MESSAGES/cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "4e7258cd07bb83411d014e35aa4415a51458e4dfabd3aa84e898f8e7601e3f46",
+        "sha256_in_prefix": "4e7258cd07bb83411d014e35aa4415a51458e4dfabd3aa84e898f8e7601e3f46",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "lib/R/library/cluster/po/en@quot/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "390107e0b3ff8bebbbdbad73b9b25f90d129c9110662c6263054f60f9fcb1174",
+        "sha256_in_prefix": "390107e0b3ff8bebbbdbad73b9b25f90d129c9110662c6263054f60f9fcb1174",
+        "size_in_bytes": 12758
+      },
+      {
+        "_path": "lib/R/library/cluster/po/en@quot/LC_MESSAGES/cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "3abe10f194130444585377bb0e040344cb2d875377eb8f8f9cba6570adc08037",
+        "sha256_in_prefix": "3abe10f194130444585377bb0e040344cb2d875377eb8f8f9cba6570adc08037",
+        "size_in_bytes": 1170
+      },
+      {
+        "_path": "lib/R/library/cluster/po/fr/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "0444ebcc5324ffbe358a26610af94b4d06e0284be47dc5f1152876354b368137",
+        "sha256_in_prefix": "0444ebcc5324ffbe358a26610af94b4d06e0284be47dc5f1152876354b368137",
+        "size_in_bytes": 14101
+      },
+      {
+        "_path": "lib/R/library/cluster/po/fr/LC_MESSAGES/cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "1e7f0f890c92fd8287ed51f4c51cbbe6018512089fbe7fcb1a304f1ac7858ddb",
+        "sha256_in_prefix": "1e7f0f890c92fd8287ed51f4c51cbbe6018512089fbe7fcb1a304f1ac7858ddb",
+        "size_in_bytes": 1297
+      },
+      {
+        "_path": "lib/R/library/cluster/po/it/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "cde58ff0054d1b8ea4df7b00c8fdf12adea6ae091c95482f4246951d0d06d466",
+        "sha256_in_prefix": "cde58ff0054d1b8ea4df7b00c8fdf12adea6ae091c95482f4246951d0d06d466",
+        "size_in_bytes": 13304
+      },
+      {
+        "_path": "lib/R/library/cluster/po/it/LC_MESSAGES/cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "67fbd2bda1218d10d199d9e89c3e74e858e2379a734ff87e6cd4cb97d12c71d6",
+        "sha256_in_prefix": "67fbd2bda1218d10d199d9e89c3e74e858e2379a734ff87e6cd4cb97d12c71d6",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "lib/R/library/cluster/po/ko/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "a890dcaf113377e879b1d801a38cc569693642b61147445ce05f2e23cbd63bfa",
+        "sha256_in_prefix": "a890dcaf113377e879b1d801a38cc569693642b61147445ce05f2e23cbd63bfa",
+        "size_in_bytes": 13795
+      },
+      {
+        "_path": "lib/R/library/cluster/po/ko/LC_MESSAGES/cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "2c36924b5bafb6db4c1d889ca921954e12346d1f6cb15071b7b1fa755004456e",
+        "sha256_in_prefix": "2c36924b5bafb6db4c1d889ca921954e12346d1f6cb15071b7b1fa755004456e",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "lib/R/library/cluster/po/lt/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "f3def67380880756162bc4e2d543b002231fad751cf42cc96079010dd701bfe8",
+        "sha256_in_prefix": "f3def67380880756162bc4e2d543b002231fad751cf42cc96079010dd701bfe8",
+        "size_in_bytes": 13380
+      },
+      {
+        "_path": "lib/R/library/cluster/po/lt/LC_MESSAGES/cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "726eae9c86d2ae5d18d77fe48969a1a2ac529b74eb3d2a925f95ccb05b069f4f",
+        "sha256_in_prefix": "726eae9c86d2ae5d18d77fe48969a1a2ac529b74eb3d2a925f95ccb05b069f4f",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "lib/R/library/cluster/po/pl/LC_MESSAGES/R-cluster.mo",
+        "path_type": "hardlink",
+        "sha256": "c9b801e65cf86b52e7e1d19fe8377ef94aa6d18534f7e711307cf872b2200667",
+        "sha256_in_prefix": "c9b801e65cf86b52e7e1d19fe8377ef94aa6d18534f7e711307cf872b2200667",
+        "size_in_bytes": 12137
+      },
+      {
+        "_path": "lib/R/library/cluster/test-tools.R",
+        "path_type": "hardlink",
+        "sha256": "76655caa4b558a49d6e82212b1b72e98f45ee7a5a2f4f11d81c7741c11acf39d",
+        "sha256_in_prefix": "76655caa4b558a49d6e82212b1b72e98f45ee7a5a2f4f11d81c7741c11acf39d",
+        "size_in_bytes": 379
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b4a765757eae397587d89cd1087a031b5e6cc01c4e32ab70dfb617d32f5ee453",
+  "size": 583296,
+  "subdir": "linux-64",
+  "timestamp": 1621621821000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-cluster-2.1.2-r41h859d828_0.tar.bz2",
+  "version": "2.1.2"
+}

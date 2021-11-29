@@ -1,0 +1,137 @@
+{
+  "build": "hd854feb_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/adrianf/.conda/pkgs/libgcc-devel_linux-64-9.4.0-hd854feb_11",
+  "features": "",
+  "files": [
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbegin.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginT.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtend.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtfastmath.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtprec32.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtprec64.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtprec80.o",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/include/gcov.h",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/libgcc.a",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/libgcc_eh.a",
+    "lib/gcc/x86_64-conda-linux-gnu/9.4.0/libgcov.a"
+  ],
+  "fn": "libgcc-devel_linux-64-9.4.0-hd854feb_11.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/home/adrianf/.conda/pkgs/libgcc-devel_linux-64-9.4.0-hd854feb_11",
+    "type": 1
+  },
+  "md5": "db20b3d6b359c3ca9674ad3f33562bab",
+  "name": "libgcc-devel_linux-64",
+  "package_tarball_full_path": "/home/adrianf/.conda/pkgs/libgcc-devel_linux-64-9.4.0-hd854feb_11.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbegin.o",
+        "path_type": "hardlink",
+        "sha256": "87331220e171d49791f8838ab5136cdb8c63b464c15eee9a63f0338eb1f40fb4",
+        "sha256_in_prefix": "87331220e171d49791f8838ab5136cdb8c63b464c15eee9a63f0338eb1f40fb4",
+        "size_in_bytes": 2392
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o",
+        "path_type": "hardlink",
+        "sha256": "1ab08ca3d184e1fe426f1c3db568cf944760210eee8524a9679fe8875f2da2d7",
+        "sha256_in_prefix": "1ab08ca3d184e1fe426f1c3db568cf944760210eee8524a9679fe8875f2da2d7",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginT.o",
+        "path_type": "hardlink",
+        "sha256": "264572329292a7a0633c0d126ca8903b8a0b5780f96f0ad1e773929420e1400c",
+        "sha256_in_prefix": "264572329292a7a0633c0d126ca8903b8a0b5780f96f0ad1e773929420e1400c",
+        "size_in_bytes": 2904
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtend.o",
+        "path_type": "hardlink",
+        "sha256": "51719ae26a1134dc125ec3d9b6fbb911df49d769a51275d79cb95643eabdb843",
+        "sha256_in_prefix": "51719ae26a1134dc125ec3d9b6fbb911df49d769a51275d79cb95643eabdb843",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o",
+        "path_type": "hardlink",
+        "sha256": "51719ae26a1134dc125ec3d9b6fbb911df49d769a51275d79cb95643eabdb843",
+        "sha256_in_prefix": "51719ae26a1134dc125ec3d9b6fbb911df49d769a51275d79cb95643eabdb843",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtfastmath.o",
+        "path_type": "hardlink",
+        "sha256": "1d08e43d56ab4847dc238b18610a2ab189995a7453e12da3c5246f67769b449a",
+        "sha256_in_prefix": "1d08e43d56ab4847dc238b18610a2ab189995a7453e12da3c5246f67769b449a",
+        "size_in_bytes": 3728
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtprec32.o",
+        "path_type": "hardlink",
+        "sha256": "d1fd2fcd19f1e0b36da12f5db316dab50259a943549fa7f0345426211a4c9940",
+        "sha256_in_prefix": "d1fd2fcd19f1e0b36da12f5db316dab50259a943549fa7f0345426211a4c9940",
+        "size_in_bytes": 3272
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtprec64.o",
+        "path_type": "hardlink",
+        "sha256": "782884a0158853be865eba2687946f36442fe1b400f147ba8cb092b79e1ea4cd",
+        "sha256_in_prefix": "782884a0158853be865eba2687946f36442fe1b400f147ba8cb092b79e1ea4cd",
+        "size_in_bytes": 3288
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtprec80.o",
+        "path_type": "hardlink",
+        "sha256": "8aeba400845620fe4da0ef15fe4fb0bc18380dda324e32f494ee3b931b1d4137",
+        "sha256_in_prefix": "8aeba400845620fe4da0ef15fe4fb0bc18380dda324e32f494ee3b931b1d4137",
+        "size_in_bytes": 3272
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/include/gcov.h",
+        "path_type": "hardlink",
+        "sha256": "aa7207b1963a792b801caa3f39d6b17e3b2f0ff0052bc8e2ff7e2ceaf8ee4a37",
+        "sha256_in_prefix": "aa7207b1963a792b801caa3f39d6b17e3b2f0ff0052bc8e2ff7e2ceaf8ee4a37",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/libgcc.a",
+        "path_type": "hardlink",
+        "sha256": "5342d97bbe82c4bacb8e40086587aba4def12351a260614e6dc112cd7da3e212",
+        "sha256_in_prefix": "5342d97bbe82c4bacb8e40086587aba4def12351a260614e6dc112cd7da3e212",
+        "size_in_bytes": 7280622
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/libgcc_eh.a",
+        "path_type": "hardlink",
+        "sha256": "daf48e836a181fbfe795b5c14fb9dd5a9b17e73cdd5158fb4d0f7fbdb774e54e",
+        "sha256_in_prefix": "daf48e836a181fbfe795b5c14fb9dd5a9b17e73cdd5158fb4d0f7fbdb774e54e",
+        "size_in_bytes": 205420
+      },
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/9.4.0/libgcov.a",
+        "path_type": "hardlink",
+        "sha256": "afbf746d4cd76266b40ab7798b59d934cf21ee1d5cb21d38fa0be153d69bf83c",
+        "sha256_in_prefix": "afbf746d4cd76266b40ab7798b59d934cf21ee1d5cb21d38fa0be153d69bf83c",
+        "size_in_bytes": 476212
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "98c57c1d8c9cfb180afaac879a958778e9c0ee9261021caa64c6e93c820481e0",
+  "size": 4190456,
+  "subdir": "linux-64",
+  "timestamp": 1634097346000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgcc-devel_linux-64-9.4.0-hd854feb_11.tar.bz2",
+  "version": "9.4.0"
+}
