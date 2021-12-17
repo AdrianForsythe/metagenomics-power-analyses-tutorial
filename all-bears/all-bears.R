@@ -1,19 +1,43 @@
 ## ---- setup------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.libPaths("/home/adrianf/project-folder/nobackup/ADRIAN/R_library")
+# devtools::install_github("brendankelly/micropower")
 library(micropower)
 library(tidyverse)
 library(parallel)
 library(phyloseq)
 set.seed(515087345)
 
+# The necessary input for micropower is within-group mean and standard deviations.
+# These can be computed using the chosen distance metric from OTU tables.
+# Thus any dataset that is used should either provide within-group mean and standard deviations already, 
+# provide a within-group distance matrix, or provide data that can be transformed into an OTU table.
+
+# 3 different OTU table simulations to determine different parameters
+  # 1) simulate OTU tables with different levels of subsampling (rarefaction)
+    # in order to find the subsampling level that corresponds to the within-group mean
+  # 2) simulate OTU tables with different numbers of OTUs and the given rarefaction 
+    # level in order to find the number of OTUs corresponding to the within-group standard deviation
+  # 3) simulate OTU tables with different effect sizes and the given rarefaction level and number of OTUs.
+    # This finally allows us to answer questions relating power, sample size, and effect size
+      # how much power we will have given an effect size and sample size?
+      # what is the minimum detectible effect size for a given power level and sample size?
+      # how many samples we need to achieve at least x power and be able to detect an effect size of y?
+
+# in this script, we are going to skip over the first two steps
+# we have within group mean and standard deviation
+# we need to figure out the level of subsampling correspoding to this sd
+
 ## ----load-otu----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 otu<-readRDS("RDS/amr-taxa-bear-0.01-af-bracken-max-highoral-0.01-otu-env-filtered.rds")
 
 samples<-data.frame(sample_data(otu)) %>% 
-  filter(Spec.host=="Bear"&!is.na(Spec.HalfCentury)) %>%
-  mutate(antib.era=ifelse(Spec.HalfCentury%in%c("c20.2","c21.1"),"post","pre"))
+  filter(Spec.host=="Bear"&!is.na(Spec.HalfCentury) & Spec.HalfCentury != "c21.1") %>%
+  mutate(antib.era=ifelse(Spec.HalfCentury == "c20.2","post","pre"))
 
 # how many individuals in each group?
-nsamples<-samples %>% group_by(antib.era) %>% summarise(n=n_distinct(SampleID))
+nsamples<-samples %>% 
+  group_by(antib.era) %>% 
+  summarise(n=n_distinct(SampleID))
 nsamples %>% knitr::kable()
 
 pre<-samples %>% 
@@ -21,9 +45,13 @@ pre<-samples %>%
   distinct(SampleID) %>% 
   pull()
 
-post<-samples %>% filter(antib.era=="post") %>% 
+post<-samples %>% 
+  filter(antib.era=="post") %>% 
   distinct(SampleID) %>% 
   pull()
+
+load("all-bears/RDS/p0means.Rdata")
+means %>% as.data.frame() %>% filter()
 
 # make sure the otu table is clean
 df<-otu %>% 
@@ -31,6 +59,7 @@ df<-otu %>%
   select(all_of(pre),all_of(post)) %>% 
   filter(rowSums(.)!=0) %>% as.matrix()
 
+# Weighted Jaccard Distances
 # total mean and sd
 m.t<-df %>% as.data.frame() %>% calcWJstudy(.) %>% mean() # 0.845
 sd.t<-df %>% as.data.frame() %>% calcWJstudy(.) %>% sd() # 0.17
@@ -77,8 +106,9 @@ for (s in c(5,10,15,20)) {
   # }
 }
 
+subsample=0.
 results<-NULL
-for (s in c(15,20)) {
+for (s in 5) {
   sp<-simPower(group_size_vector=c(s,s),
                otu_number=100,
                rare_depth=subsample,
@@ -87,7 +117,7 @@ for (s in c(15,20)) {
                                 length.out=100))
   wj<-mclapply(sp,function(x) calcWJstudy(x),mc.cores=cores)
   
-  bp<-bootPower(wj, boot_number=10, subject_group_vector=c(s,s),alpha=0.05)
+  bp<-bootPower(wj, boot_number=100, subject_group_vector=c(s,s),alpha=0.05)
   bp_model <- subset(bp, power < 0.95 & power > 0.2)
   bp_model <- data.frame(log_omega2=log10(bp_model$simulated_omega2),log_power=log10(bp_model$power))
   bp_model <- subset(bp_model, log_omega2>-Inf)
